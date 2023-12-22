@@ -1,0 +1,55 @@
+### Footprint positions - created on Fri 22 Dec 2023 10:27:13 AM PST ###
+### Printed by KiCad version 7.0.9-7.0.9~ubuntu20.04.1
+## Unit = inches, Angle = deg.
+## Side : top
+# Ref     Val                  Package                                              PosX       PosY       Rot  Side
+C1        0.01uF-10%-50V-0603  C_0603_1608Metric                                 10.0600    -3.3400  180.0000  top
+C2        0.22uF-10%-50V-0603  C_0603_1608Metric                                 10.0600    -3.4000  180.0000  top
+C3        82uF_35V             CP_Radial_D8.0mm_P3.50mm                          11.0200    -3.4651   90.0000  top
+C4        82uF_35V             CP_Radial_D8.0mm_P3.50mm                          11.3700    -3.4678   90.0000  top
+C5        470pF-5%-50V-0603    C_0603_1608Metric                                 12.0050    -3.5700  -90.0000  top
+C6        2.2uF-10%-6.3V-0603  C_0603_1608Metric                                 11.8700    -3.8250  -90.0000  top
+C7        1uF-10%-50V-0805     C_0805_2012Metric                                 12.2400    -3.8250  -90.0000  top
+C8        330uF_35V            CP_Radial_D10.0mm_P5.00mm                          9.5100    -4.0832   90.0000  top
+C9        22uF-25V-10%-1210    C_1210_3225Metric                                  9.0100    -5.1950  180.0000  top
+D1        15V                  D_SOD-123F                                         8.9700    -3.7650  -90.0000  top
+D2        STPS20M100SG-TR      TO-263-2                                          11.0200    -3.8100    0.0000  top
+D3        3.3V                 SOT-23                                            12.5700    -3.8150    0.0000  top
+D4        BAV99LT1G            SOT-23                                            12.2500    -4.1050    0.0000  top
+D5        15V                  D_SMB                                              9.0150    -5.3500  180.0000  top
+D6        PWR                  LED_SunLED_XZMDKVG55W-8                            9.3650    -6.1350  -90.0000  top
+J1        TEMP                 70541-0001                                        11.9100    -3.3300  180.0000  top
+J2        18V_OUT              CONN_69140872_WRE                                  9.3922    -3.4806   90.0000  top
+J3        I2C                  JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical    12.8600    -3.4700  -90.0000  top
+J4        FAN                  70543-0003                                        12.8000    -4.0700  -90.0000  top
+J5        MIPI                 TE_1-1734248-5                                     9.8031    -5.3278    0.0000  top
+J6        MIPI                 TE_1-1734248-5                                    10.7480    -5.3277    0.0000  top
+J7        CAN-FD2              CONN_BM05B-SURS-TF_JST                            11.6790    -5.6322  180.0000  top
+J8        CAN-FD1              CONN_BM05B-SURS-TF_JST                            12.7120    -5.6322  180.0000  top
+J9        CAN-FD2              70555-0001                                        11.4750    -5.8100  -90.0000  top
+J10       CAN-PT-FD2           70555-0001                                        11.8750    -5.8100  -90.0000  top
+J11       CAN-FD1              70555-0001                                        12.2750    -5.8100  -90.0000  top
+J12       CAN-PT-FD1           70555-0001                                        12.6750    -5.8100  -90.0000  top
+J13       Power                Wurth-691406510002B                                8.8887    -5.8269    0.0000  top
+J14       HDMI                 HDMI_A_Molex_208658-1001_Horizontal                9.8031    -6.0079  -90.0000  top
+J15       HDMI                 HDMI_A_Molex_208658-1001_Horizontal               10.7480    -6.0079  -90.0000  top
+L1        4.7_uH-4.18m-20%     IND_IHLP-6767GZ_VIS                               10.1885    -3.8900    0.0000  top
+Q1        CSD16322Q5           TI-SON5x6                                         10.7200    -3.4300   90.0000  top
+Q2        SI4483ADY-T1-GE3     SOIC-8_3.9x4.9mm_P1.27mm                           8.9400    -4.0000  180.0000  top
+R1        1.0k-1%-0603         R_0603_1608Metric                                 10.0600    -3.4600  180.0000  top
+R2        0R-1%-0603           R_0603_1608Metric                                 12.6400    -3.4500  180.0000  top
+R3        100R-1%-0603         R_0603_1608Metric                                 11.8100    -3.5700   90.0000  top
+R4        100R-1%-0603         R_0603_1608Metric                                 11.9100    -3.5700   90.0000  top
+R5        4.99k-1%-0603        R_0603_1608Metric                                 12.2600    -3.6600    0.0000  top
+R6        20.0k-1%-0603        R_0603_1608Metric                                  9.0500    -3.7700   90.0000  top
+R7        10k-1%-0603          R_0603_1608Metric                                 12.3950    -3.7800  180.0000  top
+R8        1.0k-1%-0603         R_0603_1608Metric                                  9.1600    -3.8000  180.0000  top
+R9        0R-1%-0603           R_0603_1608Metric                                 11.8100    -3.8250   90.0000  top
+R10       10k-1%-0603          R_0603_1608Metric                                 12.3950    -3.8400  180.0000  top
+R11       4.99k-1%-0603        R_0603_1608Metric                                  9.3350    -5.7950   90.0000  top
+U1        LM3478MA             SOIC-8_3.9x4.9mm_P1.27mm                          10.3100    -3.3700    0.0000  top
+U2        EMC2101-R            MSOP-8_3x3mm_P0.65mm                              12.1950    -3.5600    0.0000  top
+U3        AT24CS02-SSHM        SOIC-8_3.9x4.9mm_P1.27mm                          12.5150    -3.6000    0.0000  top
+U4        MIC5233-3.3YS        SOT-223-3_TabPin2                                 12.0500    -3.8550  -90.0000  top
+U5        ISP762T              SO-8_3.9x4.9mm_P1.27mm                            12.4800    -4.0650  180.0000  top
+## End
