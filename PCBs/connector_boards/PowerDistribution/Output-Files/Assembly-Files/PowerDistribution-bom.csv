@@ -1,0 +1,14 @@
+"Source:","/Users/alex/Documents/FRC971/PowerDistribution/PowerDistribution.kicad_sch"
+"Date:","2023 November 23, Thursday 15:15:22"
+"Tool:","Eeschema 7.0.7"
+"Generator:","/Applications/KiCad/KiCad.app/Contents/SharedSupport/plugins/bom_csv_grouped_by_value.py"
+"Component Count:","17"
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","DNP","DIST","DIST P/N","LINK","Link","MFG","MFG P/N"
+"1","5","D1, D2, D3, D4, D5","QTLP651C4TR","Device:LED","LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder","https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/402/QTLP651C-2,3,4,7,B.pdf","","DIGIKEY","QTLP651C4TR","https://www.digikey.com/en/products/detail/everlight-electronics-co-ltd/QTLP651C4TR/2691391","","Everlight Electronics Co Ltd","QTLP651C4TR"
+"2","5","F1, F2, F3, F4, F5","PolyFuse","Device:Fuse","3568:FUSE_3568","https://www.keyelco.com/userAssets/file/M65p42.pdf","","DIGIKEY","36-3568-ND","https://www.digikey.com/en/products/detail/keystone-electronics/3568/2137306","","Keystone Electronics","3568"
+"3","1","J1","2606-1102","Connector:Screw_Terminal_01x02","WAGO2PIN:2606-1102&slash_000-005","https://www.wago.com/global/products/datasheets/Datasheet.pdf?product=2606-1102&lang=en","","DIGIKEY","2946-2606-1102-ND","https://www.digikey.com/en/products/detail/wago-corporation/2606-1102/15575098","https://www.digikey.com/en/products/detail/wago-corporation/2606-1102/15575098","WAGO","2606-1102"
+"4","1","J2","2604-1110","Connector:Screw_Terminal_01x10","WAGO10PIN:2604-1110","https://www.wago.com/global/products/datasheets/Datasheet.pdf?product=2604-1110&lang=en","","DIGIKEY","2946-2604-1110-ND","https://www.digikey.com/en/products/detail/wago-corporation/2604-1110/15551292","","WAGO","2604-1110"
+"5","5","R1, R2, R3, R4, R5","1k","Device:R_US","LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder","https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf","","DIGIKEY","RMCF1206FT1K00","https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF1206FT1K00/1759616","","Stackpole Electronics Inc","RMCF1206FT1K00"
