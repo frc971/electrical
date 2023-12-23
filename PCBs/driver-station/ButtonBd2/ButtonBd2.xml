@@ -1,0 +1,3556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/scott/Documents/Projects/FRC/ButtonBoard2/ButtonBd2/ButtonBd2.kicad_sch</source>
+    <date>Sun 18 Dec 2022 03:10:28 PM PST</date>
+    <tool>Eeschema 6.0.7-f9a2dced07~116~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Button Board 2</title>
+        <company>971 Spartan Robotics</company>
+        <rev>1</rev>
+        <date>2022-12-11</date>
+        <source>ButtonBd2.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/">
+      <title_block>
+        <title>Button Board 2</title>
+        <company>971 Spartan Robotics</company>
+        <rev>1</rev>
+        <date>2022-12-11</date>
+        <source>button-inputs.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Power Supply/" tstamps="/74a10430-4629-4146-9c33-a1320cf3f969/">
+      <title_block>
+        <title>Button Board 2</title>
+        <company>971 Spartan Robotics</company>
+        <rev>1</rev>
+        <date>2022-12-11</date>
+        <source>PowerSupply.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/CAN Transceiver/" tstamps="/15f01b37-bdb4-42ef-be78-4167e0d712a3/">
+      <title_block>
+        <title>Button Board 2</title>
+        <company>971 Spartan Robotics</company>
+        <rev>1</rev>
+        <date>2022-12-11</date>
+        <source>CAN-xcvr.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>0.1uF-10%-50V-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL10B104KB8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL10B104KB8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ButtonBd2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc257f53-7196-4721-8344-4fa25119bb75</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF-10%-50V-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL10B104KB8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL10B104KB8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ButtonBd2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df9f1171-a6db-463e-b524-40ad3d101a0b</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF-10%-50V-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL10B104KB8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL10B104KB8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ButtonBd2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7de7ce29-2bd4-4c51-ba65-ec50785ff012</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF-10%-50V-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL10B104KB8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL10B104KB8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ButtonBd2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6bb02b37-26b8-4b9e-988d-eba2d33904dd</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>0.1uF-10%-50V-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL10B104KB8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL10B104KB8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ButtonBd2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>93e55a11-452b-4f86-99ed-e9b1a7a7c791</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>0.1uF-10%-50V-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL10B104KB8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL10B104KB8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ButtonBd2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff19ddc7-9a05-4bdb-be4e-c7f8ed298d0b</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>0.1uF-10%-50V-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL10B104KB8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL10B104KB8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ButtonBd2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>70e80dc5-63c5-4dc4-8f01-3375e86daaf6</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>0.1uF-10%-50V-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL10B104KB8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL10B104KB8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ButtonBd2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5a6202cc-eec2-46a8-b55e-7ac983e45d7b</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>0.1uF-10%-50V-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL10B104KB8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL10B104KB8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ButtonBd2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>53a773dd-6402-423c-aec5-cc18677fab26</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>0R</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>http://www.stanley-components.com/php/downloaddatafile.php?rp=h1111c_e.pdf</datasheet>
+      <fields>
+        <field name="MFG">Stanley Electric</field>
+        <field name="MFG P/N">BR1111C-TR</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MFG" value="Stanley Electric"/>
+      <property name="MFG P/N" value="BR1111C-TR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ButtonBd2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>90bfa2c0-f33e-4ab7-b451-f3787b9297f1</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>0Y</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/150060YS75000.pdf</datasheet>
+      <fields>
+        <field name="MFG">Wurth Electronik</field>
+        <field name="MFG P/N">150060YS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MFG" value="Wurth Electronik"/>
+      <property name="MFG P/N" value="150060YS75000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ButtonBd2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>584964f5-a293-45f7-b73f-f7c326140d2c</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>0G</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/150060YS75000.pdf</datasheet>
+      <fields>
+        <field name="MFG">Wurth Electronik</field>
+        <field name="MFG P/N">150060GS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MFG" value="Wurth Electronik"/>
+      <property name="MFG P/N" value="150060GS75000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ButtonBd2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>49704630-82e8-46b9-9084-a078b2ab8587</tstamps>
+    </comp>
+    <comp ref="D14">
+      <value>1R</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>http://www.stanley-components.com/php/downloaddatafile.php?rp=h1111c_e.pdf</datasheet>
+      <fields>
+        <field name="MFG">Stanley Electric</field>
+        <field name="MFG P/N">BR1111C-TR</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MFG" value="Stanley Electric"/>
+      <property name="MFG P/N" value="BR1111C-TR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ButtonBd2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0f628649-1aa0-40b8-a73c-14038d905d47</tstamps>
+    </comp>
+    <comp ref="D15">
+      <value>1Y</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/150060YS75000.pdf</datasheet>
+      <fields>
+        <field name="MFG">Wurth Electronik</field>
+        <field name="MFG P/N">150060YS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MFG" value="Wurth Electronik"/>
+      <property name="MFG P/N" value="150060YS75000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ButtonBd2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a80c5f8-255c-400e-b4ce-3cda528ae38d</tstamps>
+    </comp>
+    <comp ref="D16">
+      <value>1G</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/150060YS75000.pdf</datasheet>
+      <fields>
+        <field name="MFG">Wurth Electronik</field>
+        <field name="MFG P/N">150060GS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MFG" value="Wurth Electronik"/>
+      <property name="MFG P/N" value="150060GS75000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ButtonBd2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fbd9781d-bf3f-47ef-95f7-63016cf9ad7a</tstamps>
+    </comp>
+    <comp ref="D17">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <fields>
+        <field name="MFG">Nexperia USA Inc.</field>
+        <field name="MFG P/N">BAV99,235</field>
+      </fields>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes, SOT-23"/>
+      <property name="MFG" value="Nexperia USA Inc."/>
+      <property name="MFG P/N" value="BAV99,235"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ButtonBd2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3c26056e-4304-4194-956c-7c7f40a29fe5</tstamps>
+    </comp>
+    <comp ref="D18">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <fields>
+        <field name="MFG">Nexperia USA Inc.</field>
+        <field name="MFG P/N">BAV99,235</field>
+      </fields>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes, SOT-23"/>
+      <property name="MFG" value="Nexperia USA Inc."/>
+      <property name="MFG P/N" value="BAV99,235"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ButtonBd2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c98ca710-3d5e-4bb0-b6ad-cc82c9984a51</tstamps>
+    </comp>
+    <comp ref="D19">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <fields>
+        <field name="MFG">Nexperia USA Inc.</field>
+        <field name="MFG P/N">BAV99,235</field>
+      </fields>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes, SOT-23"/>
+      <property name="MFG" value="Nexperia USA Inc."/>
+      <property name="MFG P/N" value="BAV99,235"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ButtonBd2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>47bdad6e-44ee-4b1a-ac43-4189ce6817d0</tstamps>
+    </comp>
+    <comp ref="D20">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <fields>
+        <field name="MFG">Nexperia USA Inc.</field>
+        <field name="MFG P/N">BAV99,235</field>
+      </fields>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes, SOT-23"/>
+      <property name="MFG" value="Nexperia USA Inc."/>
+      <property name="MFG P/N" value="BAV99,235"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ButtonBd2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>79156b55-5ebc-41c8-8024-4e9732dc599b</tstamps>
+    </comp>
+    <comp ref="D32">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <fields>
+        <field name="MFG">Nexperia USA Inc.</field>
+        <field name="MFG P/N">BAV99,235</field>
+      </fields>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes, SOT-23"/>
+      <property name="MFG" value="Nexperia USA Inc."/>
+      <property name="MFG P/N" value="BAV99,235"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ButtonBd2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f5e5b379-aada-467e-8c92-5b9e51eeeb18</tstamps>
+    </comp>
+    <comp ref="D33">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <fields>
+        <field name="MFG">Nexperia USA Inc.</field>
+        <field name="MFG P/N">BAV99,235</field>
+      </fields>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes, SOT-23"/>
+      <property name="MFG" value="Nexperia USA Inc."/>
+      <property name="MFG P/N" value="BAV99,235"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ButtonBd2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9bda398d-a02b-4e20-a543-62becf700542</tstamps>
+    </comp>
+    <comp ref="D34">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <fields>
+        <field name="MFG">Nexperia USA Inc.</field>
+        <field name="MFG P/N">BAV99,235</field>
+      </fields>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes, SOT-23"/>
+      <property name="MFG" value="Nexperia USA Inc."/>
+      <property name="MFG P/N" value="BAV99,235"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ButtonBd2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>94267f54-ff64-4cab-bf63-8c43890da72b</tstamps>
+    </comp>
+    <comp ref="D36">
+      <value>NSR05T40XV2T5G</value>
+      <footprint>Diode_SMD:D_SOD-523</footprint>
+      <fields>
+        <field name="MFG">onsemi</field>
+        <field name="MFG P/N">NSR05T40XV2T5G</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="MFG" value="onsemi"/>
+      <property name="MFG P/N" value="NSR05T40XV2T5G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ButtonBd2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7f197f1f-3377-4f69-9299-3e9b25e45b72</tstamps>
+    </comp>
+    <comp ref="D37">
+      <value>NSR05T40XV2T5G</value>
+      <footprint>Diode_SMD:D_SOD-523</footprint>
+      <fields>
+        <field name="MFG">onsemi</field>
+        <field name="MFG P/N">NSR05T40XV2T5G</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="MFG" value="onsemi"/>
+      <property name="MFG P/N" value="NSR05T40XV2T5G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ButtonBd2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0599e91-107f-4819-a7b2-64046c3043fb</tstamps>
+    </comp>
+    <comp ref="D38">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <fields>
+        <field name="MFG">Nexperia USA Inc.</field>
+        <field name="MFG P/N">BAV99,235</field>
+      </fields>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes, SOT-23"/>
+      <property name="MFG" value="Nexperia USA Inc."/>
+      <property name="MFG P/N" value="BAV99,235"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ButtonBd2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c242ec6-66fe-4608-8c83-53932a1b4539</tstamps>
+    </comp>
+    <comp ref="D39">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <fields>
+        <field name="MFG">Nexperia USA Inc.</field>
+        <field name="MFG P/N">BAV99,235</field>
+      </fields>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes, SOT-23"/>
+      <property name="MFG" value="Nexperia USA Inc."/>
+      <property name="MFG P/N" value="BAV99,235"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ButtonBd2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7131210b-f7a1-4375-84bd-6a157ce31cee</tstamps>
+    </comp>
+    <comp ref="D41">
+      <value>BAV99</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</datasheet>
+      <fields>
+        <field name="MFG">Nexperia USA Inc.</field>
+        <field name="MFG P/N">BAV99,235</field>
+      </fields>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes, SOT-23"/>
+      <property name="MFG" value="Nexperia USA Inc."/>
+      <property name="MFG P/N" value="BAV99,235"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ButtonBd2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>92446978-2b5c-41f3-9cd2-3a0792805d67</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>POWER</value>
+      <footprint>ButtonBd2:70543-0001</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/705430001_sd.pdf</datasheet>
+      <fields>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">70541-0001</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="70541-0001"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ButtonBd2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7e2cdab3-afdf-4f85-9dd5-d9d97d656833</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>ENC1</value>
+      <footprint>ButtonBd2:70543-0005</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/705430001_sd.pdf</datasheet>
+      <fields>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">70541-0005</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x06_Male" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="70541-0005"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ButtonBd2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0c05d6ea-a343-4eba-bfc6-c48402d96705</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>ANALOG</value>
+      <footprint>ButtonBd2:70543-0007</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/705430001_sd.pdf</datasheet>
+      <fields>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">70541-0007</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x08_Male" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="70541-0007"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ButtonBd2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b6d15b8-4b57-4bac-8be2-75d3f613d68d</tstamps>
+    </comp>
+    <comp ref="J14">
+      <value>ENC0</value>
+      <footprint>ButtonBd2:70543-0005</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/705430001_sd.pdf</datasheet>
+      <fields>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">70541-0005</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x06_Male" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="70541-0005"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ButtonBd2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>34883ed3-e36f-4123-aa37-7370d7873276</tstamps>
+    </comp>
+    <comp ref="J16">
+      <value>CAN</value>
+      <footprint>ButtonBd2:70543-0003</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/705430001_sd.pdf</datasheet>
+      <fields>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">70541-0003</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="70541-0003"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ButtonBd2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f291762a-0c1b-4d8b-8b8d-fbe42e2939e8</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1.00k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Stackpole Electronics Inc</field>
+        <field name="MFG P/N">RNCP0603FTD1K00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Stackpole Electronics Inc"/>
+      <property name="MFG P/N" value="RNCP0603FTD1K00"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ButtonBd2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4ec6cee6-6ac7-4741-b2af-02fe730d2f11</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1.00k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Stackpole Electronics Inc</field>
+        <field name="MFG P/N">RNCP0603FTD1K00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Stackpole Electronics Inc"/>
+      <property name="MFG P/N" value="RNCP0603FTD1K00"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ButtonBd2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5a45a09f-20f7-4bf0-9576-cf7cc9faf2b5</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1.00k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Stackpole Electronics Inc</field>
+        <field name="MFG P/N">RNCP0603FTD1K00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Stackpole Electronics Inc"/>
+      <property name="MFG P/N" value="RNCP0603FTD1K00"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ButtonBd2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>952509c2-78b0-4273-9823-046690ab05d5</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>1.00k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Stackpole Electronics Inc</field>
+        <field name="MFG P/N">RNCP0603FTD1K00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Stackpole Electronics Inc"/>
+      <property name="MFG P/N" value="RNCP0603FTD1K00"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ButtonBd2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7bbf2f1-dfa8-442b-b3d3-4fadf1051ac6</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1.00k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Stackpole Electronics Inc</field>
+        <field name="MFG P/N">RNCP0603FTD1K00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Stackpole Electronics Inc"/>
+      <property name="MFG P/N" value="RNCP0603FTD1K00"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ButtonBd2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0d10baba-b5a6-493b-a9c1-b65baaa2dde2</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>1.00k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Stackpole Electronics Inc</field>
+        <field name="MFG P/N">RNCP0603FTD1K00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Stackpole Electronics Inc"/>
+      <property name="MFG P/N" value="RNCP0603FTD1K00"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ButtonBd2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c9a473bc-6f87-433f-809b-0d928b7f4436</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>100k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">YAGEO</field>
+        <field name="MFG P/N">RC0603FR-07100KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="YAGEO"/>
+      <property name="MFG P/N" value="RC0603FR-07100KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ButtonBd2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2297fbd0-7530-4b50-a173-ce23b1c3fa25</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>4.99k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Stackpole Electronics Inc</field>
+        <field name="MFG P/N">RMCF0603FT4R99</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Stackpole Electronics Inc"/>
+      <property name="MFG P/N" value="RMCF0603FT4R99"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ButtonBd2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ada78efc-cc32-4921-9072-04225bbddc8e</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>10.0k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">YAGEO</field>
+        <field name="MFG P/N">RC0603FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="YAGEO"/>
+      <property name="MFG P/N" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ButtonBd2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>34ea4b6c-0083-4ea2-944f-441cd9676374</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>10.0k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">YAGEO</field>
+        <field name="MFG P/N">RC0603FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="YAGEO"/>
+      <property name="MFG P/N" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ButtonBd2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c5266ca2-1d4d-4c3e-9a19-849f42557050</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>20.0k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">YAGEO</field>
+        <field name="MFG P/N">RC0603FR-0720KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="YAGEO"/>
+      <property name="MFG P/N" value="RC0603FR-0720KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ButtonBd2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cb5536ab-613f-4bd5-8591-8e45fd544630</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>10.0k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">YAGEO</field>
+        <field name="MFG P/N">RC0603FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="YAGEO"/>
+      <property name="MFG P/N" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ButtonBd2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>39869707-5741-4fc9-9c12-bd5382215681</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>100k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">YAGEO</field>
+        <field name="MFG P/N">RC0603FR-07100KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="YAGEO"/>
+      <property name="MFG P/N" value="RC0603FR-07100KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ButtonBd2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>76ff035e-64b3-4c1f-8e60-5a59b3ffa391</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>10.0k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">YAGEO</field>
+        <field name="MFG P/N">RC0603FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="YAGEO"/>
+      <property name="MFG P/N" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ButtonBd2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3a8f5608-b051-40ba-a0fe-62dc5e013413</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>Teensy3.5</value>
+      <footprint>ButtonBd2:Teensy-DIP-49_W15.24mm_Socket</footprint>
+      <datasheet>https://www.pjrc.com/store/teensy35.html#tech</datasheet>
+      <fields>
+        <field name="MFG">PJRC</field>
+        <field name="MFG P/N">TEENSY 3.5</field>
+      </fields>
+      <libsource lib="ButtonBd2" part="Teensy3.5" description=""/>
+      <property name="MFG" value="PJRC"/>
+      <property name="MFG P/N" value="TEENSY 3.5"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ButtonBd2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd3479f9-4014-44de-9bb0-e07a6aa07bf6</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>1nF-50V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL10B102KB8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL10B102KB8NNNC"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>9aa737ac-afd9-4fdd-86ac-7d26c73373d6</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>1nF-50V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL10B102KB8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL10B102KB8NNNC"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>2b215dbd-41c9-4c27-aa8a-07708ab47c8e</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>1nF-50V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL10B102KB8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL10B102KB8NNNC"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>cc33716f-ca3c-4f95-88f8-8b805e81088e</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>1nF-50V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL10B102KB8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL10B102KB8NNNC"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>6f51f79f-4688-4da5-8705-af518768cfea</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>1nF-50V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL10B102KB8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL10B102KB8NNNC"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>7d95b54e-a880-4b8b-b1ae-f180f028f7d0</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>1nF-50V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL10B102KB8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL10B102KB8NNNC"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>9ef685da-968b-4bd0-a7dc-12c74db17de2</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>1nF-50V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL10B102KB8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL10B102KB8NNNC"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>1c0d3b85-e1bf-4a4b-bd04-b94a5f858f61</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>1nF-50V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL10B102KB8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL10B102KB8NNNC"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>c73258e0-459a-464e-b567-0f217661b491</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>1nF-50V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL10B102KB8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL10B102KB8NNNC"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>805850df-db90-43dc-9c28-d7263d60fe21</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>1nF-50V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL10B102KB8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL10B102KB8NNNC"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>c238aaa9-f4aa-4f20-a1e0-dbba26a772e4</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>1nF-50V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL10B102KB8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL10B102KB8NNNC"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>bd278642-3c31-4e1b-b252-bfa659420cc2</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>1nF-50V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL10B102KB8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL10B102KB8NNNC"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>53f9a4ae-cdf0-40c5-b61a-d3b88680f96d</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>1nF-50V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL10B102KB8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL10B102KB8NNNC"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>39288d60-1e87-4735-99b1-379d2c4a6440</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>1nF-50V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL10B102KB8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL10B102KB8NNNC"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>2014c9fa-e98c-4954-a560-f383725af5df</tstamps>
+    </comp>
+    <comp ref="C29">
+      <value>1nF-50V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL10B102KB8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL10B102KB8NNNC"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>7f611159-f59a-4a82-95f2-17d57a6a59b4</tstamps>
+    </comp>
+    <comp ref="C30">
+      <value>1nF-50V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL10B102KB8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL10B102KB8NNNC"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>cc66c29e-75e1-4494-bd55-57d77d3578eb</tstamps>
+    </comp>
+    <comp ref="C31">
+      <value>1nF-50V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL10B102KB8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL10B102KB8NNNC"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>3c83eb45-25c5-4c69-a49b-4193502bcfe4</tstamps>
+    </comp>
+    <comp ref="C32">
+      <value>1nF-50V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL10B102KB8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL10B102KB8NNNC"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>ca6f4e9c-91fe-4c25-a659-a0b500fcc822</tstamps>
+    </comp>
+    <comp ref="C33">
+      <value>1nF-50V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL10B102KB8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL10B102KB8NNNC"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>d83bac04-4d12-45a2-b6fd-5796143130dc</tstamps>
+    </comp>
+    <comp ref="C34">
+      <value>1nF-50V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL10B102KB8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL10B102KB8NNNC"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>788e7765-6d51-47b6-9241-2974051b4a2d</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>BTN0</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/150060YS75000.pdf</datasheet>
+      <fields>
+        <field name="MFG">Wurth Electronik</field>
+        <field name="MFG P/N">150060YS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MFG" value="Wurth Electronik"/>
+      <property name="MFG P/N" value="150060YS75000"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>3a5aa6b8-9510-4566-9284-0d6d4712688a</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>BTN1</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/150060YS75000.pdf</datasheet>
+      <fields>
+        <field name="MFG">Wurth Electronik</field>
+        <field name="MFG P/N">150060YS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MFG" value="Wurth Electronik"/>
+      <property name="MFG P/N" value="150060YS75000"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>fbf1d037-2c08-46c9-a705-f990e703c451</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>BTN2</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/150060YS75000.pdf</datasheet>
+      <fields>
+        <field name="MFG">Wurth Electronik</field>
+        <field name="MFG P/N">150060YS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MFG" value="Wurth Electronik"/>
+      <property name="MFG P/N" value="150060YS75000"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>29cf5f1b-fe71-4682-8bee-4fda700f1889</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>BTN3</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/150060YS75000.pdf</datasheet>
+      <fields>
+        <field name="MFG">Wurth Electronik</field>
+        <field name="MFG P/N">150060YS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MFG" value="Wurth Electronik"/>
+      <property name="MFG P/N" value="150060YS75000"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>53fe396c-3efc-4535-a62f-519a673e0009</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>BTN4</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/150060YS75000.pdf</datasheet>
+      <fields>
+        <field name="MFG">Wurth Electronik</field>
+        <field name="MFG P/N">150060YS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MFG" value="Wurth Electronik"/>
+      <property name="MFG P/N" value="150060YS75000"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>948cb106-12f2-4193-aa7c-e562554b4885</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>BTN5</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/150060YS75000.pdf</datasheet>
+      <fields>
+        <field name="MFG">Wurth Electronik</field>
+        <field name="MFG P/N">150060YS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MFG" value="Wurth Electronik"/>
+      <property name="MFG P/N" value="150060YS75000"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>64540545-90a4-4d67-bb1f-dfc1957f06e1</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>BTN6</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/150060YS75000.pdf</datasheet>
+      <fields>
+        <field name="MFG">Wurth Electronik</field>
+        <field name="MFG P/N">150060YS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MFG" value="Wurth Electronik"/>
+      <property name="MFG P/N" value="150060YS75000"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>d350a423-e0bd-4508-89dd-3739af619b58</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>BTN7</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/150060YS75000.pdf</datasheet>
+      <fields>
+        <field name="MFG">Wurth Electronik</field>
+        <field name="MFG P/N">150060YS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MFG" value="Wurth Electronik"/>
+      <property name="MFG P/N" value="150060YS75000"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>7f7efedd-0a8c-4bba-b641-4c3fed9b9f73</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>BTN8</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/150060YS75000.pdf</datasheet>
+      <fields>
+        <field name="MFG">Wurth Electronik</field>
+        <field name="MFG P/N">150060YS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MFG" value="Wurth Electronik"/>
+      <property name="MFG P/N" value="150060YS75000"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>92c9b5de-4b7a-4d13-9a94-c4d861699e33</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>BTN9</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/150060YS75000.pdf</datasheet>
+      <fields>
+        <field name="MFG">Wurth Electronik</field>
+        <field name="MFG P/N">150060YS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MFG" value="Wurth Electronik"/>
+      <property name="MFG P/N" value="150060YS75000"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>d8a4638c-c11e-431a-a5f8-cf1334f3c205</tstamps>
+    </comp>
+    <comp ref="D21">
+      <value>BTN10</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/150060YS75000.pdf</datasheet>
+      <fields>
+        <field name="MFG">Wurth Electronik</field>
+        <field name="MFG P/N">150060YS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MFG" value="Wurth Electronik"/>
+      <property name="MFG P/N" value="150060YS75000"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>7521ee4f-1f1b-4847-b46d-498cd5ded2cf</tstamps>
+    </comp>
+    <comp ref="D23">
+      <value>BTN19</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/150060YS75000.pdf</datasheet>
+      <fields>
+        <field name="MFG">Wurth Electronik</field>
+        <field name="MFG P/N">150060YS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MFG" value="Wurth Electronik"/>
+      <property name="MFG P/N" value="150060YS75000"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>892881c8-f9e3-4ea3-955c-3afb35c604ee</tstamps>
+    </comp>
+    <comp ref="D24">
+      <value>BTN18</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/150060YS75000.pdf</datasheet>
+      <fields>
+        <field name="MFG">Wurth Electronik</field>
+        <field name="MFG P/N">150060YS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MFG" value="Wurth Electronik"/>
+      <property name="MFG P/N" value="150060YS75000"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>2fac24df-d775-4ba7-903c-a192994b31df</tstamps>
+    </comp>
+    <comp ref="D25">
+      <value>BTN17</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/150060YS75000.pdf</datasheet>
+      <fields>
+        <field name="MFG">Wurth Electronik</field>
+        <field name="MFG P/N">150060YS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MFG" value="Wurth Electronik"/>
+      <property name="MFG P/N" value="150060YS75000"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>3e7c4d89-7e3c-4dc5-8344-f442e3e4f09f</tstamps>
+    </comp>
+    <comp ref="D26">
+      <value>BTN16</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/150060YS75000.pdf</datasheet>
+      <fields>
+        <field name="MFG">Wurth Electronik</field>
+        <field name="MFG P/N">150060YS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MFG" value="Wurth Electronik"/>
+      <property name="MFG P/N" value="150060YS75000"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>ca611c1d-4931-4cbd-b0d6-08d494fdfcb6</tstamps>
+    </comp>
+    <comp ref="D27">
+      <value>BTN15</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/150060YS75000.pdf</datasheet>
+      <fields>
+        <field name="MFG">Wurth Electronik</field>
+        <field name="MFG P/N">150060YS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MFG" value="Wurth Electronik"/>
+      <property name="MFG P/N" value="150060YS75000"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>2ac848c9-f2e9-4171-851c-7d003ded7083</tstamps>
+    </comp>
+    <comp ref="D28">
+      <value>BTN14</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/150060YS75000.pdf</datasheet>
+      <fields>
+        <field name="MFG">Wurth Electronik</field>
+        <field name="MFG P/N">150060YS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MFG" value="Wurth Electronik"/>
+      <property name="MFG P/N" value="150060YS75000"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>21b805e0-3869-4271-886c-530d01454aaf</tstamps>
+    </comp>
+    <comp ref="D29">
+      <value>BTN13</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/150060YS75000.pdf</datasheet>
+      <fields>
+        <field name="MFG">Wurth Electronik</field>
+        <field name="MFG P/N">150060YS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MFG" value="Wurth Electronik"/>
+      <property name="MFG P/N" value="150060YS75000"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>add3a817-a8e2-4e62-8818-a72a688b855f</tstamps>
+    </comp>
+    <comp ref="D30">
+      <value>BTN12</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/150060YS75000.pdf</datasheet>
+      <fields>
+        <field name="MFG">Wurth Electronik</field>
+        <field name="MFG P/N">150060YS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MFG" value="Wurth Electronik"/>
+      <property name="MFG P/N" value="150060YS75000"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>df2429e9-8c23-45eb-910a-e2ef1e66d4fa</tstamps>
+    </comp>
+    <comp ref="D31">
+      <value>BTN11</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/150060YS75000.pdf</datasheet>
+      <fields>
+        <field name="MFG">Wurth Electronik</field>
+        <field name="MFG P/N">150060YS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MFG" value="Wurth Electronik"/>
+      <property name="MFG P/N" value="150060YS75000"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>ce70c3e9-a6b0-4bf0-b6fd-4109cd1198c0</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>B0</value>
+      <footprint>ButtonBd2:70543-0001</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/705430001_sd.pdf</datasheet>
+      <fields>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">70541-0001</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="70541-0001"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>7f225c12-3e91-4fbb-a867-4bcf4c733822</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>B1</value>
+      <footprint>ButtonBd2:70543-0001</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/705430001_sd.pdf</datasheet>
+      <fields>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">70541-0001</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="70541-0001"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>1bff1002-dcb9-41d6-b9e8-feba09adba4a</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>B2</value>
+      <footprint>ButtonBd2:70543-0001</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/705430001_sd.pdf</datasheet>
+      <fields>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">70541-0001</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="70541-0001"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>e2e1fa8e-50b0-41ca-8d6d-a14ebc3a9d24</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>B3</value>
+      <footprint>ButtonBd2:70543-0001</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/705430001_sd.pdf</datasheet>
+      <fields>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">70541-0001</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="70541-0001"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>59fc2c91-5460-408a-85f7-0af936a0807a</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>B4</value>
+      <footprint>ButtonBd2:70543-0001</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/705430001_sd.pdf</datasheet>
+      <fields>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">70541-0001</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="70541-0001"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>edf6a7c3-7758-4a32-a09c-0ba4a0b510f0</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>B5</value>
+      <footprint>ButtonBd2:70543-0001</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/705430001_sd.pdf</datasheet>
+      <fields>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">70541-0001</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="70541-0001"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>8ad6f17d-60da-47a8-ac98-476aa062860d</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>B6</value>
+      <footprint>ButtonBd2:70543-0001</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/705430001_sd.pdf</datasheet>
+      <fields>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">70541-0001</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="70541-0001"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>d11161fc-5085-4681-b219-f5d19cec1751</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>B7</value>
+      <footprint>ButtonBd2:70543-0001</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/705430001_sd.pdf</datasheet>
+      <fields>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">70541-0001</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="70541-0001"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>8d916b14-82b4-4ec3-ab00-64a0fdf64713</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>B8</value>
+      <footprint>ButtonBd2:70543-0001</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/705430001_sd.pdf</datasheet>
+      <fields>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">70541-0001</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="70541-0001"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>51b77825-7c18-42d1-9ec0-2871e02dc540</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>B9</value>
+      <footprint>ButtonBd2:70543-0001</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/705430001_sd.pdf</datasheet>
+      <fields>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">70541-0001</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="70541-0001"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>a83eb9b1-8b35-4c49-aced-c30be0f809fe</tstamps>
+    </comp>
+    <comp ref="J15">
+      <value>B10</value>
+      <footprint>ButtonBd2:70543-0001</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/705430001_sd.pdf</datasheet>
+      <fields>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">70541-0001</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="70541-0001"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>839c4b1f-1dcf-4079-8dc5-64ca48e72e4d</tstamps>
+    </comp>
+    <comp ref="J17">
+      <value>B19</value>
+      <footprint>ButtonBd2:70543-0001</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/705430001_sd.pdf</datasheet>
+      <fields>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">70541-0001</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="70541-0001"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>b0358d21-326e-4aaa-82f2-793855b3fc10</tstamps>
+    </comp>
+    <comp ref="J18">
+      <value>B18</value>
+      <footprint>ButtonBd2:70543-0001</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/705430001_sd.pdf</datasheet>
+      <fields>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">70541-0001</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="70541-0001"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>9a6b812e-9a94-4835-8f16-2a7e3c3c823b</tstamps>
+    </comp>
+    <comp ref="J19">
+      <value>B17</value>
+      <footprint>ButtonBd2:70543-0001</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/705430001_sd.pdf</datasheet>
+      <fields>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">70541-0001</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="70541-0001"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>c072a9ea-a7af-4cc6-85b8-f6fb80eb9a90</tstamps>
+    </comp>
+    <comp ref="J20">
+      <value>B16</value>
+      <footprint>ButtonBd2:70543-0001</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/705430001_sd.pdf</datasheet>
+      <fields>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">70541-0001</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="70541-0001"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>1089f732-aad2-4fb9-a4b5-5ca1e92c8b0d</tstamps>
+    </comp>
+    <comp ref="J21">
+      <value>B15</value>
+      <footprint>ButtonBd2:70543-0001</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/705430001_sd.pdf</datasheet>
+      <fields>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">70541-0001</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="70541-0001"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>1c0fcc76-3dca-4f16-ac8b-4627bce80963</tstamps>
+    </comp>
+    <comp ref="J22">
+      <value>B14</value>
+      <footprint>ButtonBd2:70543-0001</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/705430001_sd.pdf</datasheet>
+      <fields>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">70541-0001</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="70541-0001"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>7d5fdfbb-693e-4cd6-8b98-c81b0dea4712</tstamps>
+    </comp>
+    <comp ref="J23">
+      <value>B13</value>
+      <footprint>ButtonBd2:70543-0001</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/705430001_sd.pdf</datasheet>
+      <fields>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">70541-0001</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="70541-0001"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>e469b98a-14b7-4d34-904b-df257eb59b23</tstamps>
+    </comp>
+    <comp ref="J24">
+      <value>B12</value>
+      <footprint>ButtonBd2:70543-0001</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/705430001_sd.pdf</datasheet>
+      <fields>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">70541-0001</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="70541-0001"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>764880ea-410f-4f34-9aec-0e5296c4ecc7</tstamps>
+    </comp>
+    <comp ref="J25">
+      <value>B11</value>
+      <footprint>ButtonBd2:70543-0001</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/705430001_sd.pdf</datasheet>
+      <fields>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">70541-0001</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="70541-0001"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>1c4d6a8b-42cc-40ec-9211-96a0c54d0a41</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>3.0k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">YAGEO</field>
+        <field name="MFG P/N">RC0603FR-073KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="YAGEO"/>
+      <property name="MFG P/N" value="RC0603FR-073KL"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>e539fb83-1616-4dab-8199-0485ffc37325</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>3.0k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">YAGEO</field>
+        <field name="MFG P/N">RC0603FR-073KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="YAGEO"/>
+      <property name="MFG P/N" value="RC0603FR-073KL"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>8ab6c268-05b5-4877-aba0-3e26593090ae</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>3.0k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">YAGEO</field>
+        <field name="MFG P/N">RC0603FR-073KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="YAGEO"/>
+      <property name="MFG P/N" value="RC0603FR-073KL"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>fce8a11b-a7c8-4ea4-959e-d8ad233ca124</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>3.0k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">YAGEO</field>
+        <field name="MFG P/N">RC0603FR-073KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="YAGEO"/>
+      <property name="MFG P/N" value="RC0603FR-073KL"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>932e7448-7316-44f1-85e4-0056ceabf331</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>3.0k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">YAGEO</field>
+        <field name="MFG P/N">RC0603FR-073KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="YAGEO"/>
+      <property name="MFG P/N" value="RC0603FR-073KL"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>f3f2301b-7118-4c33-b7aa-87eb9b21267e</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>3.0k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">YAGEO</field>
+        <field name="MFG P/N">RC0603FR-073KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="YAGEO"/>
+      <property name="MFG P/N" value="RC0603FR-073KL"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>11a3c6e1-86fb-413a-965d-e1a0184f28d8</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>3.0k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">YAGEO</field>
+        <field name="MFG P/N">RC0603FR-073KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="YAGEO"/>
+      <property name="MFG P/N" value="RC0603FR-073KL"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>6248e0a2-0d8b-41f4-88d2-20ffe6c5728f</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>3.0k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">YAGEO</field>
+        <field name="MFG P/N">RC0603FR-073KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="YAGEO"/>
+      <property name="MFG P/N" value="RC0603FR-073KL"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>4acbbce0-a5f3-4de8-ad86-a38d77a552fe</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>3.0k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">YAGEO</field>
+        <field name="MFG P/N">RC0603FR-073KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="YAGEO"/>
+      <property name="MFG P/N" value="RC0603FR-073KL"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>51ea65d8-2a0c-4f48-b2f3-899007a7ffd9</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>3.0k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">YAGEO</field>
+        <field name="MFG P/N">RC0603FR-073KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="YAGEO"/>
+      <property name="MFG P/N" value="RC0603FR-073KL"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>fd68c1c9-05e6-42ec-93a4-0cf9f81bf693</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>4.99k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Stackpole Electronics Inc</field>
+        <field name="MFG P/N">RMCF0603FT4R99</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Stackpole Electronics Inc"/>
+      <property name="MFG P/N" value="RMCF0603FT4R99"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>67d2ddf2-29bb-4117-bf10-16c5139f7cc1</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>4.99k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Stackpole Electronics Inc</field>
+        <field name="MFG P/N">RMCF0603FT4R99</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Stackpole Electronics Inc"/>
+      <property name="MFG P/N" value="RMCF0603FT4R99"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>b713452e-0551-4439-aed8-06bf52f01185</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>4.99k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Stackpole Electronics Inc</field>
+        <field name="MFG P/N">RMCF0603FT4R99</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Stackpole Electronics Inc"/>
+      <property name="MFG P/N" value="RMCF0603FT4R99"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>e7a92858-0c85-49c2-9ebc-21f2fd3a1cfd</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>4.99k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Stackpole Electronics Inc</field>
+        <field name="MFG P/N">RMCF0603FT4R99</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Stackpole Electronics Inc"/>
+      <property name="MFG P/N" value="RMCF0603FT4R99"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>3773c4ea-10c5-4890-9d4b-36b8acee4e52</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>4.99k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Stackpole Electronics Inc</field>
+        <field name="MFG P/N">RMCF0603FT4R99</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Stackpole Electronics Inc"/>
+      <property name="MFG P/N" value="RMCF0603FT4R99"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>1e77d43d-e8f4-4d89-bc3d-a721e6219990</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>4.99k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Stackpole Electronics Inc</field>
+        <field name="MFG P/N">RMCF0603FT4R99</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Stackpole Electronics Inc"/>
+      <property name="MFG P/N" value="RMCF0603FT4R99"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>59c7d32d-cb83-46ad-bcdc-6c3fa26942dd</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>4.99k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Stackpole Electronics Inc</field>
+        <field name="MFG P/N">RMCF0603FT4R99</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Stackpole Electronics Inc"/>
+      <property name="MFG P/N" value="RMCF0603FT4R99"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>e18dd358-b81b-4a2a-a35e-4190ee4d3bc6</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>4.99k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Stackpole Electronics Inc</field>
+        <field name="MFG P/N">RMCF0603FT4R99</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Stackpole Electronics Inc"/>
+      <property name="MFG P/N" value="RMCF0603FT4R99"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>15c8eaa7-a63d-40bc-b20a-9bd4eb365caa</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>4.99k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Stackpole Electronics Inc</field>
+        <field name="MFG P/N">RMCF0603FT4R99</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Stackpole Electronics Inc"/>
+      <property name="MFG P/N" value="RMCF0603FT4R99"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>9ab5cf9a-b2df-414d-bff3-c22d58132769</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>4.99k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Stackpole Electronics Inc</field>
+        <field name="MFG P/N">RMCF0603FT4R99</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Stackpole Electronics Inc"/>
+      <property name="MFG P/N" value="RMCF0603FT4R99"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>dfd3ef2d-a2f5-49ed-816d-732c3870c764</tstamps>
+    </comp>
+    <comp ref="R38">
+      <value>3.0k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">YAGEO</field>
+        <field name="MFG P/N">RC0603FR-073KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="YAGEO"/>
+      <property name="MFG P/N" value="RC0603FR-073KL"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>ffed1f55-a6ca-4e01-80bf-6d44d795d93e</tstamps>
+    </comp>
+    <comp ref="R39">
+      <value>4.99k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Stackpole Electronics Inc</field>
+        <field name="MFG P/N">RMCF0603FT4R99</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Stackpole Electronics Inc"/>
+      <property name="MFG P/N" value="RMCF0603FT4R99"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>f6a310c2-ec36-4153-b2ce-92067554af97</tstamps>
+    </comp>
+    <comp ref="R40">
+      <value>4.99k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Stackpole Electronics Inc</field>
+        <field name="MFG P/N">RMCF0603FT4R99</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Stackpole Electronics Inc"/>
+      <property name="MFG P/N" value="RMCF0603FT4R99"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>04e67474-4fb6-4234-b63d-6607a7cfe4dd</tstamps>
+    </comp>
+    <comp ref="R41">
+      <value>4.99k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Stackpole Electronics Inc</field>
+        <field name="MFG P/N">RMCF0603FT4R99</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Stackpole Electronics Inc"/>
+      <property name="MFG P/N" value="RMCF0603FT4R99"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>e26503eb-3ddc-43f6-a832-afdf4849f6f6</tstamps>
+    </comp>
+    <comp ref="R42">
+      <value>4.99k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Stackpole Electronics Inc</field>
+        <field name="MFG P/N">RMCF0603FT4R99</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Stackpole Electronics Inc"/>
+      <property name="MFG P/N" value="RMCF0603FT4R99"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>933f4236-475c-406b-9dd1-5dc189e0e69e</tstamps>
+    </comp>
+    <comp ref="R43">
+      <value>4.99k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Stackpole Electronics Inc</field>
+        <field name="MFG P/N">RMCF0603FT4R99</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Stackpole Electronics Inc"/>
+      <property name="MFG P/N" value="RMCF0603FT4R99"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>93fff3fc-5f4b-4c9c-b432-f0b69c02ed1a</tstamps>
+    </comp>
+    <comp ref="R44">
+      <value>4.99k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Stackpole Electronics Inc</field>
+        <field name="MFG P/N">RMCF0603FT4R99</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Stackpole Electronics Inc"/>
+      <property name="MFG P/N" value="RMCF0603FT4R99"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>1b1c3321-5927-4103-a640-806dfac9aa4b</tstamps>
+    </comp>
+    <comp ref="R45">
+      <value>4.99k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Stackpole Electronics Inc</field>
+        <field name="MFG P/N">RMCF0603FT4R99</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Stackpole Electronics Inc"/>
+      <property name="MFG P/N" value="RMCF0603FT4R99"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>4f239f5f-e7ac-4733-b6c5-94870ad4f274</tstamps>
+    </comp>
+    <comp ref="R46">
+      <value>4.99k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Stackpole Electronics Inc</field>
+        <field name="MFG P/N">RMCF0603FT4R99</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Stackpole Electronics Inc"/>
+      <property name="MFG P/N" value="RMCF0603FT4R99"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>e82c46e2-7042-46f4-9c05-f62468dbb22f</tstamps>
+    </comp>
+    <comp ref="R47">
+      <value>4.99k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Stackpole Electronics Inc</field>
+        <field name="MFG P/N">RMCF0603FT4R99</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Stackpole Electronics Inc"/>
+      <property name="MFG P/N" value="RMCF0603FT4R99"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>b6ecdea3-419d-4222-958f-6d1e865f45fb</tstamps>
+    </comp>
+    <comp ref="R48">
+      <value>4.99k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Stackpole Electronics Inc</field>
+        <field name="MFG P/N">RMCF0603FT4R99</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Stackpole Electronics Inc"/>
+      <property name="MFG P/N" value="RMCF0603FT4R99"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>28875938-19e4-44db-ae7f-88694eb0b6e5</tstamps>
+    </comp>
+    <comp ref="R49">
+      <value>3.0k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">YAGEO</field>
+        <field name="MFG P/N">RC0603FR-073KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="YAGEO"/>
+      <property name="MFG P/N" value="RC0603FR-073KL"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>5fca1156-cfff-41f6-b64a-f6d3eb2704cd</tstamps>
+    </comp>
+    <comp ref="R50">
+      <value>3.0k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">YAGEO</field>
+        <field name="MFG P/N">RC0603FR-073KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="YAGEO"/>
+      <property name="MFG P/N" value="RC0603FR-073KL"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>2eb96df7-eb7d-4fe6-9984-2aaa55ce0615</tstamps>
+    </comp>
+    <comp ref="R51">
+      <value>3.0k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">YAGEO</field>
+        <field name="MFG P/N">RC0603FR-073KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="YAGEO"/>
+      <property name="MFG P/N" value="RC0603FR-073KL"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>c067f552-1155-4ea7-9d13-f821f27b47cf</tstamps>
+    </comp>
+    <comp ref="R52">
+      <value>3.0k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">YAGEO</field>
+        <field name="MFG P/N">RC0603FR-073KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="YAGEO"/>
+      <property name="MFG P/N" value="RC0603FR-073KL"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>75b475c3-bc49-4b3b-a2af-07db1fae6641</tstamps>
+    </comp>
+    <comp ref="R53">
+      <value>3.0k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">YAGEO</field>
+        <field name="MFG P/N">RC0603FR-073KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="YAGEO"/>
+      <property name="MFG P/N" value="RC0603FR-073KL"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>89ff8fa4-7788-4cc7-b108-3112845868b5</tstamps>
+    </comp>
+    <comp ref="R54">
+      <value>3.0k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">YAGEO</field>
+        <field name="MFG P/N">RC0603FR-073KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="YAGEO"/>
+      <property name="MFG P/N" value="RC0603FR-073KL"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>8cc9f2e3-729a-40d5-9d32-22ef18060322</tstamps>
+    </comp>
+    <comp ref="R55">
+      <value>3.0k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">YAGEO</field>
+        <field name="MFG P/N">RC0603FR-073KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="YAGEO"/>
+      <property name="MFG P/N" value="RC0603FR-073KL"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>07019347-9924-47b8-9a51-96fb2a5979ec</tstamps>
+    </comp>
+    <comp ref="R56">
+      <value>3.0k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">YAGEO</field>
+        <field name="MFG P/N">RC0603FR-073KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="YAGEO"/>
+      <property name="MFG P/N" value="RC0603FR-073KL"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>424417da-a0cb-48fc-8aa9-4da83ad27da2</tstamps>
+    </comp>
+    <comp ref="R57">
+      <value>3.0k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">YAGEO</field>
+        <field name="MFG P/N">RC0603FR-073KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="YAGEO"/>
+      <property name="MFG P/N" value="RC0603FR-073KL"/>
+      <property name="Sheetname" value="Button Inputs"/>
+      <property name="Sheetfile" value="button-inputs.kicad_sch"/>
+      <sheetpath names="/Button Inputs/" tstamps="/05093d1b-600d-450f-959f-2eb8a34345ae/"/>
+      <tstamps>ef992317-95ab-45fc-8d61-980a08189b7d</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>22uF-10V-10%-0805</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL21A226KPCLRNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL21A226KPCLRNC"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <sheetpath names="/Power Supply/" tstamps="/74a10430-4629-4146-9c33-a1320cf3f969/"/>
+      <tstamps>1f60cd02-8503-4c92-8ac4-c7bc2022981e</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>3.3nF-50V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL10B332KB8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL10B332KB8NNNC"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <sheetpath names="/Power Supply/" tstamps="/74a10430-4629-4146-9c33-a1320cf3f969/"/>
+      <tstamps>33f1daad-9470-4ff7-a011-cfec08bdb025</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>1uF-25V-10%-0805</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL21B105KAFNNNE</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL21B105KAFNNNE"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <sheetpath names="/Power Supply/" tstamps="/74a10430-4629-4146-9c33-a1320cf3f969/"/>
+      <tstamps>9a457d32-b2ba-4224-80b9-d1c89960b129</tstamps>
+    </comp>
+    <comp ref="D35">
+      <value>NSR05T40XV2T5G</value>
+      <footprint>Diode_SMD:D_SOD-523</footprint>
+      <fields>
+        <field name="MFG">onsemi</field>
+        <field name="MFG P/N">NSR05T40XV2T5G</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="MFG" value="onsemi"/>
+      <property name="MFG P/N" value="NSR05T40XV2T5G"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <sheetpath names="/Power Supply/" tstamps="/74a10430-4629-4146-9c33-a1320cf3f969/"/>
+      <tstamps>57ca12cd-b03b-41ec-936d-7935d46db491</tstamps>
+    </comp>
+    <comp ref="D40">
+      <value>15V</value>
+      <footprint>Diode_SMD:D_SOD-123F</footprint>
+      <fields>
+        <field name="MFG">Nexperia</field>
+        <field name="MFG P/N">BZT52H-C15,115</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="MFG" value="Nexperia"/>
+      <property name="MFG P/N" value="BZT52H-C15,115"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <sheetpath names="/Power Supply/" tstamps="/74a10430-4629-4146-9c33-a1320cf3f969/"/>
+      <tstamps>23b008ef-0d90-4b8a-8e1e-b2398481573f</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>SI4483ADY-T1-GE3</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.vishay.com/docs/68982/si4483ad.pdf</datasheet>
+      <fields>
+        <field name="MFG">Vishay</field>
+        <field name="MFG P/N">SI4483ADY-T1-GE3</field>
+      </fields>
+      <libsource lib="Device" part="Q_PMOS_SGD" description="P-MOSFET transistor, source/gate/drain"/>
+      <property name="MFG" value="Vishay"/>
+      <property name="P/N" value=""/>
+      <property name="MFG P/N" value="SI4483ADY-T1-GE3"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <sheetpath names="/Power Supply/" tstamps="/74a10430-4629-4146-9c33-a1320cf3f969/"/>
+      <tstamps>28eaf972-1b32-4244-9c14-6f7ea7a31948</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>1.00k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Stackpole Electronics Inc</field>
+        <field name="MFG P/N">RNCP0603FTD1K00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Stackpole Electronics Inc"/>
+      <property name="MFG P/N" value="RNCP0603FTD1K00"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <sheetpath names="/Power Supply/" tstamps="/74a10430-4629-4146-9c33-a1320cf3f969/"/>
+      <tstamps>dd87a57a-68bf-46d3-9cb1-e93be0f35098</tstamps>
+    </comp>
+    <comp ref="R37">
+      <value>20.0k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">YAGEO</field>
+        <field name="MFG P/N">RC0603FR-0720KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="YAGEO"/>
+      <property name="MFG P/N" value="RC0603FR-0720KL"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <sheetpath names="/Power Supply/" tstamps="/74a10430-4629-4146-9c33-a1320cf3f969/"/>
+      <tstamps>4f466124-0a71-40b1-b33c-3535da96f76f</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>MCP1727-3302E/SN</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://ww1.microchip.com/downloads/aemtest/APID/ProductDocuments/DataSheets/MCP1727-1.5A-Low-Voltage-Low-Quiescent-Current-LDO-Regulator-20001999D.pdf</datasheet>
+      <fields>
+        <field name="MFG">Microchip</field>
+        <field name="MFG P/N">MCP1727-3302E/SN</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="MCP1727-3302xSN" description="1.5A, Low Voltage, Low Quiescent Current LDO Regulator, 2.3 - 6V Input, Fixed 3.3V Output, 330mV Dropout, SOIC-8"/>
+      <property name="MFG" value="Microchip"/>
+      <property name="MFG P/N" value="MCP1727-3302E/SN"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <sheetpath names="/Power Supply/" tstamps="/74a10430-4629-4146-9c33-a1320cf3f969/"/>
+      <tstamps>dc74f98c-a00c-4efd-ac74-c74499ad49c2</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF-10%-50V-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL10B104KB8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL10B104KB8NNNC"/>
+      <property name="Sheetname" value="CAN Transceiver"/>
+      <property name="Sheetfile" value="CAN-xcvr.kicad_sch"/>
+      <sheetpath names="/CAN Transceiver/" tstamps="/15f01b37-bdb4-42ef-be78-4167e0d712a3/"/>
+      <tstamps>9d6627c2-56ed-4b97-a38a-77d30dd4c5f5</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>0.1uF-10%-50V-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL10B104KB8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL10B104KB8NNNC"/>
+      <property name="Sheetname" value="CAN Transceiver"/>
+      <property name="Sheetfile" value="CAN-xcvr.kicad_sch"/>
+      <sheetpath names="/CAN Transceiver/" tstamps="/15f01b37-bdb4-42ef-be78-4167e0d712a3/"/>
+      <tstamps>2eb1688e-64b2-44b6-aca9-b9c41080f080</tstamps>
+    </comp>
+    <comp ref="D22">
+      <value>PESD1CAN</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PESD1CAN.pdf</datasheet>
+      <fields>
+        <field name="MFG">Nexperia</field>
+        <field name="MFG P/N">PESD1CAN,215</field>
+      </fields>
+      <libsource lib="PI-Power-Board" part="PESD1CAN" description=""/>
+      <property name="MFG" value="Nexperia"/>
+      <property name="MFG P/N" value="PESD1CAN,215"/>
+      <property name="Sheetname" value="CAN Transceiver"/>
+      <property name="Sheetfile" value="CAN-xcvr.kicad_sch"/>
+      <sheetpath names="/CAN Transceiver/" tstamps="/15f01b37-bdb4-42ef-be78-4167e0d712a3/"/>
+      <tstamps>3666c29a-14f2-4f8e-931c-c0f0b882d7c2</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>120R-1%-0805</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MFG">Stackpole Electronics Inc</field>
+        <field name="MFG P/N">RMCF0805FT120R</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Stackpole Electronics Inc"/>
+      <property name="MFG P/N" value="RMCF0805FT120R"/>
+      <property name="Sheetname" value="CAN Transceiver"/>
+      <property name="Sheetfile" value="CAN-xcvr.kicad_sch"/>
+      <sheetpath names="/CAN Transceiver/" tstamps="/15f01b37-bdb4-42ef-be78-4167e0d712a3/"/>
+      <tstamps>244e294a-6382-428d-a116-4c1c2cbac09e</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>MCP2542FD-E/SN</value>
+      <footprint>Package_SO:SO-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/MCP2542FD-4FD-MCP2542WFD-4WFD-Data-Sheet20005514B.pdf</datasheet>
+      <fields>
+        <field name="MFG">Microchip</field>
+        <field name="MFG P/N">MCP2542FD-E/SN</field>
+      </fields>
+      <libsource lib="Interface_CAN_LIN" part="MCP2542FDxMF" description="CAN-FD Transceiver, Wake-Up on CAN activity, 8Mbps, 5V supply, STBY pin, 3x3 DFN-8"/>
+      <property name="MFG" value="Microchip"/>
+      <property name="MFG P/N" value="MCP2542FD-E/SN"/>
+      <property name="Sheetname" value="CAN Transceiver"/>
+      <property name="Sheetfile" value="CAN-xcvr.kicad_sch"/>
+      <sheetpath names="/CAN Transceiver/" tstamps="/15f01b37-bdb4-42ef-be78-4167e0d712a3/"/>
+      <tstamps>d29e5bfd-2568-4422-b946-53457292fa11</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="ButtonBd2" part="Teensy3.5">
+      <docs>https://www.pjrc.com/store/teensy35.html#tech</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Teensy3.5</field>
+        <field name="Footprint">Package_DIP:DIP-48_W15.24mm_LongPads</field>
+        <field name="Datasheet">https://www.pjrc.com/store/teensy35.html#tech</field>
+        <field name="MFG">PJRC</field>
+        <field name="MFG P/N">TEENSY 3.5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="P0" type="input"/>
+        <pin num="3" name="P1" type="input"/>
+        <pin num="4" name="P2/FTM3_CH0" type="input"/>
+        <pin num="5" name="P3/CAN_TX" type="output"/>
+        <pin num="6" name="P4/CAN_RX" type="input"/>
+        <pin num="7" name="P5" type="input"/>
+        <pin num="8" name="P6" type="input"/>
+        <pin num="9" name="P7" type="input"/>
+        <pin num="10" name="P8" type="input"/>
+        <pin num="11" name="P9" type="input"/>
+        <pin num="12" name="P10" type="output"/>
+        <pin num="13" name="P11" type="output"/>
+        <pin num="14" name="P12" type="input"/>
+        <pin num="15" name="3V3" type="passive"/>
+        <pin num="16" name="P24" type="input"/>
+        <pin num="17" name="P25" type="input"/>
+        <pin num="18" name="P26" type="input"/>
+        <pin num="19" name="P27" type="input"/>
+        <pin num="20" name="P28" type="input"/>
+        <pin num="21" name="P29/FTM2_QD_PHA" type="input"/>
+        <pin num="22" name="P30/FTM2_QD_PHB" type="input"/>
+        <pin num="23" name="P31" type="input"/>
+        <pin num="24" name="P32" type="input"/>
+        <pin num="25" name="P33/ADC0_SE17" type="input"/>
+        <pin num="26" name="P34" type="input"/>
+        <pin num="27" name="P35" type="output"/>
+        <pin num="28" name="P36/ADC1_SE5b" type="input"/>
+        <pin num="29" name="P37" type="output"/>
+        <pin num="30" name="P38" type="output"/>
+        <pin num="31" name="P39" type="output"/>
+        <pin num="32" name="A21" type="bidirectional"/>
+        <pin num="33" name="A22/ADC1_SE23" type="input"/>
+        <pin num="34" name="GND" type="passive"/>
+        <pin num="35" name="P13/LED" type="output"/>
+        <pin num="36" name="P14/ADC0_SE5b" type="input"/>
+        <pin num="37" name="P15" type="input"/>
+        <pin num="38" name="P16/FTM1_QD_PHA" type="input"/>
+        <pin num="39" name="P17/FTM1_QD_PHB" type="input"/>
+        <pin num="40" name="P18" type="input"/>
+        <pin num="41" name="P19" type="input"/>
+        <pin num="42" name="P20" type="input"/>
+        <pin num="43" name="P21/FTM0_CH6" type="input"/>
+        <pin num="44" name="P22/ADC0_SE15" type="input"/>
+        <pin num="45" name="P23/ADC0_SE4b" type="input"/>
+        <pin num="46" name="3V3" type="passive"/>
+        <pin num="47" name="AGND" type="passive"/>
+        <pin num="48" name="V_{IN}" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Male">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x06_Male">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x08_Male">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D4</field>
+        <field name="Value">NSR05T40XV2T5G</field>
+        <field name="Footprint">Diode_SMD:D_SOD-523</field>
+        <field name="Datasheet">~</field>
+        <field name="MFG">onsemi</field>
+        <field name="MFG P/N">NSR05T40XV2T5G</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D1</field>
+        <field name="Value">15V</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123F</field>
+        <field name="Datasheet">~</field>
+        <field name="MFG">Nexperia</field>
+        <field name="MFG P/N">BZT52H-C15,115</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_PMOS_SGD">
+      <description>P-MOSFET transistor, source/gate/drain</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q?</field>
+        <field name="Value">Q_PMOS_SGD</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+        <pin num="4" name="G" type="input"/>
+        <pin num="5" name="D" type="passive"/>
+        <pin num="6" name="D" type="passive"/>
+        <pin num="7" name="D" type="passive"/>
+        <pin num="8" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="BAV99">
+      <description>BAV99 High-speed switching diodes, SOT-23</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BAV99</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+        <pin num="3" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_CAN_LIN" part="MCP2542FDxMF">
+      <description>CAN-FD Transceiver, Wake-Up on CAN activity, 8Mbps, 5V supply, STBY pin, 3x3 DFN-8</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/MCP2542FD-4FD-MCP2542WFD-4WFD-Data-Sheet20005514B.pdf</docs>
+      <footprints>
+        <fp>DFN*1EP*3x3mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U4</field>
+        <field name="Value">MCP2542FD-E/SN</field>
+        <field name="Footprint">Package_SO:SO-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/MCP2542FD-4FD-MCP2542WFD-4WFD-Data-Sheet20005514B.pdf</field>
+        <field name="MFG">Microchip</field>
+        <field name="MFG P/N">MCP2542FD-E/SN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TXD" type="input"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="VDD" type="power_in"/>
+        <pin num="4" name="RXD" type="output"/>
+        <pin num="5" name="VIO" type="power_in"/>
+        <pin num="6" name="CANL" type="bidirectional"/>
+        <pin num="7" name="CANH" type="bidirectional"/>
+        <pin num="8" name="STBY" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="PI-Power-Board" part="PESD1CAN">
+      <docs>https://assets.nexperia.com/documents/data-sheet/PESD1CAN.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">PESD1CAN</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/PESD1CAN.pdf</field>
+        <field name="MFG">Nexperia</field>
+        <field name="MFG P/N">PESD1CAN,215</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K1" type="passive"/>
+        <pin num="2" name="K1" type="passive"/>
+        <pin num="3" name="KK" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="MCP1727-3302xSN">
+      <description>1.5A, Low Voltage, Low Quiescent Current LDO Regulator, 2.3 - 6V Input, Fixed 3.3V Output, 330mV Dropout, SOIC-8</description>
+      <docs>https://ww1.microchip.com/downloads/aemtest/APID/ProductDocuments/DataSheets/MCP1727-1.5A-Low-Voltage-Low-Quiescent-Current-LDO-Regulator-20001999D.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP1727-3302xSN</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">https://ww1.microchip.com/downloads/aemtest/APID/ProductDocuments/DataSheets/MCP1727-1.5A-Low-Voltage-Low-Quiescent-Current-LDO-Regulator-20001999D.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vin" type="power_in"/>
+        <pin num="2" name="Vin" type="passive"/>
+        <pin num="3" name="~{SHDN}" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="PWRGD" type="open_collector"/>
+        <pin num="6" name="Cdelay" type="input"/>
+        <pin num="7" name="Sense" type="input"/>
+        <pin num="8" name="Vout" type="power_out"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="ButtonBd2">
+      <uri>/home/scott/Documents/Projects/FRC/ButtonBoard2/ButtonBd2/ButtonBd2.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/usr/share/kicad/symbols//Diode.kicad_sym</uri>
+    </library>
+    <library logical="Interface_CAN_LIN">
+      <uri>/usr/share/kicad/symbols//Interface_CAN_LIN.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/usr/share/kicad/symbols//Regulator_Linear.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="D17" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D19" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D32" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D38" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J12" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J13" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J13" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J14" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="3V3" pintype="passive"/>
+      <node ref="U1" pin="46" pinfunction="3V3" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="Sense" pintype="input"/>
+      <node ref="U2" pin="8" pinfunction="Vout" pintype="power_out"/>
+      <node ref="U3" pin="5" pinfunction="VIO" pintype="power_in"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="D18" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D20" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D33" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D34" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D35" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D36" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D39" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D40" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D41" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J12" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J14" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="R37" pin="2" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="3" name="+5VD">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D21" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D23" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D24" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D25" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D26" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D27" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D28" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D29" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D30" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D31" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D36" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D37" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="4" name="/+5V_MON_ADC">
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+      <node ref="U1" pin="33" pinfunction="A22/ADC1_SE23" pintype="input"/>
+    </net>
+    <net code="5" name="/+5V_{IN}">
+      <node ref="J11" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J16" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q1" pin="5" pinfunction="D" pintype="passive"/>
+      <node ref="Q1" pin="6" pinfunction="D" pintype="passive"/>
+      <node ref="Q1" pin="7" pinfunction="D" pintype="passive"/>
+      <node ref="Q1" pin="8" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="6" name="/ABS0">
+      <node ref="D19" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="J13" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="/ABS1">
+      <node ref="D38" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="J13" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R35" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="/ABS2">
+      <node ref="D17" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="J13" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="/ABS2_ADC">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="U1" pin="44" pinfunction="P22/ADC0_SE15" pintype="input"/>
+    </net>
+    <net code="10" name="/ABS3">
+      <node ref="D32" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="J13" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+    </net>
+    <net code="11" name="/ABS3_ADC">
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="U1" pin="45" pinfunction="P23/ADC0_SE4b" pintype="input"/>
+    </net>
+    <net code="12" name="/BTN0">
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="U1" pin="42" pinfunction="P20" pintype="input"/>
+    </net>
+    <net code="13" name="/BTN1">
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="U1" pin="37" pinfunction="P15" pintype="input"/>
+    </net>
+    <net code="14" name="/BTN2">
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="U1" pin="40" pinfunction="P18" pintype="input"/>
+    </net>
+    <net code="15" name="/BTN3">
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="U1" pin="41" pinfunction="P19" pintype="input"/>
+    </net>
+    <net code="16" name="/BTN4">
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="P26" pintype="input"/>
+    </net>
+    <net code="17" name="/BTN5">
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="P24" pintype="input"/>
+    </net>
+    <net code="18" name="/BTN6">
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="P28" pintype="input"/>
+    </net>
+    <net code="19" name="/BTN7">
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="P27" pintype="input"/>
+    </net>
+    <net code="20" name="/BTN8">
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="P34" pintype="input"/>
+    </net>
+    <net code="21" name="/BTN9">
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="P25" pintype="input"/>
+    </net>
+    <net code="22" name="/BTN10">
+      <node ref="R39" pin="2" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="P9" pintype="input"/>
+    </net>
+    <net code="23" name="/BTN11">
+      <node ref="R40" pin="2" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="P12" pintype="input"/>
+    </net>
+    <net code="24" name="/BTN12">
+      <node ref="R41" pin="2" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="P8" pintype="input"/>
+    </net>
+    <net code="25" name="/BTN13">
+      <node ref="R42" pin="2" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="P7" pintype="input"/>
+    </net>
+    <net code="26" name="/BTN14">
+      <node ref="R43" pin="2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="P5" pintype="input"/>
+    </net>
+    <net code="27" name="/BTN15">
+      <node ref="R44" pin="2" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="P31" pintype="input"/>
+    </net>
+    <net code="28" name="/BTN16">
+      <node ref="R45" pin="2" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="P32" pintype="input"/>
+    </net>
+    <net code="29" name="/BTN17">
+      <node ref="R46" pin="2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="P6" pintype="input"/>
+    </net>
+    <net code="30" name="/BTN18">
+      <node ref="R47" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="P1" pintype="input"/>
+    </net>
+    <net code="31" name="/BTN19">
+      <node ref="R48" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="P0" pintype="input"/>
+    </net>
+    <net code="32" name="/Button Inputs/BN0">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+    </net>
+    <net code="33" name="/Button Inputs/BN1">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+    </net>
+    <net code="34" name="/Button Inputs/BN2">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+    </net>
+    <net code="35" name="/Button Inputs/BN3">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+    </net>
+    <net code="36" name="/Button Inputs/BN4">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+    </net>
+    <net code="37" name="/Button Inputs/BN5">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+    </net>
+    <net code="38" name="/Button Inputs/BN6">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+    </net>
+    <net code="39" name="/Button Inputs/BN7">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+    </net>
+    <net code="40" name="/Button Inputs/BN8">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+    </net>
+    <net code="41" name="/Button Inputs/BN9">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="42" name="/Button Inputs/BN10">
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="J15" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R38" pin="2" pintype="passive"/>
+      <node ref="R39" pin="1" pintype="passive"/>
+    </net>
+    <net code="43" name="/Button Inputs/BN11">
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="J25" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R40" pin="1" pintype="passive"/>
+      <node ref="R49" pin="2" pintype="passive"/>
+    </net>
+    <net code="44" name="/Button Inputs/BN12">
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="J24" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R41" pin="1" pintype="passive"/>
+      <node ref="R50" pin="2" pintype="passive"/>
+    </net>
+    <net code="45" name="/Button Inputs/BN13">
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="J23" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R42" pin="1" pintype="passive"/>
+      <node ref="R51" pin="2" pintype="passive"/>
+    </net>
+    <net code="46" name="/Button Inputs/BN14">
+      <node ref="C29" pin="1" pintype="passive"/>
+      <node ref="J22" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R43" pin="1" pintype="passive"/>
+      <node ref="R52" pin="2" pintype="passive"/>
+    </net>
+    <net code="47" name="/Button Inputs/BN15">
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="J21" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R44" pin="1" pintype="passive"/>
+      <node ref="R53" pin="2" pintype="passive"/>
+    </net>
+    <net code="48" name="/Button Inputs/BN16">
+      <node ref="C31" pin="1" pintype="passive"/>
+      <node ref="J20" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R45" pin="1" pintype="passive"/>
+      <node ref="R54" pin="2" pintype="passive"/>
+    </net>
+    <net code="49" name="/Button Inputs/BN17">
+      <node ref="C32" pin="1" pintype="passive"/>
+      <node ref="J19" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R46" pin="1" pintype="passive"/>
+      <node ref="R55" pin="2" pintype="passive"/>
+    </net>
+    <net code="50" name="/Button Inputs/BN18">
+      <node ref="C33" pin="1" pintype="passive"/>
+      <node ref="J18" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R47" pin="1" pintype="passive"/>
+      <node ref="R56" pin="2" pintype="passive"/>
+    </net>
+    <net code="51" name="/Button Inputs/BN19">
+      <node ref="C34" pin="1" pintype="passive"/>
+      <node ref="J17" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R48" pin="1" pintype="passive"/>
+      <node ref="R57" pin="2" pintype="passive"/>
+    </net>
+    <net code="52" name="/CAN_H">
+      <node ref="D22" pin="1" pinfunction="K1" pintype="passive"/>
+      <node ref="J16" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="CANH" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="/CAN_L">
+      <node ref="D22" pin="2" pinfunction="K1" pintype="passive"/>
+      <node ref="J16" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="CANL" pintype="bidirectional"/>
+    </net>
+    <net code="54" name="/CAN_RX">
+      <node ref="U1" pin="6" pinfunction="P4/CAN_RX" pintype="input"/>
+      <node ref="U3" pin="4" pinfunction="RXD" pintype="output"/>
+    </net>
+    <net code="55" name="/CAN_TX">
+      <node ref="U1" pin="5" pinfunction="P3/CAN_TX" pintype="output"/>
+      <node ref="U3" pin="1" pinfunction="TXD" pintype="input"/>
+    </net>
+    <net code="56" name="/ENC0_A">
+      <node ref="D20" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="J14" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="P29/FTM2_QD_PHA" pintype="input"/>
+    </net>
+    <net code="57" name="/ENC0_ABS">
+      <node ref="D39" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="J14" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="P2/FTM3_CH0" pintype="input"/>
+    </net>
+    <net code="58" name="/ENC0_ABS_ADC">
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+      <node ref="R34" pin="1" pintype="passive"/>
+      <node ref="U1" pin="36" pinfunction="P14/ADC0_SE5b" pintype="input"/>
+    </net>
+    <net code="59" name="/ENC0_B">
+      <node ref="D41" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="J14" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="P30/FTM2_QD_PHB" pintype="input"/>
+    </net>
+    <net code="60" name="/ENC1_A">
+      <node ref="D18" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="J12" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="39" pinfunction="P17/FTM1_QD_PHB" pintype="input"/>
+    </net>
+    <net code="61" name="/ENC1_ABS">
+      <node ref="D34" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="J12" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="43" pinfunction="P21/FTM0_CH6" pintype="input"/>
+    </net>
+    <net code="62" name="/ENC1_ABS_ADC">
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="R35" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="25" pinfunction="P33/ADC0_SE17" pintype="input"/>
+    </net>
+    <net code="63" name="/ENC1_B">
+      <node ref="D33" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="J12" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U1" pin="38" pinfunction="P16/FTM1_QD_PHA" pintype="input"/>
+    </net>
+    <net code="64" name="/LED0G">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="30" pinfunction="P38" pintype="output"/>
+    </net>
+    <net code="65" name="/LED0R">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="P11" pintype="output"/>
+    </net>
+    <net code="66" name="/LED0Y">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="31" pinfunction="P39" pintype="output"/>
+    </net>
+    <net code="67" name="/LED1G">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="27" pinfunction="P35" pintype="output"/>
+    </net>
+    <net code="68" name="/LED1R">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="29" pinfunction="P37" pintype="output"/>
+    </net>
+    <net code="69" name="/LED1Y">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="P10" pintype="output"/>
+    </net>
+    <net code="70" name="/V_{IN}">
+      <node ref="D37" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="48" pinfunction="V_{IN}" pintype="power_in"/>
+    </net>
+    <net code="71" name="GND">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="C31" pin="2" pintype="passive"/>
+      <node ref="C32" pin="2" pintype="passive"/>
+      <node ref="C33" pin="2" pintype="passive"/>
+      <node ref="C34" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D11" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D12" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D13" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D14" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D15" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D16" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D17" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D18" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D19" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D20" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D22" pin="3" pinfunction="KK" pintype="passive"/>
+      <node ref="D32" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D33" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D34" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D38" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D39" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D41" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J12" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J13" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J13" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J14" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J15" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J16" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J17" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J18" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J19" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J20" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J21" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J22" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J23" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J24" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J25" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="R36" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="34" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="47" pinfunction="AGND" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U3" pin="8" pinfunction="STBY" pintype="input"/>
+    </net>
+    <net code="72" name="Net-(C21-Pad1)">
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="D35" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="Vin" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="Vin" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="~{SHDN}" pintype="input"/>
+    </net>
+    <net code="73" name="Net-(C22-Pad1)">
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="Cdelay" pintype="input"/>
+    </net>
+    <net code="74" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+    </net>
+    <net code="75" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+    </net>
+    <net code="76" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+    </net>
+    <net code="77" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+    </net>
+    <net code="78" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+    </net>
+    <net code="79" name="Net-(D6-Pad1)">
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+    </net>
+    <net code="80" name="Net-(D7-Pad1)">
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="81" name="Net-(D8-Pad1)">
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="82" name="Net-(D9-Pad1)">
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="83" name="Net-(D10-Pad1)">
+      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="84" name="Net-(D11-Pad2)">
+      <node ref="D11" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="85" name="Net-(D12-Pad2)">
+      <node ref="D12" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="86" name="Net-(D13-Pad2)">
+      <node ref="D13" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="87" name="Net-(D14-Pad2)">
+      <node ref="D14" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="88" name="Net-(D15-Pad2)">
+      <node ref="D15" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="89" name="Net-(D16-Pad2)">
+      <node ref="D16" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="90" name="Net-(D21-Pad1)">
+      <node ref="D21" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R38" pin="1" pintype="passive"/>
+    </net>
+    <net code="91" name="Net-(D23-Pad1)">
+      <node ref="D23" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R57" pin="1" pintype="passive"/>
+    </net>
+    <net code="92" name="Net-(D24-Pad1)">
+      <node ref="D24" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R56" pin="1" pintype="passive"/>
+    </net>
+    <net code="93" name="Net-(D25-Pad1)">
+      <node ref="D25" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R55" pin="1" pintype="passive"/>
+    </net>
+    <net code="94" name="Net-(D26-Pad1)">
+      <node ref="D26" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R54" pin="1" pintype="passive"/>
+    </net>
+    <net code="95" name="Net-(D27-Pad1)">
+      <node ref="D27" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R53" pin="1" pintype="passive"/>
+    </net>
+    <net code="96" name="Net-(D28-Pad1)">
+      <node ref="D28" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R52" pin="1" pintype="passive"/>
+    </net>
+    <net code="97" name="Net-(D29-Pad1)">
+      <node ref="D29" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R51" pin="1" pintype="passive"/>
+    </net>
+    <net code="98" name="Net-(D30-Pad1)">
+      <node ref="D30" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R50" pin="1" pintype="passive"/>
+    </net>
+    <net code="99" name="Net-(D31-Pad1)">
+      <node ref="D31" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R49" pin="1" pintype="passive"/>
+    </net>
+    <net code="100" name="Net-(D40-Pad2)">
+      <node ref="D40" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q1" pin="4" pinfunction="G" pintype="input"/>
+      <node ref="R36" pin="2" pintype="passive"/>
+      <node ref="R37" pin="1" pintype="passive"/>
+    </net>
+    <net code="101" name="unconnected-(U1-Pad28)">
+      <node ref="U1" pin="28" pinfunction="P36/ADC1_SE5b" pintype="input+no_connect"/>
+    </net>
+    <net code="102" name="unconnected-(U1-Pad32)">
+      <node ref="U1" pin="32" pinfunction="A21" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="103" name="unconnected-(U1-Pad35)">
+      <node ref="U1" pin="35" pinfunction="P13/LED" pintype="output+no_connect"/>
+    </net>
+    <net code="104" name="unconnected-(U2-Pad5)">
+      <node ref="U2" pin="5" pinfunction="PWRGD" pintype="open_collector"/>
+    </net>
+  </nets>
+</export>

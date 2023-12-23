@@ -1,0 +1,79 @@
+Source:,/home/scott/Documents/Projects/FRC/ButtonBoard2/ButtonBd2/ButtonBd2.kicad_sch,,,,,,,
+Date:,Sun 18 Dec 2022 03:10:28 PM PST,,,,,,,
+Tool:,Eeschema 6.0.7-f9a2dced07~116~ubuntu20.04.1,,,,,,,
+Generator:,/usr/share/kicad/plugins/bom_csv_grouped_by_value.py,,,,,,,
+Component Count:,161,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,MFG,MFG P/N
+1,11,"C1, C2, C3, C4, C5, C16, C17, C18, C19, C20, C25",0.1uF-10%-50V-0603,Device:C,Capacitor_SMD:C_0603_1608Metric,~,Samsung Electro-Mechanics,CL10B104KB8NNNC
+2,20,"C6, C7, C8, C9, C10, C11, C12, C13, C14, C15, C24, C26, C27, C28, C29, C30, C31, C32, C33, C34",1nF-50V-10%-0603,Device:C,Capacitor_SMD:C_0603_1608Metric,~,Samsung Electro-Mechanics,CL10B102KB8NNNC
+3,1,C21,22uF-10V-10%-0805,Device:C,Capacitor_SMD:C_0805_2012Metric,~,Samsung Electro-Mechanics,CL21A226KPCLRNC
+4,1,C22,3.3nF-50V-10%-0603,Device:C,Capacitor_SMD:C_0603_1608Metric,~,Samsung Electro-Mechanics,CL10B332KB8NNNC
+5,1,C23,1uF-25V-10%-0805,Device:C,Capacitor_SMD:C_0805_2012Metric,~,Samsung Electro-Mechanics,CL21B105KAFNNNE
+6,1,D1,BTN0,Device:LED,LED_SMD:LED_0603_1608Metric,https://www.we-online.com/katalog/datasheet/150060YS75000.pdf,Wurth Electronik,150060YS75000
+7,1,D2,BTN1,Device:LED,LED_SMD:LED_0603_1608Metric,https://www.we-online.com/katalog/datasheet/150060YS75000.pdf,Wurth Electronik,150060YS75000
+8,1,D3,BTN2,Device:LED,LED_SMD:LED_0603_1608Metric,https://www.we-online.com/katalog/datasheet/150060YS75000.pdf,Wurth Electronik,150060YS75000
+9,1,D4,BTN3,Device:LED,LED_SMD:LED_0603_1608Metric,https://www.we-online.com/katalog/datasheet/150060YS75000.pdf,Wurth Electronik,150060YS75000
+10,1,D5,BTN4,Device:LED,LED_SMD:LED_0603_1608Metric,https://www.we-online.com/katalog/datasheet/150060YS75000.pdf,Wurth Electronik,150060YS75000
+11,1,D6,BTN5,Device:LED,LED_SMD:LED_0603_1608Metric,https://www.we-online.com/katalog/datasheet/150060YS75000.pdf,Wurth Electronik,150060YS75000
+12,1,D7,BTN6,Device:LED,LED_SMD:LED_0603_1608Metric,https://www.we-online.com/katalog/datasheet/150060YS75000.pdf,Wurth Electronik,150060YS75000
+13,1,D8,BTN7,Device:LED,LED_SMD:LED_0603_1608Metric,https://www.we-online.com/katalog/datasheet/150060YS75000.pdf,Wurth Electronik,150060YS75000
+14,1,D9,BTN8,Device:LED,LED_SMD:LED_0603_1608Metric,https://www.we-online.com/katalog/datasheet/150060YS75000.pdf,Wurth Electronik,150060YS75000
+15,1,D10,BTN9,Device:LED,LED_SMD:LED_0603_1608Metric,https://www.we-online.com/katalog/datasheet/150060YS75000.pdf,Wurth Electronik,150060YS75000
+16,1,D11,0R,Device:LED,LED_SMD:LED_0603_1608Metric,http://www.stanley-components.com/php/downloaddatafile.php?rp=h1111c_e.pdf,Stanley Electric,BR1111C-TR
+17,1,D12,0Y,Device:LED,LED_SMD:LED_0603_1608Metric,https://www.we-online.com/katalog/datasheet/150060YS75000.pdf,Wurth Electronik,150060YS75000
+18,1,D13,0G,Device:LED,LED_SMD:LED_0603_1608Metric,https://www.we-online.com/katalog/datasheet/150060YS75000.pdf,Wurth Electronik,150060GS75000
+19,1,D14,1R,Device:LED,LED_SMD:LED_0603_1608Metric,http://www.stanley-components.com/php/downloaddatafile.php?rp=h1111c_e.pdf,Stanley Electric,BR1111C-TR
+20,1,D15,1Y,Device:LED,LED_SMD:LED_0603_1608Metric,https://www.we-online.com/katalog/datasheet/150060YS75000.pdf,Wurth Electronik,150060YS75000
+21,1,D16,1G,Device:LED,LED_SMD:LED_0603_1608Metric,https://www.we-online.com/katalog/datasheet/150060YS75000.pdf,Wurth Electronik,150060GS75000
+22,10,"D17, D18, D19, D20, D32, D33, D34, D38, D39, D41",BAV99,Diode:BAV99,Package_TO_SOT_SMD:SOT-23,https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf,Nexperia USA Inc.,"BAV99,235"
+23,1,D21,BTN10,Device:LED,LED_SMD:LED_0603_1608Metric,https://www.we-online.com/katalog/datasheet/150060YS75000.pdf,Wurth Electronik,150060YS75000
+24,1,D22,PESD1CAN,PI-Power-Board:PESD1CAN,Package_TO_SOT_SMD:SOT-23,https://assets.nexperia.com/documents/data-sheet/PESD1CAN.pdf,Nexperia,"PESD1CAN,215"
+25,1,D23,BTN19,Device:LED,LED_SMD:LED_0603_1608Metric,https://www.we-online.com/katalog/datasheet/150060YS75000.pdf,Wurth Electronik,150060YS75000
+26,1,D24,BTN18,Device:LED,LED_SMD:LED_0603_1608Metric,https://www.we-online.com/katalog/datasheet/150060YS75000.pdf,Wurth Electronik,150060YS75000
+27,1,D25,BTN17,Device:LED,LED_SMD:LED_0603_1608Metric,https://www.we-online.com/katalog/datasheet/150060YS75000.pdf,Wurth Electronik,150060YS75000
+28,1,D26,BTN16,Device:LED,LED_SMD:LED_0603_1608Metric,https://www.we-online.com/katalog/datasheet/150060YS75000.pdf,Wurth Electronik,150060YS75000
+29,1,D27,BTN15,Device:LED,LED_SMD:LED_0603_1608Metric,https://www.we-online.com/katalog/datasheet/150060YS75000.pdf,Wurth Electronik,150060YS75000
+30,1,D28,BTN14,Device:LED,LED_SMD:LED_0603_1608Metric,https://www.we-online.com/katalog/datasheet/150060YS75000.pdf,Wurth Electronik,150060YS75000
+31,1,D29,BTN13,Device:LED,LED_SMD:LED_0603_1608Metric,https://www.we-online.com/katalog/datasheet/150060YS75000.pdf,Wurth Electronik,150060YS75000
+32,1,D30,BTN12,Device:LED,LED_SMD:LED_0603_1608Metric,https://www.we-online.com/katalog/datasheet/150060YS75000.pdf,Wurth Electronik,150060YS75000
+33,1,D31,BTN11,Device:LED,LED_SMD:LED_0603_1608Metric,https://www.we-online.com/katalog/datasheet/150060YS75000.pdf,Wurth Electronik,150060YS75000
+34,3,"D35, D36, D37",NSR05T40XV2T5G,Device:D_Schottky,Diode_SMD:D_SOD-523,~,onsemi,NSR05T40XV2T5G
+35,1,D40,15V,Device:D_Zener,Diode_SMD:D_SOD-123F,~,Nexperia,"BZT52H-C15,115"
+36,1,J1,B0,Connector:Conn_01x02_Male,ButtonBd2:70543-0001,https://www.molex.com/pdm_docs/sd/705430001_sd.pdf,Molex,70541-0001
+37,1,J2,B1,Connector:Conn_01x02_Male,ButtonBd2:70543-0001,https://www.molex.com/pdm_docs/sd/705430001_sd.pdf,Molex,70541-0001
+38,1,J3,B2,Connector:Conn_01x02_Male,ButtonBd2:70543-0001,https://www.molex.com/pdm_docs/sd/705430001_sd.pdf,Molex,70541-0001
+39,1,J4,B3,Connector:Conn_01x02_Male,ButtonBd2:70543-0001,https://www.molex.com/pdm_docs/sd/705430001_sd.pdf,Molex,70541-0001
+40,1,J5,B4,Connector:Conn_01x02_Male,ButtonBd2:70543-0001,https://www.molex.com/pdm_docs/sd/705430001_sd.pdf,Molex,70541-0001
+41,1,J6,B5,Connector:Conn_01x02_Male,ButtonBd2:70543-0001,https://www.molex.com/pdm_docs/sd/705430001_sd.pdf,Molex,70541-0001
+42,1,J7,B6,Connector:Conn_01x02_Male,ButtonBd2:70543-0001,https://www.molex.com/pdm_docs/sd/705430001_sd.pdf,Molex,70541-0001
+43,1,J8,B7,Connector:Conn_01x02_Male,ButtonBd2:70543-0001,https://www.molex.com/pdm_docs/sd/705430001_sd.pdf,Molex,70541-0001
+44,1,J9,B8,Connector:Conn_01x02_Male,ButtonBd2:70543-0001,https://www.molex.com/pdm_docs/sd/705430001_sd.pdf,Molex,70541-0001
+45,1,J10,B9,Connector:Conn_01x02_Male,ButtonBd2:70543-0001,https://www.molex.com/pdm_docs/sd/705430001_sd.pdf,Molex,70541-0001
+46,1,J11,POWER,Connector:Conn_01x02_Male,ButtonBd2:70543-0001,https://www.molex.com/pdm_docs/sd/705430001_sd.pdf,Molex,70541-0001
+47,1,J12,ENC1,Connector:Conn_01x06_Male,ButtonBd2:70543-0005,https://www.molex.com/pdm_docs/sd/705430001_sd.pdf,Molex,70541-0005
+48,1,J13,ANALOG,Connector:Conn_01x08_Male,ButtonBd2:70543-0007,https://www.molex.com/pdm_docs/sd/705430001_sd.pdf,Molex,70541-0007
+49,1,J14,ENC0,Connector:Conn_01x06_Male,ButtonBd2:70543-0005,https://www.molex.com/pdm_docs/sd/705430001_sd.pdf,Molex,70541-0005
+50,1,J15,B10,Connector:Conn_01x02_Male,ButtonBd2:70543-0001,https://www.molex.com/pdm_docs/sd/705430001_sd.pdf,Molex,70541-0001
+51,1,J16,CAN,Connector:Conn_01x04_Male,ButtonBd2:70543-0003,https://www.molex.com/pdm_docs/sd/705430001_sd.pdf,Molex,70541-0003
+52,1,J17,B19,Connector:Conn_01x02_Male,ButtonBd2:70543-0001,https://www.molex.com/pdm_docs/sd/705430001_sd.pdf,Molex,70541-0001
+53,1,J18,B18,Connector:Conn_01x02_Male,ButtonBd2:70543-0001,https://www.molex.com/pdm_docs/sd/705430001_sd.pdf,Molex,70541-0001
+54,1,J19,B17,Connector:Conn_01x02_Male,ButtonBd2:70543-0001,https://www.molex.com/pdm_docs/sd/705430001_sd.pdf,Molex,70541-0001
+55,1,J20,B16,Connector:Conn_01x02_Male,ButtonBd2:70543-0001,https://www.molex.com/pdm_docs/sd/705430001_sd.pdf,Molex,70541-0001
+56,1,J21,B15,Connector:Conn_01x02_Male,ButtonBd2:70543-0001,https://www.molex.com/pdm_docs/sd/705430001_sd.pdf,Molex,70541-0001
+57,1,J22,B14,Connector:Conn_01x02_Male,ButtonBd2:70543-0001,https://www.molex.com/pdm_docs/sd/705430001_sd.pdf,Molex,70541-0001
+58,1,J23,B13,Connector:Conn_01x02_Male,ButtonBd2:70543-0001,https://www.molex.com/pdm_docs/sd/705430001_sd.pdf,Molex,70541-0001
+59,1,J24,B12,Connector:Conn_01x02_Male,ButtonBd2:70543-0001,https://www.molex.com/pdm_docs/sd/705430001_sd.pdf,Molex,70541-0001
+60,1,J25,B11,Connector:Conn_01x02_Male,ButtonBd2:70543-0001,https://www.molex.com/pdm_docs/sd/705430001_sd.pdf,Molex,70541-0001
+61,1,Q1,SI4483ADY-T1-GE3,Device:Q_PMOS_SGD,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,https://www.vishay.com/docs/68982/si4483ad.pdf,Vishay,SI4483ADY-T1-GE3
+62,7,"R1, R2, R3, R4, R5, R6, R36",1.00k-1%-0603,Device:R_US,Resistor_SMD:R_0603_1608Metric,~,Stackpole Electronics Inc,RNCP0603FTD1K00
+63,2,"R7, R34",100k-1%-0603,Device:R_US,Resistor_SMD:R_0603_1608Metric,~,YAGEO,RC0603FR-07100KL
+64,1,R8,120R-1%-0805,Device:R_US,Resistor_SMD:R_0805_2012Metric,~,Stackpole Electronics Inc,RMCF0805FT120R
+65,20,"R9, R10, R11, R12, R13, R14, R15, R16, R17, R18, R38, R49, R50, R51, R52, R53, R54, R55, R56, R57",3.0k-1%-0603,Device:R_US,Resistor_SMD:R_0603_1608Metric,~,YAGEO,RC0603FR-073KL
+66,21,"R19, R20, R21, R22, R23, R24, R25, R26, R27, R28, R29, R39, R40, R41, R42, R43, R44, R45, R46, R47, R48",4.99k-1%-0603,Device:R_US,Resistor_SMD:R_0603_1608Metric,~,Stackpole Electronics Inc,RMCF0603FT4R99
+67,4,"R30, R31, R33, R35",10.0k-1%-0603,Device:R_US,Resistor_SMD:R_0603_1608Metric,~,YAGEO,RC0603FR-0710KL
+68,2,"R32, R37",20.0k-1%-0603,Device:R_US,Resistor_SMD:R_0603_1608Metric,~,YAGEO,RC0603FR-0720KL
+69,1,U1,Teensy3.5,ButtonBd2:Teensy3.5,ButtonBd2:Teensy-DIP-49_W15.24mm_Socket,https://www.pjrc.com/store/teensy35.html#tech,PJRC,TEENSY 3.5
+70,1,U2,MCP1727-3302E/SN,Regulator_Linear:MCP1727-3302xSN,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,https://ww1.microchip.com/downloads/aemtest/APID/ProductDocuments/DataSheets/MCP1727-1.5A-Low-Voltage-Low-Quiescent-Current-LDO-Regulator-20001999D.pdf,Microchip,MCP1727-3302E/SN
+71,1,U3,MCP2542FD-E/SN,Interface_CAN_LIN:MCP2542FDxMF,Package_SO:SO-8_3.9x4.9mm_P1.27mm,http://ww1.microchip.com/downloads/en/DeviceDoc/MCP2542FD-4FD-MCP2542WFD-4WFD-Data-Sheet20005514B.pdf,Microchip,MCP2542FD-E/SN
