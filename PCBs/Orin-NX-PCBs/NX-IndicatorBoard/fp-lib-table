@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "NX-IndicatorBoard")(type "KiCad")(uri "${KIPRJMOD}/NX-IndicatorBoard.pretty")(options "")(descr ""))
+)

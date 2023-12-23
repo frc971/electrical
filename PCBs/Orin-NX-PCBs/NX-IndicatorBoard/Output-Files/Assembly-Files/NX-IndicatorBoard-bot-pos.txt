@@ -1,0 +1,26 @@
+### Footprint positions - created on Fri 22 Dec 2023 09:08:27 PM PST ###
+### Printed by KiCad version 7.0.9-7.0.9~ubuntu22.04.1
+## Unit = inches, Angle = deg.
+## Side : bottom
+# Ref     Val           Package                 PosX       PosY       Rot  Side
+D10       PESD1CAN      SOT-23                5.6500    -4.6550  -90.0000  bottom
+Q13       BSS138W       SOT-323_SC-70         5.8556    -3.5894  180.0000  bottom
+Q14       BSS138W       SOT-323_SC-70         5.8550    -3.7150  180.0000  bottom
+R13       10k-1%-0603   R_0603_1608Metric     5.9606    -3.5894   90.0000  bottom
+R14       10k-1%-0603   R_0603_1608Metric     5.9600    -3.7150   90.0000  bottom
+R15       499R-1%-0603  R_0603_1608Metric     4.9050    -4.2750  -90.0000  bottom
+R16       499R-1%-0603  R_0603_1608Metric     4.8350    -4.2750  -90.0000  bottom
+R17       499R-1%-0603  R_0603_1608Metric     4.6050    -4.2750  -90.0000  bottom
+R18       499R-1%-0603  R_0603_1608Metric     4.5350    -4.2750  -90.0000  bottom
+R19       499R-1%-0603  R_0603_1608Metric     4.2800    -4.2700  -90.0000  bottom
+R20       499R-1%-0603  R_0603_1608Metric     4.9050    -4.5050  -90.0000  bottom
+R21       499R-1%-0603  R_0603_1608Metric     4.8350    -4.5050  -90.0000  bottom
+R22       499R-1%-0603  R_0603_1608Metric     4.6050    -4.5050  -90.0000  bottom
+R23       499R-1%-0603  R_0603_1608Metric     4.5350    -4.5050  -90.0000  bottom
+R24       499R-1%-0603  R_0603_1608Metric     4.9000    -4.7450  -90.0000  bottom
+R25       499R-1%-0603  R_0603_1608Metric     4.8300    -4.7450  -90.0000  bottom
+R26       499R-1%-0603  R_0603_1608Metric     4.6050    -4.7450  -90.0000  bottom
+R27       499R-1%-0603  R_0603_1608Metric     4.5350    -4.7450  -90.0000  bottom
+R28       499R-1%-0603  R_0603_1608Metric     4.2950    -4.7450  -90.0000  bottom
+R29       499R-1%-0603  R_0603_1608Metric     4.2200    -4.7450  -90.0000  bottom
+## End

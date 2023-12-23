@@ -1,0 +1,53 @@
+### Footprint positions - created on Fri 22 Dec 2023 09:08:27 PM PST ###
+### Printed by KiCad version 7.0.9-7.0.9~ubuntu22.04.1
+## Unit = inches, Angle = deg.
+## Side : top
+# Ref     Val                  Package                        PosX       PosY       Rot  Side
+C1        0.1uF-10%-50V-0603   C_0603_1608Metric            5.9900    -4.5150    0.0000  top
+C2        0.1uF-10%-50V-0603   C_0603_1608Metric            6.1800    -4.8000    0.0000  top
+D1        PWR                  LED_SunLED_XZMDKVG55W-8      4.2600    -4.2660   90.0000  top
+D2        CAN0                 LED_SunLED_XZMDKVG55W-8      4.5600    -4.2660   90.0000  top
+D3        ETH                  LED_SunLED_XZMDKVG55W-8      4.8600    -4.2660   90.0000  top
+D4        PC                   LED_SunLED_XZMDKVG55W-8      4.2600    -4.5040   90.0000  top
+D5        CAN1                 LED_SunLED_XZMDKVG55W-8      4.5600    -4.5040   90.0000  top
+D6        HD                   LED_SunLED_XZMDKVG55W-8      4.8600    -4.5040   90.0000  top
+D7        USR                  LED_SunLED_XZMDKVG55W-8      4.2600    -4.7420   90.0000  top
+D8        CAN2                 LED_SunLED_XZMDKVG55W-8      4.5600    -4.7420   90.0000  top
+D9        CPU                  LED_SunLED_XZMDKVG55W-8      4.8600    -4.7420   90.0000  top
+J1        CAN-NX               70543-0003                   5.7300    -4.0400   90.0000  top
+J2        NX_Expansion         M20-782045                   6.2205    -4.0996   90.0000  top
+J3        NX-BUTTON            70541-0006                   2.9194    -4.1400  180.0000  top
+J4        CONSOLE              70555-0002                   3.8000    -4.5100  -90.0000  top
+J5        CAN-PT-NX            70555-0001                   5.2500    -4.5100  -90.0000  top
+J6        CAN-NX               70555-0001                   5.6500    -4.5100  -90.0000  top
+LP1       Lumex-3x-Light-Pipe  LUMEX-LPF-C013301S           4.2600    -4.5300   90.0000  top
+LP2       Lumex-3x-Light-Pipe  LUMEX-LPF-C013301S           4.5600    -4.5300   90.0000  top
+LP3       Lumex-3x-Light-Pipe  LUMEX-LPF-C013301S           4.8600    -4.5300   90.0000  top
+Q1        BSS138W              SOT-323_SC-70                5.8556    -2.3394  180.0000  top
+Q2        BSS138W              SOT-323_SC-70                5.8550    -2.4650  180.0000  top
+Q3        BSS138W              SOT-323_SC-70                5.8550    -2.5900  180.0000  top
+Q4        BSS138W              SOT-323_SC-70                5.8550    -2.7150  180.0000  top
+Q5        BSS138W              SOT-323_SC-70                5.8550    -2.8400  180.0000  top
+Q6        BSS138W              SOT-323_SC-70                5.8550    -2.9650  180.0000  top
+Q7        BSS138W              SOT-323_SC-70                5.8550    -3.0900  180.0000  top
+Q8        BSS138W              SOT-323_SC-70                5.8550    -3.2150  180.0000  top
+Q9        BSS138W              SOT-323_SC-70                5.8550    -3.3400  180.0000  top
+Q10       BSS138W              SOT-323_SC-70                5.8550    -3.4650  180.0000  top
+Q11       BSS138W              SOT-323_SC-70                5.8550    -3.5900  180.0000  top
+Q12       BSS138W              SOT-323_SC-70                5.8550    -3.7150  180.0000  top
+R1        10k-1%-0603          R_0603_1608Metric            5.9600    -2.3400  -90.0000  top
+R2        10k-1%-0603          R_0603_1608Metric            5.9600    -2.4650  -90.0000  top
+R3        10k-1%-0603          R_0603_1608Metric            5.9600    -2.5900  -90.0000  top
+R4        10k-1%-0603          R_0603_1608Metric            5.9600    -2.7150  -90.0000  top
+R5        10k-1%-0603          R_0603_1608Metric            5.9600    -2.8400  -90.0000  top
+R6        10k-1%-0603          R_0603_1608Metric            5.9600    -2.9650  -90.0000  top
+R7        10k-1%-0603          R_0603_1608Metric            5.9600    -3.0900  -90.0000  top
+R8        10k-1%-0603          R_0603_1608Metric            5.9600    -3.2150  -90.0000  top
+R9        10k-1%-0603          R_0603_1608Metric            5.9600    -3.3400  -90.0000  top
+R10       10k-1%-0603          R_0603_1608Metric            5.9600    -3.4653  -90.0000  top
+R11       10k-1%-0603          R_0603_1608Metric            5.9600    -3.5900  -90.0000  top
+R12       10k-1%-0603          R_0603_1608Metric            5.9600    -3.7150  -90.0000  top
+SW1       RESET                SW_TL1105VF100Q_EWI          2.7314    -4.8492    0.0000  top
+SW2       RECOVERY             SW_TL1105VF100Q_EWI          3.1514    -4.8492    0.0000  top
+U1        MCP2542FDT-E/SN      SOIC-8_3.9x4.9mm_P1.27mm     6.0800    -4.6575  180.0000  top
+## End
