@@ -6,8 +6,8 @@
 
   (title_block
     (title "IMU-2X")
-    (date "2023-08-12")
-    (rev "1")
+    (date "2023-11-19")
+    (rev "2")
     (company "FRC971 - Spartan Robotics")
   )
 
@@ -1407,7 +1407,7 @@
       )
       (project "IMU-2X"
         (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6/dfddfc9c-e803-47e7-ad6c-6304a5151d35"
-          (reference "C36") (unit 1)
+          (reference "C37") (unit 1)
         )
       )
       (project "NX-J401-Adapter"
@@ -1421,7 +1421,7 @@
   (symbol (lib_id "IMU-2X:LMR54410FDBVR") (at 219.71 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1b13ee3e-a2a4-40fe-94cc-514bbdfec409)
-    (property "Reference" "U8" (at 226.06 53.34 0)
+    (property "Reference" "U7" (at 226.06 53.34 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LMR54410FDBVR" (at 226.06 55.88 0)
@@ -1454,7 +1454,7 @@
     (instances
       (project "IMU-2X"
         (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6/dfddfc9c-e803-47e7-ad6c-6304a5151d35"
-          (reference "U8") (unit 1)
+          (reference "U7") (unit 1)
         )
       )
     )
@@ -1694,7 +1694,7 @@
       )
       (project "IMU-2X"
         (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6/dfddfc9c-e803-47e7-ad6c-6304a5151d35"
-          (reference "R15") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
       (project "NX-J401-Adapter"
