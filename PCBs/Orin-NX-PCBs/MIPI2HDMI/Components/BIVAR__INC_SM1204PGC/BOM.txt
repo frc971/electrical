@@ -1,0 +1,4 @@
+3DX_BIVAR__INC_Supplier: Bivar, Inc.
+3DX_BIVAR__INC_Manufacturer: Bivar,Inc.
+3DX_BIVAR__INC_Part Number: SM1204PGC
+3DX_BIVAR__INC_Description: Range of industry standard packages and options for use with Bivar Light Pipes. Supplied on tape and reel.

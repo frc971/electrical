@@ -1,0 +1,10 @@
+### Footprint positions - created on 2023 November 23, Thursday 16:05:53 ###
+### Printed by KiCad version 7.0.7
+## Unit = inches, Angle = deg.
+## Side : top
+# Ref     Val        Package                                           PosX       PosY       Rot  Side
+D2        LED        SM1204PGC                                       3.7961    -3.4224  -90.0000  top
+J1        HDMI       HDMI_A_Molex_208658-1001_Horizontal             4.4803    -3.0356   90.0000  top
+J2        1-84953-5  TE_1-84953-5_1x15-1MP_P1.0mm_Horizontal         4.4803    -3.6929    0.0000  top
+R2        60         R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     3.8992    -3.4185  -90.0000  top
+## End
