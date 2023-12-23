@@ -1,0 +1,10 @@
+### Footprint positions - created on 2023 November 23, Thursday 16:05:54 ###
+### Printed by KiCad version 7.0.7
+## Unit = inches, Angle = deg.
+## Side : bottom
+# Ref     Val       Package                                           PosX       PosY       Rot  Side
+D1        LED       SM1204PGC                                       4.4750    -2.8512    0.0000  bottom
+D3        LED       SM1204PGC                                       4.4719    -3.9217  180.0000  bottom
+R1        60        R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     4.4715    -2.9469    0.0000  bottom
+R3        60        R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     4.4754    -3.8311  180.0000  bottom
+## End
