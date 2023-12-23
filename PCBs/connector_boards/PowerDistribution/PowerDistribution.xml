@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/alex/Documents/FRC971/PowerDistribution/PowerDistribution.kicad_sch</source>
+    <date>2023 November 23, Thursday 15:17:25</date>
+    <tool>Eeschema 7.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Power Distribution </title>
+        <company>Spartan Robotics FRC971</company>
+        <rev>R1</rev>
+        <date>2023-10-29</date>
+        <source>PowerDistribution.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>QTLP651C4TR</value>
+      <footprint>LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/402/QTLP651C-2,3,4,7,B.pdf</datasheet>
+      <fields>
+        <field name="DIST">DIGIKEY</field>
+        <field name="DIST P/N">QTLP651C4TR</field>
+        <field name="LINK">https://www.digikey.com/en/products/detail/everlight-electronics-co-ltd/QTLP651C4TR/2691391</field>
+        <field name="MFG">Everlight Electronics Co Ltd</field>
+        <field name="MFG P/N">QTLP651C4TR</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MFG" value="Everlight Electronics Co Ltd"/>
+      <property name="MFG P/N" value="QTLP651C4TR"/>
+      <property name="DIST" value="DIGIKEY"/>
+      <property name="DIST P/N" value="QTLP651C4TR"/>
+      <property name="LINK" value="https://www.digikey.com/en/products/detail/everlight-electronics-co-ltd/QTLP651C4TR/2691391"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistribution.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>13d62994-82a1-4ad5-8126-2768d8f67d78</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>QTLP651C4TR</value>
+      <footprint>LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/402/QTLP651C-2,3,4,7,B.pdf</datasheet>
+      <fields>
+        <field name="DIST">DIGIKEY</field>
+        <field name="DIST P/N">QTLP651C4TR</field>
+        <field name="LINK">https://www.digikey.com/en/products/detail/everlight-electronics-co-ltd/QTLP651C4TR/2691391</field>
+        <field name="MFG">Everlight Electronics Co Ltd</field>
+        <field name="MFG P/N">QTLP651C4TR</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MFG" value="Everlight Electronics Co Ltd"/>
+      <property name="MFG P/N" value="QTLP651C4TR"/>
+      <property name="DIST" value="DIGIKEY"/>
+      <property name="DIST P/N" value="QTLP651C4TR"/>
+      <property name="LINK" value="https://www.digikey.com/en/products/detail/everlight-electronics-co-ltd/QTLP651C4TR/2691391"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistribution.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4331739c-8ac1-42cd-9fe1-da71d48da38b</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>QTLP651C4TR</value>
+      <footprint>LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/402/QTLP651C-2,3,4,7,B.pdf</datasheet>
+      <fields>
+        <field name="DIST">DIGIKEY</field>
+        <field name="DIST P/N">QTLP651C4TR</field>
+        <field name="LINK">https://www.digikey.com/en/products/detail/everlight-electronics-co-ltd/QTLP651C4TR/2691391</field>
+        <field name="MFG">Everlight Electronics Co Ltd</field>
+        <field name="MFG P/N">QTLP651C4TR</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MFG" value="Everlight Electronics Co Ltd"/>
+      <property name="MFG P/N" value="QTLP651C4TR"/>
+      <property name="DIST" value="DIGIKEY"/>
+      <property name="DIST P/N" value="QTLP651C4TR"/>
+      <property name="LINK" value="https://www.digikey.com/en/products/detail/everlight-electronics-co-ltd/QTLP651C4TR/2691391"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistribution.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d2177f20-43a8-4987-8105-6b8776a19d62</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>QTLP651C4TR</value>
+      <footprint>LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/402/QTLP651C-2,3,4,7,B.pdf</datasheet>
+      <fields>
+        <field name="DIST">DIGIKEY</field>
+        <field name="DIST P/N">QTLP651C4TR</field>
+        <field name="LINK">https://www.digikey.com/en/products/detail/everlight-electronics-co-ltd/QTLP651C4TR/2691391</field>
+        <field name="MFG">Everlight Electronics Co Ltd</field>
+        <field name="MFG P/N">QTLP651C4TR</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MFG" value="Everlight Electronics Co Ltd"/>
+      <property name="MFG P/N" value="QTLP651C4TR"/>
+      <property name="DIST" value="DIGIKEY"/>
+      <property name="DIST P/N" value="QTLP651C4TR"/>
+      <property name="LINK" value="https://www.digikey.com/en/products/detail/everlight-electronics-co-ltd/QTLP651C4TR/2691391"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistribution.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c569db02-0c6b-4ad4-808a-5b3234c9f625</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>QTLP651C4TR</value>
+      <footprint>LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/402/QTLP651C-2,3,4,7,B.pdf</datasheet>
+      <fields>
+        <field name="DIST">DIGIKEY</field>
+        <field name="DIST P/N">QTLP651C4TR</field>
+        <field name="LINK">https://www.digikey.com/en/products/detail/everlight-electronics-co-ltd/QTLP651C4TR/2691391</field>
+        <field name="MFG">Everlight Electronics Co Ltd</field>
+        <field name="MFG P/N">QTLP651C4TR</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MFG" value="Everlight Electronics Co Ltd"/>
+      <property name="MFG P/N" value="QTLP651C4TR"/>
+      <property name="DIST" value="DIGIKEY"/>
+      <property name="DIST P/N" value="QTLP651C4TR"/>
+      <property name="LINK" value="https://www.digikey.com/en/products/detail/everlight-electronics-co-ltd/QTLP651C4TR/2691391"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistribution.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cf52c079-83c2-4ba2-ab52-295f757e57b9</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>PolyFuse</value>
+      <footprint>3568:FUSE_3568</footprint>
+      <datasheet>https://www.keyelco.com/userAssets/file/M65p42.pdf</datasheet>
+      <fields>
+        <field name="DIST">DIGIKEY</field>
+        <field name="DIST P/N">36-3568-ND</field>
+        <field name="LINK">https://www.digikey.com/en/products/detail/keystone-electronics/3568/2137306</field>
+        <field name="MFG">Keystone Electronics</field>
+        <field name="MFG P/N">3568</field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="MFG" value="Keystone Electronics"/>
+      <property name="MFG P/N" value="3568"/>
+      <property name="DIST" value="DIGIKEY"/>
+      <property name="DIST P/N" value="36-3568-ND"/>
+      <property name="LINK" value="https://www.digikey.com/en/products/detail/keystone-electronics/3568/2137306"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistribution.kicad_sch"/>
+      <property name="ki_description" value="Fuse"/>
+      <property name="ki_keywords" value="fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>84fb217f-6212-48bf-a339-f4e81dd2954a</tstamps>
+    </comp>
+    <comp ref="F2">
+      <value>PolyFuse</value>
+      <footprint>3568:FUSE_3568</footprint>
+      <datasheet>https://www.keyelco.com/userAssets/file/M65p42.pdf</datasheet>
+      <fields>
+        <field name="DIST">DIGIKEY</field>
+        <field name="DIST P/N">36-3568-ND</field>
+        <field name="LINK">https://www.digikey.com/en/products/detail/keystone-electronics/3568/2137306</field>
+        <field name="MFG">Keystone Electronics</field>
+        <field name="MFG P/N">3568</field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="MFG" value="Keystone Electronics"/>
+      <property name="MFG P/N" value="3568"/>
+      <property name="DIST" value="DIGIKEY"/>
+      <property name="DIST P/N" value="36-3568-ND"/>
+      <property name="LINK" value="https://www.digikey.com/en/products/detail/keystone-electronics/3568/2137306"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistribution.kicad_sch"/>
+      <property name="ki_description" value="Fuse"/>
+      <property name="ki_keywords" value="fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2830efe5-6ab9-41d5-8ce5-43691f6c62cb</tstamps>
+    </comp>
+    <comp ref="F3">
+      <value>PolyFuse</value>
+      <footprint>3568:FUSE_3568</footprint>
+      <datasheet>https://www.keyelco.com/userAssets/file/M65p42.pdf</datasheet>
+      <fields>
+        <field name="DIST">DIGIKEY</field>
+        <field name="DIST P/N">36-3568-ND</field>
+        <field name="LINK">https://www.digikey.com/en/products/detail/keystone-electronics/3568/2137306</field>
+        <field name="MFG">Keystone Electronics</field>
+        <field name="MFG P/N">3568</field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="MFG" value="Keystone Electronics"/>
+      <property name="MFG P/N" value="3568"/>
+      <property name="DIST" value="DIGIKEY"/>
+      <property name="DIST P/N" value="36-3568-ND"/>
+      <property name="LINK" value="https://www.digikey.com/en/products/detail/keystone-electronics/3568/2137306"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistribution.kicad_sch"/>
+      <property name="ki_description" value="Fuse"/>
+      <property name="ki_keywords" value="fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>308ebcd7-744f-4abb-a2a7-48ed3fc0039a</tstamps>
+    </comp>
+    <comp ref="F4">
+      <value>PolyFuse</value>
+      <footprint>3568:FUSE_3568</footprint>
+      <datasheet>https://www.keyelco.com/userAssets/file/M65p42.pdf</datasheet>
+      <fields>
+        <field name="DIST">DIGIKEY</field>
+        <field name="DIST P/N">36-3568-ND</field>
+        <field name="LINK">https://www.digikey.com/en/products/detail/keystone-electronics/3568/2137306</field>
+        <field name="MFG">Keystone Electronics</field>
+        <field name="MFG P/N">3568</field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="MFG" value="Keystone Electronics"/>
+      <property name="MFG P/N" value="3568"/>
+      <property name="DIST" value="DIGIKEY"/>
+      <property name="DIST P/N" value="36-3568-ND"/>
+      <property name="LINK" value="https://www.digikey.com/en/products/detail/keystone-electronics/3568/2137306"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistribution.kicad_sch"/>
+      <property name="ki_description" value="Fuse"/>
+      <property name="ki_keywords" value="fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>885cff38-8a9c-4f7c-8c4c-b47b57f2951a</tstamps>
+    </comp>
+    <comp ref="F5">
+      <value>PolyFuse</value>
+      <footprint>3568:FUSE_3568</footprint>
+      <datasheet>https://www.keyelco.com/userAssets/file/M65p42.pdf</datasheet>
+      <fields>
+        <field name="DIST">DIGIKEY</field>
+        <field name="DIST P/N">36-3568-ND</field>
+        <field name="LINK">https://www.digikey.com/en/products/detail/keystone-electronics/3568/2137306</field>
+        <field name="MFG">Keystone Electronics</field>
+        <field name="MFG P/N">3568</field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="MFG" value="Keystone Electronics"/>
+      <property name="MFG P/N" value="3568"/>
+      <property name="DIST" value="DIGIKEY"/>
+      <property name="DIST P/N" value="36-3568-ND"/>
+      <property name="LINK" value="https://www.digikey.com/en/products/detail/keystone-electronics/3568/2137306"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistribution.kicad_sch"/>
+      <property name="ki_description" value="Fuse"/>
+      <property name="ki_keywords" value="fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de1f7d74-c27f-463c-af90-494371a43b97</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>2606-1102</value>
+      <footprint>WAGO2PIN:2606-1102&amp;slash_000-005</footprint>
+      <datasheet>https://www.wago.com/global/products/datasheets/Datasheet.pdf?product=2606-1102&amp;lang=en</datasheet>
+      <fields>
+        <field name="DIST">DIGIKEY</field>
+        <field name="DIST P/N">2946-2606-1102-ND</field>
+        <field name="LINK">https://www.digikey.com/en/products/detail/wago-corporation/2606-1102/15575098</field>
+        <field name="MFG">WAGO</field>
+        <field name="MFG P/N">2606-1102</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="WAGO"/>
+      <property name="MFG P/N" value="2606-1102"/>
+      <property name="DIST" value="DIGIKEY"/>
+      <property name="DIST P/N" value="2946-2606-1102-ND"/>
+      <property name="LINK" value="https://www.digikey.com/en/products/detail/wago-corporation/2606-1102/15575098"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistribution.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>045b2de5-a136-4410-9b1c-f1c642a51cee</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>2604-1110</value>
+      <footprint>WAGO10PIN:2604-1110</footprint>
+      <datasheet>https://www.wago.com/global/products/datasheets/Datasheet.pdf?product=2604-1110&amp;lang=en</datasheet>
+      <fields>
+        <field name="DIST">DIGIKEY</field>
+        <field name="DIST P/N">2946-2604-1110-ND</field>
+        <field name="LINK">https://www.digikey.com/en/products/detail/wago-corporation/2604-1110/15551292</field>
+        <field name="MFG">WAGO</field>
+        <field name="MFG P/N">2604-1110</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x10" description="Generic screw terminal, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="WAGO"/>
+      <property name="MFG P/N" value="2604-1110"/>
+      <property name="DIST" value="DIGIKEY"/>
+      <property name="DIST P/N" value="2946-2604-1110-ND"/>
+      <property name="LINK" value="https://www.digikey.com/en/products/detail/wago-corporation/2604-1110/15551292"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistribution.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cf796ba5-be5b-452b-bf1e-776b918220fa</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="DIST">DIGIKEY</field>
+        <field name="DIST P/N">RMCF1206FT1K00</field>
+        <field name="LINK">https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF1206FT1K00/1759616</field>
+        <field name="MFG">Stackpole Electronics Inc</field>
+        <field name="MFG P/N">RMCF1206FT1K00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Stackpole Electronics Inc"/>
+      <property name="MFG P/N" value="RMCF1206FT1K00"/>
+      <property name="DIST" value="DIGIKEY"/>
+      <property name="DIST P/N" value="RMCF1206FT1K00"/>
+      <property name="LINK" value="https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF1206FT1K00/1759616"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistribution.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bd50fb56-88b6-4897-ade7-a27e93e33d92</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="DIST">DIGIKEY</field>
+        <field name="DIST P/N">RMCF1206FT1K00</field>
+        <field name="LINK">https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF1206FT1K00/1759616</field>
+        <field name="MFG">Stackpole Electronics Inc</field>
+        <field name="MFG P/N">RMCF1206FT1K00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Stackpole Electronics Inc"/>
+      <property name="MFG P/N" value="RMCF1206FT1K00"/>
+      <property name="DIST" value="DIGIKEY"/>
+      <property name="DIST P/N" value="RMCF1206FT1K00"/>
+      <property name="LINK" value="https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF1206FT1K00/1759616"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistribution.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7ed04e2a-4a23-43df-a98d-d63b01eb1456</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1k</value>
+      <footprint>LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="DIST">DIGIKEY</field>
+        <field name="DIST P/N">RMCF1206FT1K00</field>
+        <field name="LINK">https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF1206FT1K00/1759616</field>
+        <field name="MFG">Stackpole Electronics Inc</field>
+        <field name="MFG P/N">RMCF1206FT1K00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Stackpole Electronics Inc"/>
+      <property name="MFG P/N" value="RMCF1206FT1K00"/>
+      <property name="DIST" value="DIGIKEY"/>
+      <property name="DIST P/N" value="RMCF1206FT1K00"/>
+      <property name="LINK" value="https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF1206FT1K00/1759616"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistribution.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>56987f28-ffc9-4213-9a0c-9ef69a81f86a</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <footprint>LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="DIST">DIGIKEY</field>
+        <field name="DIST P/N">RMCF1206FT1K00</field>
+        <field name="LINK">https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF1206FT1K00/1759616</field>
+        <field name="MFG">Stackpole Electronics Inc</field>
+        <field name="MFG P/N">RMCF1206FT1K00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Stackpole Electronics Inc"/>
+      <property name="MFG P/N" value="RMCF1206FT1K00"/>
+      <property name="DIST" value="DIGIKEY"/>
+      <property name="DIST P/N" value="RMCF1206FT1K00"/>
+      <property name="LINK" value="https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF1206FT1K00/1759616"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistribution.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da6267b5-b1ac-4cef-9975-3d1b39323296</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1k</value>
+      <footprint>LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="DIST">DIGIKEY</field>
+        <field name="DIST P/N">RMCF1206FT1K00</field>
+        <field name="LINK">https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF1206FT1K00/1759616</field>
+        <field name="MFG">Stackpole Electronics Inc</field>
+        <field name="MFG P/N">RMCF1206FT1K00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Stackpole Electronics Inc"/>
+      <property name="MFG P/N" value="RMCF1206FT1K00"/>
+      <property name="DIST" value="DIGIKEY"/>
+      <property name="DIST P/N" value="RMCF1206FT1K00"/>
+      <property name="LINK" value="https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF1206FT1K00/1759616"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PowerDistribution.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0fc6c9ce-56c0-4f3d-9f0c-17a9c5181e22</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>https://www.wago.com/global/products/datasheets/Datasheet.pdf?product=2606-1102&amp;lang=en</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J1</field>
+        <field name="Value">2606-1102</field>
+        <field name="Footprint">WAGO2PIN:2606-1102&amp;slash_000-005</field>
+        <field name="Datasheet">https://www.wago.com/global/products/datasheets/Datasheet.pdf?product=2606-1102&amp;lang=en</field>
+        <field name="MFG">WAGO</field>
+        <field name="MFG P/N">2606-1102</field>
+        <field name="DIST">DIGIKEY</field>
+        <field name="DIST P/N">2946-2606-1102-ND</field>
+        <field name="Link">https://www.digikey.com/en/products/detail/wago-corporation/2606-1102/15575098</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="input"/>
+        <pin num="2" name="Pin_2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x10">
+      <description>Generic screw terminal, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J2</field>
+        <field name="Value">Screw_Terminal_01x10</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F1</field>
+        <field name="Value">PolyFuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Mechanical.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+BATT">
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="F2" pin="2" pintype="passive"/>
+      <node ref="F3" pin="2" pintype="passive"/>
+      <node ref="F4" pin="2" pintype="passive"/>
+      <node ref="F5" pin="2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="input"/>
+    </net>
+    <net code="2" name="-BATT">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="input"/>
+      <node ref="J2" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="3" name="/Fuse1">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="4" name="/Fuse2">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="F2" pin="1" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="5" name="/Fuse3">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="F3" pin="1" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="6" name="/Fuse4">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="F4" pin="1" pintype="passive"/>
+      <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="7" name="/Fuse5">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="F5" pin="1" pintype="passive"/>
+      <node ref="J2" pin="9" pinfunction="Pin_9" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(D2-K)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(D3-K)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(D4-K)">
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(D5-K)">
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+  </nets>
+</export>
