@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/home/scottberman/Documents/Projects/FRC971/IMU-2X/IMU-2X.kicad_sch</source>
-    <date>Thu 17 Aug 2023 08:25:13 PM PDT</date>
-    <tool>Eeschema 7.0.7-7.0.7~ubuntu20.04.1</tool>
+    <source>/home/scott/Documents/Projects/FRC/IMU-2X-v2/IMU-2X.kicad_sch</source>
+    <date>Sun 19 Nov 2023 12:36:57 PM PST</date>
+    <tool>Eeschema 7.0.9-7.0.9~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>IMU-2X</title>
         <company>FRC971 - Spartan Robotics</company>
-        <rev>1</rev>
-        <date>2023-08-12</date>
+        <rev>2</rev>
+        <date>2023-11-19</date>
         <source>IMU-2X.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -26,8 +26,8 @@
       <title_block>
         <title>IMU-2X</title>
         <company>FRC971 - Spartan Robotics</company>
-        <rev>1</rev>
-        <date>2023-08-12</date>
+        <rev>2</rev>
+        <date>2023-11-19</date>
         <source>power-supply.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -44,8 +44,8 @@
       <title_block>
         <title>IMU-2X</title>
         <company>FRC971 - Spartan Robotics</company>
-        <rev>1</rev>
-        <date>2023-08-12</date>
+        <rev>2</rev>
+        <date>2023-11-19</date>
         <source>LED.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -171,6 +171,28 @@
       <tstamps>c36e553e-e945-4c53-b5f1-e27154cd15e6</tstamps>
     </comp>
     <comp ref="C14">
+      <value>0.1uF-25V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>Components/Kyocera-KGM_X7R.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">478-KGM15BR71E104KMCT-ND</field>
+        <field name="MFG">Kyocera AVX</field>
+        <field name="MFG P/N">KGM15BR71E104KM</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="478-KGM15BR71E104KMCT-ND"/>
+      <property name="MFG" value="Kyocera AVX"/>
+      <property name="MFG P/N" value="KGM15BR71E104KM"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b38344a-6c60-4dff-a621-5707d3e87b73</tstamps>
+    </comp>
+    <comp ref="C15">
       <value>1000pF-50V-5%-0603</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>Components/Murata-GRM1885C1H102JA01-01.pdf</datasheet>
@@ -192,28 +214,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>027a4e29-9c0c-4a52-b383-3c5e4c968972</tstamps>
     </comp>
-    <comp ref="C15">
-      <value>0.1uF-25V-10%-0603</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>Components/Kyocera-KGM_X7R.pdf</datasheet>
-      <fields>
-        <field name="DIST">Digikey</field>
-        <field name="DIST P/N">478-KGM15BR71E104KMCT-ND</field>
-        <field name="MFG">Kyocera AVX</field>
-        <field name="MFG P/N">KGM15BR71E104KM</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="DIST" value="Digikey"/>
-      <property name="DIST P/N" value="478-KGM15BR71E104KMCT-ND"/>
-      <property name="MFG" value="Kyocera AVX"/>
-      <property name="MFG P/N" value="KGM15BR71E104KM"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>d199ff72-3806-43aa-b0cb-30593a00bc28</tstamps>
-    </comp>
     <comp ref="C16">
       <value>0.1uF-25V-10%-0603</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
@@ -234,7 +234,7 @@
       <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>3b38344a-6c60-4dff-a621-5707d3e87b73</tstamps>
+      <tstamps>d199ff72-3806-43aa-b0cb-30593a00bc28</tstamps>
     </comp>
     <comp ref="C17">
       <value>2.2uF-10V-10%-0603</value>
@@ -611,26 +611,26 @@
       <tstamps>87b7e87f-c48d-4088-b942-ddbdb02bb7f9</tstamps>
     </comp>
     <comp ref="C34">
-      <value>0.1uF-25V-10%-0603</value>
+      <value>2.2uF-10V-10%-0603</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>Components/Kyocera-KGM_X7R.pdf</datasheet>
+      <datasheet>Components/Murata-GRM188R71A225KE15-01.pdf</datasheet>
       <fields>
         <field name="DIST">Digikey</field>
-        <field name="DIST P/N">478-KGM15BR71E104KMCT-ND</field>
-        <field name="MFG">Kyocera AVX</field>
-        <field name="MFG P/N">KGM15BR71E104KM</field>
+        <field name="DIST P/N">490-6418-1-ND</field>
+        <field name="MFG">Murata Electronics</field>
+        <field name="MFG P/N">GRM188R71A225KE15J</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="DIST" value="Digikey"/>
-      <property name="DIST P/N" value="478-KGM15BR71E104KMCT-ND"/>
-      <property name="MFG" value="Kyocera AVX"/>
-      <property name="MFG P/N" value="KGM15BR71E104KM"/>
+      <property name="DIST P/N" value="490-6418-1-ND"/>
+      <property name="MFG" value="Murata Electronics"/>
+      <property name="MFG P/N" value="GRM188R71A225KE15J"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>d8c51191-478b-4721-9f25-f53b7d245831</tstamps>
+      <tstamps>aa46ff6f-4034-4859-969c-512384297ad1</tstamps>
     </comp>
     <comp ref="C35">
       <value>0.1uF-25V-10%-0603</value>
@@ -652,29 +652,29 @@
       <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>44a3f843-ae1c-4ad2-aad5-adac8bdfcd15</tstamps>
+      <tstamps>d8c51191-478b-4721-9f25-f53b7d245831</tstamps>
     </comp>
-    <comp ref="C37">
-      <value>2.2uF-10V-10%-0603</value>
+    <comp ref="C36">
+      <value>0.1uF-25V-10%-0603</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>Components/Murata-GRM188R71A225KE15-01.pdf</datasheet>
+      <datasheet>Components/Kyocera-KGM_X7R.pdf</datasheet>
       <fields>
         <field name="DIST">Digikey</field>
-        <field name="DIST P/N">490-6418-1-ND</field>
-        <field name="MFG">Murata Electronics</field>
-        <field name="MFG P/N">GRM188R71A225KE15J</field>
+        <field name="DIST P/N">478-KGM15BR71E104KMCT-ND</field>
+        <field name="MFG">Kyocera AVX</field>
+        <field name="MFG P/N">KGM15BR71E104KM</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="DIST" value="Digikey"/>
-      <property name="DIST P/N" value="490-6418-1-ND"/>
-      <property name="MFG" value="Murata Electronics"/>
-      <property name="MFG P/N" value="GRM188R71A225KE15J"/>
+      <property name="DIST P/N" value="478-KGM15BR71E104KMCT-ND"/>
+      <property name="MFG" value="Kyocera AVX"/>
+      <property name="MFG P/N" value="KGM15BR71E104KM"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>aa46ff6f-4034-4859-969c-512384297ad1</tstamps>
+      <tstamps>44a3f843-ae1c-4ad2-aad5-adac8bdfcd15</tstamps>
     </comp>
     <comp ref="C38">
       <value>0.1uF-25V-10%-0603</value>
@@ -748,15 +748,15 @@
       <datasheet>Components/Molex 70541-series-drawing.pdf</datasheet>
       <fields>
         <field name="DIST">Digikey</field>
-        <field name="DIST P/N">WM4800-ND</field>
+        <field name="DIST P/N">WM14047-ND</field>
         <field name="MFG">Molex</field>
-        <field name="MFG P/N">0705430001</field>
+        <field name="MFG P/N">0705410001</field>
       </fields>
       <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
       <property name="MFG" value="Molex"/>
-      <property name="MFG P/N" value="0705430001"/>
+      <property name="MFG P/N" value="0705410001"/>
       <property name="DIST" value="Digikey"/>
-      <property name="DIST P/N" value="WM4800-ND"/>
+      <property name="DIST P/N" value="WM14047-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
       <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
@@ -814,15 +814,15 @@
       <datasheet>Components/Molex 70541-series-drawing.pdf</datasheet>
       <fields>
         <field name="DIST">Digikey</field>
-        <field name="DIST P/N">WM4800-ND</field>
+        <field name="DIST P/N">WM14047-ND</field>
         <field name="MFG">Molex</field>
-        <field name="MFG P/N">0705430001</field>
+        <field name="MFG P/N">0705410001</field>
       </fields>
       <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
       <property name="MFG" value="Molex"/>
-      <property name="MFG P/N" value="0705430001"/>
+      <property name="MFG P/N" value="0705410001"/>
       <property name="DIST" value="Digikey"/>
-      <property name="DIST P/N" value="WM4800-ND"/>
+      <property name="DIST P/N" value="WM14047-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
       <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
@@ -940,7 +940,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>461c4951-7f9d-49a0-9941-eb438a98f2fd</tstamps>
     </comp>
-    <comp ref="R13">
+    <comp ref="R11">
       <value>63.4k-1%-0603</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>Components/Yageo-PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
@@ -962,7 +962,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>ad60ae26-598e-4a47-b1c6-20dd34dfff36</tstamps>
     </comp>
-    <comp ref="R14">
+    <comp ref="R12">
       <value>10.0k-1%-0603</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>Components/Yageo-PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
@@ -984,7 +984,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>52aa0ccc-315b-4da0-b52f-c19cdc84e814</tstamps>
     </comp>
-    <comp ref="R16">
+    <comp ref="R14">
       <value>49.9R-1%-0603</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>Components/Yageo-PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
@@ -1006,7 +1006,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>cac89d8a-bc9c-4dbb-9322-c63a1ae456c5</tstamps>
     </comp>
-    <comp ref="R17">
+    <comp ref="R15">
       <value>10.0k-1%-0603</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>Components/Yageo-PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
@@ -1028,7 +1028,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>15fc661f-1993-4be8-8425-98702c7bda0a</tstamps>
     </comp>
-    <comp ref="R18">
+    <comp ref="R16">
       <value>1.0k-1%-0603</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>Components/Yageo-PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
@@ -1050,7 +1050,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>7fcc51ff-4b37-47a4-8c13-25d296e35f20</tstamps>
     </comp>
-    <comp ref="R19">
+    <comp ref="R17">
       <value>1.0k-1%-0603</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>Components/Yageo-PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
@@ -1072,7 +1072,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>a79b0ea3-c271-4b39-a65c-5a99387ab1fd</tstamps>
     </comp>
-    <comp ref="R20">
+    <comp ref="R18">
       <value>1.0k-1%-0603</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>Components/Yageo-PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
@@ -1094,7 +1094,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>79db4f90-a62a-4b41-a96c-61029ecd12ec</tstamps>
     </comp>
-    <comp ref="R21">
+    <comp ref="R19">
       <value>1.0k-1%-0603</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>Components/Yageo-PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
@@ -1126,7 +1126,7 @@
         <field name="MFG">E-Switch</field>
         <field name="MFG P/N">TL3301AF260QG</field>
       </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <libsource lib="" part="SW_Push_1" description="Push button switch, generic, two pins"/>
       <property name="MFG" value="E-Switch"/>
       <property name="MFG P/N" value="TL3301AF260QG"/>
       <property name="DIST" value="Digikey"/>
@@ -1266,7 +1266,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>bfbe1e0d-b933-44d5-9490-142a09e63fc3</tstamps>
     </comp>
-    <comp ref="U7">
+    <comp ref="U8">
       <value>MCP120T-270I/TT</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>Components/Microchip-MCP120T-270I-TT.pdf</datasheet>
@@ -1310,7 +1310,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>9f1ff1cf-3dbc-46cf-b7af-76231464aac8</tstamps>
     </comp>
-    <comp ref="U10">
+    <comp ref="U12">
       <value>IAM-20680HP</value>
       <footprint>IMU-2X:LGA-16_3x3mm_P0.5mm_LayoutBorder3x5y</footprint>
       <datasheet>Components/TDK-IAM-20680HP.pdf</datasheet>
@@ -1515,7 +1515,7 @@
       <sheetpath names="/Power Supply/" tstamps="/dfddfc9c-e803-47e7-ad6c-6304a5151d35/"/>
       <tstamps>8e3544d6-2d15-4783-9ab3-1290a55bdfeb</tstamps>
     </comp>
-    <comp ref="C36">
+    <comp ref="C37">
       <value>22uF-25V-10%-1210</value>
       <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
       <datasheet>Components/Samsung-MLCC.pdf</datasheet>
@@ -1745,7 +1745,7 @@
       <sheetpath names="/Power Supply/" tstamps="/dfddfc9c-e803-47e7-ad6c-6304a5151d35/"/>
       <tstamps>b191ff54-ed84-46e6-b4b1-047518bf0db0</tstamps>
     </comp>
-    <comp ref="R15">
+    <comp ref="R13">
       <value>20.0k-1%-0603</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>Components/Yageo-PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
@@ -1790,7 +1790,7 @@
       <sheetpath names="/Power Supply/" tstamps="/dfddfc9c-e803-47e7-ad6c-6304a5151d35/"/>
       <tstamps>98de272e-b7d8-4180-a3bd-709f21494700</tstamps>
     </comp>
-    <comp ref="U8">
+    <comp ref="U7">
       <value>LMR54410FDBVR</value>
       <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
       <datasheet>Components/TI-LMR54406.pdf</datasheet>
@@ -1811,6 +1811,52 @@
       <property name="ki_description" value="Buck Switching Regulator IC Positive Adjustable 0.8V 1 Output 1A SOT-23-6"/>
       <sheetpath names="/Power Supply/" tstamps="/dfddfc9c-e803-47e7-ad6c-6304a5151d35/"/>
       <tstamps>1b13ee3e-a2a4-40fe-94cc-514bbdfec409</tstamps>
+    </comp>
+    <comp ref="C41">
+      <value>0.1uF-25V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>Components/Kyocera-KGM_X7R.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">478-KGM15BR71E104KMCT-ND</field>
+        <field name="MFG">Kyocera AVX</field>
+        <field name="MFG P/N">KGM15BR71E104KM</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="478-KGM15BR71E104KMCT-ND"/>
+      <property name="MFG" value="Kyocera AVX"/>
+      <property name="MFG P/N" value="KGM15BR71E104KM"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LED.kicad_sch"/>
+      <property name="Page" value="Page:3/3"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/LEDs/" tstamps="/088575d8-b480-483a-8195-b5bd2af558b0/"/>
+      <tstamps>da1252d0-0045-4463-8d86-de4dfabce9d6</tstamps>
+    </comp>
+    <comp ref="C42">
+      <value>0.1uF-25V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>Components/Kyocera-KGM_X7R.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">478-KGM15BR71E104KMCT-ND</field>
+        <field name="MFG">Kyocera AVX</field>
+        <field name="MFG P/N">KGM15BR71E104KM</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="478-KGM15BR71E104KMCT-ND"/>
+      <property name="MFG" value="Kyocera AVX"/>
+      <property name="MFG P/N" value="KGM15BR71E104KM"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LED.kicad_sch"/>
+      <property name="Page" value="Page:3/3"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/LEDs/" tstamps="/088575d8-b480-483a-8195-b5bd2af558b0/"/>
+      <tstamps>a581825a-5d6f-4895-b5c8-a32a0a9ac194</tstamps>
     </comp>
     <comp ref="D3">
       <value>CAN</value>
@@ -1836,29 +1882,6 @@
       <tstamps>1b33aef7-71c3-45b1-8e34-9fa3b1be8acf</tstamps>
     </comp>
     <comp ref="D4">
-      <value>IMU</value>
-      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
-      <datasheet>Components/SUN-LED-XZMDKVG55W-4.pdf</datasheet>
-      <fields>
-        <field name="DIST">Digikey</field>
-        <field name="DIST P/N">1497-1314-1-ND</field>
-        <field name="MFG">SUN LED</field>
-        <field name="MFG P/N">XZMDKVG55W-4</field>
-      </fields>
-      <libsource lib="Device" part="LED_Dual_Bidirectional" description="Dual LED, bidirectional"/>
-      <property name="MFG" value="SUN LED"/>
-      <property name="MFG P/N" value="XZMDKVG55W-4"/>
-      <property name="DIST" value="Digikey"/>
-      <property name="DIST P/N" value="1497-1314-1-ND"/>
-      <property name="Sheetname" value="LEDs"/>
-      <property name="Sheetfile" value="LED.kicad_sch"/>
-      <property name="Page" value="Page:3/3"/>
-      <property name="ki_description" value="Dual LED, bidirectional"/>
-      <property name="ki_keywords" value="LED diode bicolor dual"/>
-      <sheetpath names="/LEDs/" tstamps="/088575d8-b480-483a-8195-b5bd2af558b0/"/>
-      <tstamps>9c109d85-02cb-46cb-8b3d-5134f0e47cf3</tstamps>
-    </comp>
-    <comp ref="D5">
       <value>PWR</value>
       <footprint>LED_SMD:LED_1206_3216Metric</footprint>
       <datasheet>Components/SUN-LED-XZMDKVG55W-4.pdf</datasheet>
@@ -1881,228 +1904,67 @@
       <sheetpath names="/LEDs/" tstamps="/088575d8-b480-483a-8195-b5bd2af558b0/"/>
       <tstamps>a9c1f8ce-0505-4833-b3ea-ee08159cb777</tstamps>
     </comp>
-    <comp ref="Q2">
-      <value>2N7002E</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>Components/onsemi-2N7002E-D.pdf</datasheet>
+    <comp ref="D5">
+      <value>IMU</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <datasheet>Components/SUN-LED-XZMDKVG55W-4.pdf</datasheet>
       <fields>
         <field name="DIST">Digikey</field>
-        <field name="DIST P/N">2N7002ET1GOSCT-ND</field>
-        <field name="MFG">onsemi</field>
-        <field name="MFG P/N">2N7002ET1G</field>
+        <field name="DIST P/N">1497-1314-1-ND</field>
+        <field name="MFG">SUN LED</field>
+        <field name="MFG P/N">XZMDKVG55W-4</field>
       </fields>
-      <libsource lib="Transistor_FET" part="2N7002E" description="0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
-      <property name="MFG" value="onsemi"/>
-      <property name="MFG P/N" value="2N7002ET1G"/>
+      <libsource lib="Device" part="LED_Dual_Bidirectional" description="Dual LED, bidirectional"/>
+      <property name="MFG" value="SUN LED"/>
+      <property name="MFG P/N" value="XZMDKVG55W-4"/>
       <property name="DIST" value="Digikey"/>
-      <property name="DIST P/N" value="2N7002ET1GOSCT-ND"/>
+      <property name="DIST P/N" value="1497-1314-1-ND"/>
       <property name="Sheetname" value="LEDs"/>
       <property name="Sheetfile" value="LED.kicad_sch"/>
       <property name="Page" value="Page:3/3"/>
-      <property name="ki_description" value="0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
-      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <property name="ki_description" value="Dual LED, bidirectional"/>
+      <property name="ki_keywords" value="LED diode bicolor dual"/>
       <sheetpath names="/LEDs/" tstamps="/088575d8-b480-483a-8195-b5bd2af558b0/"/>
-      <tstamps>e64e1333-0cd0-46b2-8bff-5a3f69377ba2</tstamps>
-    </comp>
-    <comp ref="Q3">
-      <value>2N7002E</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>Components/onsemi-2N7002E-D.pdf</datasheet>
-      <fields>
-        <field name="DIST">Digikey</field>
-        <field name="DIST P/N">2N7002ET1GOSCT-ND</field>
-        <field name="MFG">onsemi</field>
-        <field name="MFG P/N">2N7002ET1G</field>
-      </fields>
-      <libsource lib="Transistor_FET" part="2N7002E" description="0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
-      <property name="MFG" value="onsemi"/>
-      <property name="MFG P/N" value="2N7002ET1G"/>
-      <property name="DIST" value="Digikey"/>
-      <property name="DIST P/N" value="2N7002ET1GOSCT-ND"/>
-      <property name="Sheetname" value="LEDs"/>
-      <property name="Sheetfile" value="LED.kicad_sch"/>
-      <property name="Page" value="Page:3/3"/>
-      <property name="ki_description" value="0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
-      <property name="ki_keywords" value="N-Channel MOSFET"/>
-      <sheetpath names="/LEDs/" tstamps="/088575d8-b480-483a-8195-b5bd2af558b0/"/>
-      <tstamps>fa1e4647-ff51-4368-9adc-9ca3e29b7bd5</tstamps>
-    </comp>
-    <comp ref="Q4">
-      <value>2N7002E</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>Components/onsemi-2N7002E-D.pdf</datasheet>
-      <fields>
-        <field name="DIST">Digikey</field>
-        <field name="DIST P/N">2N7002ET1GOSCT-ND</field>
-        <field name="MFG">onsemi</field>
-        <field name="MFG P/N">2N7002ET1G</field>
-      </fields>
-      <libsource lib="Transistor_FET" part="2N7002E" description="0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
-      <property name="MFG" value="onsemi"/>
-      <property name="MFG P/N" value="2N7002ET1G"/>
-      <property name="DIST" value="Digikey"/>
-      <property name="DIST P/N" value="2N7002ET1GOSCT-ND"/>
-      <property name="Sheetname" value="LEDs"/>
-      <property name="Sheetfile" value="LED.kicad_sch"/>
-      <property name="Page" value="Page:3/3"/>
-      <property name="ki_description" value="0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
-      <property name="ki_keywords" value="N-Channel MOSFET"/>
-      <sheetpath names="/LEDs/" tstamps="/088575d8-b480-483a-8195-b5bd2af558b0/"/>
-      <tstamps>51c937dd-d18d-4ef8-8cce-a649c3d2ef1d</tstamps>
-    </comp>
-    <comp ref="Q5">
-      <value>2N7002E</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>Components/onsemi-2N7002E-D.pdf</datasheet>
-      <fields>
-        <field name="DIST">Digikey</field>
-        <field name="DIST P/N">2N7002ET1GOSCT-ND</field>
-        <field name="MFG">onsemi</field>
-        <field name="MFG P/N">2N7002ET1G</field>
-      </fields>
-      <libsource lib="Transistor_FET" part="2N7002E" description="0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
-      <property name="MFG" value="onsemi"/>
-      <property name="MFG P/N" value="2N7002ET1G"/>
-      <property name="DIST" value="Digikey"/>
-      <property name="DIST P/N" value="2N7002ET1GOSCT-ND"/>
-      <property name="Sheetname" value="LEDs"/>
-      <property name="Sheetfile" value="LED.kicad_sch"/>
-      <property name="Page" value="Page:3/3"/>
-      <property name="ki_description" value="0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
-      <property name="ki_keywords" value="N-Channel MOSFET"/>
-      <sheetpath names="/LEDs/" tstamps="/088575d8-b480-483a-8195-b5bd2af558b0/"/>
-      <tstamps>4cdb8d05-4e4c-4b9e-be66-86bac9e5256b</tstamps>
-    </comp>
-    <comp ref="Q6">
-      <value>DMP2004K-7</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>Components/DiodesInc-DMP2004K.pdf</datasheet>
-      <fields>
-        <field name="DIST">Digikey</field>
-        <field name="DIST P/N">DMP2004KDICT-ND</field>
-        <field name="MFG">Diodes Inc</field>
-        <field name="MFG P/N">DMP2004K-7</field>
-      </fields>
-      <libsource lib="Transistor_FET" part="BSS84" description="-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"/>
-      <property name="MFG" value="Diodes Inc"/>
-      <property name="MFG P/N" value="DMP2004K-7"/>
-      <property name="DIST" value="Digikey"/>
-      <property name="DIST P/N" value="DMP2004KDICT-ND"/>
-      <property name="Sheetname" value="LEDs"/>
-      <property name="Sheetfile" value="LED.kicad_sch"/>
-      <property name="Page" value="Page:3/3"/>
-      <property name="ki_description" value="-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"/>
-      <property name="ki_keywords" value="P-Channel MOSFET"/>
-      <sheetpath names="/LEDs/" tstamps="/088575d8-b480-483a-8195-b5bd2af558b0/"/>
-      <tstamps>e6baf7d6-608b-41a3-85bd-95281e55af61</tstamps>
-    </comp>
-    <comp ref="Q7">
-      <value>DMP2004K-7</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>Components/DiodesInc-DMP2004K.pdf</datasheet>
-      <fields>
-        <field name="DIST">Digikey</field>
-        <field name="DIST P/N">DMP2004KDICT-ND</field>
-        <field name="MFG">Diodes Inc</field>
-        <field name="MFG P/N">DMP2004K-7</field>
-      </fields>
-      <libsource lib="Transistor_FET" part="BSS84" description="-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"/>
-      <property name="MFG" value="Diodes Inc"/>
-      <property name="MFG P/N" value="DMP2004K-7"/>
-      <property name="DIST" value="Digikey"/>
-      <property name="DIST P/N" value="DMP2004KDICT-ND"/>
-      <property name="Sheetname" value="LEDs"/>
-      <property name="Sheetfile" value="LED.kicad_sch"/>
-      <property name="Page" value="Page:3/3"/>
-      <property name="ki_description" value="-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"/>
-      <property name="ki_keywords" value="P-Channel MOSFET"/>
-      <sheetpath names="/LEDs/" tstamps="/088575d8-b480-483a-8195-b5bd2af558b0/"/>
-      <tstamps>f39a4d23-e3df-4563-be0d-6b8ba925f20f</tstamps>
-    </comp>
-    <comp ref="Q8">
-      <value>DMP2004K-7</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>Components/DiodesInc-DMP2004K.pdf</datasheet>
-      <fields>
-        <field name="DIST">Digikey</field>
-        <field name="DIST P/N">DMP2004KDICT-ND</field>
-        <field name="MFG">Diodes Inc</field>
-        <field name="MFG P/N">DMP2004K-7</field>
-      </fields>
-      <libsource lib="Transistor_FET" part="BSS84" description="-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"/>
-      <property name="MFG" value="Diodes Inc"/>
-      <property name="MFG P/N" value="DMP2004K-7"/>
-      <property name="DIST" value="Digikey"/>
-      <property name="DIST P/N" value="DMP2004KDICT-ND"/>
-      <property name="Sheetname" value="LEDs"/>
-      <property name="Sheetfile" value="LED.kicad_sch"/>
-      <property name="Page" value="Page:3/3"/>
-      <property name="ki_description" value="-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"/>
-      <property name="ki_keywords" value="P-Channel MOSFET"/>
-      <sheetpath names="/LEDs/" tstamps="/088575d8-b480-483a-8195-b5bd2af558b0/"/>
-      <tstamps>9867b838-a7c0-4f54-b539-a3e89684df2d</tstamps>
-    </comp>
-    <comp ref="Q9">
-      <value>DMP2004K-7</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>Components/DiodesInc-DMP2004K.pdf</datasheet>
-      <fields>
-        <field name="DIST">Digikey</field>
-        <field name="DIST P/N">DMP2004KDICT-ND</field>
-        <field name="MFG">Diodes Inc</field>
-        <field name="MFG P/N">DMP2004K-7</field>
-      </fields>
-      <libsource lib="Transistor_FET" part="BSS84" description="-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"/>
-      <property name="MFG" value="Diodes Inc"/>
-      <property name="MFG P/N" value="DMP2004K-7"/>
-      <property name="DIST" value="Digikey"/>
-      <property name="DIST P/N" value="DMP2004KDICT-ND"/>
-      <property name="Sheetname" value="LEDs"/>
-      <property name="Sheetfile" value="LED.kicad_sch"/>
-      <property name="Page" value="Page:3/3"/>
-      <property name="ki_description" value="-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"/>
-      <property name="ki_keywords" value="P-Channel MOSFET"/>
-      <sheetpath names="/LEDs/" tstamps="/088575d8-b480-483a-8195-b5bd2af558b0/"/>
-      <tstamps>0291caf1-5063-4e47-b550-7830ac03a212</tstamps>
+      <tstamps>9c109d85-02cb-46cb-8b3d-5134f0e47cf3</tstamps>
     </comp>
     <comp ref="R9">
-      <value>100R-1%-0805</value>
+      <value>249R-1%-0805</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>Components/Yageo-PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
       <fields>
         <field name="DIST">Digikey</field>
-        <field name="DIST P/N">311-100CRCT-ND</field>
+        <field name="DIST P/N">311-249CRCT-ND</field>
         <field name="MFG">Yageo</field>
-        <field name="MFG P/N">RC0805FR-07100RL</field>
+        <field name="MFG P/N">RC0805FR-07249RL</field>
       </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="DIST" value="Digikey"/>
-      <property name="DIST P/N" value="311-100CRCT-ND"/>
+      <property name="DIST P/N" value="311-249CRCT-ND"/>
       <property name="MFG" value="Yageo"/>
-      <property name="MFG P/N" value="RC0805FR-07100RL"/>
+      <property name="MFG P/N" value="RC0805FR-07249RL"/>
       <property name="Sheetname" value="LEDs"/>
       <property name="Sheetfile" value="LED.kicad_sch"/>
       <property name="Page" value="Page:3/3"/>
       <property name="ki_description" value="Resistor, US symbol"/>
       <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/LEDs/" tstamps="/088575d8-b480-483a-8195-b5bd2af558b0/"/>
-      <tstamps>a7299810-6388-4698-bc83-4330338fac90</tstamps>
+      <tstamps>5488935d-be79-43f8-ab3d-523c2ca18489</tstamps>
     </comp>
     <comp ref="R10">
-      <value>100R-1%-0805</value>
+      <value>249R-1%-0805</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>Components/Yageo-PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
       <fields>
         <field name="DIST">Digikey</field>
-        <field name="DIST P/N">311-100CRCT-ND</field>
+        <field name="DIST P/N">311-249CRCT-ND</field>
         <field name="MFG">Yageo</field>
-        <field name="MFG P/N">RC0805FR-07100RL</field>
+        <field name="MFG P/N">RC0805FR-07249RL</field>
       </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="DIST" value="Digikey"/>
-      <property name="DIST P/N" value="311-100CRCT-ND"/>
+      <property name="DIST P/N" value="311-249CRCT-ND"/>
       <property name="MFG" value="Yageo"/>
-      <property name="MFG P/N" value="RC0805FR-07100RL"/>
+      <property name="MFG P/N" value="RC0805FR-07249RL"/>
       <property name="Sheetname" value="LEDs"/>
       <property name="Sheetfile" value="LED.kicad_sch"/>
       <property name="Page" value="Page:3/3"/>
@@ -2111,7 +1973,7 @@
       <sheetpath names="/LEDs/" tstamps="/088575d8-b480-483a-8195-b5bd2af558b0/"/>
       <tstamps>7f2b80be-0409-4bdc-9aa3-c81aea33cc79</tstamps>
     </comp>
-    <comp ref="R11">
+    <comp ref="R20">
       <value>100R-1%-0805</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>Components/Yageo-PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
@@ -2132,30 +1994,30 @@
       <property name="ki_description" value="Resistor, US symbol"/>
       <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/LEDs/" tstamps="/088575d8-b480-483a-8195-b5bd2af558b0/"/>
-      <tstamps>2345ea60-fe7e-41aa-824d-9a88792d543c</tstamps>
+      <tstamps>5f264a86-9c0b-4c94-a4f6-a30307f66ea4</tstamps>
     </comp>
-    <comp ref="R12">
-      <value>100R-1%-0805</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+    <comp ref="R21">
+      <value>10.0k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>Components/Yageo-PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
       <fields>
         <field name="DIST">Digikey</field>
-        <field name="DIST P/N">311-100CRCT-ND</field>
+        <field name="DIST P/N">YAG1290CT-ND</field>
         <field name="MFG">Yageo</field>
-        <field name="MFG P/N">RC0805FR-07100RL</field>
+        <field name="MFG P/N">RC0603FR-0710KP</field>
       </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="DIST" value="Digikey"/>
-      <property name="DIST P/N" value="311-100CRCT-ND"/>
+      <property name="DIST P/N" value="YAG1290CT-ND"/>
       <property name="MFG" value="Yageo"/>
-      <property name="MFG P/N" value="RC0805FR-07100RL"/>
+      <property name="MFG P/N" value="RC0603FR-0710KP"/>
       <property name="Sheetname" value="LEDs"/>
       <property name="Sheetfile" value="LED.kicad_sch"/>
       <property name="Page" value="Page:3/3"/>
       <property name="ki_description" value="Resistor, US symbol"/>
       <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/LEDs/" tstamps="/088575d8-b480-483a-8195-b5bd2af558b0/"/>
-      <tstamps>5488935d-be79-43f8-ab3d-523c2ca18489</tstamps>
+      <tstamps>0da58460-3457-43db-8631-10d7a6fe7129</tstamps>
     </comp>
     <comp ref="R22">
       <value>10.0k-1%-0603</value>
@@ -2201,7 +2063,7 @@
       <property name="ki_description" value="Resistor, US symbol"/>
       <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/LEDs/" tstamps="/088575d8-b480-483a-8195-b5bd2af558b0/"/>
-      <tstamps>0da58460-3457-43db-8631-10d7a6fe7129</tstamps>
+      <tstamps>163f4ea0-44a2-4dcf-9139-0041030434b6</tstamps>
     </comp>
     <comp ref="R24">
       <value>10.0k-1%-0603</value>
@@ -2224,56 +2086,97 @@
       <property name="ki_description" value="Resistor, US symbol"/>
       <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/LEDs/" tstamps="/088575d8-b480-483a-8195-b5bd2af558b0/"/>
-      <tstamps>163f4ea0-44a2-4dcf-9139-0041030434b6</tstamps>
-    </comp>
-    <comp ref="R25">
-      <value>10.0k-1%-0603</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>Components/Yageo-PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
-      <fields>
-        <field name="DIST">Digikey</field>
-        <field name="DIST P/N">YAG1290CT-ND</field>
-        <field name="MFG">Yageo</field>
-        <field name="MFG P/N">RC0603FR-0710KP</field>
-      </fields>
-      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
-      <property name="DIST" value="Digikey"/>
-      <property name="DIST P/N" value="YAG1290CT-ND"/>
-      <property name="MFG" value="Yageo"/>
-      <property name="MFG P/N" value="RC0603FR-0710KP"/>
-      <property name="Sheetname" value="LEDs"/>
-      <property name="Sheetfile" value="LED.kicad_sch"/>
-      <property name="Page" value="Page:3/3"/>
-      <property name="ki_description" value="Resistor, US symbol"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/LEDs/" tstamps="/088575d8-b480-483a-8195-b5bd2af558b0/"/>
       <tstamps>38036eb6-c4fd-4280-90f3-fbde660a5abe</tstamps>
     </comp>
-    <comp ref="R26">
-      <value>100R-1%-0805</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>Components/Yageo-PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+    <comp ref="U10">
+      <value>SN74LVC2G04DBVR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>Components/TI-SN74LVC2G04.pdf</datasheet>
       <fields>
         <field name="DIST">Digikey</field>
-        <field name="DIST P/N">311-100CRCT-ND</field>
-        <field name="MFG">Yageo</field>
-        <field name="MFG P/N">RC0805FR-07100RL</field>
+        <field name="DIST P/N">296-13261-1-ND</field>
+        <field name="MFG">Texas Instruments</field>
+        <field name="MFG P/N">SN74LVC2G04DBVR</field>
       </fields>
-      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <libsource lib="74xGxx" part="74LVC2G04" description="Dual NOT Gate, Low-Voltage CMOS"/>
+      <property name="MFG" value="Texas Instruments"/>
+      <property name="MFG P/N" value="SN74LVC2G04DBVR"/>
       <property name="DIST" value="Digikey"/>
-      <property name="DIST P/N" value="311-100CRCT-ND"/>
-      <property name="MFG" value="Yageo"/>
-      <property name="MFG P/N" value="RC0805FR-07100RL"/>
+      <property name="DIST P/N" value="296-13261-1-ND"/>
       <property name="Sheetname" value="LEDs"/>
       <property name="Sheetfile" value="LED.kicad_sch"/>
       <property name="Page" value="Page:3/3"/>
-      <property name="ki_description" value="Resistor, US symbol"/>
-      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_description" value="Dual NOT Gate, Low-Voltage CMOS"/>
+      <property name="ki_keywords" value="Dual Gate NOT LVC CMOS"/>
       <sheetpath names="/LEDs/" tstamps="/088575d8-b480-483a-8195-b5bd2af558b0/"/>
-      <tstamps>5f264a86-9c0b-4c94-a4f6-a30307f66ea4</tstamps>
+      <tstamps>cf5db3d1-d128-4c99-a695-14d7cb91ba29 c396bc32-3d41-4e0d-b14d-10502df5d89b 2f6d8b0e-5bc7-4bc6-a141-ba94717c5224</tstamps>
+    </comp>
+    <comp ref="U11">
+      <value>SN74LVC2G04DBVR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>Components/TI-SN74LVC2G04.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">296-13261-1-ND</field>
+        <field name="MFG">Texas Instruments</field>
+        <field name="MFG P/N">SN74LVC2G04DBVR</field>
+      </fields>
+      <libsource lib="74xGxx" part="74LVC2G04" description="Dual NOT Gate, Low-Voltage CMOS"/>
+      <property name="MFG" value="Texas Instruments"/>
+      <property name="MFG P/N" value="SN74LVC2G04DBVR"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="296-13261-1-ND"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LED.kicad_sch"/>
+      <property name="Page" value="Page:3/3"/>
+      <property name="ki_description" value="Dual NOT Gate, Low-Voltage CMOS"/>
+      <property name="ki_keywords" value="Dual Gate NOT LVC CMOS"/>
+      <sheetpath names="/LEDs/" tstamps="/088575d8-b480-483a-8195-b5bd2af558b0/"/>
+      <tstamps>7e841049-02e4-4515-8c5d-d07caf0ab497 517682d8-6168-491b-95ae-2f48b4403de6 2bb552be-42de-4b58-a8be-0bc96184a43f</tstamps>
     </comp>
   </components>
   <libparts>
+    <libpart lib="" part="SW_Push_1">
+      <description>Push button switch, generic, two pins</description>
+      <docs>Components/E-SWITCH-TL3301AF260QG.pdf</docs>
+      <fields>
+        <field name="Reference">SW1</field>
+        <field name="Value">RESET</field>
+        <field name="Footprint">IMU-2X:SW_ESWITCH_TL3301xxJ</field>
+        <field name="Datasheet">Components/E-SWITCH-TL3301AF260QG.pdf</field>
+        <field name="MFG">E-Switch</field>
+        <field name="MFG P/N">TL3301AF260QG</field>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">EG2527CT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xGxx" part="74LVC2G04">
+      <description>Dual NOT Gate, Low-Voltage CMOS</description>
+      <docs>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</docs>
+      <footprints>
+        <fp>SG-*</fp>
+        <fp>SOT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LVC2G04</field>
+        <field name="Datasheet">http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="6" name="" type="output"/>
+      </pins>
+    </libpart>
     <libpart lib="Connector" part="Conn_01x02_Pin">
       <description>Generic connector, single row, 01x02, script generated</description>
       <docs>~</docs>
@@ -2822,8 +2725,9 @@ IMUs - Inertial Measurement Units Automotive Qualified, Grade2 (-40 C +105 C), H
       <description>Push button switch, generic, two pins</description>
       <docs>Components/E-SWITCH-TL3301AF260QG.pdf</docs>
       <fields>
-        <field name="Reference">SW1</field>
-        <field name="Value">SW_Push</field>
+        <field name="Reference">SW2</field>
+        <field name="Value">BOOT0</field>
+        <field name="Footprint">IMU-2X:SW_ESWITCH_TL3301xxJ</field>
         <field name="Datasheet">Components/E-SWITCH-TL3301AF260QG.pdf</field>
         <field name="MFG">E-Switch</field>
         <field name="MFG P/N">TL3301AF260QG</field>
@@ -2835,24 +2739,6 @@ IMUs - Inertial Measurement Units Automotive Qualified, Grade2 (-40 C +105 C), H
         <pin num="2" name="2" type="passive"/>
         <pin num="3" name="3" type="passive"/>
         <pin num="4" name="4" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Transistor_FET" part="2N7002E">
-      <description>0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
-      <docs>http://www.diodes.com/assets/Datasheets/ds30376.pdf</docs>
-      <footprints>
-        <fp>SOT?23*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">Q</field>
-        <field name="Value">2N7002E</field>
-        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
-        <field name="Datasheet">http://www.diodes.com/assets/Datasheets/ds30376.pdf</field>
-      </fields>
-      <pins>
-        <pin num="1" name="G" type="input"/>
-        <pin num="2" name="S" type="passive"/>
-        <pin num="3" name="D" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Transistor_FET" part="BSS84">
@@ -2875,6 +2761,9 @@ IMUs - Inertial Measurement Units Automotive Qualified, Grade2 (-40 C +105 C), H
     </libpart>
   </libparts>
   <libraries>
+    <library logical="74xGxx">
+      <uri>/usr/share/kicad/symbols//74xGxx.kicad_sym</uri>
+    </library>
     <library logical="Connector">
       <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
     </library>
@@ -2885,7 +2774,7 @@ IMUs - Inertial Measurement Units Automotive Qualified, Grade2 (-40 C +105 C), H
       <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
     </library>
     <library logical="IMU-2X">
-      <uri>/home/scottberman/Documents/Projects/FRC971/IMU-2X/IMU-2X.kicad_sym</uri>
+      <uri>/home/scott/Documents/Projects/FRC/IMU-2X-v2/IMU-2X.kicad_sym</uri>
     </library>
     <library logical="Mechanical">
       <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
@@ -2907,7 +2796,7 @@ IMUs - Inertial Measurement Units Automotive Qualified, Grade2 (-40 C +105 C), H
     <net code="1" name="+3V3">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="C12" pin="1" pintype="passive"/>
-      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
       <node ref="C16" pin="1" pintype="passive"/>
       <node ref="C17" pin="1" pintype="passive"/>
       <node ref="C19" pin="1" pintype="passive"/>
@@ -2917,28 +2806,28 @@ IMUs - Inertial Measurement Units Automotive Qualified, Grade2 (-40 C +105 C), H
       <node ref="C27" pin="1" pintype="passive"/>
       <node ref="C28" pin="1" pintype="passive"/>
       <node ref="C29" pin="1" pintype="passive"/>
-      <node ref="C35" pin="1" pintype="passive"/>
+      <node ref="C36" pin="1" pintype="passive"/>
       <node ref="C38" pin="1" pintype="passive"/>
       <node ref="C39" pin="1" pintype="passive"/>
       <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C41" pin="1" pintype="passive"/>
+      <node ref="C42" pin="1" pintype="passive"/>
       <node ref="C9" pin="1" pintype="passive"/>
       <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q6" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q7" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q8" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q9" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
-      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
       <node ref="R20" pin="2" pintype="passive"/>
-      <node ref="R23" pin="1" pintype="passive"/>
-      <node ref="R25" pin="1" pintype="passive"/>
-      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
       <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="SW2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U1" pin="5" pinfunction="VIO" pintype="power_in"/>
+      <node ref="U10" pin="5" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U11" pin="5" pinfunction="VCC" pintype="power_in"/>
       <node ref="U4" pin="22" pinfunction="V3p3D-UNO" pintype="power_in"/>
       <node ref="U4" pin="23" pinfunction="V3p3A-UNO" pintype="power_in"/>
       <node ref="U4" pin="6" pinfunction="V3p3D-DUE" pintype="power_in"/>
@@ -2950,7 +2839,7 @@ IMUs - Inertial Measurement Units Automotive Qualified, Grade2 (-40 C +105 C), H
       <node ref="U6" pin="32" pinfunction="VDD" pintype="power_in"/>
       <node ref="U6" pin="48" pinfunction="VDD" pintype="open_emitter"/>
       <node ref="U6" pin="64" pinfunction="VDD" pintype="power_in"/>
-      <node ref="U7" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U8" pin="2" pinfunction="VDD" pintype="power_in"/>
       <node ref="U9" pin="1" pinfunction="VCCA" pintype="power_in"/>
       <node ref="U9" pin="2" pinfunction="1DIR" pintype="input"/>
       <node ref="U9" pin="3" pinfunction="2DIR" pintype="input"/>
@@ -2961,13 +2850,13 @@ IMUs - Inertial Measurement Units Automotive Qualified, Grade2 (-40 C +105 C), H
       <node ref="U1" pin="3" pinfunction="VDD" pintype="power_in"/>
     </net>
     <net code="3" name="/CAN_H">
-      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="U1" pin="7" pinfunction="CANH" pintype="bidirectional"/>
     </net>
     <net code="4" name="/CAN_L">
-      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="U1" pin="6" pinfunction="CANL" pintype="bidirectional"/>
     </net>
     <net code="5" name="/FDCAN_RX">
@@ -2984,7 +2873,7 @@ IMUs - Inertial Measurement Units Automotive Qualified, Grade2 (-40 C +105 C), H
       <node ref="U6" pin="59" pinfunction="PB6/FDCAN2_TX" pintype="output"/>
     </net>
     <net code="8" name="/FSYNC_TDK">
-      <node ref="U10" pin="8" pinfunction="FSYNC" pintype="input"/>
+      <node ref="U12" pin="8" pinfunction="FSYNC" pintype="input"/>
       <node ref="U9" pin="13" pinfunction="1B1" pintype="bidirectional"/>
     </net>
     <net code="9" name="/FSYNC_TDK_ST">
@@ -2992,31 +2881,27 @@ IMUs - Inertial Measurement Units Automotive Qualified, Grade2 (-40 C +105 C), H
       <node ref="U9" pin="4" pinfunction="1A1" pintype="bidirectional"/>
     </net>
     <net code="10" name="/INT_TDK">
-      <node ref="U10" pin="6" pinfunction="INT" pintype="output"/>
+      <node ref="U12" pin="6" pinfunction="INT" pintype="output"/>
       <node ref="U6" pin="12" pinfunction="PA0/GPIO_IN" pintype="input"/>
     </net>
     <net code="11" name="/LED1_GRN">
-      <node ref="Q4" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="Q6" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="U10" pin="1" pintype="input"/>
       <node ref="U6" pin="8" pinfunction="PC0/GPIO_OUT" pintype="output"/>
     </net>
     <net code="12" name="/LED1_RED">
-      <node ref="Q5" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="Q7" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="U10" pin="3" pintype="input"/>
       <node ref="U6" pin="9" pinfunction="PC1/GPIO_OUT" pintype="output"/>
     </net>
     <net code="13" name="/LED2_GRN">
-      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="Q8" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="U11" pin="3" pintype="input"/>
       <node ref="U6" pin="10" pinfunction="PC2/GPIO_OUT" pintype="output"/>
     </net>
     <net code="14" name="/LED2_RED">
-      <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="Q9" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="U11" pin="1" pintype="input"/>
       <node ref="U6" pin="11" pinfunction="PC3/GPIO_OUT" pintype="output"/>
     </net>
     <net code="15" name="/MISO_DUE">
@@ -3024,7 +2909,7 @@ IMUs - Inertial Measurement Units Automotive Qualified, Grade2 (-40 C +105 C), H
       <node ref="U6" pin="53" pinfunction="PC11/SPI3_MISO" pintype="input"/>
     </net>
     <net code="16" name="/MISO_TDK">
-      <node ref="U10" pin="4" pinfunction="SA0/SDO" pintype="bidirectional"/>
+      <node ref="U12" pin="4" pinfunction="SA0/SDO" pintype="bidirectional"/>
       <node ref="U6" pin="20" pinfunction="PA6/SPI1_MISO" pintype="input"/>
     </net>
     <net code="17" name="/MISO_UNO">
@@ -3036,7 +2921,7 @@ IMUs - Inertial Measurement Units Automotive Qualified, Grade2 (-40 C +105 C), H
       <node ref="U6" pin="54" pinfunction="PC12/SPI3_MOSI" pintype="output"/>
     </net>
     <net code="19" name="/MOSI_TDK">
-      <node ref="U10" pin="3" pinfunction="SDA/SDI" pintype="bidirectional"/>
+      <node ref="U12" pin="3" pinfunction="SDA/SDI" pintype="bidirectional"/>
       <node ref="U9" pin="12" pinfunction="1B2" pintype="bidirectional"/>
     </net>
     <net code="20" name="/MOSI_TDK_ST">
@@ -3048,12 +2933,12 @@ IMUs - Inertial Measurement Units Automotive Qualified, Grade2 (-40 C +105 C), H
       <node ref="U6" pin="37" pinfunction="PB15/SPI2_MOSI" pintype="output"/>
     </net>
     <net code="22" name="/Power Supply/V_{BAT_MON}">
-      <node ref="C36" pin="2" pintype="passive"/>
+      <node ref="C37" pin="2" pintype="passive"/>
       <node ref="C5" pin="1" pintype="passive"/>
       <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
       <node ref="R6" pin="2" pintype="passive"/>
-      <node ref="U8" pin="5" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U7" pin="5" pinfunction="VIN" pintype="power_in"/>
     </net>
     <net code="23" name="/SCK_DUE">
       <node ref="U4" pin="4" pinfunction="SCK-DUE" pintype="input"/>
@@ -3061,7 +2946,7 @@ IMUs - Inertial Measurement Units Automotive Qualified, Grade2 (-40 C +105 C), H
     </net>
     <net code="24" name="/SCK_TDK">
       <node ref="R7" pin="1" pintype="passive"/>
-      <node ref="U10" pin="2" pinfunction="SCL/SPC" pintype="input"/>
+      <node ref="U12" pin="2" pinfunction="SCL/SPC" pintype="input"/>
       <node ref="U9" pin="11" pinfunction="2B1" pintype="bidirectional"/>
     </net>
     <net code="25" name="/SCK_TDK_ST">
@@ -3082,7 +2967,7 @@ IMUs - Inertial Measurement Units Automotive Qualified, Grade2 (-40 C +105 C), H
     </net>
     <net code="29" name="/TDK_PWR_EN">
       <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
       <node ref="U6" pin="41" pinfunction="PC9/GPIO_OUT" pintype="output"/>
     </net>
     <net code="30" name="/T_SWCLK">
@@ -3126,7 +3011,7 @@ IMUs - Inertial Measurement Units Automotive Qualified, Grade2 (-40 C +105 C), H
     </net>
     <net code="39" name="/~{CS_TDK}">
       <node ref="R5" pin="1" pintype="passive"/>
-      <node ref="U10" pin="5" pinfunction="~{CS}" pintype="input"/>
+      <node ref="U12" pin="5" pinfunction="~{CS}" pintype="input"/>
       <node ref="U9" pin="10" pinfunction="2B2" pintype="bidirectional"/>
     </net>
     <net code="40" name="/~{CS_UNO}">
@@ -3149,9 +3034,9 @@ IMUs - Inertial Measurement Units Automotive Qualified, Grade2 (-40 C +105 C), H
     <net code="44" name="/~{T_NRST}">
       <node ref="C20" pin="1" pintype="passive"/>
       <node ref="J5" pin="12" pinfunction="Pin_12" pintype="passive"/>
-      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
       <node ref="U6" pin="7" pinfunction="PG10/~{NRST}" pintype="input"/>
-      <node ref="U7" pin="1" pinfunction="~{RST}" pintype="open_collector"/>
+      <node ref="U8" pin="1" pinfunction="~{RST}" pintype="open_collector"/>
     </net>
     <net code="45" name="GND">
       <node ref="C1" pin="2" pintype="passive"/>
@@ -3183,45 +3068,45 @@ IMUs - Inertial Measurement Units Automotive Qualified, Grade2 (-40 C +105 C), H
       <node ref="C33" pin="2" pintype="passive"/>
       <node ref="C34" pin="2" pintype="passive"/>
       <node ref="C35" pin="2" pintype="passive"/>
-      <node ref="C36" pin="1" pintype="passive"/>
-      <node ref="C37" pin="2" pintype="passive"/>
+      <node ref="C36" pin="2" pintype="passive"/>
+      <node ref="C37" pin="1" pintype="passive"/>
       <node ref="C38" pin="2" pintype="passive"/>
       <node ref="C4" pin="2" pintype="passive"/>
       <node ref="C40" pin="2" pintype="passive"/>
+      <node ref="C41" pin="2" pintype="passive"/>
+      <node ref="C42" pin="2" pintype="passive"/>
       <node ref="C5" pin="2" pintype="passive"/>
       <node ref="C6" pin="2" pintype="passive"/>
       <node ref="C8" pin="2" pintype="passive"/>
       <node ref="C9" pin="2" pintype="passive"/>
       <node ref="D1" pin="1" pinfunction="A1" pintype="passive"/>
-      <node ref="D5" pin="2" pinfunction="AK" pintype="input"/>
+      <node ref="D4" pin="2" pinfunction="AK" pintype="input"/>
       <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="J3" pin="4" pinfunction="GND" pintype="power_out"/>
       <node ref="J3" pin="5" pinfunction="Shield" pintype="passive"/>
       <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="J5" pin="7" pinfunction="Pin_7" pintype="passive"/>
-      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q3" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q4" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q5" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="R14" pin="2" pintype="passive"/>
-      <node ref="R15" pin="1" pintype="passive"/>
-      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
       <node ref="R22" pin="2" pintype="passive"/>
-      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
       <node ref="R5" pin="2" pintype="passive"/>
       <node ref="R7" pin="2" pintype="passive"/>
       <node ref="R8" pin="1" pintype="passive"/>
       <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="SW1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="VSS" pintype="power_in"/>
-      <node ref="U10" pin="10" pinfunction="RESV" pintype="passive"/>
-      <node ref="U10" pin="11" pinfunction="RESV" pintype="passive"/>
-      <node ref="U10" pin="12" pinfunction="RESV" pintype="passive"/>
-      <node ref="U10" pin="13" pinfunction="GND" pintype="passive"/>
-      <node ref="U10" pin="15" pinfunction="RESV" pintype="passive"/>
-      <node ref="U10" pin="7" pinfunction="RESV" pintype="output"/>
-      <node ref="U10" pin="9" pinfunction="RESV" pintype="passive"/>
+      <node ref="U10" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U11" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U12" pin="10" pinfunction="RESV" pintype="passive"/>
+      <node ref="U12" pin="11" pinfunction="RESV" pintype="passive"/>
+      <node ref="U12" pin="12" pinfunction="RESV" pintype="passive"/>
+      <node ref="U12" pin="13" pinfunction="GND" pintype="passive"/>
+      <node ref="U12" pin="15" pinfunction="RESV" pintype="passive"/>
+      <node ref="U12" pin="7" pinfunction="RESV" pintype="output"/>
+      <node ref="U12" pin="9" pinfunction="RESV" pintype="passive"/>
       <node ref="U2" pin="2" pinfunction="GND" pintype="passive"/>
       <node ref="U3" pin="2" pinfunction="GND" pintype="passive"/>
       <node ref="U3" pin="3" pinfunction="NC" pintype="passive"/>
@@ -3247,8 +3132,8 @@ IMUs - Inertial Measurement Units Automotive Qualified, Grade2 (-40 C +105 C), H
       <node ref="U6" pin="31" pinfunction="VSS" pintype="passive"/>
       <node ref="U6" pin="47" pinfunction="VSS" pintype="passive"/>
       <node ref="U6" pin="63" pinfunction="VSS" pintype="passive"/>
-      <node ref="U7" pin="3" pinfunction="VSS" pintype="power_in"/>
-      <node ref="U8" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="U7" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="U8" pin="3" pinfunction="VSS" pintype="power_in"/>
       <node ref="U9" pin="8" pinfunction="GND" pintype="passive"/>
       <node ref="U9" pin="9" pinfunction="GND" pintype="passive"/>
     </net>
@@ -3261,41 +3146,37 @@ IMUs - Inertial Measurement Units Automotive Qualified, Grade2 (-40 C +105 C), H
     </net>
     <net code="47" name="Net-(C39-Pad2)">
       <node ref="C39" pin="2" pintype="passive"/>
-      <node ref="R18" pin="1" pintype="passive"/>
-      <node ref="R21" pin="1" pintype="passive"/>
-      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="SW2" pin="4" pinfunction="4" pintype="passive"/>
     </net>
     <net code="48" name="Net-(C40-Pad1)">
       <node ref="C40" pin="1" pintype="passive"/>
-      <node ref="R19" pin="1" pintype="passive"/>
-      <node ref="R20" pin="1" pintype="passive"/>
-      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="SW1" pin="4" pinfunction="4" pintype="passive"/>
     </net>
     <net code="49" name="Net-(D3-AK)">
       <node ref="D3" pin="2" pinfunction="AK" pintype="input"/>
-      <node ref="Q4" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="R10" pin="1" pintype="passive"/>
     </net>
     <net code="50" name="Net-(D3-KA)">
       <node ref="D3" pin="1" pinfunction="KA" pintype="input"/>
-      <node ref="Q5" pin="3" pinfunction="D" pintype="passive"/>
-      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U10" pin="4" pintype="output"/>
     </net>
-    <net code="51" name="Net-(D4-AK)">
-      <node ref="D4" pin="2" pinfunction="AK" pintype="input"/>
-      <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
-      <node ref="R12" pin="1" pintype="passive"/>
-    </net>
-    <net code="52" name="Net-(D4-KA)">
+    <net code="51" name="Net-(D4-KA)">
       <node ref="D4" pin="1" pinfunction="KA" pintype="input"/>
-      <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
-      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(D5-AK)">
+      <node ref="D5" pin="2" pinfunction="AK" pintype="input"/>
+      <node ref="U11" pin="4" pintype="output"/>
     </net>
     <net code="53" name="Net-(D5-KA)">
       <node ref="D5" pin="1" pinfunction="KA" pintype="input"/>
-      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
     </net>
     <net code="54" name="Net-(J3-VBUS)">
       <node ref="J3" pin="1" pinfunction="VBUS" pintype="power_out"/>
@@ -3303,169 +3184,161 @@ IMUs - Inertial Measurement Units Automotive Qualified, Grade2 (-40 C +105 C), H
     </net>
     <net code="55" name="Net-(Q1-D)">
       <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
-      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
     </net>
-    <net code="56" name="Net-(Q6-D)">
-      <node ref="Q6" pin="3" pinfunction="D" pintype="passive"/>
-      <node ref="R10" pin="2" pintype="passive"/>
-    </net>
-    <net code="57" name="Net-(Q7-D)">
-      <node ref="Q7" pin="3" pinfunction="D" pintype="passive"/>
+    <net code="56" name="Net-(R9-Pad2)">
       <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U11" pin="6" pintype="output"/>
     </net>
-    <net code="58" name="Net-(Q8-D)">
-      <node ref="Q8" pin="3" pinfunction="D" pintype="passive"/>
-      <node ref="R12" pin="2" pintype="passive"/>
+    <net code="57" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U10" pin="6" pintype="output"/>
     </net>
-    <net code="59" name="Net-(Q9-D)">
-      <node ref="Q9" pin="3" pinfunction="D" pintype="passive"/>
-      <node ref="R11" pin="2" pintype="passive"/>
-    </net>
-    <net code="60" name="Net-(U3-SW)">
+    <net code="58" name="Net-(U3-SW)">
       <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U3" pin="1" pinfunction="SW" pintype="power_in"/>
     </net>
-    <net code="61" name="Net-(U3-VOUT)">
+    <net code="59" name="Net-(U3-VOUT)">
       <node ref="C11" pin="1" pintype="passive"/>
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="U3" pin="4" pinfunction="VOUT" pintype="power_out"/>
     </net>
-    <net code="62" name="Net-(U4-VDDA-DUE)">
+    <net code="60" name="Net-(U4-VDDA-DUE)">
       <node ref="C13" pin="1" pintype="passive"/>
       <node ref="U4" pin="27" pinfunction="VDDA-DUE" pintype="power_in"/>
     </net>
-    <net code="63" name="Net-(U4-VDDA-UNO)">
+    <net code="61" name="Net-(U4-VDDA-UNO)">
       <node ref="C24" pin="1" pintype="passive"/>
       <node ref="U4" pin="11" pinfunction="VDDA-UNO" pintype="power_in"/>
     </net>
-    <net code="64" name="Net-(U4-VDDD-DUE)">
+    <net code="62" name="Net-(U4-VDDD-DUE)">
       <node ref="C21" pin="1" pintype="passive"/>
       <node ref="U4" pin="9" pinfunction="VDDD-DUE" pintype="power_in"/>
     </net>
-    <net code="65" name="Net-(U4-VDDD-UNO)">
+    <net code="63" name="Net-(U4-VDDD-UNO)">
       <node ref="C18" pin="1" pintype="passive"/>
       <node ref="U4" pin="25" pinfunction="VDDD-UNO" pintype="power_in"/>
     </net>
-    <net code="66" name="Net-(U5-OUT)">
+    <net code="64" name="Net-(U5-OUT)">
       <node ref="U5" pin="3" pinfunction="OUT" pintype="output"/>
       <node ref="U6" pin="5" pinfunction="PF0/RCC_OSC_IN" pintype="input"/>
     </net>
-    <net code="67" name="Net-(U6-PA8{slash}ADC5_IN1)">
+    <net code="65" name="Net-(U6-PA8{slash}ADC5_IN1)">
       <node ref="C25" pin="1" pintype="passive"/>
-      <node ref="R13" pin="2" pintype="passive"/>
-      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
       <node ref="U6" pin="42" pinfunction="PA8/ADC5_IN1" pintype="output"/>
     </net>
-    <net code="68" name="Net-(U6-PB8{slash}BOOT0)">
-      <node ref="C14" pin="1" pintype="passive"/>
-      <node ref="R18" pin="2" pintype="passive"/>
+    <net code="66" name="Net-(U6-PB8{slash}BOOT0)">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
       <node ref="U6" pin="61" pinfunction="PB8/BOOT0" pintype="input"/>
     </net>
-    <net code="69" name="Net-(U6-VREF+{slash}VREFBUF_OUT)">
+    <net code="67" name="Net-(U6-VREF+{slash}VREFBUF_OUT)">
       <node ref="C30" pin="1" pintype="passive"/>
       <node ref="C31" pin="1" pintype="passive"/>
       <node ref="U6" pin="28" pinfunction="VREF+/VREFBUF_OUT" pintype="output"/>
     </net>
-    <net code="70" name="Net-(U8-CB)">
+    <net code="68" name="Net-(U7-CB)">
       <node ref="C7" pin="1" pintype="passive"/>
-      <node ref="U8" pin="1" pinfunction="CB" pintype="passive"/>
+      <node ref="U7" pin="1" pinfunction="CB" pintype="passive"/>
     </net>
-    <net code="71" name="Net-(U8-EN)">
+    <net code="69" name="Net-(U7-EN)">
       <node ref="R6" pin="1" pintype="passive"/>
       <node ref="R8" pin="2" pintype="passive"/>
-      <node ref="U8" pin="4" pinfunction="EN" pintype="input"/>
+      <node ref="U7" pin="4" pinfunction="EN" pintype="input"/>
     </net>
-    <net code="72" name="Net-(U8-FB)">
-      <node ref="R15" pin="2" pintype="passive"/>
+    <net code="70" name="Net-(U7-FB)">
+      <node ref="R13" pin="2" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
-      <node ref="U8" pin="3" pinfunction="FB" pintype="input"/>
+      <node ref="U7" pin="3" pinfunction="FB" pintype="input"/>
     </net>
-    <net code="73" name="Net-(U8-SW)">
+    <net code="71" name="Net-(U7-SW)">
       <node ref="C7" pin="2" pintype="passive"/>
       <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U8" pin="6" pinfunction="SW" pintype="power_out"/>
+      <node ref="U7" pin="6" pinfunction="SW" pintype="power_out"/>
     </net>
-    <net code="74" name="Net-(U10-REGOUT)">
+    <net code="72" name="Net-(U12-REGOUT)">
       <node ref="C32" pin="1" pintype="passive"/>
-      <node ref="U10" pin="14" pinfunction="REGOUT" pintype="passive"/>
+      <node ref="U12" pin="14" pinfunction="REGOUT" pintype="passive"/>
     </net>
-    <net code="75" name="Net-(U10-VDD)">
+    <net code="73" name="Net-(U12-VDD)">
       <node ref="C33" pin="1" pintype="passive"/>
       <node ref="C34" pin="1" pintype="passive"/>
-      <node ref="C37" pin="1" pintype="passive"/>
-      <node ref="R16" pin="1" pintype="passive"/>
-      <node ref="U10" pin="1" pinfunction="VDDIO" pintype="power_in"/>
-      <node ref="U10" pin="16" pinfunction="VDD" pintype="power_in"/>
+      <node ref="C35" pin="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U12" pin="1" pinfunction="VDDIO" pintype="power_in"/>
+      <node ref="U12" pin="16" pinfunction="VDD" pintype="power_in"/>
       <node ref="U9" pin="16" pinfunction="VCCB" pintype="power_in"/>
     </net>
-    <net code="76" name="unconnected-(J5-Pin_1-Pad1)">
+    <net code="74" name="unconnected-(J5-Pin_1-Pad1)">
       <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
     </net>
-    <net code="77" name="unconnected-(J5-Pin_2-Pad2)">
+    <net code="75" name="unconnected-(J5-Pin_2-Pad2)">
       <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
     </net>
-    <net code="78" name="unconnected-(J5-Pin_8-Pad8)">
+    <net code="76" name="unconnected-(J5-Pin_8-Pad8)">
       <node ref="J5" pin="8" pinfunction="Pin_8" pintype="passive+no_connect"/>
     </net>
-    <net code="79" name="unconnected-(J5-Pin_9-Pad9)">
+    <net code="77" name="unconnected-(J5-Pin_9-Pad9)">
       <node ref="J5" pin="9" pinfunction="Pin_9" pintype="passive+no_connect"/>
     </net>
-    <net code="80" name="unconnected-(J5-Pin_10-Pad10)">
+    <net code="78" name="unconnected-(J5-Pin_10-Pad10)">
       <node ref="J5" pin="10" pinfunction="Pin_10" pintype="passive+no_connect"/>
     </net>
-    <net code="81" name="unconnected-(J5-Pin_11-Pad11)">
+    <net code="79" name="unconnected-(J5-Pin_11-Pad11)">
       <node ref="J5" pin="11" pinfunction="Pin_11" pintype="passive+no_connect"/>
     </net>
-    <net code="82" name="unconnected-(U6-PA9{slash}GPIO_OUT-Pad43)">
+    <net code="80" name="unconnected-(U6-PA9{slash}GPIO_OUT-Pad43)">
       <node ref="U6" pin="43" pinfunction="PA9/GPIO_OUT" pintype="output+no_connect"/>
     </net>
-    <net code="83" name="unconnected-(U6-PA10{slash}GPIO_OUT-Pad44)">
+    <net code="81" name="unconnected-(U6-PA10{slash}GPIO_OUT-Pad44)">
       <node ref="U6" pin="44" pinfunction="PA10/GPIO_OUT" pintype="output+no_connect"/>
     </net>
-    <net code="84" name="unconnected-(U6-PB0{slash}GPIO_OUT-Pad24)">
+    <net code="82" name="unconnected-(U6-PB0{slash}GPIO_OUT-Pad24)">
       <node ref="U6" pin="24" pinfunction="PB0/GPIO_OUT" pintype="output+no_connect"/>
     </net>
-    <net code="85" name="unconnected-(U6-PB1{slash}GPIO_OUT-Pad25)">
+    <net code="83" name="unconnected-(U6-PB1{slash}GPIO_OUT-Pad25)">
       <node ref="U6" pin="25" pinfunction="PB1/GPIO_OUT" pintype="output+no_connect"/>
     </net>
-    <net code="86" name="unconnected-(U6-PB2{slash}GPIO_OUT-Pad26)">
+    <net code="84" name="unconnected-(U6-PB2{slash}GPIO_OUT-Pad26)">
       <node ref="U6" pin="26" pinfunction="PB2/GPIO_OUT" pintype="output+no_connect"/>
     </net>
-    <net code="87" name="unconnected-(U6-PB3{slash}GPIO_OUT-Pad56)">
+    <net code="85" name="unconnected-(U6-PB3{slash}GPIO_OUT-Pad56)">
       <node ref="U6" pin="56" pinfunction="PB3/GPIO_OUT" pintype="output+no_connect"/>
     </net>
-    <net code="88" name="unconnected-(U6-PB4{slash}GPIO_OUT-Pad57)">
+    <net code="86" name="unconnected-(U6-PB4{slash}GPIO_OUT-Pad57)">
       <node ref="U6" pin="57" pinfunction="PB4/GPIO_OUT" pintype="output+no_connect"/>
     </net>
-    <net code="89" name="unconnected-(U6-PB9{slash}GPIO_OUT-Pad62)">
+    <net code="87" name="unconnected-(U6-PB9{slash}GPIO_OUT-Pad62)">
       <node ref="U6" pin="62" pinfunction="PB9/GPIO_OUT" pintype="output+no_connect"/>
     </net>
-    <net code="90" name="unconnected-(U6-PB10{slash}GPIO_OUT-Pad30)">
+    <net code="88" name="unconnected-(U6-PB10{slash}GPIO_OUT-Pad30)">
       <node ref="U6" pin="30" pinfunction="PB10/GPIO_OUT" pintype="output+no_connect"/>
     </net>
-    <net code="91" name="unconnected-(U6-PB11{slash}GPIO_OUT-Pad33)">
+    <net code="89" name="unconnected-(U6-PB11{slash}GPIO_OUT-Pad33)">
       <node ref="U6" pin="33" pinfunction="PB11/GPIO_OUT" pintype="output+no_connect"/>
     </net>
-    <net code="92" name="unconnected-(U6-PC7{slash}GPIO_OUT-Pad39)">
+    <net code="90" name="unconnected-(U6-PC7{slash}GPIO_OUT-Pad39)">
       <node ref="U6" pin="39" pinfunction="PC7/GPIO_OUT" pintype="output+no_connect"/>
     </net>
-    <net code="93" name="unconnected-(U6-PC8{slash}GPIO_OUT-Pad40)">
+    <net code="91" name="unconnected-(U6-PC8{slash}GPIO_OUT-Pad40)">
       <node ref="U6" pin="40" pinfunction="PC8/GPIO_OUT" pintype="output+no_connect"/>
     </net>
-    <net code="94" name="unconnected-(U6-PC13{slash}GPIO_OUT-Pad2)">
+    <net code="92" name="unconnected-(U6-PC13{slash}GPIO_OUT-Pad2)">
       <node ref="U6" pin="2" pinfunction="PC13/GPIO_OUT" pintype="output+no_connect"/>
     </net>
-    <net code="95" name="unconnected-(U6-PC14{slash}GPIO_OUT-Pad3)">
+    <net code="93" name="unconnected-(U6-PC14{slash}GPIO_OUT-Pad3)">
       <node ref="U6" pin="3" pinfunction="PC14/GPIO_OUT" pintype="output+no_connect"/>
     </net>
-    <net code="96" name="unconnected-(U6-PC15{slash}GPIO_OUT-Pad4)">
+    <net code="94" name="unconnected-(U6-PC15{slash}GPIO_OUT-Pad4)">
       <node ref="U6" pin="4" pinfunction="PC15/GPIO_OUT" pintype="output+no_connect"/>
     </net>
-    <net code="97" name="unconnected-(U6-PD2{slash}GPIO_OUT-Pad55)">
+    <net code="95" name="unconnected-(U6-PD2{slash}GPIO_OUT-Pad55)">
       <node ref="U6" pin="55" pinfunction="PD2/GPIO_OUT" pintype="output+no_connect"/>
     </net>
-    <net code="98" name="unconnected-(U6-PF1{slash}RCC_OSC_OUT-Pad6)">
+    <net code="96" name="unconnected-(U6-PF1{slash}RCC_OSC_OUT-Pad6)">
       <node ref="U6" pin="6" pinfunction="PF1/RCC_OSC_OUT" pintype="output+no_connect"/>
     </net>
   </nets>
