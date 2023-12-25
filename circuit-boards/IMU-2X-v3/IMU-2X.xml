@@ -1,0 +1,3884 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/scott/Documents/Projects/dev/git/971-electrical/circuit-boards/IMU-2X-v3/IMU-2X.kicad_sch</source>
+    <date>Sun 24 Dec 2023 11:23:52 PM PST</date>
+    <tool>Eeschema 7.0.9-7.0.9~ubuntu22.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>IMU-2X</title>
+        <company>FRC971 - Spartan Robotics</company>
+        <rev>3</rev>
+        <date>2023-12-24</date>
+        <source>IMU-2X.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Power Supply/" tstamps="/dfddfc9c-e803-47e7-ad6c-6304a5151d35/">
+      <title_block>
+        <title>IMU-2X</title>
+        <company>FRC971 - Spartan Robotics</company>
+        <rev>3</rev>
+        <date>2023-11-19</date>
+        <source>power-supply.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/LEDs/" tstamps="/088575d8-b480-483a-8195-b5bd2af558b0/">
+      <title_block>
+        <title>IMU-2X</title>
+        <company>FRC971 - Spartan Robotics</company>
+        <rev>3</rev>
+        <date>2023-11-19</date>
+        <source>LED.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/PWM-Heading/" tstamps="/4bacb90b-5ef0-490f-9fcc-20f01791f70e/">
+      <title_block>
+        <title>IMU-2X</title>
+        <company>FRC971 - Spartan Robotics</company>
+        <rev>3</rev>
+        <date/>
+        <source>pwm-heading.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C4">
+      <value>0.1uF-25V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>Components/Kyocera-KGM_X7R.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">478-KGM15BR71E104KMCT-ND</field>
+        <field name="MFG">Kyocera AVX</field>
+        <field name="MFG P/N">KGM15BR71E104KM</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="478-KGM15BR71E104KMCT-ND"/>
+      <property name="MFG" value="Kyocera AVX"/>
+      <property name="MFG P/N" value="KGM15BR71E104KM"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>32254de3-9b7b-47ac-be35-2ada1c348786</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>0.1uF-25V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>Components/Kyocera-KGM_X7R.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">478-KGM15BR71E104KMCT-ND</field>
+        <field name="MFG">Kyocera AVX</field>
+        <field name="MFG P/N">KGM15BR71E104KM</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="478-KGM15BR71E104KMCT-ND"/>
+      <property name="MFG" value="Kyocera AVX"/>
+      <property name="MFG P/N" value="KGM15BR71E104KM"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1bcedb69-46b5-46ab-a4d8-901b2fda6983</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>0.1uF-25V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>Components/Kyocera-KGM_X7R.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">478-KGM15BR71E104KMCT-ND</field>
+        <field name="MFG">Kyocera AVX</field>
+        <field name="MFG P/N">KGM15BR71E104KM</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="478-KGM15BR71E104KMCT-ND"/>
+      <property name="MFG" value="Kyocera AVX"/>
+      <property name="MFG P/N" value="KGM15BR71E104KM"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>47c48a97-fe5b-4205-bced-f3477aac4b13</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>1.0uF-25V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>Components/Samsung-CL10B105KA8NNNC_spec.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">1276-1184-1-ND</field>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL10B105KA8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="1276-1184-1-ND"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL10B105KA8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>47c0d196-c03e-46a5-b097-553d98ed72ec</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>1.0uF-25V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>Components/Samsung-CL10B105KA8NNNC_spec.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">1276-1184-1-ND</field>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL10B105KA8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="1276-1184-1-ND"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL10B105KA8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c36e553e-e945-4c53-b5f1-e27154cd15e6</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>1000pF-50V-5%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>Components/Murata-GRM1885C1H102JA01-01.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">490-1451-1-ND</field>
+        <field name="MFG">Murata Electronics</field>
+        <field name="MFG P/N">GRM1885C1H102JA01D</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="490-1451-1-ND"/>
+      <property name="MFG" value="Murata Electronics"/>
+      <property name="MFG P/N" value="GRM1885C1H102JA01D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>027a4e29-9c0c-4a52-b383-3c5e4c968972</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>0.1uF-25V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>Components/Kyocera-KGM_X7R.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">478-KGM15BR71E104KMCT-ND</field>
+        <field name="MFG">Kyocera AVX</field>
+        <field name="MFG P/N">KGM15BR71E104KM</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="478-KGM15BR71E104KMCT-ND"/>
+      <property name="MFG" value="Kyocera AVX"/>
+      <property name="MFG P/N" value="KGM15BR71E104KM"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d199ff72-3806-43aa-b0cb-30593a00bc28</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>0.1uF-25V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>Components/Kyocera-KGM_X7R.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">478-KGM15BR71E104KMCT-ND</field>
+        <field name="MFG">Kyocera AVX</field>
+        <field name="MFG P/N">KGM15BR71E104KM</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="478-KGM15BR71E104KMCT-ND"/>
+      <property name="MFG" value="Kyocera AVX"/>
+      <property name="MFG P/N" value="KGM15BR71E104KM"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b38344a-6c60-4dff-a621-5707d3e87b73</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>2.2uF-10V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>Components/Murata-GRM188R71A225KE15-01.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">490-6418-1-ND</field>
+        <field name="MFG">Murata Electronics</field>
+        <field name="MFG P/N">GRM188R71A225KE15J</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="490-6418-1-ND"/>
+      <property name="MFG" value="Murata Electronics"/>
+      <property name="MFG P/N" value="GRM188R71A225KE15J"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cb0171dd-91a6-44c9-9899-76dfef8ff4f9</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>1.0uF-25V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>Components/Samsung-CL10B105KA8NNNC_spec.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">1276-1184-1-ND</field>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL10B105KA8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="1276-1184-1-ND"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL10B105KA8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>02506371-7f5f-4a8b-9218-f61e947abc9f</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>0.1uF-25V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>Components/Kyocera-KGM_X7R.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">478-KGM15BR71E104KMCT-ND</field>
+        <field name="MFG">Kyocera AVX</field>
+        <field name="MFG P/N">KGM15BR71E104KM</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="478-KGM15BR71E104KMCT-ND"/>
+      <property name="MFG" value="Kyocera AVX"/>
+      <property name="MFG P/N" value="KGM15BR71E104KM"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>33f948d0-138a-4b1c-bd1a-e86440d93e8a</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>1000pF-50V-5%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>Components/Murata-GRM1885C1H102JA01-01.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">490-1451-1-ND</field>
+        <field name="MFG">Murata Electronics</field>
+        <field name="MFG P/N">GRM1885C1H102JA01D</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="490-1451-1-ND"/>
+      <property name="MFG" value="Murata Electronics"/>
+      <property name="MFG P/N" value="GRM1885C1H102JA01D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>069ddd98-d588-468e-83a5-379cce11cb30</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>1.0uF-25V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>Components/Samsung-CL10B105KA8NNNC_spec.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">1276-1184-1-ND</field>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL10B105KA8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="1276-1184-1-ND"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL10B105KA8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36c9d22d-136a-47eb-94dd-145ec4354453</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>0.1uF-25V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>Components/Kyocera-KGM_X7R.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">478-KGM15BR71E104KMCT-ND</field>
+        <field name="MFG">Kyocera AVX</field>
+        <field name="MFG P/N">KGM15BR71E104KM</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="478-KGM15BR71E104KMCT-ND"/>
+      <property name="MFG" value="Kyocera AVX"/>
+      <property name="MFG P/N" value="KGM15BR71E104KM"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c762cb78-5c9c-4429-81c2-4c5c064502e3</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>1.0uF-25V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>Components/Samsung-CL10B105KA8NNNC_spec.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">1276-1184-1-ND</field>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL10B105KA8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="1276-1184-1-ND"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL10B105KA8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d6eead60-86fa-4cb2-9970-6d5f91ed30b3</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>1.0uF-25V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>Components/Samsung-CL10B105KA8NNNC_spec.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">1276-1184-1-ND</field>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL10B105KA8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="1276-1184-1-ND"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL10B105KA8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b7fcaf98-844e-4477-882b-fbe80c12afaa</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>0.047uF-16V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>Components/Kemet-C0603C473K4RACTU.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">399-C0603C473K4RAC7867CT-ND</field>
+        <field name="MFG">Kemet</field>
+        <field name="MFG P/N">C0603C473K4RAC7867</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="399-C0603C473K4RAC7867CT-ND"/>
+      <property name="MFG" value="Kemet"/>
+      <property name="MFG P/N" value="C0603C473K4RAC7867"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4bf21152-7de2-4c9c-b651-5894a4a59c82</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>4.7uF-6.3V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>Components/Samsung-CL10B475KQ8NQNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">1276-2087-1-ND</field>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL10B475KQ8NQNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="1276-2087-1-ND"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL10B475KQ8NQNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85de3c47-e1ac-41f7-99cc-94fc90084637</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>0.1uF-25V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>Components/Kyocera-KGM_X7R.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">478-KGM15BR71E104KMCT-ND</field>
+        <field name="MFG">Kyocera AVX</field>
+        <field name="MFG P/N">KGM15BR71E104KM</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="478-KGM15BR71E104KMCT-ND"/>
+      <property name="MFG" value="Kyocera AVX"/>
+      <property name="MFG P/N" value="KGM15BR71E104KM"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cc36b47f-2247-4090-bf64-b09307d00b5b</tstamps>
+    </comp>
+    <comp ref="C29">
+      <value>0.1uF-25V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>Components/Kyocera-KGM_X7R.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">478-KGM15BR71E104KMCT-ND</field>
+        <field name="MFG">Kyocera AVX</field>
+        <field name="MFG P/N">KGM15BR71E104KM</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="478-KGM15BR71E104KMCT-ND"/>
+      <property name="MFG" value="Kyocera AVX"/>
+      <property name="MFG P/N" value="KGM15BR71E104KM"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>01ce4034-8d58-4c47-86a3-63ddd0e7d995</tstamps>
+    </comp>
+    <comp ref="C30">
+      <value>0.01uF-50V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>Components/TDK-mlcc_automotive_general_en.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">445-5662-1-ND</field>
+        <field name="MFG">TDK Corporation</field>
+        <field name="MFG P/N">CGA3E2X7R1H103K080AA</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="445-5662-1-ND"/>
+      <property name="MFG" value="TDK Corporation"/>
+      <property name="MFG P/N" value="CGA3E2X7R1H103K080AA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fa261e3e-0842-4b35-be12-2365748b59eb</tstamps>
+    </comp>
+    <comp ref="C31">
+      <value>1.0uF-25V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>Components/Samsung-CL10B105KA8NNNC_spec.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">1276-1184-1-ND</field>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL10B105KA8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="1276-1184-1-ND"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL10B105KA8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6cf9ae8a-8cce-4a6e-a7de-5bd9284656bf</tstamps>
+    </comp>
+    <comp ref="C32">
+      <value>0.1uF-25V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>Components/Kyocera-KGM_X7R.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">478-KGM15BR71E104KMCT-ND</field>
+        <field name="MFG">Kyocera AVX</field>
+        <field name="MFG P/N">KGM15BR71E104KM</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="478-KGM15BR71E104KMCT-ND"/>
+      <property name="MFG" value="Kyocera AVX"/>
+      <property name="MFG P/N" value="KGM15BR71E104KM"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b0896263-57a1-483a-aa67-112f4cb25ba8</tstamps>
+    </comp>
+    <comp ref="C33">
+      <value>0.47uF-10V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>Components/Samsung-CL10B474KP8NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">1276-1247-1-ND</field>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL10B474KP8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="1276-1247-1-ND"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL10B474KP8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>87e12dbd-622a-4d55-8372-5ab42bec02fc</tstamps>
+    </comp>
+    <comp ref="C34">
+      <value>0.1uF-25V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>Components/Kyocera-KGM_X7R.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">478-KGM15BR71E104KMCT-ND</field>
+        <field name="MFG">Kyocera AVX</field>
+        <field name="MFG P/N">KGM15BR71E104KM</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="478-KGM15BR71E104KMCT-ND"/>
+      <property name="MFG" value="Kyocera AVX"/>
+      <property name="MFG P/N" value="KGM15BR71E104KM"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>87b7e87f-c48d-4088-b942-ddbdb02bb7f9</tstamps>
+    </comp>
+    <comp ref="C35">
+      <value>2.2uF-10V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>Components/Murata-GRM188R71A225KE15-01.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">490-6418-1-ND</field>
+        <field name="MFG">Murata Electronics</field>
+        <field name="MFG P/N">GRM188R71A225KE15J</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="490-6418-1-ND"/>
+      <property name="MFG" value="Murata Electronics"/>
+      <property name="MFG P/N" value="GRM188R71A225KE15J"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa46ff6f-4034-4859-969c-512384297ad1</tstamps>
+    </comp>
+    <comp ref="C36">
+      <value>0.1uF-25V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>Components/Kyocera-KGM_X7R.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">478-KGM15BR71E104KMCT-ND</field>
+        <field name="MFG">Kyocera AVX</field>
+        <field name="MFG P/N">KGM15BR71E104KM</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="478-KGM15BR71E104KMCT-ND"/>
+      <property name="MFG" value="Kyocera AVX"/>
+      <property name="MFG P/N" value="KGM15BR71E104KM"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d8c51191-478b-4721-9f25-f53b7d245831</tstamps>
+    </comp>
+    <comp ref="C37">
+      <value>0.1uF-25V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>Components/Kyocera-KGM_X7R.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">478-KGM15BR71E104KMCT-ND</field>
+        <field name="MFG">Kyocera AVX</field>
+        <field name="MFG P/N">KGM15BR71E104KM</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="478-KGM15BR71E104KMCT-ND"/>
+      <property name="MFG" value="Kyocera AVX"/>
+      <property name="MFG P/N" value="KGM15BR71E104KM"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>44a3f843-ae1c-4ad2-aad5-adac8bdfcd15</tstamps>
+    </comp>
+    <comp ref="C39">
+      <value>0.1uF-25V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>Components/Kyocera-KGM_X7R.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">478-KGM15BR71E104KMCT-ND</field>
+        <field name="MFG">Kyocera AVX</field>
+        <field name="MFG P/N">KGM15BR71E104KM</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="478-KGM15BR71E104KMCT-ND"/>
+      <property name="MFG" value="Kyocera AVX"/>
+      <property name="MFG P/N" value="KGM15BR71E104KM"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6a9fe236-5f55-4759-a7d6-c1b7473bff7f</tstamps>
+    </comp>
+    <comp ref="C40">
+      <value>0.1uF-25V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>Components/Kyocera-KGM_X7R.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">478-KGM15BR71E104KMCT-ND</field>
+        <field name="MFG">Kyocera AVX</field>
+        <field name="MFG P/N">KGM15BR71E104KM</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="478-KGM15BR71E104KMCT-ND"/>
+      <property name="MFG" value="Kyocera AVX"/>
+      <property name="MFG P/N" value="KGM15BR71E104KM"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>44e125b8-ad05-4336-a579-ab1b7fb23a25</tstamps>
+    </comp>
+    <comp ref="C43">
+      <value>0.01uF-50V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>Components/TDK-mlcc_automotive_general_en.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">445-5662-1-ND</field>
+        <field name="MFG">TDK Corporation</field>
+        <field name="MFG P/N">CGA3E2X7R1H103K080AA</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="445-5662-1-ND"/>
+      <property name="MFG" value="TDK Corporation"/>
+      <property name="MFG P/N" value="CGA3E2X7R1H103K080AA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>47289311-cb25-47e2-a3e4-94cc33fc307f</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>CAN-FD</value>
+      <footprint>IMU-2X:70541-0001</footprint>
+      <datasheet>Components/Molex 70541-series-drawing.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM14047-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">0705410001</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="0705410001"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM14047-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f3618fc8-70a6-4904-9d7c-2e65676b8db4</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Power</value>
+      <footprint>IMU-2X:Wago-2604-3102</footprint>
+      <datasheet>Components/WAGO_2604-3102en.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">2946-2604-3102-ND</field>
+        <field name="MFG">Wago</field>
+        <field name="MFG P/N">2604-3102</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Socket" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="2946-2604-3102-ND"/>
+      <property name="MFG" value="Wago"/>
+      <property name="MFG P/N" value="2604-3102"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>671c8697-0063-4933-8858-492f194fff27</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>USB_B</value>
+      <footprint>IMU-2X:USB_B_TE_5787834_Vertical</footprint>
+      <datasheet>Components/TE-5787834-2.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">A121598-ND</field>
+        <field name="MFG">TE Connectivity</field>
+        <field name="MFG P/N">5787834-2</field>
+      </fields>
+      <libsource lib="Connector" part="USB_B" description="USB Type B connector"/>
+      <property name="MFG" value="TE Connectivity"/>
+      <property name="MFG P/N" value="5787834-2"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="A121598-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="USB Type B connector"/>
+      <property name="ki_keywords" value="connector USB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>78d8cde6-5f5a-4cac-9f97-64ba5bbec6dc</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>CAN-FD</value>
+      <footprint>IMU-2X:70541-0001</footprint>
+      <datasheet>Components/Molex 70541-series-drawing.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM14047-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">0705410001</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="0705410001"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM14047-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>25c24753-8528-482c-a0bb-ce784a0876c6</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>SWD</value>
+      <footprint>IMU-2X:CNC-Tech-3220-14-0300-00</footprint>
+      <datasheet>Components/CNC-Tech--3220-XX-0300-00_.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">1175-1632-ND</field>
+        <field name="MFG">CNC Tech</field>
+        <field name="MFG P/N">3220-14-0300-00</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x07_Odd_Even" description="Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="CNC Tech"/>
+      <property name="MFG P/N" value="3220-14-0300-00"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="1175-1632-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>259e3286-47c9-4f20-996a-74b8535276bd</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>DMP2004K-7</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>Components/DiodesInc-DMP2004K.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">DMP2004KDICT-ND</field>
+        <field name="MFG">Diodes Inc</field>
+        <field name="MFG P/N">DMP2004K-7</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="BSS84" description="-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="MFG" value="Diodes Inc"/>
+      <property name="MFG P/N" value="DMP2004K-7"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="DMP2004KDICT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2e3fc4dd-7f4d-47e9-b9e4-cea4f798c0dc</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10.0k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>Components/Yageo-PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">YAG1290CT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG P/N">RC0603FR-0710KP</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="YAG1290CT-ND"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MFG P/N" value="RC0603FR-0710KP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>15929514-a965-42b8-9c70-6219a546c458</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10.0k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>Components/Yageo-PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">YAG1290CT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG P/N">RC0603FR-0710KP</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="YAG1290CT-ND"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MFG P/N" value="RC0603FR-0710KP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>79108263-81ea-484c-8988-4654a1f1e88d</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10.0k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>Components/Yageo-PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">YAG1290CT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG P/N">RC0603FR-0710KP</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="YAG1290CT-ND"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MFG P/N" value="RC0603FR-0710KP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>461c4951-7f9d-49a0-9941-eb438a98f2fd</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>63.4k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>Components/Yageo-PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">311-63.4KHRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG P/N">RC0603FR-0763K4L</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="311-63.4KHRCT-ND"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MFG P/N" value="RC0603FR-0763K4L"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad60ae26-598e-4a47-b1c6-20dd34dfff36</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>10.0k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>Components/Yageo-PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">YAG1290CT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG P/N">RC0603FR-0710KP</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="YAG1290CT-ND"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MFG P/N" value="RC0603FR-0710KP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>52aa0ccc-315b-4da0-b52f-c19cdc84e814</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>49.9R-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>Components/Yageo-PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">311-49.9HRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG P/N">RC0603FR-0749R9L</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="311-49.9HRCT-ND"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MFG P/N" value="RC0603FR-0749R9L"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cac89d8a-bc9c-4dbb-9322-c63a1ae456c5</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>10.0k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>Components/Yageo-PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">YAG1290CT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG P/N">RC0603FR-0710KP</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="YAG1290CT-ND"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MFG P/N" value="RC0603FR-0710KP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>15fc661f-1993-4be8-8425-98702c7bda0a</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>1.0k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>Components/Yageo-PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">311-1.00KHRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG P/N">RC0603FR-071KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="311-1.00KHRCT-ND"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MFG P/N" value="RC0603FR-071KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7fcc51ff-4b37-47a4-8c13-25d296e35f20</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>1.0k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>Components/Yageo-PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">311-1.00KHRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG P/N">RC0603FR-071KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="311-1.00KHRCT-ND"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MFG P/N" value="RC0603FR-071KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a79b0ea3-c271-4b39-a65c-5a99387ab1fd</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>1.0k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>Components/Yageo-PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">311-1.00KHRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG P/N">RC0603FR-071KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="311-1.00KHRCT-ND"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MFG P/N" value="RC0603FR-071KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>79db4f90-a62a-4b41-a96c-61029ecd12ec</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>1.0k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>Components/Yageo-PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">311-1.00KHRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG P/N">RC0603FR-071KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="311-1.00KHRCT-ND"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MFG P/N" value="RC0603FR-071KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>608579e9-363e-48e9-a887-82633f765f1e</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>RESET</value>
+      <footprint>IMU-2X:SW_ESWITCH_TL3301xxJ</footprint>
+      <datasheet>Components/E-SWITCH-TL3301AF260QG.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">EG2527CT-ND</field>
+        <field name="MFG">E-Switch</field>
+        <field name="MFG P/N">TL3301AF260QG</field>
+      </fields>
+      <libsource lib="" part="SW_Push_1" description="Push button switch, generic, two pins"/>
+      <property name="MFG" value="E-Switch"/>
+      <property name="MFG P/N" value="TL3301AF260QG"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="EG2527CT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6863af4e-b408-46fd-bb8e-43b1b17d8a43</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>BOOT0</value>
+      <footprint>IMU-2X:SW_ESWITCH_TL3301xxJ</footprint>
+      <datasheet>Components/E-SWITCH-TL3301AF260QG.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">EG2527CT-ND</field>
+        <field name="MFG">E-Switch</field>
+        <field name="MFG P/N">TL3301AF260QG</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="MFG" value="E-Switch"/>
+      <property name="MFG P/N" value="TL3301AF260QG"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="EG2527CT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>abe23b28-d178-4666-8034-4aa261c55581</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint_Small</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>24d18787-626c-4e38-86dc-89bfa3589eb8</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint_Small</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>70b6b18e-fe79-4339-a216-260eee2b0b37</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint_Small</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2902df80-caab-42af-9984-26b8a2ffefea</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>TestPoint_Small</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>944d6bd5-cefd-4a08-b398-9524df344d49</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>TestPoint_Small</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>818d7359-002b-4168-adba-de5c79b56561</tstamps>
+    </comp>
+    <comp ref="TP6">
+      <value>TestPoint_Small</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>89184fc9-e149-43cf-b99f-2d5ab3deec99</tstamps>
+    </comp>
+    <comp ref="TP7">
+      <value>TestPoint_Small</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e18c2a8-ceb1-45b2-9283-d2636d45c79a</tstamps>
+    </comp>
+    <comp ref="TP8">
+      <value>TestPoint_Small</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c2cfcd95-94f1-43bc-a284-8637139522e6</tstamps>
+    </comp>
+    <comp ref="TP9">
+      <value>TestPoint_Small</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ea88728-0b57-46bc-afc0-2e9b884bdd93</tstamps>
+    </comp>
+    <comp ref="TP10">
+      <value>TestPoint_Small</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8c14a5b8-ec7d-456d-bb01-d59313c73cfe</tstamps>
+    </comp>
+    <comp ref="TP11">
+      <value>TestPoint_Small</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6dfcd059-3666-4e40-a1a7-87c13681ec3e</tstamps>
+    </comp>
+    <comp ref="TP12">
+      <value>TestPoint_Small</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5435b97e-a767-477c-9fd9-36d11629aee4</tstamps>
+    </comp>
+    <comp ref="TP13">
+      <value>TestPoint_Small</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>642f2ff0-bbd6-4d1e-92c5-c394780d06e2</tstamps>
+    </comp>
+    <comp ref="TP14">
+      <value>TestPoint_Small</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>786ad943-6d6b-412e-aab8-b69288b21901</tstamps>
+    </comp>
+    <comp ref="TP15">
+      <value>TestPoint_Small</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>26b52653-2aee-484f-bc5d-1862aaa6b098</tstamps>
+    </comp>
+    <comp ref="TP16">
+      <value>TestPoint_Small</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6f1ffd7c-6c6b-42a1-a8b6-7d93114dcf3d</tstamps>
+    </comp>
+    <comp ref="TP17">
+      <value>TestPoint_Small</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>25b91345-0427-4f1e-9934-36e25f62afdf</tstamps>
+    </comp>
+    <comp ref="TP18">
+      <value>TestPoint_Small</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint_Small" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2fd6a501-cf9c-4ac9-bf08-e4b1bf0df5f8</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>MCP2542FDT-E/SN</value>
+      <footprint>Package_SO:SO-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>Components/Microchip-MCP2542WFD.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">MCP2542FDT-E/SNCT-ND</field>
+        <field name="MFG">Microchip</field>
+        <field name="MFG P/N">MCP2542FDT-E/SN</field>
+      </fields>
+      <libsource lib="IMU-2X" part="MCP2542FDxMF" description="CAN-FD Transceiver, Wake-Up on CAN activity, 8Mbps, 5V supply, STBY pin, 3x3 DFN-8"/>
+      <property name="MFG" value="Microchip"/>
+      <property name="MFG P/N" value="MCP2542FDT-E/SN"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="MCP2542FDT-E/SNCT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="CAN-FD Transceiver, Wake-Up on CAN activity, 8Mbps, 5V supply, STBY pin, 3x3 DFN-8"/>
+      <property name="ki_keywords" value="CAN transceiver"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>15926f5b-5083-4c99-880b-f1240cac32c3</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>USBLC6-2SC6</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>Components/STmicro-USBLC6-2SC6.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">497-5235-1-ND</field>
+        <field name="MFG">ST Micro</field>
+        <field name="MFG P/N">USBLC6-2SC6</field>
+      </fields>
+      <libsource lib="Power_Protection" part="USBLC6-2SC6" description="Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"/>
+      <property name="MFG" value="ST Micro"/>
+      <property name="MFG P/N" value="USBLC6-2SC6"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="497-5235-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"/>
+      <property name="ki_keywords" value="usb ethernet video"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b1dff8b8-359e-40f3-ad4c-fbdbaa838aad</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>SCHA63T-K03</value>
+      <footprint>IMU-2X:SCHA63T-K03</footprint>
+      <datasheet>Components/Murata-SCHA63T-K03.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">490-SCHA63T-K03-05CT-ND</field>
+        <field name="MFG">Murata</field>
+        <field name="MFG P/N">SCHA63T-K03-05</field>
+      </fields>
+      <libsource lib="IMU-2X" part="SCHA63T-K03" description="Accelerometer, Gyroscope, Temperature, 6 Axis Sensor SPI Output"/>
+      <property name="MFG" value="Murata"/>
+      <property name="MFG P/N" value="SCHA63T-K03-05"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="490-SCHA63T-K03-05CT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Accelerometer, Gyroscope, Temperature, 6 Axis Sensor SPI Output"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>88dc9559-7063-457a-b485-7e37fdb9a851</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>8MHz-ECS-5032MV</value>
+      <footprint>IMU-2X:ECS-5032MV</footprint>
+      <datasheet>Components/ECS-5032MV.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">XC3116CT-ND</field>
+        <field name="MFG">ECS</field>
+        <field name="MFG P/N">ECS-5032MV-80-CN-TR</field>
+      </fields>
+      <libsource lib="IMU-2X" part="8MHz-ECS-5032MV" description=""/>
+      <property name="MFG" value="ECS"/>
+      <property name="MFG P/N" value="ECS-5032MV-80-CN-TR"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="XC3116CT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>561d03d5-edb9-46c3-b9bf-1e40abdfce52</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>STM32G473RET6</value>
+      <footprint>Package_QFP:LQFP-64_10x10mm_P0.5mm</footprint>
+      <datasheet>Components/STMicro-stm32g473cb.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">497-STM32G473RET6-ND</field>
+        <field name="MFG">ST Micro</field>
+        <field name="MFG P/N">STM32G473RET6</field>
+      </fields>
+      <libsource lib="IMU-2X" part="STM32G473RET6" description="ARM® Cortex®-M4 STM32G4 Microcontroller IC 32-Bit Single-Core 170MHz 512KB (512K x 8) FLASH 64-LQFP (10x10)"/>
+      <property name="MFG" value="ST Micro"/>
+      <property name="MFG P/N" value="STM32G473RET6"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="497-STM32G473RET6-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="ARM® Cortex®-M4 STM32G4 Microcontroller IC 32-Bit Single-Core 170MHz 512KB (512K x 8) FLASH 64-LQFP (10x10)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bfbe1e0d-b933-44d5-9490-142a09e63fc3</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>MCP120T-270I/TT</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>Components/Microchip-MCP120T-270I-TT.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">MCP120T-270I/TTCT-ND</field>
+        <field name="MFG">Microchip</field>
+        <field name="MFG P/N">MCP120T-270I/TT</field>
+      </fields>
+      <libsource lib="Power_Supervisor" part="MCP120-xxxxTT" description="Microcontroller supervisory circuit, SOT-23"/>
+      <property name="MFG" value="Microchip"/>
+      <property name="MFG P/N" value="MCP120T-270I/TT"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="MCP120T-270I/TTCT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="Microcontroller supervisory circuit, SOT-23"/>
+      <property name="ki_keywords" value="supervisory circuit"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cafb0b32-12f7-4e80-aae9-fa2e76fe187b</tstamps>
+    </comp>
+    <comp ref="U10">
+      <value>SN74AVC4T245DR</value>
+      <footprint>IMU-2X:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>Components/TexasInstruments-SN74AVC4T245DR.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">296-17930-1-ND</field>
+        <field name="MFG">Texas Instruments</field>
+        <field name="MFG P/N">SN74AVC4T245DR</field>
+      </fields>
+      <libsource lib="IMU-2X" part="SN74AVC4T245DR" description="4-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs, TSSOP-16"/>
+      <property name="MFG" value="Texas Instruments"/>
+      <property name="MFG P/N" value="SN74AVC4T245DR"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="296-17930-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="4-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs, TSSOP-16"/>
+      <property name="ki_keywords" value="Noninverting Bidirectional"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9f1ff1cf-3dbc-46cf-b7af-76231464aac8</tstamps>
+    </comp>
+    <comp ref="U12">
+      <value>IAM-20680HP</value>
+      <footprint>IMU-2X:LGA-16_3x3mm_P0.5mm_LayoutBorder3x5y</footprint>
+      <datasheet>Components/TDK-IAM-20680HP.pdf</datasheet>
+      <fields>
+        <field name="DIST">Mouser</field>
+        <field name="DIST P/N">410-IAM-20680HP</field>
+        <field name="MFG">TDK</field>
+        <field name="MFG P/N">IAM-20680HP</field>
+      </fields>
+      <libsource lib="IMU-2X" part="IAM-20680HP" description="&#xA;IMUs - Inertial Measurement Units Automotive Qualified, Grade2 (-40 C +105 C), High-Performance Integrated 6-Axis MEMS MotionTracking Device"/>
+      <property name="MFG" value="TDK"/>
+      <property name="MFG P/N" value="IAM-20680HP"/>
+      <property name="DIST" value="Mouser"/>
+      <property name="DIST P/N" value="410-IAM-20680HP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IMU-2X.kicad_sch"/>
+      <property name="ki_description" value="&#xA;IMUs - Inertial Measurement Units Automotive Qualified, Grade2 (-40 C +105 C), High-Performance Integrated 6-Axis MEMS MotionTracking Device"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85386b47-e223-4e1f-bcbd-b448c2004d2e</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>10uF-10%-10V-0805</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>Components/Kemet-C0805C106K8PACTU.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">399-C0805C106K8PAC7800CT-ND</field>
+        <field name="MFG">Kemet</field>
+        <field name="MFG P/N">C0805C106K8PAC7800</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="Kemet"/>
+      <property name="MFG P/N" value="C0805C106K8PAC7800"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="399-C0805C106K8PAC7800CT-ND"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power-supply.kicad_sch"/>
+      <property name="Page" value="Page:2/4"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Supply/" tstamps="/dfddfc9c-e803-47e7-ad6c-6304a5151d35/"/>
+      <tstamps>e06bf280-344c-4121-a623-2a6800bf8ffb</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>22uF-20%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>Components/TDK-mlcc_commercial_general_en.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">445-9077-1-ND</field>
+        <field name="MFG">TDK</field>
+        <field name="MFG P/N">C1608X5R1A226M080AC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="TDK"/>
+      <property name="MFG P/N" value="C1608X5R1A226M080AC"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="445-9077-1-ND"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power-supply.kicad_sch"/>
+      <property name="Page" value="Page:2/4"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Supply/" tstamps="/dfddfc9c-e803-47e7-ad6c-6304a5151d35/"/>
+      <tstamps>12aa6648-dee7-4318-94dd-51baec11e6e8</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>22uF-25V-10%-1210</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>Components/Samsung-MLCC.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">1276-3369-1-ND</field>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL32A226KAJNNWE</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL32A226KAJNNWE"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="1276-3369-1-ND"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power-supply.kicad_sch"/>
+      <property name="Page" value="Page:2/4"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Supply/" tstamps="/dfddfc9c-e803-47e7-ad6c-6304a5151d35/"/>
+      <tstamps>fbd6bb8e-2268-450a-be96-b01cddfec1d2</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>330uF-35V-20%-10mm</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <datasheet>Components/Rubycon-PZJ.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">1189-35PZJ330M10X9-ND</field>
+        <field name="MFG">Rubycon</field>
+        <field name="MFG P/N">35PZJ330M10X9</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="MFG" value="Rubycon"/>
+      <property name="MFG P/N" value="35PZJ330M10X9"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="1189-35PZJ330M10X9-ND"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power-supply.kicad_sch"/>
+      <property name="Page" value="Page:2/4"/>
+      <property name="ki_description" value="Polarized capacitor, US symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Supply/" tstamps="/dfddfc9c-e803-47e7-ad6c-6304a5151d35/"/>
+      <tstamps>a45f4dd1-e2b6-42b3-8f0b-098a157250ff</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10uF-10%-10V-0805</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>Components/Kemet-C0805C106K8PACTU.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">399-C0805C106K8PAC7800CT-ND</field>
+        <field name="MFG">Kemet</field>
+        <field name="MFG P/N">C0805C106K8PAC7800</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="Kemet"/>
+      <property name="MFG P/N" value="C0805C106K8PAC7800"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="399-C0805C106K8PAC7800CT-ND"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power-supply.kicad_sch"/>
+      <property name="Page" value="Page:2/4"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Supply/" tstamps="/dfddfc9c-e803-47e7-ad6c-6304a5151d35/"/>
+      <tstamps>31c02281-44d0-4caf-8ac6-3da866127e6b</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>0.1uF-25V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>Components/Kyocera-KGM_X7R.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">478-KGM15BR71E104KMCT-ND</field>
+        <field name="MFG">Kyocera AVX</field>
+        <field name="MFG P/N">KGM15BR71E104KM</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="478-KGM15BR71E104KMCT-ND"/>
+      <property name="MFG" value="Kyocera AVX"/>
+      <property name="MFG P/N" value="KGM15BR71E104KM"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power-supply.kicad_sch"/>
+      <property name="Page" value="Page:2/4"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Supply/" tstamps="/dfddfc9c-e803-47e7-ad6c-6304a5151d35/"/>
+      <tstamps>ec922cc0-fbf6-49af-a414-047783cc9ece</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>10uF-10%-10V-0805</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>Components/Kemet-C0805C106K8PACTU.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">399-C0805C106K8PAC7800CT-ND</field>
+        <field name="MFG">Kemet</field>
+        <field name="MFG P/N">C0805C106K8PAC7800</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="Kemet"/>
+      <property name="MFG P/N" value="C0805C106K8PAC7800"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="399-C0805C106K8PAC7800CT-ND"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power-supply.kicad_sch"/>
+      <property name="Page" value="Page:2/4"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Supply/" tstamps="/dfddfc9c-e803-47e7-ad6c-6304a5151d35/"/>
+      <tstamps>a59dc8ea-ca73-4d2b-aa5c-67d012512266</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>22uF-20%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>Components/TDK-mlcc_commercial_general_en.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">445-9077-1-ND</field>
+        <field name="MFG">TDK</field>
+        <field name="MFG P/N">C1608X5R1A226M080AC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="TDK"/>
+      <property name="MFG P/N" value="C1608X5R1A226M080AC"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="445-9077-1-ND"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power-supply.kicad_sch"/>
+      <property name="Page" value="Page:2/4"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Supply/" tstamps="/dfddfc9c-e803-47e7-ad6c-6304a5151d35/"/>
+      <tstamps>8e3544d6-2d15-4783-9ab3-1290a55bdfeb</tstamps>
+    </comp>
+    <comp ref="C38">
+      <value>22uF-25V-10%-1210</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>Components/Samsung-MLCC.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">1276-3369-1-ND</field>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL32A226KAJNNWE</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL32A226KAJNNWE"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="1276-3369-1-ND"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power-supply.kicad_sch"/>
+      <property name="Page" value="Page:2/4"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Supply/" tstamps="/dfddfc9c-e803-47e7-ad6c-6304a5151d35/"/>
+      <tstamps>16060a04-ebbd-4000-8dc6-959d390185dc</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>15V</value>
+      <footprint>Diode_SMD:D_SMB</footprint>
+      <datasheet>Components/Littelfulse-sz1smb28cat3g.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">F11544CT-ND</field>
+        <field name="MFG">Littelfuse</field>
+        <field name="MFG P/N">SZ1SMB15CAT3G</field>
+      </fields>
+      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <property name="MFG" value="Littelfuse"/>
+      <property name="MFG P/N" value="SZ1SMB15CAT3G"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="F11544CT-ND"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power-supply.kicad_sch"/>
+      <property name="Page" value="Page:2/4"/>
+      <property name="ki_description" value="Bidirectional transient-voltage-suppression diode"/>
+      <property name="ki_keywords" value="diode TVS thyrector"/>
+      <sheetpath names="/Power Supply/" tstamps="/dfddfc9c-e803-47e7-ad6c-6304a5151d35/"/>
+      <tstamps>24d27e27-f697-4601-a32b-ff1f315690e3</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>PMEG3020EP,115</value>
+      <footprint>IMU-2X:D_SOD-128</footprint>
+      <datasheet>Components/Nexperia-PMEG3020EP.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">1727-5836-1-ND</field>
+        <field name="MFG">Nexperia</field>
+        <field name="MFG P/N">PMEG3020EP,115</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="MFG" value="Nexperia"/>
+      <property name="MFG P/N" value="PMEG3020EP,115"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="1727-5836-1-ND"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power-supply.kicad_sch"/>
+      <property name="Page" value="Page:2/4"/>
+      <property name="ki_description" value="Schottky diode"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/Power Supply/" tstamps="/dfddfc9c-e803-47e7-ad6c-6304a5151d35/"/>
+      <tstamps>863f5950-e5de-4a71-80b6-abcfc12d2725</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>2.2uH-20%-46mR</value>
+      <footprint>IMU-2X:L_Vishay_IHLP-1212</footprint>
+      <datasheet>Components/Vishay-IHLP1212BZER2R2M11.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">541-1322-1-ND</field>
+        <field name="MFG">Vishay</field>
+        <field name="MFG P/N">IHLP1212BZER2R2M11</field>
+      </fields>
+      <libsource lib="Device" part="L_Iron" description="Inductor with iron core"/>
+      <property name="MFG" value="Vishay"/>
+      <property name="MFG P/N" value="IHLP1212BZER2R2M11"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="541-1322-1-ND"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power-supply.kicad_sch"/>
+      <property name="Page" value="Page:2/4"/>
+      <property name="ki_description" value="Inductor with iron core"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/Power Supply/" tstamps="/dfddfc9c-e803-47e7-ad6c-6304a5151d35/"/>
+      <tstamps>0785c0da-f5b9-4399-9ed7-2396810b93cc</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>8.2uH-20%-55mR</value>
+      <footprint>IMU-2X:L_Vishay_IHLP-2525</footprint>
+      <datasheet>Components/Vishay-ihlp-2525cz-1a.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">541-IHLP2525CZER8R2M1ACT-ND</field>
+        <field name="MFG">Vishay</field>
+        <field name="MFG P/N">IHLP2525CZER8R2M1A</field>
+      </fields>
+      <libsource lib="Device" part="L_Iron" description="Inductor with iron core"/>
+      <property name="MFG" value="Vishay"/>
+      <property name="MFG P/N" value="IHLP2525CZER8R2M1A"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="541-IHLP2525CZER8R2M1ACT-ND"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power-supply.kicad_sch"/>
+      <property name="Page" value="Page:2/4"/>
+      <property name="ki_description" value="Inductor with iron core"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/Power Supply/" tstamps="/dfddfc9c-e803-47e7-ad6c-6304a5151d35/"/>
+      <tstamps>3509d65a-f9d0-477e-abd4-b51664f44af7</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>0R-0805</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>Components/Yageo-PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">311-0.0ARCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG P/N">RC0805JR-070RL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MFG P/N" value="RC0805JR-070RL"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="311-0.0ARCT-ND"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power-supply.kicad_sch"/>
+      <property name="Page" value="Page:2/4"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power Supply/" tstamps="/dfddfc9c-e803-47e7-ad6c-6304a5151d35/"/>
+      <tstamps>6fa1ae56-61c6-48bc-bd6e-bedb34a8f07a</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>0R-0805</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>Components/Yageo-PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">311-0.0ARCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG P/N">RC0805JR-070RL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MFG P/N" value="RC0805JR-070RL"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="311-0.0ARCT-ND"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power-supply.kicad_sch"/>
+      <property name="Page" value="Page:2/4"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power Supply/" tstamps="/dfddfc9c-e803-47e7-ad6c-6304a5151d35/"/>
+      <tstamps>0271979f-58f8-47d7-80a4-050c7e5e5f68</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>63.4k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>Components/Yageo-PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">311-63.4KHRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG P/N">RC0603FR-0763K4L</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MFG P/N" value="RC0603FR-0763K4L"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="311-63.4KHRCT-ND"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power-supply.kicad_sch"/>
+      <property name="Page" value="Page:2/4"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power Supply/" tstamps="/dfddfc9c-e803-47e7-ad6c-6304a5151d35/"/>
+      <tstamps>a9538593-5730-4223-824e-e82ccc8dede8</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>20.0k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>Components/Yageo-PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">311-20.0KHRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG P/N">RC0603FR-0720KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MFG P/N" value="RC0603FR-0720KL"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="311-20.0KHRCT-ND"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power-supply.kicad_sch"/>
+      <property name="Page" value="Page:2/4"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power Supply/" tstamps="/dfddfc9c-e803-47e7-ad6c-6304a5151d35/"/>
+      <tstamps>5ec039b1-61fa-4e7a-b7e2-a7966f578a5b</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>20.0k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>Components/Yageo-PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">311-20.0KHRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG P/N">RC0603FR-0720KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MFG P/N" value="RC0603FR-0720KL"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="311-20.0KHRCT-ND"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power-supply.kicad_sch"/>
+      <property name="Page" value="Page:2/4"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power Supply/" tstamps="/dfddfc9c-e803-47e7-ad6c-6304a5151d35/"/>
+      <tstamps>6a06f118-e065-4219-94e9-917fb952be9a</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>10.0k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>Components/Yageo-PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">YAG1290CT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG P/N">RC0603FR-0710KP</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MFG P/N" value="RC0603FR-0710KP"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="YAG1290CT-ND"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power-supply.kicad_sch"/>
+      <property name="Page" value="Page:2/4"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power Supply/" tstamps="/dfddfc9c-e803-47e7-ad6c-6304a5151d35/"/>
+      <tstamps>b191ff54-ed84-46e6-b4b1-047518bf0db0</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>TPS613222ADBVR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>Components/TI-tps613222.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">296-50503-1-ND</field>
+        <field name="MFG">Texas Instruments</field>
+        <field name="MFG P/N">TPS613222ADBVR</field>
+      </fields>
+      <libsource lib="IMU-2X" part="TPS613222ADBVR" description="Boost Switching Regulator IC Positive Fixed 5V 1 Output 2.5A (Switch) SC-74A, SOT-753"/>
+      <property name="MFG" value="Texas Instruments"/>
+      <property name="MFG P/N" value="TPS613222ADBVR"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="296-50503-1-ND"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power-supply.kicad_sch"/>
+      <property name="Page" value="Page:2/4"/>
+      <property name="ki_description" value="Boost Switching Regulator IC Positive Fixed 5V 1 Output 2.5A (Switch) SC-74A, SOT-753"/>
+      <sheetpath names="/Power Supply/" tstamps="/dfddfc9c-e803-47e7-ad6c-6304a5151d35/"/>
+      <tstamps>98de272e-b7d8-4180-a3bd-709f21494700</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>LMR54410FDBVR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>Components/TI-LMR54406.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">296-LMR54410FDBVRCT-ND</field>
+        <field name="MFG">Texas Instruments</field>
+        <field name="MFG P/N">LMR54410FDBVR</field>
+      </fields>
+      <libsource lib="IMU-2X" part="LMR54410FDBVR" description="Buck Switching Regulator IC Positive Adjustable 0.8V 1 Output 1A SOT-23-6"/>
+      <property name="MFG" value="Texas Instruments"/>
+      <property name="MFG P/N" value="LMR54410FDBVR"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="296-LMR54410FDBVRCT-ND"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power-supply.kicad_sch"/>
+      <property name="Page" value="Page:2/4"/>
+      <property name="ki_description" value="Buck Switching Regulator IC Positive Adjustable 0.8V 1 Output 1A SOT-23-6"/>
+      <sheetpath names="/Power Supply/" tstamps="/dfddfc9c-e803-47e7-ad6c-6304a5151d35/"/>
+      <tstamps>1b13ee3e-a2a4-40fe-94cc-514bbdfec409</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>0.1uF-25V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>Components/Kyocera-KGM_X7R.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">478-KGM15BR71E104KMCT-ND</field>
+        <field name="MFG">Kyocera AVX</field>
+        <field name="MFG P/N">KGM15BR71E104KM</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="478-KGM15BR71E104KMCT-ND"/>
+      <property name="MFG" value="Kyocera AVX"/>
+      <property name="MFG P/N" value="KGM15BR71E104KM"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LED.kicad_sch"/>
+      <property name="Page" value="Page:3/4"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/LEDs/" tstamps="/088575d8-b480-483a-8195-b5bd2af558b0/"/>
+      <tstamps>a581825a-5d6f-4895-b5c8-a32a0a9ac194</tstamps>
+    </comp>
+    <comp ref="C44">
+      <value>0.1uF-25V-10%-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>Components/Kyocera-KGM_X7R.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">478-KGM15BR71E104KMCT-ND</field>
+        <field name="MFG">Kyocera AVX</field>
+        <field name="MFG P/N">KGM15BR71E104KM</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="478-KGM15BR71E104KMCT-ND"/>
+      <property name="MFG" value="Kyocera AVX"/>
+      <property name="MFG P/N" value="KGM15BR71E104KM"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LED.kicad_sch"/>
+      <property name="Page" value="Page:3/4"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/LEDs/" tstamps="/088575d8-b480-483a-8195-b5bd2af558b0/"/>
+      <tstamps>da1252d0-0045-4463-8d86-de4dfabce9d6</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>CAN</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <datasheet>Components/SUN-LED-XZMDKVG55W-4.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">1497-1314-1-ND</field>
+        <field name="MFG">SUN LED</field>
+        <field name="MFG P/N">XZMDKVG55W-4</field>
+      </fields>
+      <libsource lib="Device" part="LED_Dual_Bidirectional" description="Dual LED, bidirectional"/>
+      <property name="MFG" value="SUN LED"/>
+      <property name="MFG P/N" value="XZMDKVG55W-4"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="1497-1314-1-ND"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LED.kicad_sch"/>
+      <property name="Page" value="Page:3/4"/>
+      <property name="ki_description" value="Dual LED, bidirectional"/>
+      <property name="ki_keywords" value="LED diode bicolor dual"/>
+      <sheetpath names="/LEDs/" tstamps="/088575d8-b480-483a-8195-b5bd2af558b0/"/>
+      <tstamps>1b33aef7-71c3-45b1-8e34-9fa3b1be8acf</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>IMU</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <datasheet>Components/SUN-LED-XZMDKVG55W-4.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">1497-1314-1-ND</field>
+        <field name="MFG">SUN LED</field>
+        <field name="MFG P/N">XZMDKVG55W-4</field>
+      </fields>
+      <libsource lib="Device" part="LED_Dual_Bidirectional" description="Dual LED, bidirectional"/>
+      <property name="MFG" value="SUN LED"/>
+      <property name="MFG P/N" value="XZMDKVG55W-4"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="1497-1314-1-ND"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LED.kicad_sch"/>
+      <property name="Page" value="Page:3/4"/>
+      <property name="ki_description" value="Dual LED, bidirectional"/>
+      <property name="ki_keywords" value="LED diode bicolor dual"/>
+      <sheetpath names="/LEDs/" tstamps="/088575d8-b480-483a-8195-b5bd2af558b0/"/>
+      <tstamps>9c109d85-02cb-46cb-8b3d-5134f0e47cf3</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>PWR</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <datasheet>Components/SUN-LED-XZMDKVG55W-4.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">1497-1314-1-ND</field>
+        <field name="MFG">SUN LED</field>
+        <field name="MFG P/N">XZMDKVG55W-4</field>
+      </fields>
+      <libsource lib="Device" part="LED_Dual_Bidirectional" description="Dual LED, bidirectional"/>
+      <property name="MFG" value="SUN LED"/>
+      <property name="MFG P/N" value="XZMDKVG55W-4"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="1497-1314-1-ND"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LED.kicad_sch"/>
+      <property name="Page" value="Page:3/4"/>
+      <property name="ki_description" value="Dual LED, bidirectional"/>
+      <property name="ki_keywords" value="LED diode bicolor dual"/>
+      <sheetpath names="/LEDs/" tstamps="/088575d8-b480-483a-8195-b5bd2af558b0/"/>
+      <tstamps>a9c1f8ce-0505-4833-b3ea-ee08159cb777</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>249R-1%-0805</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>Components/Yageo-PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">311-249CRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG P/N">RC0805FR-07249RL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="311-249CRCT-ND"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MFG P/N" value="RC0805FR-07249RL"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LED.kicad_sch"/>
+      <property name="Page" value="Page:3/4"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/LEDs/" tstamps="/088575d8-b480-483a-8195-b5bd2af558b0/"/>
+      <tstamps>7f2b80be-0409-4bdc-9aa3-c81aea33cc79</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10.0k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>Components/Yageo-PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">YAG1290CT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG P/N">RC0603FR-0710KP</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="YAG1290CT-ND"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MFG P/N" value="RC0603FR-0710KP"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LED.kicad_sch"/>
+      <property name="Page" value="Page:3/4"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/LEDs/" tstamps="/088575d8-b480-483a-8195-b5bd2af558b0/"/>
+      <tstamps>38036eb6-c4fd-4280-90f3-fbde660a5abe</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10.0k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>Components/Yageo-PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">YAG1290CT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG P/N">RC0603FR-0710KP</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="YAG1290CT-ND"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MFG P/N" value="RC0603FR-0710KP"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LED.kicad_sch"/>
+      <property name="Page" value="Page:3/4"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/LEDs/" tstamps="/088575d8-b480-483a-8195-b5bd2af558b0/"/>
+      <tstamps>163f4ea0-44a2-4dcf-9139-0041030434b6</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>10.0k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>Components/Yageo-PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">YAG1290CT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG P/N">RC0603FR-0710KP</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="YAG1290CT-ND"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MFG P/N" value="RC0603FR-0710KP"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LED.kicad_sch"/>
+      <property name="Page" value="Page:3/4"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/LEDs/" tstamps="/088575d8-b480-483a-8195-b5bd2af558b0/"/>
+      <tstamps>0da58460-3457-43db-8631-10d7a6fe7129</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>10.0k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>Components/Yageo-PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">YAG1290CT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG P/N">RC0603FR-0710KP</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="YAG1290CT-ND"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MFG P/N" value="RC0603FR-0710KP"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LED.kicad_sch"/>
+      <property name="Page" value="Page:3/4"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/LEDs/" tstamps="/088575d8-b480-483a-8195-b5bd2af558b0/"/>
+      <tstamps>7d03e152-d40f-4600-bcd1-0f49e725b98f</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>100R-1%-0805</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>Components/Yageo-PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">311-100CRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG P/N">RC0805FR-07100RL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="311-100CRCT-ND"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MFG P/N" value="RC0805FR-07100RL"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LED.kicad_sch"/>
+      <property name="Page" value="Page:3/4"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/LEDs/" tstamps="/088575d8-b480-483a-8195-b5bd2af558b0/"/>
+      <tstamps>5f264a86-9c0b-4c94-a4f6-a30307f66ea4</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>249R-1%-0805</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>Components/Yageo-PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">311-249CRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG P/N">RC0805FR-07249RL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="311-249CRCT-ND"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MFG P/N" value="RC0805FR-07249RL"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LED.kicad_sch"/>
+      <property name="Page" value="Page:3/4"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/LEDs/" tstamps="/088575d8-b480-483a-8195-b5bd2af558b0/"/>
+      <tstamps>5488935d-be79-43f8-ab3d-523c2ca18489</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>SN74LVC2G04DBVR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>Components/TI-SN74LVC2G04.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">296-13261-1-ND</field>
+        <field name="MFG">Texas Instruments</field>
+        <field name="MFG P/N">SN74LVC2G04DBVR</field>
+      </fields>
+      <libsource lib="74xGxx" part="74LVC2G04" description="Dual NOT Gate, Low-Voltage CMOS"/>
+      <property name="MFG" value="Texas Instruments"/>
+      <property name="MFG P/N" value="SN74LVC2G04DBVR"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="296-13261-1-ND"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LED.kicad_sch"/>
+      <property name="Page" value="Page:3/4"/>
+      <property name="ki_description" value="Dual NOT Gate, Low-Voltage CMOS"/>
+      <property name="ki_keywords" value="Dual Gate NOT LVC CMOS"/>
+      <sheetpath names="/LEDs/" tstamps="/088575d8-b480-483a-8195-b5bd2af558b0/"/>
+      <tstamps>cf5db3d1-d128-4c99-a695-14d7cb91ba29 c396bc32-3d41-4e0d-b14d-10502df5d89b 2f6d8b0e-5bc7-4bc6-a141-ba94717c5224</tstamps>
+    </comp>
+    <comp ref="U11">
+      <value>SN74LVC2G04DBVR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>Components/TI-SN74LVC2G04.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">296-13261-1-ND</field>
+        <field name="MFG">Texas Instruments</field>
+        <field name="MFG P/N">SN74LVC2G04DBVR</field>
+      </fields>
+      <libsource lib="74xGxx" part="74LVC2G04" description="Dual NOT Gate, Low-Voltage CMOS"/>
+      <property name="MFG" value="Texas Instruments"/>
+      <property name="MFG P/N" value="SN74LVC2G04DBVR"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="296-13261-1-ND"/>
+      <property name="Sheetname" value="LEDs"/>
+      <property name="Sheetfile" value="LED.kicad_sch"/>
+      <property name="Page" value="Page:3/4"/>
+      <property name="ki_description" value="Dual NOT Gate, Low-Voltage CMOS"/>
+      <property name="ki_keywords" value="Dual Gate NOT LVC CMOS"/>
+      <sheetpath names="/LEDs/" tstamps="/088575d8-b480-483a-8195-b5bd2af558b0/"/>
+      <tstamps>7e841049-02e4-4515-8c5d-d07caf0ab497 517682d8-6168-491b-95ae-2f48b4403de6 2bb552be-42de-4b58-a8be-0bc96184a43f</tstamps>
+    </comp>
+    <comp ref="C41">
+      <value>0.1uF-25V-10%-1206</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DIST" value=""/>
+      <property name="DIST P/N" value=""/>
+      <property name="MFG" value=""/>
+      <property name="MFG P/N" value=""/>
+      <property name="Sheetname" value="PWM-Heading"/>
+      <property name="Sheetfile" value="pwm-heading.kicad_sch"/>
+      <property name="Page" value="Page:4/4"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/PWM-Heading/" tstamps="/4bacb90b-5ef0-490f-9fcc-20f01791f70e/"/>
+      <tstamps>23bde260-0d27-4e74-82c6-8be64c5ee147</tstamps>
+    </comp>
+    <comp ref="C42">
+      <value>0.1uF-25V-10%-1206</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DIST" value=""/>
+      <property name="DIST P/N" value=""/>
+      <property name="MFG" value=""/>
+      <property name="MFG P/N" value=""/>
+      <property name="Sheetname" value="PWM-Heading"/>
+      <property name="Sheetfile" value="pwm-heading.kicad_sch"/>
+      <property name="Page" value="Page:4/4"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/PWM-Heading/" tstamps="/4bacb90b-5ef0-490f-9fcc-20f01791f70e/"/>
+      <tstamps>6fda00a2-0302-497e-9c93-ed6d4015dfab</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>PMEG3020EP,115</value>
+      <footprint>IMU-2X:D_SOD-128</footprint>
+      <datasheet>Components/Nexperia-PMEG3020EP.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">1727-5836-1-ND</field>
+        <field name="MFG">Nexperia</field>
+        <field name="MFG P/N">PMEG3020EP,115</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="MFG" value="Nexperia"/>
+      <property name="MFG P/N" value="PMEG3020EP,115"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="1727-5836-1-ND"/>
+      <property name="Sheetname" value="PWM-Heading"/>
+      <property name="Sheetfile" value="pwm-heading.kicad_sch"/>
+      <property name="Page" value="Page:4/4"/>
+      <property name="ki_description" value="Schottky diode"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/PWM-Heading/" tstamps="/4bacb90b-5ef0-490f-9fcc-20f01791f70e/"/>
+      <tstamps>4429fc5e-9732-4658-8738-df7f2207917f</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>PMEG3020EP,115</value>
+      <footprint>IMU-2X:D_SOD-128</footprint>
+      <datasheet>Components/Nexperia-PMEG3020EP.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">1727-5836-1-ND</field>
+        <field name="MFG">Nexperia</field>
+        <field name="MFG P/N">PMEG3020EP,115</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="MFG" value="Nexperia"/>
+      <property name="MFG P/N" value="PMEG3020EP,115"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="1727-5836-1-ND"/>
+      <property name="Sheetname" value="PWM-Heading"/>
+      <property name="Sheetfile" value="pwm-heading.kicad_sch"/>
+      <property name="Page" value="Page:4/4"/>
+      <property name="ki_description" value="Schottky diode"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/PWM-Heading/" tstamps="/4bacb90b-5ef0-490f-9fcc-20f01791f70e/"/>
+      <tstamps>4fccbd76-d373-495d-b1af-e7e3b1cb5379</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>RATE</value>
+      <footprint>IMU-2X:70541-0002</footprint>
+      <datasheet>Components/Molex 70541-series-drawing.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM7991-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">70541-0002</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="70541-0002"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM7991-ND"/>
+      <property name="Sheetname" value="PWM-Heading"/>
+      <property name="Sheetfile" value="pwm-heading.kicad_sch"/>
+      <property name="Page" value="Page:4/4"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/PWM-Heading/" tstamps="/4bacb90b-5ef0-490f-9fcc-20f01791f70e/"/>
+      <tstamps>8fdba074-58a2-4917-a82c-fb5a2879f172</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>HEADING</value>
+      <footprint>IMU-2X:70541-0002</footprint>
+      <datasheet>Components/Molex 70541-series-drawing.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM7991-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">70541-0002</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="70541-0002"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM7991-ND"/>
+      <property name="Sheetname" value="PWM-Heading"/>
+      <property name="Sheetfile" value="pwm-heading.kicad_sch"/>
+      <property name="Page" value="Page:4/4"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/PWM-Heading/" tstamps="/4bacb90b-5ef0-490f-9fcc-20f01791f70e/"/>
+      <tstamps>703380fe-8895-4d4a-b089-d77618b84f1a</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>100R-1%-0805</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>Components/Yageo-PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">311-100CRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG P/N">RC0805FR-07100RL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="311-100CRCT-ND"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MFG P/N" value="RC0805FR-07100RL"/>
+      <property name="Sheetname" value="PWM-Heading"/>
+      <property name="Sheetfile" value="pwm-heading.kicad_sch"/>
+      <property name="Page" value="Page:4/4"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/PWM-Heading/" tstamps="/4bacb90b-5ef0-490f-9fcc-20f01791f70e/"/>
+      <tstamps>981647d7-1422-4d79-98a2-0d0ceb0a5a1f</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>100R-1%-0805</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>Components/Yageo-PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">311-100CRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG P/N">RC0805FR-07100RL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="311-100CRCT-ND"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MFG P/N" value="RC0805FR-07100RL"/>
+      <property name="Sheetname" value="PWM-Heading"/>
+      <property name="Sheetfile" value="pwm-heading.kicad_sch"/>
+      <property name="Page" value="Page:4/4"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/PWM-Heading/" tstamps="/4bacb90b-5ef0-490f-9fcc-20f01791f70e/"/>
+      <tstamps>8c1fc850-d4e1-497e-bb16-244ab582a918</tstamps>
+    </comp>
+    <comp ref="U13">
+      <value>ISO6720FBDR</value>
+      <footprint>Package_SO:SO-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>Components/TI-iso6721.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">296-ISO6720FBDRCT-ND</field>
+        <field name="MFG">Texas Instruments</field>
+        <field name="MFG P/N">ISO6720FBDR</field>
+      </fields>
+      <libsource lib="IMU-2X" part="ADUM1280ARZ" description=""/>
+      <property name="MFG" value="Texas Instruments"/>
+      <property name="MFG P/N" value="ISO6720FBDR"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="296-ISO6720FBDRCT-ND"/>
+      <property name="Sheetname" value="PWM-Heading"/>
+      <property name="Sheetfile" value="pwm-heading.kicad_sch"/>
+      <property name="Page" value="Page:4/4"/>
+      <sheetpath names="/PWM-Heading/" tstamps="/4bacb90b-5ef0-490f-9fcc-20f01791f70e/"/>
+      <tstamps>c3e1a34f-64d7-4bec-b53a-208367c6230d</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="SW_Push_1">
+      <description>Push button switch, generic, two pins</description>
+      <docs>Components/E-SWITCH-TL3301AF260QG.pdf</docs>
+      <fields>
+        <field name="Reference">SW1</field>
+        <field name="Value">RESET</field>
+        <field name="Footprint">IMU-2X:SW_ESWITCH_TL3301xxJ</field>
+        <field name="Datasheet">Components/E-SWITCH-TL3301AF260QG.pdf</field>
+        <field name="MFG">E-Switch</field>
+        <field name="MFG P/N">TL3301AF260QG</field>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">EG2527CT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xGxx" part="74LVC2G04">
+      <description>Dual NOT Gate, Low-Voltage CMOS</description>
+      <docs>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</docs>
+      <footprints>
+        <fp>SG-*</fp>
+        <fp>SOT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LVC2G04</field>
+        <field name="Datasheet">http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="6" name="" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Pin">
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Male">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Socket">
+      <description>Generic connector, single row, 01x04, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Socket</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint_Small">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B">
+      <description>USB Type B connector</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B</field>
+        <field name="Datasheet"> ~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="GND" type="power_out"/>
+        <pin num="5" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x07_Odd_Even">
+      <description>Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x07_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_US">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D2</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_TVS">
+      <description>Bidirectional transient-voltage-suppression diode</description>
+      <docs>Components/Littelfulse-sz1smb28cat3g.pdf</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D1</field>
+        <field name="Value">15V</field>
+        <field name="Footprint">Diode_SMD:D_SMB</field>
+        <field name="Datasheet">Components/Littelfulse-sz1smb28cat3g.pdf</field>
+        <field name="MFG">Littelfuse</field>
+        <field name="MFG P/N">SZ1SMB15CAT3G</field>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">F11544CT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_Dual_Bidirectional">
+      <description>Dual LED, bidirectional</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D3</field>
+        <field name="Value">LED_Dual_Bidirectional</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="KA" type="input"/>
+        <pin num="2" name="AK" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Iron">
+      <description>Inductor with iron core</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Iron</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="IMU-2X" part="8MHz-ECS-5032MV">
+      <docs>https://ecsxtal.com/store/pdf/ECS-5032MV.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">8MHz-ECS-5032MV</field>
+        <field name="Footprint">IMU-2X:ECS-5032MV</field>
+        <field name="Datasheet">https://ecsxtal.com/store/pdf/ECS-5032MV.pdf</field>
+        <field name="MFG">ECS</field>
+        <field name="MFG P/N">ECS-5032MV-80-CN-TR</field>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">XC3116CT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="input"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="OUT" type="output"/>
+        <pin num="4" name="V_{DD}" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="IMU-2X" part="ADUM1280ARZ">
+      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM1280_1281_1285_1286.pdf</docs>
+      <fields>
+        <field name="Reference">U13</field>
+        <field name="Value">ADUM1280ARZ</field>
+        <field name="Footprint">Package_SO:SO-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM1280_1281_1285_1286.pdf</field>
+        <field name="P/N">ADUM1280ARZ</field>
+        <field name="MFG">Analog Devices</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD1" type="power_in"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="GND1" type="passive"/>
+        <pin num="5" name="GND2" type="passive"/>
+        <pin num="6" name="" type="output"/>
+        <pin num="7" name="" type="output"/>
+        <pin num="8" name="VDD2" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="IMU-2X" part="IAM-20680HP">
+      <description>
+IMUs - Inertial Measurement Units Automotive Qualified, Grade2 (-40 C +105 C), High-Performance Integrated 6-Axis MEMS MotionTracking Device</description>
+      <docs>Components/TDK-IAM-20680HP.pdf</docs>
+      <fields>
+        <field name="Reference">U1</field>
+        <field name="Value">IAM-20680HP</field>
+        <field name="Footprint">Package_LGA:LGA-16_3x3mm_P0.5mm_LayoutBorder3x5y</field>
+        <field name="Datasheet">Components/TDK-IAM-20680HP.pdf</field>
+        <field name="MFG P/N">IAM-20680HP</field>
+        <field name="MFG">TDK</field>
+        <field name="DIST">Mouser</field>
+        <field name="DIST P/N">410-IAM-20680HP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDDIO" type="power_in"/>
+        <pin num="2" name="SCL/SPC" type="input"/>
+        <pin num="3" name="SDA/SDI" type="bidirectional"/>
+        <pin num="4" name="SA0/SDO" type="bidirectional"/>
+        <pin num="5" name="~{CS}" type="input"/>
+        <pin num="6" name="INT" type="output"/>
+        <pin num="7" name="RESV" type="output"/>
+        <pin num="8" name="FSYNC" type="input"/>
+        <pin num="9" name="RESV" type="passive"/>
+        <pin num="10" name="RESV" type="passive"/>
+        <pin num="11" name="RESV" type="passive"/>
+        <pin num="12" name="RESV" type="passive"/>
+        <pin num="13" name="GND" type="passive"/>
+        <pin num="14" name="REGOUT" type="passive"/>
+        <pin num="15" name="RESV" type="passive"/>
+        <pin num="16" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="IMU-2X" part="LMR54410FDBVR">
+      <description>Buck Switching Regulator IC Positive Adjustable 0.8V 1 Output 1A SOT-23-6</description>
+      <docs>Components/TI-LMR54406.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">Components/TI-LMR54406.pdf</field>
+        <field name="MFG">Texas Instruments</field>
+        <field name="MFG P/N">LMR54410FDBVR</field>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">296-LMR54410FDBVRCT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CB" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="FB" type="input"/>
+        <pin num="4" name="EN" type="input"/>
+        <pin num="5" name="VIN" type="power_in"/>
+        <pin num="6" name="SW" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="IMU-2X" part="MCP2542FDxMF">
+      <description>CAN-FD Transceiver, Wake-Up on CAN activity, 8Mbps, 5V supply, STBY pin, 3x3 DFN-8</description>
+      <docs>Components/Microchip-MCP2542WFD.pdf</docs>
+      <footprints>
+        <fp>DFN*1EP*3x3mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U1</field>
+        <field name="Value">MCP2542FDT-E/SN</field>
+        <field name="Footprint">Package_SO:SO-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">Components/Microchip-MCP2542WFD.pdf</field>
+        <field name="MFG P/N">MCP2542FDT-E/SN</field>
+        <field name="MFG">Microchip</field>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">MCP2542FDT-E/SNCT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TXD" type="input"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="VDD" type="power_in"/>
+        <pin num="4" name="RXD" type="output"/>
+        <pin num="5" name="VIO" type="power_in"/>
+        <pin num="6" name="CANL" type="bidirectional"/>
+        <pin num="7" name="CANH" type="bidirectional"/>
+        <pin num="8" name="STBY" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="IMU-2X" part="SCHA63T-K03">
+      <description>Accelerometer, Gyroscope, Temperature, 6 Axis Sensor SPI Output</description>
+      <docs>Components/Murata-SCHA63T-K03.pdf</docs>
+      <fields>
+        <field name="Reference">U2</field>
+        <field name="Value">SCHA63T-K03</field>
+        <field name="Footprint">IMU-2X:SCHA63T-K03</field>
+        <field name="Datasheet">Components/Murata-SCHA63T-K03.pdf</field>
+        <field name="MFG">Murata</field>
+        <field name="MFG P/N">SCHA63T-K03-05</field>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">490-SCHA63T-K03-05CT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="HEAT/EMC_GND" type="passive"/>
+        <pin num="2" name="MOSI-DUE" type="input"/>
+        <pin num="3" name="~{CSB-DUE}" type="input"/>
+        <pin num="4" name="SCK-DUE" type="input"/>
+        <pin num="5" name="MISO-DUE" type="output"/>
+        <pin num="6" name="V3p3D-DUE" type="power_in"/>
+        <pin num="7" name="V3p3A-DUE" type="power_in"/>
+        <pin num="8" name="GNDD-DUE" type="passive"/>
+        <pin num="9" name="VDDD-DUE" type="power_in"/>
+        <pin num="10" name="GNDA/EMC_GND-UNO" type="passive"/>
+        <pin num="11" name="VDDA-UNO" type="power_in"/>
+        <pin num="12" name="RSVD-UNO" type="passive"/>
+        <pin num="13" name="TIOP-UNO" type="passive"/>
+        <pin num="14" name="~{TI/EXTRESN-UNO}" type="input"/>
+        <pin num="15" name="TION-UNO" type="passive"/>
+        <pin num="16" name="HEAT/EMC_GND" type="passive"/>
+        <pin num="17" name="HEAT/EMC_GND" type="passive"/>
+        <pin num="18" name="MOSI-UNO" type="input"/>
+        <pin num="19" name="~{CSB-UNO}" type="input"/>
+        <pin num="20" name="SCK-UNO" type="input"/>
+        <pin num="21" name="MISO-UNO" type="output"/>
+        <pin num="22" name="V3p3D-UNO" type="power_in"/>
+        <pin num="23" name="V3p3A-UNO" type="power_in"/>
+        <pin num="24" name="GNDD-UNO" type="passive"/>
+        <pin num="25" name="VDDD-UNO" type="power_in"/>
+        <pin num="26" name="GNDA/EMC_GND-DUE" type="passive"/>
+        <pin num="27" name="VDDA-DUE" type="power_in"/>
+        <pin num="28" name="RSVD-DUE" type="passive"/>
+        <pin num="29" name="TIOP-DUE" type="passive"/>
+        <pin num="30" name="~{TI/EXTRESN-DUE}" type="input"/>
+        <pin num="31" name="TION-DUE" type="passive"/>
+        <pin num="32" name="HEAT/EMC_GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="IMU-2X" part="SN74AVC4T245DR">
+      <description>4-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs, TSSOP-16</description>
+      <docs>Components/TexasInstruments-SN74AVC4T245DR.pdf</docs>
+      <footprints>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74AVC4T245DR</field>
+        <field name="Footprint">Package_SO:SO-16_3.9x9.9mm_P1.27mm</field>
+        <field name="Datasheet">Components/TexasInstruments-SN74AVC4T245DR.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCCA" type="power_in"/>
+        <pin num="2" name="1DIR" type="input"/>
+        <pin num="3" name="2DIR" type="input"/>
+        <pin num="4" name="1A1" type="bidirectional"/>
+        <pin num="5" name="1A2" type="bidirectional"/>
+        <pin num="6" name="2A1" type="bidirectional"/>
+        <pin num="7" name="2A2" type="bidirectional"/>
+        <pin num="8" name="GND" type="passive"/>
+        <pin num="9" name="GND" type="passive"/>
+        <pin num="10" name="2B2" type="bidirectional"/>
+        <pin num="11" name="2B1" type="bidirectional"/>
+        <pin num="12" name="1B2" type="bidirectional"/>
+        <pin num="13" name="1B1" type="bidirectional"/>
+        <pin num="14" name="2~{OE}" type="input"/>
+        <pin num="15" name="1~{OE}" type="input"/>
+        <pin num="16" name="VCCB" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="IMU-2X" part="STM32G473RET6">
+      <description>ARM® Cortex®-M4 STM32G4 Microcontroller IC 32-Bit Single-Core 170MHz 512KB (512K x 8) FLASH 64-LQFP (10x10)</description>
+      <docs>Components/STMicro-stm32g473cb.pdf</docs>
+      <fields>
+        <field name="Reference">U6</field>
+        <field name="Value">STM32G473RET6</field>
+        <field name="Footprint">Package_QFP:LQFP-64_10x10mm_P0.5mm</field>
+        <field name="Datasheet">Components/STMicro-stm32g473cb.pdf</field>
+        <field name="MFG">ST Micro</field>
+        <field name="MFG P/N">STM32G473RET6</field>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">497-STM32G473RET6-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBAT" type="power_in"/>
+        <pin num="2" name="PC13/GPIO_OUT" type="output"/>
+        <pin num="3" name="PC14/GPIO_OUT" type="output"/>
+        <pin num="4" name="PC15/GPIO_OUT" type="output"/>
+        <pin num="5" name="PF0/RCC_OSC_IN" type="input"/>
+        <pin num="6" name="PF1/RCC_OSC_OUT" type="output"/>
+        <pin num="7" name="PG10/~{NRST}" type="input"/>
+        <pin num="8" name="PC0/GPIO_OUT" type="output"/>
+        <pin num="9" name="PC1/GPIO_OUT" type="output"/>
+        <pin num="10" name="PC2/GPIO_OUT" type="output"/>
+        <pin num="11" name="PC3/GPIO_OUT" type="output"/>
+        <pin num="12" name="PA0/GPIO_IN" type="input"/>
+        <pin num="13" name="PA1/GPIO_OUT" type="output"/>
+        <pin num="14" name="PA2/GPIO_OUT" type="output"/>
+        <pin num="15" name="VSS" type="passive"/>
+        <pin num="16" name="VDD" type="power_in"/>
+        <pin num="17" name="PA3/GPIO_OUT" type="output"/>
+        <pin num="18" name="PA4/~{SPI1_NSS}" type="output"/>
+        <pin num="19" name="PA5/SPI1_SCK" type="output"/>
+        <pin num="20" name="PA6/SPI1_MISO" type="input"/>
+        <pin num="21" name="PA7/SPI1_MOSI" type="output"/>
+        <pin num="22" name="PC4/USART1_TX" type="output"/>
+        <pin num="23" name="PC5/USART1_RX" type="input"/>
+        <pin num="24" name="PB0/TMR3_CH3" type="output"/>
+        <pin num="25" name="PB1/TMR3_CH4" type="output"/>
+        <pin num="26" name="PB2/GPIO_OUT" type="output"/>
+        <pin num="27" name="VSSA" type="passive"/>
+        <pin num="28" name="VREF+/VREFBUF_OUT" type="output"/>
+        <pin num="29" name="VDDA" type="power_in"/>
+        <pin num="30" name="PB10/GPIO_OUT" type="output"/>
+        <pin num="31" name="VSS" type="passive"/>
+        <pin num="32" name="VDD" type="power_in"/>
+        <pin num="33" name="PB11/GPIO_OUT" type="output"/>
+        <pin num="34" name="PB12/~{SPI2_NSS}" type="output"/>
+        <pin num="35" name="PB13/SPI2_SCK" type="output"/>
+        <pin num="36" name="PB14/SPI2_MISO" type="input"/>
+        <pin num="37" name="PB15/SPI2_MOSI" type="output"/>
+        <pin num="38" name="PC6/GPIO_OUT" type="output"/>
+        <pin num="39" name="PC7/GPIO_OUT" type="output"/>
+        <pin num="40" name="PC8/GPIO_OUT" type="output"/>
+        <pin num="41" name="PC9/GPIO_OUT" type="output"/>
+        <pin num="42" name="PA8/ADC5_IN1" type="output"/>
+        <pin num="43" name="PA9/GPIO_OUT" type="output"/>
+        <pin num="44" name="PA10/GPIO_OUT" type="output"/>
+        <pin num="45" name="PA11/USB_DM" type="bidirectional"/>
+        <pin num="46" name="PA12/USB_DP" type="bidirectional"/>
+        <pin num="47" name="VSS" type="passive"/>
+        <pin num="48" name="VDD" type="open_emitter"/>
+        <pin num="49" name="PA13/SYS_ITMS_SWDIO" type="bidirectional"/>
+        <pin num="50" name="PA14/SYS_ITMS_SWCLK" type="input"/>
+        <pin num="51" name="PA15/~{SPI3_NSS}" type="output"/>
+        <pin num="52" name="PC10/SPI3_SCK" type="output"/>
+        <pin num="53" name="PC11/SPI3_MISO" type="input"/>
+        <pin num="54" name="PC12/SPI3_MOSI" type="output"/>
+        <pin num="55" name="PD2/GPIO_OUT" type="output"/>
+        <pin num="56" name="PB3/GPIO_OUT" type="output"/>
+        <pin num="57" name="PB4/GPIO_OUT" type="output"/>
+        <pin num="58" name="PB5/FDCAN2_RX" type="input"/>
+        <pin num="59" name="PB6/FDCAN2_TX" type="output"/>
+        <pin num="60" name="PB7/GPIO_OUT" type="input"/>
+        <pin num="61" name="PB8/BOOT0" type="input"/>
+        <pin num="62" name="PB9/GPIO_OUT" type="output"/>
+        <pin num="63" name="VSS" type="passive"/>
+        <pin num="64" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="IMU-2X" part="TPS613222ADBVR">
+      <description>Boost Switching Regulator IC Positive Fixed 5V 1 Output 2.5A (Switch) SC-74A, SOT-753</description>
+      <docs>Components/TI-tps613222.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS613222ADBVR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">Components/TI-tps613222.pdf</field>
+        <field name="MFG">Texas Instruments</field>
+        <field name="MFG P/N">TPS613222ADBVR</field>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">296-50503-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SW" type="power_in"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="NC" type="passive"/>
+        <pin num="4" name="VOUT" type="power_out"/>
+        <pin num="5" name="NC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Power_Protection" part="USBLC6-2SC6">
+      <description>Very low capacitance ESD protection diode, 2 data-line, SOT-23-6</description>
+      <docs>Components/STmicro-USBLC6-2SC6.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U13</field>
+        <field name="Value">USBLC6-2SC6</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">Components/STmicro-USBLC6-2SC6.pdf</field>
+        <field name="MFG">ST Micro</field>
+        <field name="MFG P/N">USBLC6-2SC6</field>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">497-5235-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="I/O1" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="I/O2" type="passive"/>
+        <pin num="4" name="I/O2" type="passive"/>
+        <pin num="5" name="VBUS" type="passive"/>
+        <pin num="6" name="I/O1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Supervisor" part="MCP120-xxxxTT">
+      <description>Microcontroller supervisory circuit, SOT-23</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/11184d.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP120-xxxxTT</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/11184d.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{RST}" type="open_collector"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>Components/E-SWITCH-TL3301AF260QG.pdf</docs>
+      <fields>
+        <field name="Reference">SW2</field>
+        <field name="Value">BOOT0</field>
+        <field name="Footprint">IMU-2X:SW_ESWITCH_TL3301xxJ</field>
+        <field name="Datasheet">Components/E-SWITCH-TL3301AF260QG.pdf</field>
+        <field name="MFG">E-Switch</field>
+        <field name="MFG P/N">TL3301AF260QG</field>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">EG2527CT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="BSS84">
+      <description>-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23</description>
+      <docs>http://assets.nexperia.com/documents/data-sheet/BSS84.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS84</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://assets.nexperia.com/documents/data-sheet/BSS84.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xGxx">
+      <uri>/usr/share/kicad/symbols//74xGxx.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="IMU-2X">
+      <uri>/home/scott/Documents/Projects/dev/git/971-electrical/circuit-boards/IMU-2X-v3/IMU-2X.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Power_Protection">
+      <uri>/usr/share/kicad/symbols//Power_Protection.kicad_sym</uri>
+    </library>
+    <library logical="Power_Supervisor">
+      <uri>/usr/share/kicad/symbols//Power_Supervisor.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/symbols//Switch.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/usr/share/kicad/symbols//Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="C29" pin="1" pintype="passive"/>
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="C37" pin="1" pintype="passive"/>
+      <node ref="C39" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C40" pin="1" pintype="passive"/>
+      <node ref="C41" pin="1" pintype="passive"/>
+      <node ref="C44" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="VIO" pintype="power_in"/>
+      <node ref="U10" pin="1" pinfunction="VCCA" pintype="power_in"/>
+      <node ref="U10" pin="2" pinfunction="1DIR" pintype="input"/>
+      <node ref="U10" pin="3" pinfunction="2DIR" pintype="input"/>
+      <node ref="U11" pin="5" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U13" pin="1" pinfunction="VDD1" pintype="power_in"/>
+      <node ref="U4" pin="5" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U5" pin="22" pinfunction="V3p3D-UNO" pintype="power_in"/>
+      <node ref="U5" pin="23" pinfunction="V3p3A-UNO" pintype="power_in"/>
+      <node ref="U5" pin="6" pinfunction="V3p3D-DUE" pintype="power_in"/>
+      <node ref="U5" pin="7" pinfunction="V3p3A-DUE" pintype="power_in"/>
+      <node ref="U6" pin="1" pinfunction="EN" pintype="input"/>
+      <node ref="U6" pin="4" pinfunction="V_{DD}" pintype="power_in"/>
+      <node ref="U7" pin="16" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U7" pin="29" pinfunction="VDDA" pintype="power_in"/>
+      <node ref="U7" pin="32" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U7" pin="48" pinfunction="VDD" pintype="open_emitter"/>
+      <node ref="U7" pin="64" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U8" pin="2" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="3" name="/CAN_H">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="CANH" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/CAN_L">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="CANL" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/FDCAN_RX">
+      <node ref="U1" pin="4" pinfunction="RXD" pintype="output"/>
+      <node ref="U7" pin="58" pinfunction="PB5/FDCAN2_RX" pintype="input"/>
+    </net>
+    <net code="6" name="/FDCAN_STBY">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="STBY" pintype="input"/>
+      <node ref="U7" pin="60" pinfunction="PB7/GPIO_OUT" pintype="input"/>
+    </net>
+    <net code="7" name="/FDCAN_TX">
+      <node ref="U1" pin="1" pinfunction="TXD" pintype="input"/>
+      <node ref="U7" pin="59" pinfunction="PB6/FDCAN2_TX" pintype="output"/>
+    </net>
+    <net code="8" name="/FSYNC_TDK">
+      <node ref="TP9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U10" pin="13" pinfunction="1B1" pintype="bidirectional"/>
+      <node ref="U12" pin="8" pinfunction="FSYNC" pintype="input"/>
+    </net>
+    <net code="9" name="/FSYNC_TDK_ST">
+      <node ref="U10" pin="4" pinfunction="1A1" pintype="bidirectional"/>
+      <node ref="U7" pin="14" pinfunction="PA2/GPIO_OUT" pintype="output"/>
+    </net>
+    <net code="10" name="/INT_TDK">
+      <node ref="TP14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U12" pin="6" pinfunction="INT" pintype="output"/>
+      <node ref="U7" pin="12" pinfunction="PA0/GPIO_IN" pintype="input"/>
+    </net>
+    <net code="11" name="/LED1_GRN">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U4" pin="1" pintype="input"/>
+      <node ref="U7" pin="8" pinfunction="PC0/GPIO_OUT" pintype="output"/>
+    </net>
+    <net code="12" name="/LED1_RED">
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U4" pin="3" pintype="input"/>
+      <node ref="U7" pin="9" pinfunction="PC1/GPIO_OUT" pintype="output"/>
+    </net>
+    <net code="13" name="/LED2_GRN">
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="U11" pin="3" pintype="input"/>
+      <node ref="U7" pin="10" pinfunction="PC2/GPIO_OUT" pintype="output"/>
+    </net>
+    <net code="14" name="/LED2_RED">
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="U11" pin="1" pintype="input"/>
+      <node ref="U7" pin="11" pinfunction="PC3/GPIO_OUT" pintype="output"/>
+    </net>
+    <net code="15" name="/MISO_DUE">
+      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="MISO-DUE" pintype="output"/>
+      <node ref="U7" pin="53" pinfunction="PC11/SPI3_MISO" pintype="input"/>
+    </net>
+    <net code="16" name="/MISO_TDK">
+      <node ref="TP18" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U12" pin="4" pinfunction="SA0/SDO" pintype="bidirectional"/>
+      <node ref="U7" pin="20" pinfunction="PA6/SPI1_MISO" pintype="input"/>
+    </net>
+    <net code="17" name="/MISO_UNO">
+      <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="21" pinfunction="MISO-UNO" pintype="output"/>
+      <node ref="U7" pin="36" pinfunction="PB14/SPI2_MISO" pintype="input"/>
+    </net>
+    <net code="18" name="/MOSI_DUE">
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="MOSI-DUE" pintype="input"/>
+      <node ref="U7" pin="54" pinfunction="PC12/SPI3_MOSI" pintype="output"/>
+    </net>
+    <net code="19" name="/MOSI_TDK">
+      <node ref="TP11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U10" pin="12" pinfunction="1B2" pintype="bidirectional"/>
+      <node ref="U12" pin="3" pinfunction="SDA/SDI" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/MOSI_TDK_ST">
+      <node ref="U10" pin="5" pinfunction="1A2" pintype="bidirectional"/>
+      <node ref="U7" pin="21" pinfunction="PA7/SPI1_MOSI" pintype="output"/>
+    </net>
+    <net code="21" name="/MOSI_UNO">
+      <node ref="TP10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="18" pinfunction="MOSI-UNO" pintype="input"/>
+      <node ref="U7" pin="37" pinfunction="PB15/SPI2_MOSI" pintype="output"/>
+    </net>
+    <net code="22" name="/PWM-Heading/5V_HDG">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="23" name="/PWM-Heading/5V_ISO">
+      <node ref="C42" pin="1" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U13" pin="8" pinfunction="VDD2" pintype="power_in"/>
+    </net>
+    <net code="24" name="/PWM-Heading/5V_RATE">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="25" name="/PWM_HEADING">
+      <node ref="TP17" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U13" pin="3" pintype="input"/>
+      <node ref="U7" pin="25" pinfunction="PB1/TMR3_CH4" pintype="output"/>
+    </net>
+    <net code="26" name="/PWM_RATE">
+      <node ref="TP16" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U13" pin="2" pintype="input"/>
+      <node ref="U7" pin="24" pinfunction="PB0/TMR3_CH3" pintype="output"/>
+    </net>
+    <net code="27" name="/Power Supply/V_{BAT_MON}">
+      <node ref="C38" pin="2" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U9" pin="5" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="28" name="/SCK_DUE">
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="SCK-DUE" pintype="input"/>
+      <node ref="U7" pin="52" pinfunction="PC10/SPI3_SCK" pintype="output"/>
+    </net>
+    <net code="29" name="/SCK_TDK">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="TP15" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U10" pin="11" pinfunction="2B1" pintype="bidirectional"/>
+      <node ref="U12" pin="2" pinfunction="SCL/SPC" pintype="input"/>
+    </net>
+    <net code="30" name="/SCK_TDK_ST">
+      <node ref="U10" pin="6" pinfunction="2A1" pintype="bidirectional"/>
+      <node ref="U7" pin="19" pinfunction="PA5/SPI1_SCK" pintype="output"/>
+    </net>
+    <net code="31" name="/SCK_UNO">
+      <node ref="TP7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="20" pinfunction="SCK-UNO" pintype="input"/>
+      <node ref="U7" pin="35" pinfunction="PB13/SPI2_SCK" pintype="output"/>
+    </net>
+    <net code="32" name="/ST_USB_D+">
+      <node ref="U2" pin="4" pinfunction="I/O2" pintype="passive"/>
+      <node ref="U7" pin="46" pinfunction="PA12/USB_DP" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="/ST_USB_D-">
+      <node ref="U2" pin="6" pinfunction="I/O1" pintype="passive"/>
+      <node ref="U7" pin="45" pinfunction="PA11/USB_DM" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="/TDK_PWR_EN">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="U7" pin="41" pinfunction="PC9/GPIO_OUT" pintype="output"/>
+    </net>
+    <net code="35" name="/T_SWCLK">
+      <node ref="J6" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U7" pin="50" pinfunction="PA14/SYS_ITMS_SWCLK" pintype="input"/>
+    </net>
+    <net code="36" name="/T_SWDIO">
+      <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U7" pin="49" pinfunction="PA13/SYS_ITMS_SWDIO" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="/T_VCP_RX">
+      <node ref="J6" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="U7" pin="23" pinfunction="PC5/USART1_RX" pintype="input"/>
+    </net>
+    <net code="38" name="/T_VCP_TX">
+      <node ref="J6" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="U7" pin="22" pinfunction="PC4/USART1_TX" pintype="output"/>
+    </net>
+    <net code="39" name="/USB_D+">
+      <node ref="J3" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U2" pin="3" pinfunction="I/O2" pintype="passive"/>
+    </net>
+    <net code="40" name="/USB_D-">
+      <node ref="J3" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U2" pin="1" pinfunction="I/O1" pintype="passive"/>
+    </net>
+    <net code="41" name="/V_{BAT}">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="42" name="/~{CS_DUE}">
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="~{CSB-DUE}" pintype="input"/>
+      <node ref="U7" pin="51" pinfunction="PA15/~{SPI3_NSS}" pintype="output"/>
+    </net>
+    <net code="43" name="/~{CS_TDK_ST}">
+      <node ref="U10" pin="7" pinfunction="2A2" pintype="bidirectional"/>
+      <node ref="U7" pin="18" pinfunction="PA4/~{SPI1_NSS}" pintype="output"/>
+    </net>
+    <net code="44" name="/~{CS_TDK}">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="TP13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U10" pin="10" pinfunction="2B2" pintype="bidirectional"/>
+      <node ref="U12" pin="5" pinfunction="~{CS}" pintype="input"/>
+    </net>
+    <net code="45" name="/~{CS_UNO}">
+      <node ref="TP8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="19" pinfunction="~{CSB-UNO}" pintype="input"/>
+      <node ref="U7" pin="34" pinfunction="PB12/~{SPI2_NSS}" pintype="output"/>
+    </net>
+    <net code="46" name="/~{RESET_DUE}">
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="30" pinfunction="~{TI/EXTRESN-DUE}" pintype="input"/>
+      <node ref="U7" pin="38" pinfunction="PC6/GPIO_OUT" pintype="output"/>
+    </net>
+    <net code="47" name="/~{RESET_UNO}">
+      <node ref="TP12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="14" pinfunction="~{TI/EXTRESN-UNO}" pintype="input"/>
+      <node ref="U7" pin="17" pinfunction="PA3/GPIO_OUT" pintype="output"/>
+    </net>
+    <net code="48" name="/~{TDK_EN}">
+      <node ref="U10" pin="14" pinfunction="2~{OE}" pintype="input"/>
+      <node ref="U10" pin="15" pinfunction="1~{OE}" pintype="input"/>
+      <node ref="U7" pin="13" pinfunction="PA1/GPIO_OUT" pintype="output"/>
+    </net>
+    <net code="49" name="/~{T_NRST}">
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="J6" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="U7" pin="7" pinfunction="PG10/~{NRST}" pintype="input"/>
+      <node ref="U8" pin="1" pinfunction="~{RST}" pintype="open_collector"/>
+    </net>
+    <net code="50" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="C31" pin="2" pintype="passive"/>
+      <node ref="C32" pin="2" pintype="passive"/>
+      <node ref="C33" pin="2" pintype="passive"/>
+      <node ref="C34" pin="2" pintype="passive"/>
+      <node ref="C35" pin="2" pintype="passive"/>
+      <node ref="C36" pin="2" pintype="passive"/>
+      <node ref="C37" pin="2" pintype="passive"/>
+      <node ref="C38" pin="1" pintype="passive"/>
+      <node ref="C39" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C41" pin="2" pintype="passive"/>
+      <node ref="C43" pin="2" pintype="passive"/>
+      <node ref="C44" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="D7" pin="2" pinfunction="AK" pintype="input"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="GND" pintype="power_out"/>
+      <node ref="J3" pin="5" pinfunction="Shield" pintype="passive"/>
+      <node ref="J6" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J6" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U10" pin="8" pinfunction="GND" pintype="passive"/>
+      <node ref="U10" pin="9" pinfunction="GND" pintype="passive"/>
+      <node ref="U11" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U12" pin="10" pinfunction="RESV" pintype="passive"/>
+      <node ref="U12" pin="11" pinfunction="RESV" pintype="passive"/>
+      <node ref="U12" pin="12" pinfunction="RESV" pintype="passive"/>
+      <node ref="U12" pin="13" pinfunction="GND" pintype="passive"/>
+      <node ref="U12" pin="15" pinfunction="RESV" pintype="passive"/>
+      <node ref="U12" pin="7" pinfunction="RESV" pintype="output"/>
+      <node ref="U12" pin="9" pinfunction="RESV" pintype="passive"/>
+      <node ref="U13" pin="4" pinfunction="GND1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="NC" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="NC" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="1" pinfunction="HEAT/EMC_GND" pintype="passive"/>
+      <node ref="U5" pin="10" pinfunction="GNDA/EMC_GND-UNO" pintype="passive"/>
+      <node ref="U5" pin="12" pinfunction="RSVD-UNO" pintype="passive"/>
+      <node ref="U5" pin="13" pinfunction="TIOP-UNO" pintype="passive"/>
+      <node ref="U5" pin="15" pinfunction="TION-UNO" pintype="passive"/>
+      <node ref="U5" pin="16" pinfunction="HEAT/EMC_GND" pintype="passive"/>
+      <node ref="U5" pin="17" pinfunction="HEAT/EMC_GND" pintype="passive"/>
+      <node ref="U5" pin="24" pinfunction="GNDD-UNO" pintype="passive"/>
+      <node ref="U5" pin="26" pinfunction="GNDA/EMC_GND-DUE" pintype="passive"/>
+      <node ref="U5" pin="28" pinfunction="RSVD-DUE" pintype="passive"/>
+      <node ref="U5" pin="29" pinfunction="TIOP-DUE" pintype="passive"/>
+      <node ref="U5" pin="31" pinfunction="TION-DUE" pintype="passive"/>
+      <node ref="U5" pin="32" pinfunction="HEAT/EMC_GND" pintype="passive"/>
+      <node ref="U5" pin="8" pinfunction="GNDD-DUE" pintype="passive"/>
+      <node ref="U6" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="U7" pin="1" pinfunction="VBAT" pintype="power_in"/>
+      <node ref="U7" pin="15" pinfunction="VSS" pintype="passive"/>
+      <node ref="U7" pin="27" pinfunction="VSSA" pintype="passive"/>
+      <node ref="U7" pin="31" pinfunction="VSS" pintype="passive"/>
+      <node ref="U7" pin="47" pinfunction="VSS" pintype="passive"/>
+      <node ref="U7" pin="63" pinfunction="VSS" pintype="passive"/>
+      <node ref="U8" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U9" pin="2" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="51" name="GND2">
+      <node ref="C42" pin="2" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U13" pin="5" pinfunction="GND2" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(C40-Pad2)">
+      <node ref="C40" pin="2" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="SW2" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(C43-Pad1)">
+      <node ref="C43" pin="1" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="SW1" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(D3-AK)">
+      <node ref="D3" pin="2" pinfunction="AK" pintype="input"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(D3-KA)">
+      <node ref="D3" pin="1" pinfunction="KA" pintype="input"/>
+      <node ref="U4" pin="4" pintype="output"/>
+    </net>
+    <net code="57" name="Net-(D6-AK)">
+      <node ref="D6" pin="2" pinfunction="AK" pintype="input"/>
+      <node ref="U11" pin="4" pintype="output"/>
+    </net>
+    <net code="58" name="Net-(D6-KA)">
+      <node ref="D6" pin="1" pinfunction="KA" pintype="input"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(D7-KA)">
+      <node ref="D7" pin="1" pinfunction="KA" pintype="input"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(J3-VBUS)">
+      <node ref="J3" pin="1" pinfunction="VBUS" pintype="power_out"/>
+      <node ref="U2" pin="5" pinfunction="VBUS" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(J5-Pin_3)">
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(J7-Pin_3)">
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(Q1-D)">
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U4" pin="6" pintype="output"/>
+    </net>
+    <net code="65" name="Net-(R19-Pad2)">
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="U13" pin="7" pintype="output"/>
+    </net>
+    <net code="66" name="Net-(R23-Pad2)">
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="U13" pin="6" pintype="output"/>
+    </net>
+    <net code="67" name="Net-(R26-Pad2)">
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="U11" pin="6" pintype="output"/>
+    </net>
+    <net code="68" name="Net-(U3-SW)">
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="SW" pintype="power_in"/>
+    </net>
+    <net code="69" name="Net-(U3-VOUT)">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="VOUT" pintype="power_out"/>
+    </net>
+    <net code="70" name="Net-(U5-VDDA-DUE)">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="U5" pin="27" pinfunction="VDDA-DUE" pintype="power_in"/>
+    </net>
+    <net code="71" name="Net-(U5-VDDA-UNO)">
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="U5" pin="11" pinfunction="VDDA-UNO" pintype="power_in"/>
+    </net>
+    <net code="72" name="Net-(U5-VDDD-DUE)">
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="U5" pin="9" pinfunction="VDDD-DUE" pintype="power_in"/>
+    </net>
+    <net code="73" name="Net-(U5-VDDD-UNO)">
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="U5" pin="25" pinfunction="VDDD-UNO" pintype="power_in"/>
+    </net>
+    <net code="74" name="Net-(U6-OUT)">
+      <node ref="U6" pin="3" pinfunction="OUT" pintype="output"/>
+      <node ref="U7" pin="5" pinfunction="PF0/RCC_OSC_IN" pintype="input"/>
+    </net>
+    <net code="75" name="Net-(U7-PA8{slash}ADC5_IN1)">
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U7" pin="42" pinfunction="PA8/ADC5_IN1" pintype="output"/>
+    </net>
+    <net code="76" name="Net-(U7-PB8{slash}BOOT0)">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="U7" pin="61" pinfunction="PB8/BOOT0" pintype="input"/>
+    </net>
+    <net code="77" name="Net-(U7-VREF+{slash}VREFBUF_OUT)">
+      <node ref="C31" pin="1" pintype="passive"/>
+      <node ref="C32" pin="1" pintype="passive"/>
+      <node ref="U7" pin="28" pinfunction="VREF+/VREFBUF_OUT" pintype="output"/>
+    </net>
+    <net code="78" name="Net-(U9-CB)">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="U9" pin="1" pinfunction="CB" pintype="passive"/>
+    </net>
+    <net code="79" name="Net-(U9-EN)">
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U9" pin="4" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="80" name="Net-(U9-FB)">
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U9" pin="3" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="81" name="Net-(U9-SW)">
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U9" pin="6" pinfunction="SW" pintype="power_out"/>
+    </net>
+    <net code="82" name="Net-(U10-VCCB)">
+      <node ref="C34" pin="1" pintype="passive"/>
+      <node ref="C35" pin="1" pintype="passive"/>
+      <node ref="C36" pin="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U10" pin="16" pinfunction="VCCB" pintype="power_in"/>
+      <node ref="U12" pin="1" pinfunction="VDDIO" pintype="power_in"/>
+      <node ref="U12" pin="16" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="83" name="Net-(U12-REGOUT)">
+      <node ref="C33" pin="1" pintype="passive"/>
+      <node ref="U12" pin="14" pinfunction="REGOUT" pintype="passive"/>
+    </net>
+    <net code="84" name="unconnected-(J6-Pin_1-Pad1)">
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(J6-Pin_2-Pad2)">
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(J6-Pin_8-Pad8)">
+      <node ref="J6" pin="8" pinfunction="Pin_8" pintype="passive+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(J6-Pin_9-Pad9)">
+      <node ref="J6" pin="9" pinfunction="Pin_9" pintype="passive+no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(J6-Pin_10-Pad10)">
+      <node ref="J6" pin="10" pinfunction="Pin_10" pintype="passive+no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(J6-Pin_11-Pad11)">
+      <node ref="J6" pin="11" pinfunction="Pin_11" pintype="passive+no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(U7-PA9{slash}GPIO_OUT-Pad43)">
+      <node ref="U7" pin="43" pinfunction="PA9/GPIO_OUT" pintype="output+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(U7-PA10{slash}GPIO_OUT-Pad44)">
+      <node ref="U7" pin="44" pinfunction="PA10/GPIO_OUT" pintype="output+no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(U7-PB2{slash}GPIO_OUT-Pad26)">
+      <node ref="U7" pin="26" pinfunction="PB2/GPIO_OUT" pintype="output+no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(U7-PB3{slash}GPIO_OUT-Pad56)">
+      <node ref="U7" pin="56" pinfunction="PB3/GPIO_OUT" pintype="output+no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(U7-PB4{slash}GPIO_OUT-Pad57)">
+      <node ref="U7" pin="57" pinfunction="PB4/GPIO_OUT" pintype="output+no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(U7-PB9{slash}GPIO_OUT-Pad62)">
+      <node ref="U7" pin="62" pinfunction="PB9/GPIO_OUT" pintype="output+no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(U7-PB10{slash}GPIO_OUT-Pad30)">
+      <node ref="U7" pin="30" pinfunction="PB10/GPIO_OUT" pintype="output+no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(U7-PB11{slash}GPIO_OUT-Pad33)">
+      <node ref="U7" pin="33" pinfunction="PB11/GPIO_OUT" pintype="output+no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(U7-PC7{slash}GPIO_OUT-Pad39)">
+      <node ref="U7" pin="39" pinfunction="PC7/GPIO_OUT" pintype="output+no_connect"/>
+    </net>
+    <net code="99" name="unconnected-(U7-PC8{slash}GPIO_OUT-Pad40)">
+      <node ref="U7" pin="40" pinfunction="PC8/GPIO_OUT" pintype="output+no_connect"/>
+    </net>
+    <net code="100" name="unconnected-(U7-PC13{slash}GPIO_OUT-Pad2)">
+      <node ref="U7" pin="2" pinfunction="PC13/GPIO_OUT" pintype="output+no_connect"/>
+    </net>
+    <net code="101" name="unconnected-(U7-PC14{slash}GPIO_OUT-Pad3)">
+      <node ref="U7" pin="3" pinfunction="PC14/GPIO_OUT" pintype="output+no_connect"/>
+    </net>
+    <net code="102" name="unconnected-(U7-PC15{slash}GPIO_OUT-Pad4)">
+      <node ref="U7" pin="4" pinfunction="PC15/GPIO_OUT" pintype="output+no_connect"/>
+    </net>
+    <net code="103" name="unconnected-(U7-PD2{slash}GPIO_OUT-Pad55)">
+      <node ref="U7" pin="55" pinfunction="PD2/GPIO_OUT" pintype="output+no_connect"/>
+    </net>
+    <net code="104" name="unconnected-(U7-PF1{slash}RCC_OSC_OUT-Pad6)">
+      <node ref="U7" pin="6" pinfunction="PF1/RCC_OSC_OUT" pintype="output+no_connect"/>
+    </net>
+  </nets>
+</export>

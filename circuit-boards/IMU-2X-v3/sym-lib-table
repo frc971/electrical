@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "IMU-2X")(type "KiCad")(uri "${KIPRJMOD}/IMU-2X.kicad_sym")(options "")(descr ""))
+  (lib (name "NX-AdapterBoard")(type "KiCad")(uri "/home/scott/Documents/Projects/FRC/NX-AdapterBoard/NX-J401-Adapter/NX-AdapterBoard.kicad_sym")(options "")(descr ""))
+)

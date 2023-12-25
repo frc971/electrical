@@ -1,0 +1,51 @@
+### Footprint positions - created on Mon 25 Dec 2023 12:03:20 AM PST ###
+### Printed by KiCad version 7.0.9-7.0.9~ubuntu22.04.1
+## Unit = inches, Angle = deg.
+## Side : top
+# Ref     Val                 Package                                           PosX       PosY       Rot  Side
+C1        10uF-10%-10V-0805   C_0805_2012Metric                               6.2800    -3.5100  180.0000  top
+C2        22uF-20%-0603       C_0603_1608Metric                               6.1190    -3.5610    0.0000  top
+C3        22uF-25V-10%-1210   C_1210_3225Metric                               5.5500    -3.7000   90.0000  top
+C4        0.1uF-25V-10%-0603  C_0603_1608Metric                               5.8100    -3.9600    0.0000  top
+C5        330uF-35V-20%-10mm  CP_Radial_D10.0mm_P5.00mm                       5.3768    -4.1200    0.0000  top
+C6        10uF-10%-10V-0805   C_0805_2012Metric                               5.7500    -4.4200  180.0000  top
+C7        0.1uF-25V-10%-0603  C_0603_1608Metric                               5.5700    -4.4800  -90.0000  top
+C8        10uF-10%-10V-0805   C_0805_2012Metric                               5.7500    -4.5000  180.0000  top
+D1        15V                 D_SMB                                           5.9400    -3.2200   90.0000  top
+D2        PMEG3020EP,115      D_SOD-128                                       5.4200    -3.7000   90.0000  top
+D3        CAN                 LED_1206_3216Metric                             5.2300    -3.7950  180.0000  top
+D4        PMEG3020EP,115      D_SOD-128                                       5.4210    -4.8570   90.0000  top
+D5        PMEG3020EP,115      D_SOD-128                                       5.7550    -4.9300    0.0000  top
+D6        IMU                 LED_1206_3216Metric                             6.4140    -5.1000   90.0000  top
+D7        PWR                 LED_1206_3216Metric                             6.5640    -5.1000   90.0000  top
+J1        CAN-FD              70541-0001                                      5.6500    -2.8900    0.0000  top
+J2        Power               Wago-2604-3102                                  6.3850    -2.9886  -90.0000  top
+J3        USB_B               USB_B_TE_5787834_Vertical                       6.8200    -3.1500  180.0000  top
+J4        CAN-FD              70541-0001                                      5.1600    -3.4800   90.0000  top
+J5        RATE                70541-0002                                      5.1600    -4.6800  -90.0000  top
+J6        SWD                 CNC-Tech-3220-14-0300-00                        6.2500    -4.7000  -90.0000  top
+J7        HEADING             70541-0002                                      5.8500    -5.1700    0.0000  top
+L1        2.2uH-20%-46mR      L_Vishay_IHLP-1212                              6.2800    -3.6500  -90.0000  top
+L2        8.2uH-20%-55mR      L_Vishay_IHLP-2525                              5.7200    -4.6800    0.0000  top
+R1        10.0k-1%-0603       R_0603_1608Metric                               5.5300    -3.4750    0.0000  top
+R2        0R-0805             R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     5.9400    -3.4950    0.0000  top
+R3        249R-1%-0805        R_0805_2012Metric                               5.2100    -3.9650    0.0000  top
+R4        0R-0805             R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     5.7500    -4.3100    0.0000  top
+R5        63.4k-1%-0603       R_0603_1608Metric                               5.6000    -4.3700    0.0000  top
+R6        10.0k-1%-0603       R_0603_1608Metric                               7.0972    -4.3925    0.0000  top
+R7        10.0k-1%-0603       R_0603_1608Metric                               7.0969    -4.5461    0.0000  top
+R8        20.0k-1%-0603       R_0603_1608Metric                               5.4200    -4.6650  -90.0000  top
+SW1       RESET               SW_ESWITCH_TL3301xxJ                            6.8100    -4.9800    0.0000  top
+SW2       BOOT0               SW_ESWITCH_TL3301xxJ                            7.0900    -4.9800    0.0000  top
+U1        MCP2542FDT-E/SN     SO-8_3.9x4.9mm_P1.27mm                          5.6100    -3.3200  180.0000  top
+U2        USBLC6-2SC6         SOT-23-6                                        6.6500    -3.4300  -90.0000  top
+U3        TPS613222ADBVR      SOT-23-5                                        6.1200    -3.6600  180.0000  top
+U4        SN74LVC2G04DBVR     SOT-23-6                                        5.7250    -3.8550  180.0000  top
+U5        SCHA63T-K03         SCHA63T-K03                                     6.9800    -3.9400    0.0000  top
+U6        8MHz-ECS-5032MV     ECS-5032MV                                      5.8400    -4.0700    0.0000  top
+U7        STM32G473RET6       LQFP-64_10x10mm_P0.5mm                          6.2600    -4.1000    0.0000  top
+U8        MCP120T-270I/TT     SOT-23                                          6.0217    -4.4701  -90.0000  top
+U9        LMR54410FDBVR       SOT-23-6                                        5.4700    -4.4800  -90.0000  top
+U10       SN74AVC4T245DR      SOIC-16_3.9x9.9mm_P1.27mm                       6.8205    -4.5819   90.0000  top
+U11       SN74LVC2G04DBVR     SOT-23-6                                        6.2150    -5.0250    0.0000  top
+## End
