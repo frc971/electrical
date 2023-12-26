@@ -1,5 +1,5 @@
-### Footprint positions - created on Fri 22 Dec 2023 09:08:27 PM PST ###
-### Printed by KiCad version 7.0.9-7.0.9~ubuntu22.04.1
+### Footprint positions - created on Tue 26 Dec 2023 02:03:17 PM PST ###
+### Printed by KiCad version 7.0.9-7.0.9~ubuntu20.04.1
 ## Unit = inches, Angle = deg.
 ## Side : top
 # Ref     Val                  Package                        PosX       PosY       Rot  Side
