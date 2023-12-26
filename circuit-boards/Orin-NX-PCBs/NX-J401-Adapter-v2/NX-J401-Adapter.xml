@@ -1,0 +1,2423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/scottberman/Documents/Projects/FRC971/NX-J401-Adapter/NX-J401-Adapter.kicad_sch</source>
+    <date>Fri 22 Dec 2023 10:22:32 AM PST</date>
+    <tool>Eeschema 7.0.9-7.0.9~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>NX J401 Adapter</title>
+        <company>971 Spartan Robotics</company>
+        <rev>1</rev>
+        <date>2023-06-04</date>
+        <source>NX-J401-Adapter.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Power Supply/" tstamps="/584f7d71-5922-4ce5-8f88-d664ca9e2a8c/">
+      <title_block>
+        <title>NX J401 Adapter</title>
+        <company>971 Spartan Robotics</company>
+        <rev>1</rev>
+        <date>2023-06-04</date>
+        <source>PowerSupply.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/MIPI-HDMI-1/" tstamps="/ef5bdea0-feaa-4250-9b61-8c5edbd568c2/">
+      <title_block>
+        <title>NX J401 Adapter</title>
+        <company>971 Spartan Robotics</company>
+        <rev>1</rev>
+        <date>2023-06-04</date>
+        <source>MIPI-HDMI.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/MIPI-HDMI-2/" tstamps="/d1baeb55-0358-48eb-b719-8b69397a20ee/">
+      <title_block>
+        <title>NX J401 Adapter</title>
+        <company>971 Spartan Robotics</company>
+        <rev>1</rev>
+        <date>2023-06-04</date>
+        <source>MIPI-HDMI.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Fan Control/" tstamps="/31806f24-7fa6-46e2-ae93-f7306b662757/">
+      <title_block>
+        <title>NX J401 Adapter</title>
+        <company>971 Spartan Robotics</company>
+        <rev>1</rev>
+        <date>2023-06-04</date>
+        <source>fan-control.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D6">
+      <value>PWR</value>
+      <footprint>NX-J401-Adapter:LED_SunLED_XZMDKVG55W-8</footprint>
+      <datasheet>Components/SunLED-XZMDKVG55W-8.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">1497-1183-1-ND</field>
+        <field name="MFG">SunLED</field>
+        <field name="MFG P/N">XZMDKVG55W-8</field>
+      </fields>
+      <libsource lib="" part="SunLED-Dual-LED_1" description="Light emitting diode"/>
+      <property name="MFG" value="SunLED"/>
+      <property name="MFG P/N" value="XZMDKVG55W-8"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="1497-1183-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NX-J401-Adapter.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4e3f77ea-24a5-46f5-ad00-efdfe4ec7695 2126a47c-e448-43db-a640-0b18faf3bded</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>18V_OUT</value>
+      <footprint>NX-J401-Adapter:CONN_69140872_WRE</footprint>
+      <datasheet>Components/Wurth-691408720002B.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">732-691408720002B-ND</field>
+        <field name="MFG">Würth Elektronik</field>
+        <field name="MFG P/N">691408720002B</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Socket" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="MFG" value="Würth Elektronik"/>
+      <property name="MFG P/N" value="691408720002B"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="732-691408720002B-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NX-J401-Adapter.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e9a5cb78-867e-4b1d-bc39-3c6859c47024</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>FAN</value>
+      <footprint>NX-J401-Adapter:70543-0003</footprint>
+      <datasheet>Components/Molex-705430001_sd.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM4802-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">70543-0003</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Pin" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="70543-0003"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM4802-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NX-J401-Adapter.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f925905c-f86b-495e-92c0-b7b1ee82ae3b</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>CAN-FD2</value>
+      <footprint>NX-J401-Adapter:CONN_BM05B-SURS-TF_JST</footprint>
+      <datasheet>Components/JST-eSUR.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">455-BM05B-SURS-TFCT-ND</field>
+        <field name="MFG">JST Sales</field>
+        <field name="MFG P/N">BM05B-SURS-TF</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x05_Pin" description="Generic connector, single row, 01x05, script generated"/>
+      <property name="MFG" value="JST Sales"/>
+      <property name="MFG P/N" value="BM05B-SURS-TF"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="455-BM05B-SURS-TFCT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NX-J401-Adapter.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x05, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>53b40661-19c9-43c8-ab37-628d3ae85f3d</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>CAN-FD1</value>
+      <footprint>NX-J401-Adapter:CONN_BM05B-SURS-TF_JST</footprint>
+      <datasheet>Components/JST-eSUR.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">455-BM05B-SURS-TFCT-ND</field>
+        <field name="MFG">JST Sales</field>
+        <field name="MFG P/N">BM05B-SURS-TF</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x05_Pin" description="Generic connector, single row, 01x05, script generated"/>
+      <property name="MFG" value="JST Sales"/>
+      <property name="MFG P/N" value="BM05B-SURS-TF"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="455-BM05B-SURS-TFCT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NX-J401-Adapter.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x05, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>55cf1071-457d-46f5-ab18-95f9913a9df4</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>CAN-FD2</value>
+      <footprint>NX-J401-Adapter:70555-0001</footprint>
+      <datasheet>Components/Molex-70555-0001.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM4164-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">0705550001</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="0705550001"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM4164-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NX-J401-Adapter.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4ab004b-3555-4542-94c0-f3ec972fa474</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>CAN-PT-FD2</value>
+      <footprint>NX-J401-Adapter:70555-0001</footprint>
+      <datasheet>Components/Molex-70555-0001.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM4164-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">0705550001</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="0705550001"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM4164-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NX-J401-Adapter.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9465788a-a40e-4b09-82a7-7b5bd6412780</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>CAN-FD1</value>
+      <footprint>NX-J401-Adapter:70555-0001</footprint>
+      <datasheet>Components/Molex-70555-0001.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM4164-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">0705550001</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="0705550001"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM4164-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NX-J401-Adapter.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>89561f12-3be6-412a-b41f-7ae4d058f777</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>CAN-PT-FD1</value>
+      <footprint>NX-J401-Adapter:70555-0001</footprint>
+      <datasheet>Components/Molex-70555-0001.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM4164-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">0705550001</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="0705550001"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM4164-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NX-J401-Adapter.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a502e7da-7e9a-47ca-981d-0d4877286c5c</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>Power</value>
+      <footprint>NX-J401-Adapter:Wurth-691406510002B</footprint>
+      <datasheet>Components/Wurth-0691406510002B.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">732-691406510002B-ND</field>
+        <field name="MFG">Wurth</field>
+        <field name="MFG P/N">691406510002B</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Socket" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="MFG" value="Wurth"/>
+      <property name="MFG P/N" value="691406510002B"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="732-691406510002B-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NX-J401-Adapter.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e774c0cc-2bea-4ddb-9dda-bc02f2617b8c</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>4.99k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">311-4.99KHRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG P/N">RC0603FR-074K99L</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MFG P/N" value="RC0603FR-074K99L"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="311-4.99KHRCT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="NX-J401-Adapter.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>09fa9996-4fba-4f46-a768-8af99637ace1</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>0.01uF-10%-50V-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">1276-1009-1-ND</field>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL10B103KB8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL10B103KB8NNNC"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="1276-1009-1-ND"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <property name="Page" value="2/5"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Supply/" tstamps="/584f7d71-5922-4ce5-8f88-d664ca9e2a8c/"/>
+      <tstamps>3821a44f-276f-410a-9141-4e9a1b7fdeec</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.22uF-10%-50V-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">1276-6600-1-ND</field>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL10B224KB8VPNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL10B224KB8VPNC"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="1276-6600-1-ND"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <property name="Page" value="2/5"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Supply/" tstamps="/584f7d71-5922-4ce5-8f88-d664ca9e2a8c/"/>
+      <tstamps>f7a2390a-2030-4ceb-8c50-521298626911</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>82uF 35V</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <datasheet>https://industrial.panasonic.com/ww/products/pt/os-con/models/35SEPF82M</datasheet>
+      <fields>
+        <field name="DIST">Mouser</field>
+        <field name="DIST P/N">667-35SEPF82M</field>
+        <field name="MFG">Panasonic Electronic Components</field>
+        <field name="MFG P/N">35SEPF82M</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="MFG" value="Panasonic Electronic Components"/>
+      <property name="MFG P/N" value="35SEPF82M"/>
+      <property name="DIST" value="Mouser"/>
+      <property name="DIST P/N" value="667-35SEPF82M"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <property name="Page" value="2/5"/>
+      <property name="ki_description" value="Polarized capacitor, US symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Supply/" tstamps="/584f7d71-5922-4ce5-8f88-d664ca9e2a8c/"/>
+      <tstamps>2d5ea91e-c071-494b-889b-57cb7807ca1f</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>82uF 35V</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <datasheet>https://industrial.panasonic.com/ww/products/pt/os-con/models/35SEPF82M</datasheet>
+      <fields>
+        <field name="DIST">Mouser</field>
+        <field name="DIST P/N">667-35SEPF82M</field>
+        <field name="MFG">Panasonic Electronic Components</field>
+        <field name="MFG P/N">35SEPF82M</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="MFG" value="Panasonic Electronic Components"/>
+      <property name="MFG P/N" value="35SEPF82M"/>
+      <property name="DIST" value="Mouser"/>
+      <property name="DIST P/N" value="667-35SEPF82M"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <property name="Page" value="2/5"/>
+      <property name="ki_description" value="Polarized capacitor, US symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Supply/" tstamps="/584f7d71-5922-4ce5-8f88-d664ca9e2a8c/"/>
+      <tstamps>150169d8-c7d6-470a-b20a-681422e820ee</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>330uF 35V</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <datasheet>https://www.rubycon.co.jp/wp-content/uploads/catalog-hybrid/PZJ.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">1189-35PZJ330M10X9-ND</field>
+        <field name="MFG">Rubycon</field>
+        <field name="MFG P/N">35PZJ330M10X9</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="MFG" value="Rubycon"/>
+      <property name="MFG P/N" value="35PZJ330M10X9"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="1189-35PZJ330M10X9-ND"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <property name="Page" value="2/5"/>
+      <property name="ki_description" value="Polarized capacitor, US symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Supply/" tstamps="/584f7d71-5922-4ce5-8f88-d664ca9e2a8c/"/>
+      <tstamps>591cea9b-942a-4438-8689-17febad63fe0</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>22uF-25V-10%-1210</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">490-3889-1-ND</field>
+        <field name="MFG">Murata</field>
+        <field name="MFG P/N">GRM32ER61E226KE15L</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="Murata"/>
+      <property name="MFG P/N" value="GRM32ER61E226KE15L"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="490-3889-1-ND"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <property name="Page" value="2/5"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Supply/" tstamps="/584f7d71-5922-4ce5-8f88-d664ca9e2a8c/"/>
+      <tstamps>be9200b3-491f-4919-a91f-3739b0fde48f</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>10pF-5%-50V-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">478-KGM15ACG1H100JTCT-ND</field>
+        <field name="MFG">KYOCERA AVX</field>
+        <field name="MFG P/N">KGM15ACG1H100JT</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="KYOCERA AVX"/>
+      <property name="MFG P/N" value="KGM15ACG1H100JT"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="478-KGM15ACG1H100JTCT-ND"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <property name="Page" value="2/5"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Supply/" tstamps="/584f7d71-5922-4ce5-8f88-d664ca9e2a8c/"/>
+      <tstamps>0d85596c-4dfd-4891-b11d-51f84b0a9928</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>0.1uF-10%-50V-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">1276-1000-1-ND</field>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL10B104KB8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL10B104KB8NNNC"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="1276-1000-1-ND"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <property name="Page" value="2/5"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power Supply/" tstamps="/584f7d71-5922-4ce5-8f88-d664ca9e2a8c/"/>
+      <tstamps>7116286b-6eb2-4b10-b990-138e4826043e</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>15V</value>
+      <footprint>Diode_SMD:D_SOD-123F</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">1727-3593-1-ND</field>
+        <field name="MFG">Nexperia</field>
+        <field name="MFG P/N">BZT52H-C15,115</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="MFG" value="Nexperia"/>
+      <property name="MFG P/N" value="BZT52H-C15,115"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="1727-3593-1-ND"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <property name="Page" value="2/5"/>
+      <property name="ki_description" value="Zener diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Power Supply/" tstamps="/584f7d71-5922-4ce5-8f88-d664ca9e2a8c/"/>
+      <tstamps>5cb58792-08cb-48fc-9dad-fa16bfc46a76</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>STPS20M100SG-TR</value>
+      <footprint>Package_TO_SOT_SMD:TO-263-2</footprint>
+      <datasheet>Components/ST-STPS20M100SG.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">497-10993-1-ND</field>
+        <field name="MFG">STmicroelectronics</field>
+        <field name="MFG P/N">STPS20M100SG-TR</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky_AAK" description="Schottky diode, anode on pins 1 and 2"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="497-10993-1-ND"/>
+      <property name="MFG" value="STmicroelectronics"/>
+      <property name="MFG P/N" value="STPS20M100SG-TR"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <property name="Page" value="2/5"/>
+      <property name="ki_description" value="Schottky diode, anode on pins 1 and 2"/>
+      <property name="ki_keywords" value="diode Schottky SCHDPAK"/>
+      <sheetpath names="/Power Supply/" tstamps="/584f7d71-5922-4ce5-8f88-d664ca9e2a8c/"/>
+      <tstamps>e98ece66-1f91-47b6-9cff-4bcd76f1b006</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>15V</value>
+      <footprint>Diode_SMD:D_SMB</footprint>
+      <datasheet>Components/Littelfuse-SZ1SMB15CAT3G.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">F11544CT-ND</field>
+        <field name="MFG">Littelfuse</field>
+        <field name="MFG P/N">SZ1SMB15CAT3G</field>
+      </fields>
+      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <property name="MFG" value="Littelfuse"/>
+      <property name="MFG P/N" value="SZ1SMB15CAT3G"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="F11544CT-ND"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <property name="Page" value="2/5"/>
+      <property name="ki_description" value="Bidirectional transient-voltage-suppression diode"/>
+      <property name="ki_keywords" value="diode TVS thyrector"/>
+      <sheetpath names="/Power Supply/" tstamps="/584f7d71-5922-4ce5-8f88-d664ca9e2a8c/"/>
+      <tstamps>fec69dea-c7f0-4c6e-9d90-f38c1a7eb2b5</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>4.7 uH-4.18m-20%</value>
+      <footprint>NX-J401-Adapter:IND_IHLP-6767GZ_VIS</footprint>
+      <datasheet>https://www.vishay.com/docs/34282/ihlp-6767gz-11.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">541-1282-1-ND</field>
+        <field name="MFG">Vishay Dale</field>
+        <field name="MFG P/N">IHLP6767GZER4R7M11</field>
+      </fields>
+      <libsource lib="Device" part="L_Iron" description="Inductor with iron core"/>
+      <property name="MFG" value="Vishay Dale"/>
+      <property name="MFG P/N" value="IHLP6767GZER4R7M11"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="541-1282-1-ND"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <property name="Page" value="2/5"/>
+      <property name="ki_description" value="Inductor with iron core"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/Power Supply/" tstamps="/584f7d71-5922-4ce5-8f88-d664ca9e2a8c/"/>
+      <tstamps>d3cfd995-9631-4a74-812f-b5ef975cef98</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>CSD16322Q5</value>
+      <footprint>NX-J401-Adapter:TI-SON5x6</footprint>
+      <datasheet>Components/TI-csd16322q5.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">296-25112-1-ND</field>
+        <field name="MFG">Texas Instruments</field>
+        <field name="MFG P/N">CSD16322Q5</field>
+      </fields>
+      <libsource lib="PI-Power-Board" part="CSD1577Q5A" description="N-MOSFET transistor, source/drain/gate, drain connected to mounting plane"/>
+      <property name="MFG" value="Texas Instruments"/>
+      <property name="MFG P/N" value="CSD16322Q5"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="296-25112-1-ND"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <property name="Page" value="2/5"/>
+      <property name="ki_description" value="N-MOSFET transistor, source/drain/gate, drain connected to mounting plane"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
+      <sheetpath names="/Power Supply/" tstamps="/584f7d71-5922-4ce5-8f88-d664ca9e2a8c/"/>
+      <tstamps>1dcf3861-df92-4532-ba48-c62dc46170b0</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>SI4483ADY-T1-GE3</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.vishay.com/docs/68982/si4483ad.pdf</datasheet>
+      <fields>
+        <field name="DIST">Mouser</field>
+        <field name="DIST P/N">781-SI4483ADY-GE3</field>
+        <field name="MFG">Vishay</field>
+        <field name="MFG P/N">SI4483ADY-T1-GE3</field>
+      </fields>
+      <libsource lib="Device" part="Q_PMOS_SGD" description="P-MOSFET transistor, source/gate/drain"/>
+      <property name="MFG" value="Vishay"/>
+      <property name="MFG P/N" value="SI4483ADY-T1-GE3"/>
+      <property name="DIST" value="Mouser"/>
+      <property name="DIST P/N" value="781-SI4483ADY-GE3"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <property name="Page" value="2/5"/>
+      <property name="ki_description" value="P-MOSFET transistor, source/gate/drain"/>
+      <property name="ki_keywords" value="transistor PMOS P-MOS P-MOSFET"/>
+      <sheetpath names="/Power Supply/" tstamps="/584f7d71-5922-4ce5-8f88-d664ca9e2a8c/"/>
+      <tstamps>4b2902e9-7968-4551-8047-b1e7fbf5fa43</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1.0k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">311-1.00KHRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG P/N">RC0603FR-071KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MFG P/N" value="RC0603FR-071KL"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="311-1.00KHRCT-ND"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <property name="Page" value="2/5"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power Supply/" tstamps="/584f7d71-5922-4ce5-8f88-d664ca9e2a8c/"/>
+      <tstamps>03d8f921-02d0-4034-ba31-8dc30ec524e7</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>20.0k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">311-20.0KHRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG P/N">RC0603FR-0720KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MFG P/N" value="RC0603FR-0720KL"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="311-20.0KHRCT-ND"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <property name="Page" value="2/5"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power Supply/" tstamps="/584f7d71-5922-4ce5-8f88-d664ca9e2a8c/"/>
+      <tstamps>b58ed2ad-84f7-45ab-99d7-cbaed0f264c8</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>1.0k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">311-1.00KHRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG P/N">RC0603FR-071KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MFG P/N" value="RC0603FR-071KL"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="311-1.00KHRCT-ND"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <property name="Page" value="2/5"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power Supply/" tstamps="/584f7d71-5922-4ce5-8f88-d664ca9e2a8c/"/>
+      <tstamps>064e9bf5-828f-465f-b9bc-ab082b6c022f</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>100R-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">311-100HRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG P/N">RC0603FR-07100RL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MFG P/N" value="RC0603FR-07100RL"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="311-100HRCT-ND"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <property name="Page" value="2/5"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power Supply/" tstamps="/584f7d71-5922-4ce5-8f88-d664ca9e2a8c/"/>
+      <tstamps>48821172-2500-41b1-aff0-58ad72b4f084</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>4.0m-1%-1W</value>
+      <footprint>Resistor_SMD:R_Shunt_Vishay_WSKW0612</footprint>
+      <datasheet>https://www.vishay.com/docs/30332/wskw0612.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">541-WSKW06124L000FEACT-ND</field>
+        <field name="MFG">Vishay Dale</field>
+        <field name="MFG P/N">WSKW06124L000FEA</field>
+      </fields>
+      <libsource lib="Device" part="R_Shunt_US" description="Shunt resistor, US symbol"/>
+      <property name="MFG" value="Vishay Dale"/>
+      <property name="MFG P/N" value="WSKW06124L000FEA"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="541-WSKW06124L000FEACT-ND"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <property name="Page" value="2/5"/>
+      <property name="ki_description" value="Shunt resistor, US symbol"/>
+      <property name="ki_keywords" value="R res shunt resistor"/>
+      <sheetpath names="/Power Supply/" tstamps="/584f7d71-5922-4ce5-8f88-d664ca9e2a8c/"/>
+      <tstamps>d29b527d-6263-4e31-8897-8ccab86cd4a1</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>64.9k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">311-64.9KHRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG P/N">RC0603FR-0764K9L</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MFG P/N" value="RC0603FR-0764K9L"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="311-64.9KHRCT-ND"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <property name="Page" value="2/5"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power Supply/" tstamps="/584f7d71-5922-4ce5-8f88-d664ca9e2a8c/"/>
+      <tstamps>291e5a93-367c-42e0-868c-20726e8f5b7e</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>13.3k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">311-13.3KHRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG P/N">RC0603FR-0713K3L</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MFG P/N" value="RC0603FR-0713K3L"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="311-13.3KHRCT-ND"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <property name="Page" value="2/5"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power Supply/" tstamps="/584f7d71-5922-4ce5-8f88-d664ca9e2a8c/"/>
+      <tstamps>7a9848d4-98c6-4480-a257-e87f024f2968</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>1.0k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">311-1.00KHRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG P/N">RC0603FR-071KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MFG P/N" value="RC0603FR-071KL"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="311-1.00KHRCT-ND"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <property name="Page" value="2/5"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Power Supply/" tstamps="/584f7d71-5922-4ce5-8f88-d664ca9e2a8c/"/>
+      <tstamps>0f831a4e-888e-497a-8db5-93f64ff9080f</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LM3478MA</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.ti.com/lit/gpn/lm3478</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">296-38111-1-ND</field>
+        <field name="MFG">Texas Instruments</field>
+        <field name="MFG P/N">LM3478MAX/NOPB</field>
+      </fields>
+      <libsource lib="Regulator_Controller" part="LM3478MA" description="2.97~40V Wide Input Range Boost/SEPIC/Flyback DC-DC Controller, SOIC-8"/>
+      <property name="MFG" value="Texas Instruments"/>
+      <property name="MFG P/N" value="LM3478MAX/NOPB"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="296-38111-1-ND"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="PowerSupply.kicad_sch"/>
+      <property name="Page" value="2/5"/>
+      <property name="ki_description" value="2.97~40V Wide Input Range Boost/SEPIC/Flyback DC-DC Controller, SOIC-8"/>
+      <property name="ki_keywords" value="Boost flyback SEPIC DC-DC controller"/>
+      <sheetpath names="/Power Supply/" tstamps="/584f7d71-5922-4ce5-8f88-d664ca9e2a8c/"/>
+      <tstamps>ecc2cb05-6738-45e9-8fdf-9a97c33ed0f2</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>MIPI</value>
+      <footprint>NX-J401-Adapter:TE_1-1734248-5</footprint>
+      <datasheet>Components/TE-FPC-1734248_E1__.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">A101418CT-ND</field>
+        <field name="MFG">TE Connectivity</field>
+        <field name="MFG P/N">1-1734248-5</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x15" description="Generic connector, single row, 01x15, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="TE Connectivity"/>
+      <property name="MFG P/N" value="1-1734248-5"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="A101418CT-ND"/>
+      <property name="Sheetname" value="MIPI-HDMI-1"/>
+      <property name="Sheetfile" value="MIPI-HDMI.kicad_sch"/>
+      <property name="Page" value="3/5"/>
+      <property name="ki_description" value="Generic connector, single row, 01x15, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/MIPI-HDMI-1/" tstamps="/ef5bdea0-feaa-4250-9b61-8c5edbd568c2/"/>
+      <tstamps>67b57aa1-6ac3-487e-9578-a6d0e5fd1797</tstamps>
+    </comp>
+    <comp ref="J14">
+      <value>HDMI</value>
+      <footprint>Connector_HDMI:HDMI_A_Molex_208658-1001_Horizontal</footprint>
+      <datasheet>Components/Molex-HDMI-A-2086581051_sd.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">900-2086581051CT-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">2086581051</field>
+      </fields>
+      <libsource lib="Connector" part="HDMI_A" description="HDMI type A connector"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="2086581051"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="900-2086581051CT-ND"/>
+      <property name="Sheetname" value="MIPI-HDMI-1"/>
+      <property name="Sheetfile" value="MIPI-HDMI.kicad_sch"/>
+      <property name="Page" value="3/5"/>
+      <property name="ki_description" value="HDMI type A connector"/>
+      <property name="ki_keywords" value="hdmi conn"/>
+      <sheetpath names="/MIPI-HDMI-1/" tstamps="/ef5bdea0-feaa-4250-9b61-8c5edbd568c2/"/>
+      <tstamps>80269b6e-3c9e-44ad-a3ce-8db17246dab1</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>MIPI</value>
+      <footprint>NX-J401-Adapter:TE_1-1734248-5</footprint>
+      <datasheet>Components/TE-FPC-1734248_E1__.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">A101418CT-ND</field>
+        <field name="MFG">TE Connectivity</field>
+        <field name="MFG P/N">1-1734248-5</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x15" description="Generic connector, single row, 01x15, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="TE Connectivity"/>
+      <property name="MFG P/N" value="1-1734248-5"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="A101418CT-ND"/>
+      <property name="Sheetname" value="MIPI-HDMI-2"/>
+      <property name="Sheetfile" value="MIPI-HDMI.kicad_sch"/>
+      <property name="Page" value="4/5"/>
+      <property name="ki_description" value="Generic connector, single row, 01x15, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/MIPI-HDMI-2/" tstamps="/d1baeb55-0358-48eb-b719-8b69397a20ee/"/>
+      <tstamps>67b57aa1-6ac3-487e-9578-a6d0e5fd1797</tstamps>
+    </comp>
+    <comp ref="J15">
+      <value>HDMI</value>
+      <footprint>Connector_HDMI:HDMI_A_Molex_208658-1001_Horizontal</footprint>
+      <datasheet>Components/Molex-HDMI-A-2086581051_sd.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">900-2086581051CT-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">2086581051</field>
+      </fields>
+      <libsource lib="Connector" part="HDMI_A" description="HDMI type A connector"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="2086581051"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="900-2086581051CT-ND"/>
+      <property name="Sheetname" value="MIPI-HDMI-2"/>
+      <property name="Sheetfile" value="MIPI-HDMI.kicad_sch"/>
+      <property name="Page" value="4/5"/>
+      <property name="ki_description" value="HDMI type A connector"/>
+      <property name="ki_keywords" value="hdmi conn"/>
+      <sheetpath names="/MIPI-HDMI-2/" tstamps="/d1baeb55-0358-48eb-b719-8b69397a20ee/"/>
+      <tstamps>80269b6e-3c9e-44ad-a3ce-8db17246dab1</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>470pF-5%-50V-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">399-C0603C471J5GAC7867CT-ND</field>
+        <field name="MFG">KEMET</field>
+        <field name="MFG P/N">C0603C471J5GAC7867</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="KEMET"/>
+      <property name="MFG P/N" value="C0603C471J5GAC7867"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="399-C0603C471J5GAC7867CT-ND"/>
+      <property name="Sheetname" value="Fan Control"/>
+      <property name="Sheetfile" value="fan-control.kicad_sch"/>
+      <property name="Page" value="5/5"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Fan Control/" tstamps="/31806f24-7fa6-46e2-ae93-f7306b662757/"/>
+      <tstamps>90696f7d-2830-4fe8-ab30-36f42307060e</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>2.2uF-10%-6.3V-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">445-6933-1-ND</field>
+        <field name="MFG">TDK Corporation</field>
+        <field name="MFG P/N">CGA3E1X7R0J225K080AC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="TDK Corporation"/>
+      <property name="MFG P/N" value="CGA3E1X7R0J225K080AC"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="445-6933-1-ND"/>
+      <property name="Sheetname" value="Fan Control"/>
+      <property name="Sheetfile" value="fan-control.kicad_sch"/>
+      <property name="Page" value="5/5"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Fan Control/" tstamps="/31806f24-7fa6-46e2-ae93-f7306b662757/"/>
+      <tstamps>f4279463-55f4-4b82-87e0-783a35509e4e</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>1uF-10%-50V-0805</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">1276-6470-1-ND</field>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL21B105KBFNNNG</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL21B105KBFNNNG"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="1276-6470-1-ND"/>
+      <property name="Sheetname" value="Fan Control"/>
+      <property name="Sheetfile" value="fan-control.kicad_sch"/>
+      <property name="Page" value="5/5"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Fan Control/" tstamps="/31806f24-7fa6-46e2-ae93-f7306b662757/"/>
+      <tstamps>08bb9cc8-f797-4e5e-93dc-43fb660d0dbf</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>0.1uF-10%-50V-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">1276-1000-1-ND</field>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL10B104KB8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL10B104KB8NNNC"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="1276-1000-1-ND"/>
+      <property name="Sheetname" value="Fan Control"/>
+      <property name="Sheetfile" value="fan-control.kicad_sch"/>
+      <property name="Page" value="5/5"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Fan Control/" tstamps="/31806f24-7fa6-46e2-ae93-f7306b662757/"/>
+      <tstamps>057461da-9815-475d-9887-933e440bd9cd</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>0.1uF-10%-50V-0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">1276-1000-1-ND</field>
+        <field name="MFG">Samsung Electro-Mechanics</field>
+        <field name="MFG P/N">CL10B104KB8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFG" value="Samsung Electro-Mechanics"/>
+      <property name="MFG P/N" value="CL10B104KB8NNNC"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="1276-1000-1-ND"/>
+      <property name="Sheetname" value="Fan Control"/>
+      <property name="Sheetfile" value="fan-control.kicad_sch"/>
+      <property name="Page" value="5/5"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Fan Control/" tstamps="/31806f24-7fa6-46e2-ae93-f7306b662757/"/>
+      <tstamps>b81a8ac1-e2de-4988-a6fe-b51024492cd6</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>3.3V</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>Components/BZX84_SER.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">1727-2937-1-ND</field>
+        <field name="MFG">Nexperia</field>
+        <field name="MFG P/N">BZX84-C3V3,215</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="MFG" value="Nexperia"/>
+      <property name="MFG P/N" value="BZX84-C3V3,215"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="1727-2937-1-ND"/>
+      <property name="Sheetname" value="Fan Control"/>
+      <property name="Sheetfile" value="fan-control.kicad_sch"/>
+      <property name="Page" value="5/5"/>
+      <property name="ki_description" value="Zener diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Fan Control/" tstamps="/31806f24-7fa6-46e2-ae93-f7306b662757/"/>
+      <tstamps>9c632889-7b8e-4685-9686-9f792bc9dc2c</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>BAV99LT1G</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>Components/onsemi-BAV99LT1-D.PDF</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">BAV99LT1GOSCT-ND</field>
+        <field name="MFG">onsemi</field>
+        <field name="MFG P/N">BAV99LT1G</field>
+      </fields>
+      <libsource lib="Diode" part="BAV99" description="BAV99 High-speed switching diodes, SOT-23"/>
+      <property name="MFG" value="onsemi"/>
+      <property name="MFG P/N" value="BAV99LT1G"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="BAV99LT1GOSCT-ND"/>
+      <property name="Sheetname" value="Fan Control"/>
+      <property name="Sheetfile" value="fan-control.kicad_sch"/>
+      <property name="Page" value="5/5"/>
+      <property name="ki_description" value="BAV99 High-speed switching diodes, SOT-23"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Fan Control/" tstamps="/31806f24-7fa6-46e2-ae93-f7306b662757/"/>
+      <tstamps>f2d8d8a5-50f7-4c69-bd0a-0ade230a7189</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>TEMP</value>
+      <footprint>NX-J401-Adapter:70541-0001</footprint>
+      <datasheet>Components/Molex-70541-0001.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM14047-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">0705410001</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="0705410001"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM14047-ND"/>
+      <property name="Sheetname" value="Fan Control"/>
+      <property name="Sheetfile" value="fan-control.kicad_sch"/>
+      <property name="Page" value="5/5"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Fan Control/" tstamps="/31806f24-7fa6-46e2-ae93-f7306b662757/"/>
+      <tstamps>911cf820-94b6-4be1-b501-dea086208964</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>I2C</value>
+      <footprint>Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</footprint>
+      <datasheet>Components/JST-eSH.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">455-BM04B-SRSS-TBCT-ND</field>
+        <field name="MFG">JST</field>
+        <field name="MFG P/N">BM04B-SRSS-TB</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Pin" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="MFG" value="JST"/>
+      <property name="MFG P/N" value="BM04B-SRSS-TB"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="455-BM04B-SRSS-TBCT-ND"/>
+      <property name="Sheetname" value="Fan Control"/>
+      <property name="Sheetfile" value="fan-control.kicad_sch"/>
+      <property name="Page" value="5/5"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Fan Control/" tstamps="/31806f24-7fa6-46e2-ae93-f7306b662757/"/>
+      <tstamps>649ad163-ea76-4e1c-85f4-37e794c3470a</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>0R-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">311-0.0HRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG P/N">RC0603FR-070RL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MFG P/N" value="RC0603FR-070RL"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="311-0.0HRCT-ND"/>
+      <property name="Sheetname" value="Fan Control"/>
+      <property name="Sheetfile" value="fan-control.kicad_sch"/>
+      <property name="Page" value="5/5"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fan Control/" tstamps="/31806f24-7fa6-46e2-ae93-f7306b662757/"/>
+      <tstamps>bd8875bd-0441-4ed9-af49-59fac696eb77</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>100R-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">311-100HRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG P/N">RC0603FR-07100RL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MFG P/N" value="RC0603FR-07100RL"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="311-100HRCT-ND"/>
+      <property name="Sheetname" value="Fan Control"/>
+      <property name="Sheetfile" value="fan-control.kicad_sch"/>
+      <property name="Page" value="5/5"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fan Control/" tstamps="/31806f24-7fa6-46e2-ae93-f7306b662757/"/>
+      <tstamps>090a4d06-a2aa-4ff3-ac30-d4d4b6b8e198</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>100R-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">311-100HRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG P/N">RC0603FR-07100RL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MFG P/N" value="RC0603FR-07100RL"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="311-100HRCT-ND"/>
+      <property name="Sheetname" value="Fan Control"/>
+      <property name="Sheetfile" value="fan-control.kicad_sch"/>
+      <property name="Page" value="5/5"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fan Control/" tstamps="/31806f24-7fa6-46e2-ae93-f7306b662757/"/>
+      <tstamps>60ec6d79-d1bb-47ff-bf67-393532ff20e2</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>4.99k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">311-4.99KHRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG P/N">RC0603FR-074K99L</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MFG P/N" value="RC0603FR-074K99L"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="311-4.99KHRCT-ND"/>
+      <property name="Sheetname" value="Fan Control"/>
+      <property name="Sheetfile" value="fan-control.kicad_sch"/>
+      <property name="Page" value="5/5"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fan Control/" tstamps="/31806f24-7fa6-46e2-ae93-f7306b662757/"/>
+      <tstamps>eb148c8a-c361-42f7-911c-f60d1128f797</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">311-10.0KHRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG P/N">RC0603FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MFG P/N" value="RC0603FR-0710KL"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="311-10.0KHRCT-ND"/>
+      <property name="Sheetname" value="Fan Control"/>
+      <property name="Sheetfile" value="fan-control.kicad_sch"/>
+      <property name="Page" value="5/5"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fan Control/" tstamps="/31806f24-7fa6-46e2-ae93-f7306b662757/"/>
+      <tstamps>8c948b0e-ef9c-4886-a384-7ba77c609afc</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>0R-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">311-0.0HRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG P/N">RC0603FR-070RL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MFG P/N" value="RC0603FR-070RL"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="311-0.0HRCT-ND"/>
+      <property name="Sheetname" value="Fan Control"/>
+      <property name="Sheetfile" value="fan-control.kicad_sch"/>
+      <property name="Page" value="5/5"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fan Control/" tstamps="/31806f24-7fa6-46e2-ae93-f7306b662757/"/>
+      <tstamps>64f505b5-68ae-48d5-b1be-23629de27e2a</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">311-10.0KHRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG P/N">RC0603FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MFG P/N" value="RC0603FR-0710KL"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="311-10.0KHRCT-ND"/>
+      <property name="Sheetname" value="Fan Control"/>
+      <property name="Sheetfile" value="fan-control.kicad_sch"/>
+      <property name="Page" value="5/5"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fan Control/" tstamps="/31806f24-7fa6-46e2-ae93-f7306b662757/"/>
+      <tstamps>c898a24b-50da-4c51-9111-d5ae3be75506</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>4.99k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">311-4.99KHRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG P/N">RC0603FR-074K99L</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MFG P/N" value="RC0603FR-074K99L"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="311-4.99KHRCT-ND"/>
+      <property name="Sheetname" value="Fan Control"/>
+      <property name="Sheetfile" value="fan-control.kicad_sch"/>
+      <property name="Page" value="5/5"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fan Control/" tstamps="/31806f24-7fa6-46e2-ae93-f7306b662757/"/>
+      <tstamps>c74608c1-760d-4934-bb1b-16ac015ff7f5</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>4.99k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">311-4.99KHRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG P/N">RC0603FR-074K99L</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MFG P/N" value="RC0603FR-074K99L"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="311-4.99KHRCT-ND"/>
+      <property name="Sheetname" value="Fan Control"/>
+      <property name="Sheetfile" value="fan-control.kicad_sch"/>
+      <property name="Page" value="5/5"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fan Control/" tstamps="/31806f24-7fa6-46e2-ae93-f7306b662757/"/>
+      <tstamps>9276cde9-bb01-46e2-8af4-cfb92e6a92ae</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>4.99k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">311-4.99KHRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG P/N">RC0603FR-074K99L</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MFG P/N" value="RC0603FR-074K99L"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="311-4.99KHRCT-ND"/>
+      <property name="Sheetname" value="Fan Control"/>
+      <property name="Sheetfile" value="fan-control.kicad_sch"/>
+      <property name="Page" value="5/5"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fan Control/" tstamps="/31806f24-7fa6-46e2-ae93-f7306b662757/"/>
+      <tstamps>a356fba4-84e5-4aab-b316-22b6e07deadc</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>150R-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">311-150HRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG P/N">RC0603FR-07150RL</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MFG P/N" value="RC0603FR-07150RL"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="311-150HRCT-ND"/>
+      <property name="Sheetname" value="Fan Control"/>
+      <property name="Sheetfile" value="fan-control.kicad_sch"/>
+      <property name="Page" value="5/5"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fan Control/" tstamps="/31806f24-7fa6-46e2-ae93-f7306b662757/"/>
+      <tstamps>98075f67-954c-4326-bf41-d8fe4b31681c</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>13.3k-1%-0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">311-13.3KHRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MFG P/N">RC0603FR-0713K3L</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MFG P/N" value="RC0603FR-0713K3L"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="311-13.3KHRCT-ND"/>
+      <property name="Sheetname" value="Fan Control"/>
+      <property name="Sheetfile" value="fan-control.kicad_sch"/>
+      <property name="Page" value="5/5"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Fan Control/" tstamps="/31806f24-7fa6-46e2-ae93-f7306b662757/"/>
+      <tstamps>62f3be0a-bf86-4af9-b8a2-1f5c7c7dc8e6</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>EMC2101-R</value>
+      <footprint>Package_SO:MSOP-8_3x3mm_P0.65mm</footprint>
+      <datasheet>Components/Microchip-EMC2101.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">EMC2101-R-ACZL-CT-ND</field>
+        <field name="MFG">Microchip</field>
+        <field name="MFG P/N">EMC2101-R-ACZL-TR</field>
+      </fields>
+      <libsource lib="NX-AdapterBoard" part="EMC2101" description=""/>
+      <property name="MFG" value="Microchip"/>
+      <property name="MFG P/N" value="EMC2101-R-ACZL-TR"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="EMC2101-R-ACZL-CT-ND"/>
+      <property name="Sheetname" value="Fan Control"/>
+      <property name="Sheetfile" value="fan-control.kicad_sch"/>
+      <property name="Page" value="5/5"/>
+      <sheetpath names="/Fan Control/" tstamps="/31806f24-7fa6-46e2-ae93-f7306b662757/"/>
+      <tstamps>bbe8ba02-32d0-45fd-8bbd-3fffb6580b7d</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>AT24CS02-SSHM</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>Components/Microchip-AT24C01D-AT24C02D.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">AT24C02D-SSHM-TCT-ND</field>
+        <field name="MFG">Microchip</field>
+        <field name="MFG P/N">AT24C02D-SSHM-T</field>
+      </fields>
+      <libsource lib="Memory_EEPROM" part="AT24CS02-SSHM" description="I2C Serial EEPROM, 2Kb (256x8) with Unique Serial Number, SO8"/>
+      <property name="MFG" value="Microchip"/>
+      <property name="MFG P/N" value="AT24C02D-SSHM-T"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="AT24C02D-SSHM-TCT-ND"/>
+      <property name="Sheetname" value="Fan Control"/>
+      <property name="Sheetfile" value="fan-control.kicad_sch"/>
+      <property name="Page" value="5/5"/>
+      <property name="ki_description" value="I2C Serial EEPROM, 2Kb (256x8) with Unique Serial Number, SO8"/>
+      <property name="ki_keywords" value="I2C Serial EEPROM Nonvolatile Memory"/>
+      <sheetpath names="/Fan Control/" tstamps="/31806f24-7fa6-46e2-ae93-f7306b662757/"/>
+      <tstamps>b4b55a92-4a90-48e5-aa26-d22bbf08e729</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>MIC5233-3.3YS</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>Components/Microchip-MIC5233.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">576-4075-ND</field>
+        <field name="MFG">Microchip</field>
+        <field name="MFG P/N">MIC5233-3.3YS</field>
+      </fields>
+      <libsource lib="NX-AdapterBoard" part="MIC5233-3.3YS" description="Linear Voltage Regulator IC Positive Fixed 1 Output 100mA SOT-223-3"/>
+      <property name="MFG" value="Microchip"/>
+      <property name="MFG P/N" value="MIC5233-3.3YS"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="576-4075-ND"/>
+      <property name="Sheetname" value="Fan Control"/>
+      <property name="Sheetfile" value="fan-control.kicad_sch"/>
+      <property name="Page" value="5/5"/>
+      <property name="ki_description" value="Linear Voltage Regulator IC Positive Fixed 1 Output 100mA SOT-223-3"/>
+      <sheetpath names="/Fan Control/" tstamps="/31806f24-7fa6-46e2-ae93-f7306b662757/"/>
+      <tstamps>c0eaedc4-3160-43ce-9a01-69d4ee796512</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>ISP762T</value>
+      <footprint>Package_SO:SO-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>Components/Infineon-ISP762T-DataSheet-v01_50-EN.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">ISP762TFUMA1CT-ND</field>
+        <field name="MFG">Infineon</field>
+        <field name="MFG P/N">ISP762TFUMA1</field>
+      </fields>
+      <libsource lib="NX-AdapterBoard" part="ISP762T" description="Power Switch/Driver 1:1 N-Channel 2A PG-DSO-8-24"/>
+      <property name="MFG" value="Infineon"/>
+      <property name="MFG P/N" value="ISP762TFUMA1"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="ISP762TFUMA1CT-ND"/>
+      <property name="Sheetname" value="Fan Control"/>
+      <property name="Sheetfile" value="fan-control.kicad_sch"/>
+      <property name="Page" value="5/5"/>
+      <property name="ki_description" value="Power Switch/Driver 1:1 N-Channel 2A PG-DSO-8-24"/>
+      <sheetpath names="/Fan Control/" tstamps="/31806f24-7fa6-46e2-ae93-f7306b662757/"/>
+      <tstamps>3355efaa-5f8d-4664-867c-8c7f01ce94a7</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="SunLED-Dual-LED_1">
+      <description>Light emitting diode</description>
+      <docs>Components/SunLED-XZMDKVG55W-8.pdf</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D6</field>
+        <field name="Value">PWR</field>
+        <field name="Footprint">NX-IndicatorBoard:LED_SunLED_XZMDKVG55W-8</field>
+        <field name="Datasheet">Components/SunLED-XZMDKVG55W-8.pdf</field>
+        <field name="MFG">SunLED</field>
+        <field name="MFG P/N">XZMDKVG55W-8</field>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">1497-1183-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RedA" type="passive"/>
+        <pin num="2" name="Red-K" type="passive"/>
+        <pin num="3" name="Green-A" type="passive"/>
+        <pin num="4" name="Green-K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Pin">
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Socket">
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Socket</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Pin">
+      <description>Generic connector, single row, 01x04, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x05_Pin">
+      <description>Generic connector, single row, 01x05, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="HDMI_A">
+      <description>HDMI type A connector</description>
+      <docs>https://en.wikipedia.org/wiki/HDMI</docs>
+      <footprints>
+        <fp>HDMI*A*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HDMI_A</field>
+        <field name="Datasheet">https://en.wikipedia.org/wiki/HDMI</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D2+" type="passive"/>
+        <pin num="2" name="D2S" type="power_in"/>
+        <pin num="3" name="D2-" type="passive"/>
+        <pin num="4" name="D1+" type="passive"/>
+        <pin num="5" name="D1S" type="power_in"/>
+        <pin num="6" name="D1-" type="passive"/>
+        <pin num="7" name="D0+" type="passive"/>
+        <pin num="8" name="D0S" type="power_in"/>
+        <pin num="9" name="D0-" type="passive"/>
+        <pin num="10" name="CK+" type="passive"/>
+        <pin num="11" name="CKS" type="power_in"/>
+        <pin num="12" name="CK-" type="passive"/>
+        <pin num="13" name="CEC" type="bidirectional"/>
+        <pin num="14" name="UTILITY" type="passive"/>
+        <pin num="15" name="SCL" type="passive"/>
+        <pin num="16" name="SDA" type="bidirectional"/>
+        <pin num="17" name="GND" type="power_in"/>
+        <pin num="18" name="+5V" type="power_in"/>
+        <pin num="19" name="HPD" type="passive"/>
+        <pin num="SH" name="SH" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x15">
+      <description>Generic connector, single row, 01x15, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x15</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_US">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky_AAK">
+      <description>Schottky diode, anode on pins 1 and 2</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D3</field>
+        <field name="Value">STPS20M100SG-TR</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+        <pin num="3" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_TVS">
+      <description>Bidirectional transient-voltage-suppression diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_TVS</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D1</field>
+        <field name="Value">15V</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123F</field>
+        <field name="Datasheet">~</field>
+        <field name="MFG">Nexperia</field>
+        <field name="MFG P/N">BZT52H-C15,115</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Iron">
+      <description>Inductor with iron core</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Iron</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_PMOS_SGD">
+      <description>P-MOSFET transistor, source/gate/drain</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q?</field>
+        <field name="Value">Q_PMOS_SGD</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+        <pin num="4" name="G" type="input"/>
+        <pin num="5" name="D" type="passive"/>
+        <pin num="6" name="D" type="passive"/>
+        <pin num="7" name="D" type="passive"/>
+        <pin num="8" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Shunt_US">
+      <description>Shunt resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*Shunt*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Shunt_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="BAV99">
+      <description>BAV99 High-speed switching diodes, SOT-23</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D5</field>
+        <field name="Value">BAV99</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+        <pin num="3" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="Jumper_2_Open">
+      <description>Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_2_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Memory_EEPROM" part="AT24CS02-SSHM">
+      <description>I2C Serial EEPROM, 2Kb (256x8) with Unique Serial Number, SO8</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8815-SEEPROM-AT24CS01-02-Datasheet.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AT24CS02-SSHM</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8815-SEEPROM-AT24CS01-02-Datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="input"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SDA" type="bidirectional"/>
+        <pin num="6" name="SCL" type="input"/>
+        <pin num="7" name="WP" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="NX-AdapterBoard" part="EMC2101">
+      <docs>Components/Microchip-EMC2101.pdf</docs>
+      <fields>
+        <field name="Reference">U3</field>
+        <field name="Value">EMC2101</field>
+        <field name="Footprint">Package_SO:MSOP-8_3x3mm_P0.65mm</field>
+        <field name="Datasheet">Components/Microchip-EMC2101.pdf</field>
+        <field name="MFG P/N">EMC2101-ACZL-TR</field>
+        <field name="MFG">Microchip</field>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">EMC2101-ACZL-CT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="DP" type="passive"/>
+        <pin num="3" name="DN" type="passive"/>
+        <pin num="4" name="FAN" type="passive"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="~{ALERT}/TACH" type="bidirectional"/>
+        <pin num="7" name="SMDATA" type="bidirectional"/>
+        <pin num="8" name="SMCLK" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="NX-AdapterBoard" part="ISP762T">
+      <description>Power Switch/Driver 1:1 N-Channel 2A PG-DSO-8-24</description>
+      <docs>Components/Infineon-ISP762T-DataSheet-v01_50-EN.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ISP762T</field>
+        <field name="Footprint">Package_SO:SO-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">Components/Infineon-ISP762T-DataSheet-v01_50-EN.pdf</field>
+        <field name="MFG">Infineon</field>
+        <field name="MFG P/N">ISP762TFUMA1</field>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">ISP762TFUMA1CT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="IN" type="input"/>
+        <pin num="3" name="OUT" type="output"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="Vbb" type="power_in"/>
+        <pin num="6" name="Vbb" type="power_in"/>
+        <pin num="7" name="Vbb" type="power_in"/>
+        <pin num="8" name="Vbb" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="NX-AdapterBoard" part="MIC5233-3.3YS">
+      <description>Linear Voltage Regulator IC Positive Fixed 1 Output 100mA SOT-223-3</description>
+      <docs>Components/Microchip-MIC5233.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MIC5233-3.3YS</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet">Components/Microchip-MIC5233.pdf</field>
+        <field name="MFG">Microchip</field>
+        <field name="MFG P/N">MIC5233-3.3YS</field>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">576-4075-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="PI-Power-Board" part="CSD1577Q5A">
+      <description>N-MOSFET transistor, source/drain/gate, drain connected to mounting plane</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q?</field>
+        <field name="Value">CSD1577Q5A</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+        <pin num="4" name="G" type="input"/>
+        <pin num="5" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Controller" part="LM3478MA">
+      <description>2.97~40V Wide Input Range Boost/SEPIC/Flyback DC-DC Controller, SOIC-8</description>
+      <docs>https://www.ti.com/lit/gpn/lm3478</docs>
+      <footprints>
+        <fp>SOIC-8*3.9x4.9mm_P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM3478MA</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/gpn/lm3478</field>
+      </fields>
+      <pins>
+        <pin num="1" name="I_{SEN}" type="input"/>
+        <pin num="2" name="COMP" type="input"/>
+        <pin num="3" name="FB" type="input"/>
+        <pin num="4" name="AGND" type="power_in"/>
+        <pin num="5" name="PGND" type="power_in"/>
+        <pin num="6" name="DR" type="output"/>
+        <pin num="7" name="FA/SD" type="input"/>
+        <pin num="8" name="V_{IN}" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/usr/share/kicad/symbols//Diode.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/usr/share/kicad/symbols//Jumper.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Memory_EEPROM">
+      <uri>/usr/share/kicad/symbols//Memory_EEPROM.kicad_sym</uri>
+    </library>
+    <library logical="NX-AdapterBoard">
+      <uri>/home/scottberman/Documents/Projects/FRC971/NX-J401-Adapter/NX-AdapterBoard.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Controller">
+      <uri>/usr/share/kicad/symbols//Regulator_Controller.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U3" pin="8" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="2" name="/CAN_FD1_H">
+      <node ref="J11" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J8" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="3" name="/CAN_FD1_L">
+      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="4" name="/CAN_FD2_H">
+      <node ref="J7" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="5" name="/CAN_FD2_L">
+      <node ref="J7" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="6" name="/CAN_FD_DC1_H">
+      <node ref="J12" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="7" name="/CAN_FD_DC1_L">
+      <node ref="J12" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="8" name="/CAN_FD_DC2_H">
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="9" name="/CAN_FD_DC2_L">
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="10" name="/FAN_PWM">
+      <node ref="D3" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="FAN" pintype="passive"/>
+    </net>
+    <net code="11" name="/FAN_PWR">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="12" name="/FAN_TACH">
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="/Fan Control/I2C_SCL">
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="SMCLK" pintype="input"/>
+      <node ref="U3" pin="6" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="14" name="/Fan Control/I2C_SDA">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="SMDATA" pintype="bidirectional"/>
+      <node ref="U3" pin="5" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/Fan Control/TMP_DN">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="/Fan Control/TMP_DP">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="/MIPI-HDMI-1/CAM_3V3">
+      <node ref="J14" pin="18" pinfunction="+5V" pintype="power_in"/>
+      <node ref="J5" pin="15" pinfunction="Pin_15" pintype="passive"/>
+    </net>
+    <net code="18" name="/MIPI-HDMI-1/CAM_CK_N">
+      <node ref="J14" pin="6" pinfunction="D1-" pintype="passive"/>
+      <node ref="J5" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="19" name="/MIPI-HDMI-1/CAM_CK_P">
+      <node ref="J14" pin="4" pinfunction="D1+" pintype="passive"/>
+      <node ref="J5" pin="9" pinfunction="Pin_9" pintype="passive"/>
+    </net>
+    <net code="20" name="/MIPI-HDMI-1/CAM_D0_N">
+      <node ref="J14" pin="12" pinfunction="CK-" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="21" name="/MIPI-HDMI-1/CAM_D0_P">
+      <node ref="J14" pin="10" pinfunction="CK+" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="22" name="/MIPI-HDMI-1/CAM_D1_N">
+      <node ref="J14" pin="9" pinfunction="D0-" pintype="passive"/>
+      <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="23" name="/MIPI-HDMI-1/CAM_D1_P">
+      <node ref="J14" pin="7" pinfunction="D0+" pintype="passive"/>
+      <node ref="J5" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="24" name="/MIPI-HDMI-1/CAM_MCLK">
+      <node ref="J14" pin="1" pinfunction="D2+" pintype="passive"/>
+      <node ref="J5" pin="12" pinfunction="Pin_12" pintype="passive"/>
+    </net>
+    <net code="25" name="/MIPI-HDMI-1/CAM_SCL">
+      <node ref="J14" pin="15" pinfunction="SCL" pintype="passive"/>
+      <node ref="J5" pin="13" pinfunction="Pin_13" pintype="passive"/>
+    </net>
+    <net code="26" name="/MIPI-HDMI-1/CAM_SDA">
+      <node ref="J14" pin="16" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="J5" pin="14" pinfunction="Pin_14" pintype="passive"/>
+    </net>
+    <net code="27" name="/MIPI-HDMI-1/GND_MIPI">
+      <node ref="J14" pin="11" pinfunction="CKS" pintype="power_in"/>
+      <node ref="J14" pin="17" pinfunction="GND" pintype="power_in"/>
+      <node ref="J14" pin="2" pinfunction="D2S" pintype="power_in"/>
+      <node ref="J14" pin="5" pinfunction="D1S" pintype="power_in"/>
+      <node ref="J14" pin="8" pinfunction="D0S" pintype="power_in"/>
+      <node ref="J14" pin="SH" pinfunction="SH" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J5" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="28" name="/MIPI-HDMI-1/PWR_DN_LS">
+      <node ref="J14" pin="3" pinfunction="D2-" pintype="passive"/>
+      <node ref="J5" pin="11" pinfunction="Pin_11" pintype="passive"/>
+    </net>
+    <net code="29" name="/MIPI-HDMI-2/CAM_3V3">
+      <node ref="J15" pin="18" pinfunction="+5V" pintype="power_in"/>
+      <node ref="J6" pin="15" pinfunction="Pin_15" pintype="passive"/>
+    </net>
+    <net code="30" name="/MIPI-HDMI-2/CAM_CK_N">
+      <node ref="J15" pin="6" pinfunction="D1-" pintype="passive"/>
+      <node ref="J6" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="31" name="/MIPI-HDMI-2/CAM_CK_P">
+      <node ref="J15" pin="4" pinfunction="D1+" pintype="passive"/>
+      <node ref="J6" pin="9" pinfunction="Pin_9" pintype="passive"/>
+    </net>
+    <net code="32" name="/MIPI-HDMI-2/CAM_D0_N">
+      <node ref="J15" pin="12" pinfunction="CK-" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="33" name="/MIPI-HDMI-2/CAM_D0_P">
+      <node ref="J15" pin="10" pinfunction="CK+" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="34" name="/MIPI-HDMI-2/CAM_D1_N">
+      <node ref="J15" pin="9" pinfunction="D0-" pintype="passive"/>
+      <node ref="J6" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="35" name="/MIPI-HDMI-2/CAM_D1_P">
+      <node ref="J15" pin="7" pinfunction="D0+" pintype="passive"/>
+      <node ref="J6" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="36" name="/MIPI-HDMI-2/CAM_MCLK">
+      <node ref="J15" pin="1" pinfunction="D2+" pintype="passive"/>
+      <node ref="J6" pin="12" pinfunction="Pin_12" pintype="passive"/>
+    </net>
+    <net code="37" name="/MIPI-HDMI-2/CAM_SCL">
+      <node ref="J15" pin="15" pinfunction="SCL" pintype="passive"/>
+      <node ref="J6" pin="13" pinfunction="Pin_13" pintype="passive"/>
+    </net>
+    <net code="38" name="/MIPI-HDMI-2/CAM_SDA">
+      <node ref="J15" pin="16" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="J6" pin="14" pinfunction="Pin_14" pintype="passive"/>
+    </net>
+    <net code="39" name="/MIPI-HDMI-2/GND_MIPI">
+      <node ref="J15" pin="11" pinfunction="CKS" pintype="power_in"/>
+      <node ref="J15" pin="17" pinfunction="GND" pintype="power_in"/>
+      <node ref="J15" pin="2" pinfunction="D2S" pintype="power_in"/>
+      <node ref="J15" pin="5" pinfunction="D1S" pintype="power_in"/>
+      <node ref="J15" pin="8" pinfunction="D0S" pintype="power_in"/>
+      <node ref="J15" pin="SH" pinfunction="SH" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J6" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="40" name="/MIPI-HDMI-2/PWR_DN_LS">
+      <node ref="J15" pin="3" pinfunction="D2-" pintype="passive"/>
+      <node ref="J6" pin="11" pinfunction="Pin_11" pintype="passive"/>
+    </net>
+    <net code="41" name="/Power Supply/+18V">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+    </net>
+    <net code="42" name="/Power Supply/SW">
+      <node ref="D2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="3" pinfunction="A" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Q1" pin="5" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="43" name="/Power Supply/V_IN">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="V_{IN}" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="44" name="/Power Supply/V_{BAT}">
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J13" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q2" pin="5" pinfunction="D" pintype="passive"/>
+      <node ref="Q2" pin="6" pinfunction="D" pintype="passive"/>
+      <node ref="Q2" pin="7" pinfunction="D" pintype="passive"/>
+      <node ref="Q2" pin="8" pinfunction="D" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="Vbb" pintype="power_in"/>
+      <node ref="U5" pin="6" pinfunction="Vbb" pintype="power_in"/>
+      <node ref="U5" pin="7" pinfunction="Vbb" pintype="power_in"/>
+      <node ref="U5" pin="8" pinfunction="Vbb" pintype="power_in"/>
+    </net>
+    <net code="45" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="RedA" pintype="passive"/>
+      <node ref="D6" pin="4" pinfunction="Green-K" pintype="passive"/>
+      <node ref="J13" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="AGND" pintype="power_in"/>
+      <node ref="U1" pin="5" pinfunction="PGND" pintype="power_in"/>
+      <node ref="U2" pin="5" pinfunction="GND" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="A0" pintype="input"/>
+      <node ref="U3" pin="2" pinfunction="A1" pintype="input"/>
+      <node ref="U3" pin="3" pinfunction="A2" pintype="input"/>
+      <node ref="U3" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="7" pinfunction="WP" pintype="input"/>
+      <node ref="U4" pin="2" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q2" pin="4" pinfunction="G" pintype="input"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(D4-K-Pad3)">
+      <node ref="D4" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(D6A-Red-K)">
+      <node ref="D6" pin="2" pinfunction="Red-K" pintype="passive"/>
+      <node ref="D6" pin="3" pinfunction="Green-A" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(J3-Pin_2)">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(Q1-G)">
+      <node ref="Q1" pin="4" pinfunction="G" pintype="input"/>
+      <node ref="U1" pin="6" pinfunction="DR" pintype="output"/>
+    </net>
+    <net code="52" name="Net-(Q1-S-Pad1)">
+      <node ref="Q1" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R13" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(R12-Pad1)">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R13" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(U1-COMP)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="COMP" pintype="input"/>
+    </net>
+    <net code="55" name="Net-(U1-FA{slash}SD)">
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="FA/SD" pintype="input"/>
+    </net>
+    <net code="56" name="Net-(U1-FB)">
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="57" name="Net-(U1-I_{SEN})">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="I_{SEN}" pintype="input"/>
+    </net>
+    <net code="58" name="Net-(U2-DN)">
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="DN" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(U2-DP)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="DP" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(U2-~{ALERT}{slash}TACH)">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="~{ALERT}/TACH" pintype="bidirectional"/>
+    </net>
+    <net code="61" name="Net-(U4-OUT)">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="OUT" pintype="power_out"/>
+    </net>
+    <net code="62" name="Net-(U5-GND)">
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(U5-IN)">
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="IN" pintype="input"/>
+    </net>
+    <net code="64" name="unconnected-(D4-K-Pad1)">
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(J7-Pin_3-Pad3)">
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(J8-Pin_3-Pad3)">
+      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(J14-CEC-Pad13)">
+      <node ref="J14" pin="13" pinfunction="CEC" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(J14-HPD-Pad19)">
+      <node ref="J14" pin="19" pinfunction="HPD" pintype="passive+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(J14-UTILITY-Pad14)">
+      <node ref="J14" pin="14" pinfunction="UTILITY" pintype="passive+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(J15-CEC-Pad13)">
+      <node ref="J15" pin="13" pinfunction="CEC" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(J15-HPD-Pad19)">
+      <node ref="J15" pin="19" pinfunction="HPD" pintype="passive+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(J15-UTILITY-Pad14)">
+      <node ref="J15" pin="14" pinfunction="UTILITY" pintype="passive+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(R13-Pad2)">
+      <node ref="R13" pin="2" pinfunction="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(U5-NC-Pad4)">
+      <node ref="U5" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,20 @@
+### Footprint positions - created on Fri 22 Dec 2023 10:27:14 AM PST ###
+### Printed by KiCad version 7.0.9-7.0.9~ubuntu20.04.1
+## Unit = inches, Angle = deg.
+## Side : bottom
+# Ref     Val                 Package                       PosX       PosY       Rot  Side
+C10       10pF-5%-50V-0603    C_0603_1608Metric          10.2100    -3.2900    0.0000  bottom
+C11       0.1uF-10%-50V-0603  C_0603_1608Metric          10.4100    -3.3700  -90.0000  bottom
+C12       0.1uF-10%-50V-0603  C_0603_1608Metric          12.1950    -3.5600  -90.0000  bottom
+C13       0.1uF-10%-50V-0603  C_0603_1608Metric          12.5150    -3.6000  -90.0000  bottom
+R12       100R-1%-0603        R_0603_1608Metric          10.2100    -3.2300  180.0000  bottom
+R13       4.0m-1%-1W          R_Shunt_Vishay_WSKW0612    10.8102    -3.2725   90.0000  bottom
+R14       64.9k-1%-0603       R_0603_1608Metric          10.4700    -3.3700   90.0000  bottom
+R15       13.3k-1%-0603       R_0603_1608Metric          10.2200    -3.4000    0.0000  bottom
+R16       1.0k-1%-0603        R_0603_1608Metric          10.0600    -3.4000    0.0000  bottom
+R17       4.99k-1%-0603       R_0603_1608Metric          12.5750    -3.6000   90.0000  bottom
+R18       4.99k-1%-0603       R_0603_1608Metric          12.4550    -3.6000   90.0000  bottom
+R19       4.99k-1%-0603       R_0603_1608Metric          12.4000    -4.0800  180.0000  bottom
+R20       150R-1%-0603        R_0603_1608Metric          12.5600    -4.1400    0.0000  bottom
+R21       13.3k-1%-0603       R_0603_1608Metric          12.4000    -4.1400    0.0000  bottom
+## End
