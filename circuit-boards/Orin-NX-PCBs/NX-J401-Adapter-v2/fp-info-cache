@@ -1,4 +1,4 @@
-22357815440967371
+22359519165924371
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -63986,6 +63986,13 @@ IHLP6767GZER4R7M11
 0
 2
 2
+NX-J401-Adapter
+LED-Dialight-5913001858F
+LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+LED
+0
+4
+4
 NX-J401-Adapter
 LED_SunLED_XZMDKVG55W-8
 LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator

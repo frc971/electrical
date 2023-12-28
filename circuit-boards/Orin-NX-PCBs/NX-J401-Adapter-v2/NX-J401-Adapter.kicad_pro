@@ -116,7 +116,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.199644,
+        "min_clearance": 0.196342,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.0,
         "min_hole_clearance": 0.25,
@@ -427,7 +427,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.199644,
+        "clearance": 0.196342,
         "diff_pair_gap": 0.2032,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.28321,

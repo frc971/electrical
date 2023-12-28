@@ -60,6 +60,7 @@ kicad-cli pcb export pdf --output ${GERBER_DIR}/${fname}-fab-${timestamp}.pdf --
 #python3 ${plugin_path}/bom_csv_grouped_by_value.py ${SCH_DIR}/${fname}-netlist.xml "${SCH_DIR}/${fname}-bom.csv"
 
 #cp ${fname}.csv ${FAB_DIR}/${fname}-bom.csv
+cp ./bom/ibom.html ${FAB_DIR}/${fname}-ibom-${timestamp}.html
 ./kicad-group-bom.py -i ${fname}.csv -o ${FAB_DIR}/${fname}-bom-${timestamp}.csv
 
 #generate PCB assembly drawing

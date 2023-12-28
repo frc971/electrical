@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/home/scottberman/Documents/Projects/FRC971/NX-J401-Adapter/NX-J401-Adapter.kicad_sch</source>
-    <date>Fri 22 Dec 2023 10:22:32 AM PST</date>
-    <tool>Eeschema 7.0.9-7.0.9~ubuntu20.04.1</tool>
+    <source>/home/scott/Documents/Projects/dev/git/971-electrical/circuit-boards/Orin-NX-PCBs/NX-J401-Adapter-v2/NX-J401-Adapter.kicad_sch</source>
+    <date>Wed 27 Dec 2023 04:12:27 PM PST</date>
+    <tool>Eeschema 7.0.9-7.0.9~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>NX J401 Adapter</title>
@@ -1105,19 +1105,19 @@
     </comp>
     <comp ref="J1">
       <value>TEMP</value>
-      <footprint>NX-J401-Adapter:70541-0001</footprint>
-      <datasheet>Components/Molex-70541-0001.pdf</datasheet>
+      <footprint>Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical</footprint>
+      <datasheet>Components/JST-eSH.pdf</datasheet>
       <fields>
         <field name="DIST">Digikey</field>
-        <field name="DIST P/N">WM14047-ND</field>
-        <field name="MFG">Molex</field>
-        <field name="MFG P/N">0705410001</field>
+        <field name="DIST P/N">455-1788-1-ND</field>
+        <field name="MFG">JST</field>
+        <field name="MFG P/N">BM02B-SRSS-TB</field>
       </fields>
       <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
-      <property name="MFG" value="Molex"/>
-      <property name="MFG P/N" value="0705410001"/>
+      <property name="MFG" value="JST"/>
+      <property name="MFG P/N" value="BM02B-SRSS-TB"/>
       <property name="DIST" value="Digikey"/>
-      <property name="DIST P/N" value="WM14047-ND"/>
+      <property name="DIST P/N" value="455-1788-1-ND"/>
       <property name="Sheetname" value="Fan Control"/>
       <property name="Sheetfile" value="fan-control.kicad_sch"/>
       <property name="Page" value="5/5"/>
@@ -1148,6 +1148,29 @@
       <property name="ki_keywords" value="connector"/>
       <sheetpath names="/Fan Control/" tstamps="/31806f24-7fa6-46e2-ae93-f7306b662757/"/>
       <tstamps>649ad163-ea76-4e1c-85f4-37e794c3470a</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>2N3904 Transistor Temp Sensor</value>
+      <datasheet>Components/onsemi-PZT3904-D.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">2N3904FS-ND</field>
+        <field name="MFG">onsemi</field>
+        <field name="MFG P/N">2N3904BU</field>
+      </fields>
+      <libsource lib="Graphic" part="SYM_Arrow_Large" description="Filled arrow, 300mil"/>
+      <property name="MFG" value="onsemi"/>
+      <property name="MFG P/N" value="2N3904BU"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="2N3904FS-ND"/>
+      <property name="Sheetname" value="Fan Control"/>
+      <property name="Sheetfile" value="fan-control.kicad_sch"/>
+      <property name="Page" value="5/5"/>
+      <property name="exclude_from_board"/>
+      <property name="ki_description" value="Filled arrow, 300mil"/>
+      <property name="ki_keywords" value="symbol arrow"/>
+      <sheetpath names="/Fan Control/" tstamps="/31806f24-7fa6-46e2-ae93-f7306b662757/"/>
+      <tstamps>20330e50-7181-4582-b168-fb0a07cd1172</tstamps>
     </comp>
     <comp ref="R2">
       <value>0R-1%-0603</value>
@@ -1502,6 +1525,29 @@
       <sheetpath names="/Fan Control/" tstamps="/31806f24-7fa6-46e2-ae93-f7306b662757/"/>
       <tstamps>3355efaa-5f8d-4664-867c-8c7f01ce94a7</tstamps>
     </comp>
+    <comp ref="W1">
+      <value>JST 02SR-3S Diode Harness</value>
+      <datasheet>https://www.digikey.com/en/products/detail/jst-sales-america-inc/A02SR02SR30K254A/9922173</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">455-3623-ND</field>
+        <field name="MFG">JST Sales</field>
+        <field name="MFG P/N">A02SR02SR30K254A</field>
+      </fields>
+      <libsource lib="Graphic" part="SYM_Arrow_Large" description="Filled arrow, 300mil"/>
+      <property name="MFG" value="JST Sales"/>
+      <property name="MFG P/N" value="A02SR02SR30K254A"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="455-3623-ND"/>
+      <property name="Sheetname" value="Fan Control"/>
+      <property name="Sheetfile" value="fan-control.kicad_sch"/>
+      <property name="Page" value="5/5"/>
+      <property name="exclude_from_board"/>
+      <property name="ki_description" value="Filled arrow, 300mil"/>
+      <property name="ki_keywords" value="symbol arrow"/>
+      <sheetpath names="/Fan Control/" tstamps="/31806f24-7fa6-46e2-ae93-f7306b662757/"/>
+      <tstamps>f974b79a-4c12-4d67-b826-2efc4b0c2de0</tstamps>
+    </comp>
   </components>
   <libparts>
     <libpart lib="" part="SunLED-Dual-LED_1">
@@ -1844,6 +1890,16 @@
         <pin num="3" name="K" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Graphic" part="SYM_Arrow_Large">
+      <description>Filled arrow, 300mil</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">#SYM</field>
+        <field name="Value">SYM_Arrow_Large</field>
+        <field name="Datasheet">~</field>
+        <field name="Sim.Enable">0</field>
+      </fields>
+    </libpart>
     <libpart lib="Jumper" part="Jumper_2_Open">
       <description>Jumper, 2-pole, open</description>
       <docs>~</docs>
@@ -2016,6 +2072,9 @@
     <library logical="Diode">
       <uri>/usr/share/kicad/symbols//Diode.kicad_sym</uri>
     </library>
+    <library logical="Graphic">
+      <uri>/usr/share/kicad/symbols//Graphic.kicad_sym</uri>
+    </library>
     <library logical="Jumper">
       <uri>/usr/share/kicad/symbols//Jumper.kicad_sym</uri>
     </library>
@@ -2026,7 +2085,7 @@
       <uri>/usr/share/kicad/symbols//Memory_EEPROM.kicad_sym</uri>
     </library>
     <library logical="NX-AdapterBoard">
-      <uri>/home/scottberman/Documents/Projects/FRC971/NX-J401-Adapter/NX-AdapterBoard.kicad_sym</uri>
+      <uri>/home/scott/Documents/Projects/dev/git/971-electrical/circuit-boards/Orin-NX-PCBs/NX-J401-Adapter-v2/NX-AdapterBoard.kicad_sym</uri>
     </library>
     <library logical="Regulator_Controller">
       <uri>/usr/share/kicad/symbols//Regulator_Controller.kicad_sym</uri>
