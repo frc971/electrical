@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/scott/Documents/Projects/dev/git/971-electrical/circuit-boards/connector_boards/kraken-power-adapter/kraken-power-adapter.kicad_sch</source>
+    <date>Thu 28 Dec 2023 10:34:10 PM PST</date>
+    <tool>Eeschema 7.0.9-7.0.9~ubuntu22.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Kraken Power Adapter</title>
+        <company>971 Spartan Robotics</company>
+        <rev>1</rev>
+        <date>2023-12-28</date>
+        <source>kraken-power-adapter.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="HW1">
+      <value>6-32 x 3/8" Brass Socket Head Screw</value>
+      <datasheet>https://www.mcmaster.com/93465A147/</datasheet>
+      <fields>
+        <field name="MFG">McMaster-Carr</field>
+        <field name="MFG P/N">93465A147</field>
+      </fields>
+      <libsource lib="Graphic" part="SYM_Arrow_Large" description="Filled arrow, 300mil"/>
+      <property name="MFG" value="McMaster-Carr"/>
+      <property name="MFG P/N" value="93465A147"/>
+      <property name="DIST" value=""/>
+      <property name="DIST P/N" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kraken-power-adapter.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <property name="ki_description" value="Filled arrow, 300mil"/>
+      <property name="ki_keywords" value="symbol arrow"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0afbe764-c5fa-4393-a9cb-c9c686e621fd</tstamps>
+    </comp>
+    <comp ref="HW2">
+      <value>6-32 x 3/8" Brass Socket Head Screw</value>
+      <datasheet>https://www.mcmaster.com/93465A147/</datasheet>
+      <fields>
+        <field name="MFG">McMaster-Carr</field>
+        <field name="MFG P/N">93465A147</field>
+      </fields>
+      <libsource lib="Graphic" part="SYM_Arrow_Large" description="Filled arrow, 300mil"/>
+      <property name="MFG" value="McMaster-Carr"/>
+      <property name="MFG P/N" value="93465A147"/>
+      <property name="DIST" value=""/>
+      <property name="DIST P/N" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kraken-power-adapter.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <property name="ki_description" value="Filled arrow, 300mil"/>
+      <property name="ki_keywords" value="symbol arrow"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7005d711-4fb4-4fca-b59e-a52d14c5688e</tstamps>
+    </comp>
+    <comp ref="HW3">
+      <value> Brass Washer #6</value>
+      <datasheet>https://www.mcmaster.com/92916A325/</datasheet>
+      <fields>
+        <field name="MFG">McMaster-Carr</field>
+        <field name="MFG P/N">92916A325</field>
+      </fields>
+      <libsource lib="Graphic" part="SYM_Arrow_Large" description="Filled arrow, 300mil"/>
+      <property name="MFG" value="McMaster-Carr"/>
+      <property name="MFG P/N" value="92916A325"/>
+      <property name="DIST" value=""/>
+      <property name="DIST P/N" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kraken-power-adapter.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <property name="ki_description" value="Filled arrow, 300mil"/>
+      <property name="ki_keywords" value="symbol arrow"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>25583a11-5a9b-4136-9184-9593e1162046</tstamps>
+    </comp>
+    <comp ref="HW4">
+      <value> Brass Washer #6</value>
+      <datasheet>https://www.mcmaster.com/92916A325/</datasheet>
+      <fields>
+        <field name="MFG">McMaster-Carr</field>
+        <field name="MFG P/N">92916A325</field>
+      </fields>
+      <libsource lib="Graphic" part="SYM_Arrow_Large" description="Filled arrow, 300mil"/>
+      <property name="MFG" value="McMaster-Carr"/>
+      <property name="MFG P/N" value="92916A325"/>
+      <property name="DIST" value=""/>
+      <property name="DIST P/N" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kraken-power-adapter.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <property name="ki_description" value="Filled arrow, 300mil"/>
+      <property name="ki_keywords" value="symbol arrow"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>69c4eecf-57e7-4215-8a5e-bcd5f29ad7e6</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>PP15/45-HOUSING W/SPG-RED</value>
+      <datasheet>Components/1-9597s1.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">2243-1327-ND</field>
+        <field name="MFG">Anderson Power Products</field>
+        <field name="MFG P/N">1327</field>
+      </fields>
+      <libsource lib="Graphic" part="SYM_Arrow_Large" description="Filled arrow, 300mil"/>
+      <property name="MFG" value="Anderson Power Products"/>
+      <property name="MFG P/N" value="1327"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="2243-1327-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kraken-power-adapter.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <property name="ki_description" value="Filled arrow, 300mil"/>
+      <property name="ki_keywords" value="symbol arrow"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>48cf5075-23a8-49a5-860a-a0020ab8f789</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>PP15/45-HOUSING W/SPG-BLACK</value>
+      <datasheet>Components/1-9597s1.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">2243-1327G6-ND</field>
+        <field name="MFG">Anderson Power Products</field>
+        <field name="MFG P/N">1327G6</field>
+      </fields>
+      <libsource lib="Graphic" part="SYM_Arrow_Large" description="Filled arrow, 300mil"/>
+      <property name="MFG" value="Anderson Power Products"/>
+      <property name="MFG P/N" value="1327G6"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="2243-1327G6-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kraken-power-adapter.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <property name="ki_description" value="Filled arrow, 300mil"/>
+      <property name="ki_keywords" value="symbol arrow"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fda4db36-3fa0-4bba-aca1-ebc710842bd5</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>PP15/45 PCB Vertical Pin</value>
+      <datasheet>Components/b02021s.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">2243-1335G1-ND</field>
+        <field name="MFG">Anderson Power Products</field>
+        <field name="MFG P/N">1335G1</field>
+      </fields>
+      <libsource lib="Graphic" part="SYM_Arrow_Large" description="Filled arrow, 300mil"/>
+      <property name="MFG" value="Anderson Power Products"/>
+      <property name="MFG P/N" value="1335G1"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="2243-1335G1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kraken-power-adapter.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <property name="ki_description" value="Filled arrow, 300mil"/>
+      <property name="ki_keywords" value="symbol arrow"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ff79f21-a4c1-447c-8df2-bbc7fd2a3899</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>PP15/45 PCB Vertical Pin</value>
+      <datasheet>Components/b02021s.pdf</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">2243-1335G1-ND</field>
+        <field name="MFG">Anderson Power Products</field>
+        <field name="MFG P/N">1335G1</field>
+      </fields>
+      <libsource lib="Graphic" part="SYM_Arrow_Large" description="Filled arrow, 300mil"/>
+      <property name="MFG" value="Anderson Power Products"/>
+      <property name="MFG P/N" value="1335G1"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="2243-1335G1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kraken-power-adapter.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <property name="ki_description" value="Filled arrow, 300mil"/>
+      <property name="ki_keywords" value="symbol arrow"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c98c9668-8712-4342-9411-cd98b7e225fb</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x01_Pin">
+      <description>Generic connector, single row, 01x01, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Pin">
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Graphic" part="SYM_Arrow_Large">
+      <description>Filled arrow, 300mil</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">#SYM</field>
+        <field name="Value">SYM_Arrow_Large</field>
+        <field name="Datasheet">~</field>
+        <field name="Sim.Enable">0</field>
+      </fields>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Graphic">
+      <uri>/usr/share/kicad/symbols//Graphic.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets/>
+</export>

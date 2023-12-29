@@ -1,0 +1,14 @@
+"Source:","/home/scott/Documents/Projects/dev/git/971-electrical/circuit-boards/connector_boards/kraken-power-adapter/kraken-power-adapter.kicad_sch"
+"Date:","Thu 28 Dec 2023 10:34:10 PM PST"
+"Tool:","Eeschema 7.0.9-7.0.9~ubuntu22.04.1"
+"Generator:","/usr/share/kicad/plugins/bom_csv_grouped_by_value.py"
+"Component Count:","8"
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","DNP","DIST","DIST P/N","MFG","MFG P/N","Sim.Enable"
+"1","2","HW1, HW2","6-32 x 3/8"" Brass Socket Head Screw","Graphic:SYM_Arrow_Large","","https://www.mcmaster.com/93465A147/","","","","McMaster-Carr","93465A147","0"
+"2","2","HW3, HW4"," Brass Washer #6","Graphic:SYM_Arrow_Large","","https://www.mcmaster.com/92916A325/","","","","McMaster-Carr","92916A325","0"
+"3","1","J4","PP15/45-HOUSING W/SPG-RED","Graphic:SYM_Arrow_Large","","Components/1-9597s1.pdf","","Digikey","2243-1327-ND","Anderson Power Products","1327","0"
+"4","1","J5","PP15/45-HOUSING W/SPG-BLACK","Graphic:SYM_Arrow_Large","","Components/1-9597s1.pdf","","Digikey","2243-1327G6-ND","Anderson Power Products","1327G6","0"
+"5","2","J6, J7","PP15/45 PCB Vertical Pin","Graphic:SYM_Arrow_Large","","Components/b02021s.pdf","","Digikey","2243-1335G1-ND","Anderson Power Products","1335G1","0"
