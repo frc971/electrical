@@ -8,7 +8,7 @@ sch=${fname}.kicad_sch
 pcb=${fname}.kicad_pcb
 pcb_fab_layers=User.1,User.Drawings,User.Comments,Edge.Cuts
 #F.Mask
-gerber_layers=F.Cu,B.Cu,F.Paste,B.Paste,F.Mask,B.Mask,Edge.Cuts,F.Silkscreen,B.Silkscreen
+gerber_layers=F.Cu,In1.Cu,In2.Cu,B.Cu,F.Paste,B.Paste,F.Mask,B.Mask,Edge.Cuts,F.Silkscreen,B.Silkscreen
 pcb_assy_top_layers=Edge.Cuts,F.Fab
 pcb_assy_bot_layers=Edge.Cuts,B.Fab
 pcb_assembly_layers=User.2
