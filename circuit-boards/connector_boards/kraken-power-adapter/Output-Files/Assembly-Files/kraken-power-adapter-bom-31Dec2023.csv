@@ -1,0 +1,6 @@
+Item, Qty, Reference(s), Value, DIST, DIST P/N, MFG, MFG P/N, Sim.Enable, 
+"1","2","HW1,HW2","6-32 x 3/8" Brass Socket Head Screw","","","McMaster-Carr","93465A147","0"
+"2","2","HW3,HW4"," Brass Washer #6","","","McMaster-Carr","92916A325","0"
+"3","1","J4","PP15/45-HOUSING W/SPG-RED","Digikey","2243-1327-ND","Anderson Power Products","1327","0"
+"4","1","J5","PP15/45-HOUSING W/SPG-BLACK","Digikey","2243-1327G6-ND","Anderson Power Products","1327G6","0"
+"5","2","J6,J7","PP15/45 PCB Vertical Pin","Digikey","2243-1335G1-ND","Anderson Power Products","1335G1","0"

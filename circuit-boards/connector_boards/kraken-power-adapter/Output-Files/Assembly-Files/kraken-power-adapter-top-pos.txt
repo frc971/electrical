@@ -1,0 +1,8 @@
+### Footprint positions - created on Sun 31 Dec 2023 10:21:06 AM PST ###
+### Printed by KiCad version 7.0.9-7.0.9~ubuntu20.04.1
+## Unit = inches, Angle = deg.
+## Side : top
+# Ref     Val       Package                PosX       PosY       Rot  Side
+J1        Vbat+     ScrewTerminal-#6     4.7440    -4.1370    0.0000  top
+J2        Vbat-     ScrewTerminal-#6     3.6220    -4.1370    0.0000  top
+## End

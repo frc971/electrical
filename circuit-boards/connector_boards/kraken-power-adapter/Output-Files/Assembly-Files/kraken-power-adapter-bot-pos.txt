@@ -1,0 +1,7 @@
+### Footprint positions - created on Sun 31 Dec 2023 10:21:06 AM PST ###
+### Printed by KiCad version 7.0.9-7.0.9~ubuntu20.04.1
+## Unit = inches, Angle = deg.
+## Side : bottom
+# Ref     Val           Package                        PosX       PosY       Rot  Side
+J3        Vbat_PP15-45  Dual-side-by-side-1335G1     4.1800    -5.1800    0.0000  bottom
+## End
