@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/home/scottberman/Documents/Projects/dev/git/971-electrical/circuit-boards/connector_boards/kraken-power-adapter/kraken-power-adapter.kicad_sch</source>
-    <date>Sun Dec 31 09:51:26 2023</date>
-    <tool>Eeschema 7.0.9-7.0.9~ubuntu20.04.1</tool>
+    <source>/home/scott/Documents/Projects/dev/git/971-electrical/circuit-boards/connector_boards/kraken-power-adapter/kraken-power-adapter.kicad_sch</source>
+    <date>Tue Jan  2 09:44:11 2024</date>
+    <tool>Eeschema 7.0.9-7.0.9~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Kraken Power Adapter</title>
