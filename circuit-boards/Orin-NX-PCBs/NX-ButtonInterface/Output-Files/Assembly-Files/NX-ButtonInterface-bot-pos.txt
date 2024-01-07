@@ -1,6 +1,8 @@
-### Footprint positions - created on Fri 05 Jan 2024 07:06:29 PM PST ###
-### Printed by KiCad version 7.0.10-7.0.10~ubuntu22.04.1
+### Footprint positions - created on Sun 07 Jan 2024 02:41:38 PM PST ###
+### Printed by KiCad version 7.0.10-7.0.10~ubuntu20.04.1
 ## Unit = inches, Angle = deg.
 ## Side : bottom
-# Ref     Val       Package                PosX       PosY       Rot  Side
+# Ref     Val        Package                 PosX       PosY       Rot  Side
+J2        CAN-NX     4-pin-solder-pads     4.9400    -4.1800    0.0000  bottom
+J3        NX-BUTTON  7-pin-solder-pads     3.5900    -3.8050  180.0000  bottom
 ## End

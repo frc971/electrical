@@ -1,6 +1,6 @@
-"Source:","/home/scott/Documents/Projects/dev/git/971-electrical/circuit-boards/Orin-NX-PCBs/NX-ButtonInterface/NX-ButtonInterface.kicad_sch"
-"Date:","Fri 05 Jan 2024 07:05:37 PM PST"
-"Tool:","Eeschema 7.0.10-7.0.10~ubuntu22.04.1"
+"Source:","/home/scottberman/Documents/Projects/dev/git/971-electrical/circuit-boards/Orin-NX-PCBs/NX-ButtonInterface/NX-ButtonInterface.kicad_sch"
+"Date:","Sun 07 Jan 2024 02:40:19 PM PST"
+"Tool:","Eeschema 7.0.10-7.0.10~ubuntu20.04.1"
 "Generator:","/usr/share/kicad/plugins/bom_csv_grouped_by_value.py"
 "Component Count:","3"
 
@@ -8,5 +8,5 @@
 
 "Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","DNP","DIST","DIST P/N","MFG","MFG P/N"
 "1","1","J1","NX CONTROL & UART","Connector:Conn_01x18_Socket","Connector_PinSocket_2.54mm:PinSocket_1x18_P2.54mm_Vertical","Components/Sullins-Female_Headers.100_DS.pdf","","Digikey","S7016-ND","Sullins Connector Solutions","PPTC181LFBN-RC"
-"2","1","J2","CAN-NX","Connector:Conn_01x04_Pin","NX-ButtonInterface:70543-0003","Components/Molex-70543-0001.pdf","","Digikey","WM4802-ND","Molex","0705430003"
-"3","1","J3","NX-BUTTON","Connector:Conn_01x07_Pin","NX-ButtonInterface:70543-0006","Components/Molex-70543-0001.pdf","","Digikey","WM4805-ND","Molex","0705430006"
+"2","1","J2","CAN-NX","Connector:Conn_01x04_Pin","NX-ButtonInterface:4-pin-solder-pads","~","","","","",""
+"3","1","J3","NX-BUTTON","Connector:Conn_01x07_Pin","NX-ButtonInterface:7-pin-solder-pads","~","","","","",""

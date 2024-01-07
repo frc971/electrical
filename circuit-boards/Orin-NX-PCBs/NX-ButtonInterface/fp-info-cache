@@ -1,11 +1,4 @@
-22330559593243769
-AndersonPP15-45
-Dual-side-by-side-1335G1
-
-
-0
-2
-2
+22465331463474964
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -46374,6 +46367,1168 @@ Through hole Samtec HPM power header series 3.81mm post length THT 1x19 5.08mm s
 0
 19
 19
+Connector_Samtec_HSEC8
+Samtec_HSEC8-109-01-X-DV-A-BL_2x09_P0.8mm_Pol04_Socket_WeldTabs_BoardLocks
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical, alignment pins, weld tabs, board locks (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+20
+18
+Connector_Samtec_HSEC8
+Samtec_HSEC8-109-01-X-DV-A-WT_2x09_P0.8mm_Pol04_Socket_WeldTabs
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical, alignment pins, weld tabs (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+20
+18
+Connector_Samtec_HSEC8
+Samtec_HSEC8-109-01-X-DV-A_2x09_P0.8mm_Pol04_Socket_AlignmentPins
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical, alignment pins (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+18
+18
+Connector_Samtec_HSEC8
+Samtec_HSEC8-109-01-X-DV_2x09_P0.8mm_Pol04_Socket
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+18
+18
+Connector_Samtec_HSEC8
+Samtec_HSEC8-110-01-X-DV-A-BL_2x10_P0.8mm_Socket_WeldTabs_BoardLocks
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical, alignment pins, weld tabs, board locks (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+22
+20
+Connector_Samtec_HSEC8
+Samtec_HSEC8-110-01-X-DV-A-WT_2x10_P0.8mm_Socket_WeldTabs
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical, alignment pins, weld tabs (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+22
+20
+Connector_Samtec_HSEC8
+Samtec_HSEC8-110-01-X-DV-A_2x10_P0.8mm_Socket_AlignmentPins
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical, alignment pins (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+20
+20
+Connector_Samtec_HSEC8
+Samtec_HSEC8-110-01-X-DV_2x10_P0.8mm_Socket
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+20
+20
+Connector_Samtec_HSEC8
+Samtec_HSEC8-110-03-X-DV-A-WT_2x10_P0.8mm_Socket_WeldTabs
+0.8 mm Highspeed card edge card connector socket for 2.36mm PCBs, vertical, alignment pins, weld tabs (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+22
+20
+Connector_Samtec_HSEC8
+Samtec_HSEC8-110-03-X-DV-A_2x10_P0.8mm_Socket_AlignmentPins
+0.8 mm Highspeed card edge card connector socket for 2.36mm PCBs, vertical, alignment pins (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+20
+20
+Connector_Samtec_HSEC8
+Samtec_HSEC8-110-03-X-DV_2x10_P0.8mm_Socket
+0.8 mm Highspeed card edge card connector socket for 2.36mm PCBs, vertical (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+20
+20
+Connector_Samtec_HSEC8
+Samtec_HSEC8-113-01-X-DV-A-BL_2x13_P0.8mm_Pol06_Socket_WeldTabs_BoardLocks
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical, alignment pins, weld tabs, board locks (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+28
+26
+Connector_Samtec_HSEC8
+Samtec_HSEC8-113-01-X-DV-A-WT_2x13_P0.8mm_Pol06_Socket_WeldTabs
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical, alignment pins, weld tabs (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+28
+26
+Connector_Samtec_HSEC8
+Samtec_HSEC8-113-01-X-DV-A_2x13_P0.8mm_Pol06_Socket_AlignmentPins
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical, alignment pins (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+26
+26
+Connector_Samtec_HSEC8
+Samtec_HSEC8-113-01-X-DV_2x13_P0.8mm_Pol06_Socket
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+26
+26
+Connector_Samtec_HSEC8
+Samtec_HSEC8-120-01-X-DV-A-BL_2x20_P0.8mm_Socket_WeldTabs_BoardLocks
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical, alignment pins, weld tabs, board locks (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+42
+40
+Connector_Samtec_HSEC8
+Samtec_HSEC8-120-01-X-DV-A-WT_2x20_P0.8mm_Socket_WeldTabs
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical, alignment pins, weld tabs (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+42
+40
+Connector_Samtec_HSEC8
+Samtec_HSEC8-120-01-X-DV-A_2x20_P0.8mm_Socket_AlignmentPins
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical, alignment pins (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+40
+40
+Connector_Samtec_HSEC8
+Samtec_HSEC8-120-01-X-DV_2x20_P0.8mm_Socket
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+40
+40
+Connector_Samtec_HSEC8
+Samtec_HSEC8-120-03-X-DV-A-WT_2x20_P0.8mm_Socket_WeldTabs
+0.8 mm Highspeed card edge card connector socket for 2.36mm PCBs, vertical, alignment pins, weld tabs (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+42
+40
+Connector_Samtec_HSEC8
+Samtec_HSEC8-120-03-X-DV-A_2x20_P0.8mm_Socket_AlignmentPins
+0.8 mm Highspeed card edge card connector socket for 2.36mm PCBs, vertical, alignment pins (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+40
+40
+Connector_Samtec_HSEC8
+Samtec_HSEC8-120-03-X-DV_2x20_P0.8mm_Socket
+0.8 mm Highspeed card edge card connector socket for 2.36mm PCBs, vertical (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+40
+40
+Connector_Samtec_HSEC8
+Samtec_HSEC8-125-01-X-DV-A-BL_2x25_P0.8mm_Pol06_Socket_WeldTabs_BoardLocks
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical, alignment pins, weld tabs, board locks (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+52
+50
+Connector_Samtec_HSEC8
+Samtec_HSEC8-125-01-X-DV-A-WT_2x25_P0.8mm_Pol06_Socket_WeldTabs
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical, alignment pins, weld tabs (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+52
+50
+Connector_Samtec_HSEC8
+Samtec_HSEC8-125-01-X-DV-A_2x25_P0.8mm_Pol06_Socket_AlignmentPins
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical, alignment pins (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+50
+50
+Connector_Samtec_HSEC8
+Samtec_HSEC8-125-01-X-DV_2x25_P0.8mm_Pol06_Socket
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+50
+50
+Connector_Samtec_HSEC8
+Samtec_HSEC8-130-01-X-DV-A-BL_2x30_P0.8mm_Socket_WeldTabs_BoardLocks
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical, alignment pins, weld tabs, board locks (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+62
+60
+Connector_Samtec_HSEC8
+Samtec_HSEC8-130-01-X-DV-A-WT_2x30_P0.8mm_Socket_WeldTabs
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical, alignment pins, weld tabs (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+62
+60
+Connector_Samtec_HSEC8
+Samtec_HSEC8-130-01-X-DV-A_2x30_P0.8mm_Socket_AlignmentPins
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical, alignment pins (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+60
+60
+Connector_Samtec_HSEC8
+Samtec_HSEC8-130-01-X-DV_2x30_P0.8mm_Socket
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+60
+60
+Connector_Samtec_HSEC8
+Samtec_HSEC8-130-03-X-DV-A-WT_2x30_P0.8mm_Socket_WeldTabs
+0.8 mm Highspeed card edge card connector socket for 2.36mm PCBs, vertical, alignment pins, weld tabs (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+62
+60
+Connector_Samtec_HSEC8
+Samtec_HSEC8-130-03-X-DV-A_2x30_P0.8mm_Socket_AlignmentPins
+0.8 mm Highspeed card edge card connector socket for 2.36mm PCBs, vertical, alignment pins (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+60
+60
+Connector_Samtec_HSEC8
+Samtec_HSEC8-130-03-X-DV_2x30_P0.8mm_Socket
+0.8 mm Highspeed card edge card connector socket for 2.36mm PCBs, vertical (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+60
+60
+Connector_Samtec_HSEC8
+Samtec_HSEC8-137-01-X-DV-A-BL_2x37_P0.8mm_Pol21_Socket_WeldTabs_BoardLocks
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical, alignment pins, weld tabs, board locks (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+76
+74
+Connector_Samtec_HSEC8
+Samtec_HSEC8-137-01-X-DV-A-WT_2x37_P0.8mm_Pol21_Socket_WeldTabs
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical, alignment pins, weld tabs (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+76
+74
+Connector_Samtec_HSEC8
+Samtec_HSEC8-137-01-X-DV-A_2x37_P0.8mm_Pol21_Socket_AlignmentPins
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical, alignment pins (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+74
+74
+Connector_Samtec_HSEC8
+Samtec_HSEC8-137-01-X-DV_2x37_P0.8mm_Pol21_Socket
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+74
+74
+Connector_Samtec_HSEC8
+Samtec_HSEC8-140-01-X-DV-A-BL_2x40_P0.8mm_Pol22_Socket_WeldTabs_BoardLocks
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical, alignment pins, weld tabs, board locks (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+82
+80
+Connector_Samtec_HSEC8
+Samtec_HSEC8-140-01-X-DV-A-WT_2x40_P0.8mm_Pol22_Socket_WeldTabs
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical, alignment pins, weld tabs (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+82
+80
+Connector_Samtec_HSEC8
+Samtec_HSEC8-140-01-X-DV-A_2x40_P0.8mm_Pol22_Socket_AlignmentPins
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical, alignment pins (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+80
+80
+Connector_Samtec_HSEC8
+Samtec_HSEC8-140-01-X-DV_2x40_P0.8mm_Pol22_Socket
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+80
+80
+Connector_Samtec_HSEC8
+Samtec_HSEC8-140-03-X-DV-A-WT_2x40_P0.8mm_Pol22_Socket_WeldTabs
+0.8 mm Highspeed card edge card connector socket for 2.36mm PCBs, vertical, alignment pins, weld tabs (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+82
+80
+Connector_Samtec_HSEC8
+Samtec_HSEC8-140-03-X-DV-A_2x40_P0.8mm_Pol22_Socket_AlignmentPins
+0.8 mm Highspeed card edge card connector socket for 2.36mm PCBs, vertical, alignment pins (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+80
+80
+Connector_Samtec_HSEC8
+Samtec_HSEC8-140-03-X-DV_2x40_P0.8mm_Pol22_Socket
+0.8 mm Highspeed card edge card connector socket for 2.36mm PCBs, vertical (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+80
+80
+Connector_Samtec_HSEC8
+Samtec_HSEC8-149-01-X-DV-A-BL_2x49_P0.8mm_Pol27_Socket_WeldTabs_BoardLocks
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical, alignment pins, weld tabs, board locks (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+100
+98
+Connector_Samtec_HSEC8
+Samtec_HSEC8-149-01-X-DV-A-WT_2x49_P0.8mm_Pol27_Socket_WeldTabs
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical, alignment pins, weld tabs (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+100
+98
+Connector_Samtec_HSEC8
+Samtec_HSEC8-149-01-X-DV-A_2x49_P0.8mm_Pol27_Socket_AlignmentPins
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical, alignment pins (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+98
+98
+Connector_Samtec_HSEC8
+Samtec_HSEC8-149-01-X-DV_2x49_P0.8mm_Pol27_Socket
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+98
+98
+Connector_Samtec_HSEC8
+Samtec_HSEC8-150-01-X-DV-A-BL_2x50_P0.8mm_Pol27_Socket_WeldTabs_BoardLocks
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical, alignment pins, weld tabs, board locks (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+102
+100
+Connector_Samtec_HSEC8
+Samtec_HSEC8-150-01-X-DV-A-WT_2x50_P0.8mm_Pol27_Socket_WeldTabs
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical, alignment pins, weld tabs (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+102
+100
+Connector_Samtec_HSEC8
+Samtec_HSEC8-150-01-X-DV-A_2x50_P0.8mm_Pol27_Socket_AlignmentPins
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical, alignment pins (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+100
+100
+Connector_Samtec_HSEC8
+Samtec_HSEC8-150-01-X-DV_2x50_P0.8mm_Pol27_Socket
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+100
+100
+Connector_Samtec_HSEC8
+Samtec_HSEC8-150-03-X-DV-A-WT_2x50_P0.8mm_Pol27_Socket_WeldTabs
+0.8 mm Highspeed card edge card connector socket for 2.36mm PCBs, vertical, alignment pins, weld tabs (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+102
+100
+Connector_Samtec_HSEC8
+Samtec_HSEC8-150-03-X-DV-A_2x50_P0.8mm_Pol27_Socket_AlignmentPins
+0.8 mm Highspeed card edge card connector socket for 2.36mm PCBs, vertical, alignment pins (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+100
+100
+Connector_Samtec_HSEC8
+Samtec_HSEC8-150-03-X-DV_2x50_P0.8mm_Pol27_Socket
+0.8 mm Highspeed card edge card connector socket for 2.36mm PCBs, vertical (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+100
+100
+Connector_Samtec_HSEC8
+Samtec_HSEC8-160-01-X-DV-A-BL_2x60_P0.8mm_Pol32_Socket_WeldTabs_BoardLocks
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical, alignment pins, weld tabs, board locks (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+122
+120
+Connector_Samtec_HSEC8
+Samtec_HSEC8-160-01-X-DV-A-WT_2x60_P0.8mm_Pol32_Socket_WeldTabs
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical, alignment pins, weld tabs (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+122
+120
+Connector_Samtec_HSEC8
+Samtec_HSEC8-160-01-X-DV-A_2x60_P0.8mm_Pol32_Socket_AlignmentPins
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical, alignment pins (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+120
+120
+Connector_Samtec_HSEC8
+Samtec_HSEC8-160-01-X-DV_2x60_P0.8mm_Pol32_Socket
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+120
+120
+Connector_Samtec_HSEC8
+Samtec_HSEC8-160-03-X-DV-A-WT_2x60_P0.8mm_Pol32_Socket_WeldTabs
+0.8 mm Highspeed card edge card connector socket for 2.36mm PCBs, vertical, alignment pins, weld tabs (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+122
+120
+Connector_Samtec_HSEC8
+Samtec_HSEC8-160-03-X-DV-A_2x60_P0.8mm_Pol32_Socket_AlignmentPins
+0.8 mm Highspeed card edge card connector socket for 2.36mm PCBs, vertical, alignment pins (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+120
+120
+Connector_Samtec_HSEC8
+Samtec_HSEC8-160-03-X-DV_2x60_P0.8mm_Pol32_Socket
+0.8 mm Highspeed card edge card connector socket for 2.36mm PCBs, vertical (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+120
+120
+Connector_Samtec_HSEC8
+Samtec_HSEC8-170-01-X-DV-A-BL_2x70_P0.8mm_Pol32_Socket_WeldTabs_BoardLocks
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical, alignment pins, weld tabs, board locks (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+142
+140
+Connector_Samtec_HSEC8
+Samtec_HSEC8-170-01-X-DV-A-WT_2x70_P0.8mm_Pol32_Socket_WeldTabs
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical, alignment pins, weld tabs (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+142
+140
+Connector_Samtec_HSEC8
+Samtec_HSEC8-170-01-X-DV-A_2x70_P0.8mm_Pol32_Socket_AlignmentPins
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical, alignment pins (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+140
+140
+Connector_Samtec_HSEC8
+Samtec_HSEC8-170-01-X-DV_2x70_P0.8mm_Pol32_Socket
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+140
+140
+Connector_Samtec_HSEC8
+Samtec_HSEC8-170-03-X-DV-A-WT_2x70_P0.8mm_Pol32_Socket_WeldTabs
+0.8 mm Highspeed card edge card connector socket for 2.36mm PCBs, vertical, alignment pins, weld tabs (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+142
+140
+Connector_Samtec_HSEC8
+Samtec_HSEC8-170-03-X-DV-A_2x70_P0.8mm_Pol32_Socket_AlignmentPins
+0.8 mm Highspeed card edge card connector socket for 2.36mm PCBs, vertical, alignment pins (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+140
+140
+Connector_Samtec_HSEC8
+Samtec_HSEC8-170-03-X-DV_2x70_P0.8mm_Pol32_Socket
+0.8 mm Highspeed card edge card connector socket for 2.36mm PCBs, vertical (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+140
+140
+Connector_Samtec_HSEC8
+Samtec_HSEC8-180-01-X-DV-A-BL_2x80_P0.8mm_Pol32_Socket_WeldTabs_BoardLocks
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical, alignment pins, weld tabs, board locks (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+162
+160
+Connector_Samtec_HSEC8
+Samtec_HSEC8-180-01-X-DV-A-WT_2x80_P0.8mm_Pol32_Socket_WeldTabs
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical, alignment pins, weld tabs (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+162
+160
+Connector_Samtec_HSEC8
+Samtec_HSEC8-180-01-X-DV-A_2x80_P0.8mm_Pol32_Socket_AlignmentPins
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical, alignment pins (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+160
+160
+Connector_Samtec_HSEC8
+Samtec_HSEC8-180-01-X-DV_2x80_P0.8mm_Pol32_Socket
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+160
+160
+Connector_Samtec_HSEC8
+Samtec_HSEC8-180-03-X-DV-A-WT_2x80_P0.8mm_Pol32_Socket_WeldTabs
+0.8 mm Highspeed card edge card connector socket for 2.36mm PCBs, vertical, alignment pins, weld tabs (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+162
+160
+Connector_Samtec_HSEC8
+Samtec_HSEC8-180-03-X-DV-A_2x80_P0.8mm_Pol32_Socket_AlignmentPins
+0.8 mm Highspeed card edge card connector socket for 2.36mm PCBs, vertical, alignment pins (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+160
+160
+Connector_Samtec_HSEC8
+Samtec_HSEC8-180-03-X-DV_2x80_P0.8mm_Pol32_Socket
+0.8 mm Highspeed card edge card connector socket for 2.36mm PCBs, vertical (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+160
+160
+Connector_Samtec_HSEC8
+Samtec_HSEC8-190-01-X-DV-A-BL_2x90_P0.8mm_Pol32_Socket_WeldTabs_BoardLocks
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical, alignment pins, weld tabs, board locks (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+182
+180
+Connector_Samtec_HSEC8
+Samtec_HSEC8-190-01-X-DV-A-WT_2x90_P0.8mm_Pol32_Socket_WeldTabs
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical, alignment pins, weld tabs (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+182
+180
+Connector_Samtec_HSEC8
+Samtec_HSEC8-190-01-X-DV-A_2x90_P0.8mm_Pol32_Socket_AlignmentPins
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical, alignment pins (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+180
+180
+Connector_Samtec_HSEC8
+Samtec_HSEC8-190-01-X-DV_2x90_P0.8mm_Pol32_Socket
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+180
+180
+Connector_Samtec_HSEC8
+Samtec_HSEC8-190-03-X-DV-A-WT_2x90_P0.8mm_Pol32_Socket_WeldTabs
+0.8 mm Highspeed card edge card connector socket for 2.36mm PCBs, vertical, alignment pins, weld tabs (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+182
+180
+Connector_Samtec_HSEC8
+Samtec_HSEC8-190-03-X-DV-A_2x90_P0.8mm_Pol32_Socket_AlignmentPins
+0.8 mm Highspeed card edge card connector socket for 2.36mm PCBs, vertical, alignment pins (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+180
+180
+Connector_Samtec_HSEC8
+Samtec_HSEC8-190-03-X-DV_2x90_P0.8mm_Pol32_Socket
+0.8 mm Highspeed card edge card connector socket for 2.36mm PCBs, vertical (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+180
+180
+Connector_Samtec_HSEC8
+Samtec_HSEC8-1100-01-X-DV-A-BL_2x100_P0.8mm_Pol32_Socket_WeldTabs_BoardLocks
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical, alignment pins, weld tabs, board locks (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+202
+200
+Connector_Samtec_HSEC8
+Samtec_HSEC8-1100-01-X-DV-A-WT_2x100_P0.8mm_Pol32_Socket_WeldTabs
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical, alignment pins, weld tabs (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+202
+200
+Connector_Samtec_HSEC8
+Samtec_HSEC8-1100-01-X-DV-A_2x100_P0.8mm_Pol32_Socket_AlignmentPins
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical, alignment pins (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+200
+200
+Connector_Samtec_HSEC8
+Samtec_HSEC8-1100-01-X-DV_2x100_P0.8mm_Pol32_Socket
+0.8 mm Highspeed card edge card connector socket for 1.57mm PCBs, vertical (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+200
+200
+Connector_Samtec_HSEC8
+Samtec_HSEC8-1100-03-X-DV-A-WT_2x100_P0.8mm_Pol32_Socket_WeldTabs
+0.8 mm Highspeed card edge card connector socket for 2.36mm PCBs, vertical, alignment pins, weld tabs (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+202
+200
+Connector_Samtec_HSEC8
+Samtec_HSEC8-1100-03-X-DV-A_2x100_P0.8mm_Pol32_Socket_AlignmentPins
+0.8 mm Highspeed card edge card connector socket for 2.36mm PCBs, vertical, alignment pins (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+200
+200
+Connector_Samtec_HSEC8
+Samtec_HSEC8-1100-03-X-DV_2x100_P0.8mm_Pol32_Socket
+0.8 mm Highspeed card edge card connector socket for 2.36mm PCBs, vertical (source: https://suddendocs.samtec.com/prints/hsec8-1xxx-xx-xx-dv-x-xx-footprint.pdf)
+conn samtec card-edge socket high-speed
+0
+200
+200
+Connector_Samtec_MicroMate
+Samtec_T1M-02-X-S-RA_1x02-1MP_P1.0mm_Terminal_Horizontal
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal (Right Angle) (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+4
+3
+Connector_Samtec_MicroMate
+Samtec_T1M-02-X-S-V_1x02-1MP_P1.0mm_Terminal_Vertical
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+4
+3
+Connector_Samtec_MicroMate
+Samtec_T1M-02-X-SH-L_1x02-1MP_P1.0mm_Terminal_Horizontal_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+4
+3
+Connector_Samtec_MicroMate
+Samtec_T1M-02-X-SV-L_1x02-1MP_P1.0mm_Terminal_Vertical_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+4
+3
+Connector_Samtec_MicroMate
+Samtec_T1M-03-X-S-RA_1x03-1MP_P1.0mm_Terminal_Horizontal
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal (Right Angle) (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+5
+4
+Connector_Samtec_MicroMate
+Samtec_T1M-03-X-S-V_1x03-1MP_P1.0mm_Terminal_Vertical
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+5
+4
+Connector_Samtec_MicroMate
+Samtec_T1M-03-X-SH-L_1x03-1MP_P1.0mm_Terminal_Horizontal_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+5
+4
+Connector_Samtec_MicroMate
+Samtec_T1M-03-X-SV-L_1x03-1MP_P1.0mm_Terminal_Vertical_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+5
+4
+Connector_Samtec_MicroMate
+Samtec_T1M-04-X-S-RA_1x04-1MP_P1.0mm_Terminal_Horizontal
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal (Right Angle) (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+6
+5
+Connector_Samtec_MicroMate
+Samtec_T1M-04-X-S-V_1x04-1MP_P1.0mm_Terminal_Vertical
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+6
+5
+Connector_Samtec_MicroMate
+Samtec_T1M-04-X-SH-L_1x04-1MP_P1.0mm_Terminal_Horizontal_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+6
+5
+Connector_Samtec_MicroMate
+Samtec_T1M-04-X-SV-L_1x04-1MP_P1.0mm_Terminal_Vertical_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+6
+5
+Connector_Samtec_MicroMate
+Samtec_T1M-05-X-S-RA_1x05-1MP_P1.0mm_Terminal_Horizontal
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal (Right Angle) (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+7
+6
+Connector_Samtec_MicroMate
+Samtec_T1M-05-X-S-V_1x05-1MP_P1.0mm_Terminal_Vertical
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+7
+6
+Connector_Samtec_MicroMate
+Samtec_T1M-05-X-SH-L_1x05-1MP_P1.0mm_Terminal_Horizontal_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+7
+6
+Connector_Samtec_MicroMate
+Samtec_T1M-05-X-SV-L_1x05-1MP_P1.0mm_Terminal_Vertical_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+7
+6
+Connector_Samtec_MicroMate
+Samtec_T1M-06-X-S-RA_1x06-1MP_P1.0mm_Terminal_Horizontal
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal (Right Angle) (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+8
+7
+Connector_Samtec_MicroMate
+Samtec_T1M-06-X-S-V_1x06-1MP_P1.0mm_Terminal_Vertical
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+8
+7
+Connector_Samtec_MicroMate
+Samtec_T1M-06-X-SH-L_1x06-1MP_P1.0mm_Terminal_Horizontal_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+8
+7
+Connector_Samtec_MicroMate
+Samtec_T1M-06-X-SV-L_1x06-1MP_P1.0mm_Terminal_Vertical_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+8
+7
+Connector_Samtec_MicroMate
+Samtec_T1M-07-X-S-RA_1x07-1MP_P1.0mm_Terminal_Horizontal
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal (Right Angle) (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+9
+8
+Connector_Samtec_MicroMate
+Samtec_T1M-07-X-S-V_1x07-1MP_P1.0mm_Terminal_Vertical
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+9
+8
+Connector_Samtec_MicroMate
+Samtec_T1M-07-X-SH-L_1x07-1MP_P1.0mm_Terminal_Horizontal_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+9
+8
+Connector_Samtec_MicroMate
+Samtec_T1M-07-X-SV-L_1x07-1MP_P1.0mm_Terminal_Vertical_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+9
+8
+Connector_Samtec_MicroMate
+Samtec_T1M-08-X-S-RA_1x08-1MP_P1.0mm_Terminal_Horizontal
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal (Right Angle) (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+10
+9
+Connector_Samtec_MicroMate
+Samtec_T1M-08-X-S-V_1x08-1MP_P1.0mm_Terminal_Vertical
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+10
+9
+Connector_Samtec_MicroMate
+Samtec_T1M-08-X-SH-L_1x08-1MP_P1.0mm_Terminal_Horizontal_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+10
+9
+Connector_Samtec_MicroMate
+Samtec_T1M-08-X-SV-L_1x08-1MP_P1.0mm_Terminal_Vertical_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+10
+9
+Connector_Samtec_MicroMate
+Samtec_T1M-09-X-S-RA_1x09-1MP_P1.0mm_Terminal_Horizontal
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal (Right Angle) (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+11
+10
+Connector_Samtec_MicroMate
+Samtec_T1M-09-X-S-V_1x09-1MP_P1.0mm_Terminal_Vertical
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+11
+10
+Connector_Samtec_MicroMate
+Samtec_T1M-09-X-SH-L_1x09-1MP_P1.0mm_Terminal_Horizontal_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+11
+10
+Connector_Samtec_MicroMate
+Samtec_T1M-09-X-SV-L_1x09-1MP_P1.0mm_Terminal_Vertical_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+11
+10
+Connector_Samtec_MicroMate
+Samtec_T1M-10-X-S-RA_1x10-1MP_P1.0mm_Terminal_Horizontal
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal (Right Angle) (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+12
+11
+Connector_Samtec_MicroMate
+Samtec_T1M-10-X-S-V_1x10-1MP_P1.0mm_Terminal_Vertical
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+12
+11
+Connector_Samtec_MicroMate
+Samtec_T1M-10-X-SH-L_1x10-1MP_P1.0mm_Terminal_Horizontal_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+12
+11
+Connector_Samtec_MicroMate
+Samtec_T1M-10-X-SV-L_1x10-1MP_P1.0mm_Terminal_Vertical_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+12
+11
+Connector_Samtec_MicroMate
+Samtec_T1M-11-X-S-RA_1x11-1MP_P1.0mm_Terminal_Horizontal
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal (Right Angle) (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+13
+12
+Connector_Samtec_MicroMate
+Samtec_T1M-11-X-S-V_1x11-1MP_P1.0mm_Terminal_Vertical
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+13
+12
+Connector_Samtec_MicroMate
+Samtec_T1M-11-X-SH-L_1x11-1MP_P1.0mm_Terminal_Horizontal_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+13
+12
+Connector_Samtec_MicroMate
+Samtec_T1M-11-X-SV-L_1x11-1MP_P1.0mm_Terminal_Vertical_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+13
+12
+Connector_Samtec_MicroMate
+Samtec_T1M-12-X-S-RA_1x12-1MP_P1.0mm_Terminal_Horizontal
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal (Right Angle) (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+14
+13
+Connector_Samtec_MicroMate
+Samtec_T1M-12-X-S-V_1x12-1MP_P1.0mm_Terminal_Vertical
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+14
+13
+Connector_Samtec_MicroMate
+Samtec_T1M-12-X-SH-L_1x12-1MP_P1.0mm_Terminal_Horizontal_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+14
+13
+Connector_Samtec_MicroMate
+Samtec_T1M-12-X-SV-L_1x12-1MP_P1.0mm_Terminal_Vertical_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+14
+13
+Connector_Samtec_MicroMate
+Samtec_T1M-13-X-S-RA_1x13-1MP_P1.0mm_Terminal_Horizontal
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal (Right Angle) (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+15
+14
+Connector_Samtec_MicroMate
+Samtec_T1M-13-X-S-V_1x13-1MP_P1.0mm_Terminal_Vertical
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+15
+14
+Connector_Samtec_MicroMate
+Samtec_T1M-13-X-SH-L_1x13-1MP_P1.0mm_Terminal_Horizontal_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+15
+14
+Connector_Samtec_MicroMate
+Samtec_T1M-13-X-SV-L_1x13-1MP_P1.0mm_Terminal_Vertical_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+15
+14
+Connector_Samtec_MicroMate
+Samtec_T1M-14-X-S-RA_1x14-1MP_P1.0mm_Terminal_Horizontal
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal (Right Angle) (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+16
+15
+Connector_Samtec_MicroMate
+Samtec_T1M-14-X-S-V_1x14-1MP_P1.0mm_Terminal_Vertical
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+16
+15
+Connector_Samtec_MicroMate
+Samtec_T1M-14-X-SH-L_1x14-1MP_P1.0mm_Terminal_Horizontal_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+16
+15
+Connector_Samtec_MicroMate
+Samtec_T1M-14-X-SV-L_1x14-1MP_P1.0mm_Terminal_Vertical_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+16
+15
+Connector_Samtec_MicroMate
+Samtec_T1M-15-X-S-RA_1x15-1MP_P1.0mm_Terminal_Horizontal
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal (Right Angle) (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+17
+16
+Connector_Samtec_MicroMate
+Samtec_T1M-15-X-S-V_1x15-1MP_P1.0mm_Terminal_Vertical
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+17
+16
+Connector_Samtec_MicroMate
+Samtec_T1M-15-X-SH-L_1x15-1MP_P1.0mm_Terminal_Horizontal_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+17
+16
+Connector_Samtec_MicroMate
+Samtec_T1M-15-X-SV-L_1x15-1MP_P1.0mm_Terminal_Vertical_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+17
+16
+Connector_Samtec_MicroMate
+Samtec_T1M-16-X-S-RA_1x16-1MP_P1.0mm_Terminal_Horizontal
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal (Right Angle) (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+18
+17
+Connector_Samtec_MicroMate
+Samtec_T1M-16-X-S-V_1x16-1MP_P1.0mm_Terminal_Vertical
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+18
+17
+Connector_Samtec_MicroMate
+Samtec_T1M-16-X-SH-L_1x16-1MP_P1.0mm_Terminal_Horizontal_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+18
+17
+Connector_Samtec_MicroMate
+Samtec_T1M-16-X-SV-L_1x16-1MP_P1.0mm_Terminal_Vertical_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+18
+17
+Connector_Samtec_MicroMate
+Samtec_T1M-17-X-S-RA_1x17-1MP_P1.0mm_Terminal_Horizontal
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal (Right Angle) (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+19
+18
+Connector_Samtec_MicroMate
+Samtec_T1M-17-X-S-V_1x17-1MP_P1.0mm_Terminal_Vertical
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+19
+18
+Connector_Samtec_MicroMate
+Samtec_T1M-17-X-SH-L_1x17-1MP_P1.0mm_Terminal_Horizontal_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+19
+18
+Connector_Samtec_MicroMate
+Samtec_T1M-17-X-SV-L_1x17-1MP_P1.0mm_Terminal_Vertical_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+19
+18
+Connector_Samtec_MicroMate
+Samtec_T1M-18-X-S-RA_1x18-1MP_P1.0mm_Terminal_Horizontal
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal (Right Angle) (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+20
+19
+Connector_Samtec_MicroMate
+Samtec_T1M-18-X-S-V_1x18-1MP_P1.0mm_Terminal_Vertical
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+20
+19
+Connector_Samtec_MicroMate
+Samtec_T1M-18-X-SH-L_1x18-1MP_P1.0mm_Terminal_Horizontal_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+20
+19
+Connector_Samtec_MicroMate
+Samtec_T1M-18-X-SV-L_1x18-1MP_P1.0mm_Terminal_Vertical_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+20
+19
+Connector_Samtec_MicroMate
+Samtec_T1M-19-X-S-RA_1x19-1MP_P1.0mm_Terminal_Horizontal
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal (Right Angle) (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+21
+20
+Connector_Samtec_MicroMate
+Samtec_T1M-19-X-S-V_1x19-1MP_P1.0mm_Terminal_Vertical
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+21
+20
+Connector_Samtec_MicroMate
+Samtec_T1M-19-X-SH-L_1x19-1MP_P1.0mm_Terminal_Horizontal_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+21
+20
+Connector_Samtec_MicroMate
+Samtec_T1M-19-X-SV-L_1x19-1MP_P1.0mm_Terminal_Vertical_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+21
+20
+Connector_Samtec_MicroMate
+Samtec_T1M-20-X-S-RA_1x20-1MP_P1.0mm_Terminal_Horizontal
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal (Right Angle) (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+22
+21
+Connector_Samtec_MicroMate
+Samtec_T1M-20-X-S-V_1x20-1MP_P1.0mm_Terminal_Vertical
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+22
+21
+Connector_Samtec_MicroMate
+Samtec_T1M-20-X-SH-L_1x20-1MP_P1.0mm_Terminal_Horizontal_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Horizontal, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+22
+21
+Connector_Samtec_MicroMate
+Samtec_T1M-20-X-SV-L_1x20-1MP_P1.0mm_Terminal_Vertical_Latch
+Samtec Micro Mate Discrete Wire Terminal Strip, 1.00 mm Pitch, Single Row, Vertical, Latch (source: https://suddendocs.samtec.com/prints/t1m-single-row-footprint.pdf)
+conn samtec discrete wire terminal
+0
+22
+21
 Connector_Stocko
 Stocko_MKS_1651-6-0-202_1x2_P2.50mm_Vertical
 Stocko MKS 16xx series connector, (https://www.stocko-contact.com/downloads/steckverbindersystem-raster-2,5-mm.pdf#page=15), generated with kicad-footprint-generator
@@ -63917,6 +65072,20 @@ Mounting 4.5mm 9774100982
 8
 1
 NX-ButtonInterface
+4-pin-solder-pads
+
+
+0
+4
+4
+NX-ButtonInterface
+7-pin-solder-pads
+
+
+0
+7
+7
+NX-ButtonInterface
 70541-0006
 
 
@@ -65085,622 +66254,6 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
-PCM_Elektuur
-Pad_0.048in_Drill0.028in
-Single round THT pad ⌀ 0.048 in, hole ⌀ 0.028 in, nominal trace width 0.020 in
-
-0
-1
-1
-PCM_Elektuur
-Pad_0.058in_Drill0.036in
-Single round THT pad ⌀ 0.058 in, hole ⌀ 0.036 in, nominal trace width 0.024 in
-
-0
-1
-1
-PCM_Elektuur
-Pad_0.060in_Drill0.034in
-Single round THT pad ⌀ 0.060 in, hole ⌀ 0.034 in, nominal trace width 0.025 in
-
-0
-1
-1
-PCM_Elektuur
-Pad_0.060x0.043in_Drill0.034in
-Single obround THT pad 0.060×0.043 in², hole ⌀ 0.034 in, nominal trace width 0.025 in
-
-0
-5
-1
-PCM_Elektuur
-Pad_0.063in_Drill0.039in
-Single round THT pad ⌀ 0.063 in, hole ⌀ 0.039 in, nominal trace width 0.026 in
-
-0
-1
-1
-PCM_Elektuur
-Pad_0.072in_Drill0.040in
-Single round THT pad ⌀ 0.072 in, hole ⌀ 0.040 in, nominal trace width 0.030 in
-
-0
-1
-1
-PCM_Elektuur
-Pad_0.072in_Drill0.052in
-Single round THT pad ⌀ 0.072 in, hole ⌀ 0.052 in, nominal trace width 0.030 in
-
-0
-1
-1
-PCM_Elektuur
-Pad_0.097in_Drill0.040in
-Single round THT pad ⌀ 0.097 in, hole ⌀ 0.040 in, nominal trace width 0.040 in
-
-0
-1
-1
-PCM_Elektuur
-Pad_0.097x0.068in_Drill0.040in
-Single obround THT pad 0.097×0.068 in², hole ⌀ 0.040 in, nominal trace width 0.040 in
-
-0
-5
-1
-PCM_Elektuur
-Pad_0.097x0.068in_Drill0.040in_Offset
-Single obround THT pad 0.097×0.068 in², hole ⌀ 0.040 in, nominal trace width 0.040 in, offset hole
-
-0
-5
-1
-PCM_Elektuur
-Pad_0.121in_Drill0.048in
-Single round THT pad ⌀ 0.121 in, hole ⌀ 0.048 in, nominal trace width 0.050 in
-
-0
-1
-1
-PCM_Elektuur
-Pad_1.21mm_Drill0.7mm
-Single round THT pad ⌀ 1.21 mm, hole ⌀ 0.7 mm, nominal trace width 0.5 mm
-
-0
-1
-1
-PCM_Elektuur
-Pad_1.45mm_Drill0.9mm
-Single round THT pad ⌀ 1.45 mm, hole ⌀ 0.9 mm, nominal trace width 0.6 mm
-
-0
-1
-1
-PCM_Elektuur
-Pad_1.51mm_Drill0.8mm
-Single round THT pad ⌀ 1.51 mm, hole ⌀ 0.85 mm, nominal trace width 0.625 mm
-
-0
-1
-1
-PCM_Elektuur
-Pad_1.51x1.07mm_Drill0.8mm
-Single obround THT pad 1.51×1.07 mm², hole ⌀ 0.85 mm, nominal trace width 0.625 mm
-
-0
-5
-1
-PCM_Elektuur
-Pad_1.57mm_Drill1.0mm
-Single round THT pad ⌀ 1.57 mm, hole ⌀ 0.975 mm, nominal trace width 0.65 mm
-
-0
-1
-1
-PCM_Elektuur
-Pad_1.81mm_Drill1.0mm
-Single round THT pad ⌀ 1.81 mm, hole ⌀ 1 mm, nominal trace width 0.75 mm
-
-0
-1
-1
-PCM_Elektuur
-Pad_1.81mm_Drill1.3mm
-Single round THT pad ⌀ 1.81 mm, hole ⌀ 1.3 mm, nominal trace width 0.75 mm
-
-0
-1
-1
-PCM_Elektuur
-Pad_2.41mm_Drill1.0mm
-Single round THT pad ⌀ 2.41 mm, hole ⌀ 1 mm, nominal trace width 1 mm
-
-0
-1
-1
-PCM_Elektuur
-Pad_2.41x1.71mm_Drill1.0mm
-Single obround THT pad 2.41×1.71 mm², hole ⌀ 1 mm, nominal trace width 1 mm
-
-0
-5
-1
-PCM_Elektuur
-Pad_2.41x1.71mm_Drill1.0mm_Offset
-Single obround THT pad 2.41×1.71 mm², hole ⌀ 1 mm, nominal trace width 1 mm, offset hole
-
-0
-5
-1
-PCM_Elektuur
-Pad_3.02mm_Drill1.2mm
-Single round THT pad ⌀ 3.02 mm, hole ⌀ 1.2 mm, nominal trace width 1.25 mm
-
-0
-1
-1
-PCM_Elektuur
-Pad_Chamfer_0.048x0.048in_Drill0.028in
-Single chamfered THT pad 0.048×0.048 in², hole ⌀ 0.028 in, nominal trace width 0.020 in
-
-0
-1
-1
-PCM_Elektuur
-Pad_Chamfer_0.058x0.058in_Drill0.036in
-Single chamfered THT pad 0.058×0.058 in², hole ⌀ 0.036 in, nominal trace width 0.024 in
-
-0
-1
-1
-PCM_Elektuur
-Pad_Chamfer_0.060x0.043in_Drill0.034in
-Single chamfered THT pad 0.060×0.043 in², hole ⌀ 0.034 in, nominal trace width 0.025 in
-
-0
-5
-1
-PCM_Elektuur
-Pad_Chamfer_0.060x0.060in_Drill0.034in
-Single chamfered THT pad 0.060×0.060 in², hole ⌀ 0.034 in, nominal trace width 0.025 in
-
-0
-1
-1
-PCM_Elektuur
-Pad_Chamfer_0.063x0.063in_Drill0.039in
-Single chamfered THT pad 0.063×0.063 in², hole ⌀ 0.039 in, nominal trace width 0.026 in
-
-0
-1
-1
-PCM_Elektuur
-Pad_Chamfer_0.072x0.072in_Drill0.040in
-Single chamfered THT pad 0.072×0.072 in², hole ⌀ 0.040 in, nominal trace width 0.030 in
-
-0
-1
-1
-PCM_Elektuur
-Pad_Chamfer_0.072x0.072in_Drill0.052in
-Single chamfered THT pad 0.072×0.072 in², hole ⌀ 0.052 in, nominal trace width 0.030 in
-
-0
-1
-1
-PCM_Elektuur
-Pad_Chamfer_0.097x0.068in_Drill0.040in
-Single chamfered THT pad 0.097×0.068 in², hole ⌀ 0.040 in, nominal trace width 0.040 in
-
-0
-5
-1
-PCM_Elektuur
-Pad_Chamfer_0.097x0.068in_Drill0.040in_Offset
-Single chamfered THT pad 0.097×0.068 in², hole ⌀ 0.040 in, nominal trace width 0.040 in, offset hole
-
-0
-5
-1
-PCM_Elektuur
-Pad_Chamfer_0.097x0.097in_Drill0.040in
-Single chamfered THT pad 0.097×0.097 in², hole ⌀ 0.040 in, nominal trace width 0.040 in
-
-0
-1
-1
-PCM_Elektuur
-Pad_Chamfer_0.121x0.121in_Drill0.048in
-Single chamfered THT pad 0.121×0.121 in², hole ⌀ 0.048 in, nominal trace width 0.050 in
-
-0
-1
-1
-PCM_Elektuur
-Pad_Chamfer_1.21x1.21mm_Drill0.7mm
-Single chamfered THT pad 1.21×1.21 mm², hole ⌀ 0.7 mm, nominal trace width 0.5 mm
-
-0
-1
-1
-PCM_Elektuur
-Pad_Chamfer_1.45x1.45mm_Drill0.9mm
-Single chamfered THT pad 1.45×1.45 mm², hole ⌀ 0.9 mm, nominal trace width 0.6 mm
-
-0
-1
-1
-PCM_Elektuur
-Pad_Chamfer_1.51x1.07mm_Drill0.8mm
-Single chamfered THT pad 1.51×1.07 mm², hole ⌀ 0.85 mm, nominal trace width 0.625 mm
-
-0
-5
-1
-PCM_Elektuur
-Pad_Chamfer_1.51x1.51mm_Drill0.8mm
-Single chamfered THT pad 1.51×1.51 mm², hole ⌀ 0.85 mm, nominal trace width 0.625 mm
-
-0
-1
-1
-PCM_Elektuur
-Pad_Chamfer_1.57x1.57mm_Drill1.0mm
-Single chamfered THT pad 1.57×1.57 mm², hole ⌀ 0.975 mm, nominal trace width 0.65 mm
-
-0
-1
-1
-PCM_Elektuur
-Pad_Chamfer_1.81x1.81mm_Drill1.0mm
-Single chamfered THT pad 1.81×1.81 mm², hole ⌀ 1 mm, nominal trace width 0.75 mm
-
-0
-1
-1
-PCM_Elektuur
-Pad_Chamfer_1.81x1.81mm_Drill1.3mm
-Single chamfered THT pad 1.81×1.81 mm², hole ⌀ 1.3 mm, nominal trace width 0.75 mm
-
-0
-1
-1
-PCM_Elektuur
-Pad_Chamfer_2.41x1.71mm_Drill1.0mm
-Single chamfered THT pad 2.41×1.71 mm², hole ⌀ 1 mm, nominal trace width 1 mm
-
-0
-5
-1
-PCM_Elektuur
-Pad_Chamfer_2.41x1.71mm_Drill1.0mm_Offset
-Single chamfered THT pad 2.41×1.71 mm², hole ⌀ 1 mm, nominal trace width 1 mm, offset hole
-
-0
-5
-1
-PCM_Elektuur
-Pad_Chamfer_2.41x2.41mm_Drill1.0mm
-Single chamfered THT pad 2.41×2.41 mm², hole ⌀ 1 mm, nominal trace width 1 mm
-
-0
-1
-1
-PCM_Elektuur
-Pad_Chamfer_3.02x3.02mm_Drill1.2mm
-Single chamfered THT pad 3.02×3.02 mm², hole ⌀ 1.2 mm, nominal trace width 1.25 mm
-
-0
-1
-1
-PCM_Elektuur
-Pad_Octa_0.048x0.048in_Drill0.028in
-Single octagonal THT pad 0.048×0.048 in², hole ⌀ 0.028 in, nominal trace width 0.020 in
-
-0
-1
-1
-PCM_Elektuur
-Pad_Octa_0.058x0.058in_Drill0.036in
-Single octagonal THT pad 0.058×0.058 in², hole ⌀ 0.036 in, nominal trace width 0.024 in
-
-0
-1
-1
-PCM_Elektuur
-Pad_Octa_0.060x0.043in_Drill0.034in
-Single octagonal THT pad 0.060×0.043 in², hole ⌀ 0.034 in, nominal trace width 0.025 in
-
-0
-5
-1
-PCM_Elektuur
-Pad_Octa_0.060x0.060in_Drill0.034in
-Single octagonal THT pad 0.060×0.060 in², hole ⌀ 0.034 in, nominal trace width 0.025 in
-
-0
-1
-1
-PCM_Elektuur
-Pad_Octa_0.063x0.063in_Drill0.039in
-Single octagonal THT pad 0.063×0.063 in², hole ⌀ 0.039 in, nominal trace width 0.026 in
-
-0
-1
-1
-PCM_Elektuur
-Pad_Octa_0.072x0.072in_Drill0.040in
-Single octagonal THT pad 0.072×0.072 in², hole ⌀ 0.040 in, nominal trace width 0.030 in
-
-0
-1
-1
-PCM_Elektuur
-Pad_Octa_0.072x0.072in_Drill0.052in
-Single octagonal THT pad 0.072×0.072 in², hole ⌀ 0.052 in, nominal trace width 0.030 in
-
-0
-1
-1
-PCM_Elektuur
-Pad_Octa_0.097x0.068in_Drill0.040in
-Single octagonal THT pad 0.097×0.068 in², hole ⌀ 0.040 in, nominal trace width 0.040 in
-
-0
-5
-1
-PCM_Elektuur
-Pad_Octa_0.097x0.068in_Drill0.040in_Offset
-Single octagonal THT pad 0.097×0.068 in², hole ⌀ 0.040 in, nominal trace width 0.040 in, offset hole
-
-0
-5
-1
-PCM_Elektuur
-Pad_Octa_0.097x0.097in_Drill0.040in
-Single octagonal THT pad 0.097×0.097 in², hole ⌀ 0.040 in, nominal trace width 0.040 in
-
-0
-1
-1
-PCM_Elektuur
-Pad_Octa_0.121x0.121in_Drill0.048in
-Single octagonal THT pad 0.121×0.121 in², hole ⌀ 0.048 in, nominal trace width 0.050 in
-
-0
-1
-1
-PCM_Elektuur
-Pad_Octa_1.21x1.21mm_Drill0.7mm
-Single octagonal THT pad 1.21×1.21 mm², hole ⌀ 0.7 mm, nominal trace width 0.5 mm
-
-0
-1
-1
-PCM_Elektuur
-Pad_Octa_1.45x1.45mm_Drill0.9mm
-Single octagonal THT pad 1.45×1.45 mm², hole ⌀ 0.9 mm, nominal trace width 0.6 mm
-
-0
-1
-1
-PCM_Elektuur
-Pad_Octa_1.51x1.07mm_Drill0.8mm
-Single octagonal THT pad 1.51×1.07 mm², hole ⌀ 0.85 mm, nominal trace width 0.625 mm
-
-0
-5
-1
-PCM_Elektuur
-Pad_Octa_1.51x1.51mm_Drill0.8mm
-Single octagonal THT pad 1.51×1.51 mm², hole ⌀ 0.85 mm, nominal trace width 0.625 mm
-
-0
-1
-1
-PCM_Elektuur
-Pad_Octa_1.57x1.57mm_Drill1.0mm
-Single octagonal THT pad 1.57×1.57 mm², hole ⌀ 0.975 mm, nominal trace width 0.65 mm
-
-0
-1
-1
-PCM_Elektuur
-Pad_Octa_1.81x1.81mm_Drill1.0mm
-Single octagonal THT pad 1.81×1.81 mm², hole ⌀ 1 mm, nominal trace width 0.75 mm
-
-0
-1
-1
-PCM_Elektuur
-Pad_Octa_1.81x1.81mm_Drill1.3mm
-Single octagonal THT pad 1.81×1.81 mm², hole ⌀ 1.3 mm, nominal trace width 0.75 mm
-
-0
-1
-1
-PCM_Elektuur
-Pad_Octa_2.41x1.71mm_Drill1.0mm
-Single octagonal THT pad 2.41×1.71 mm², hole ⌀ 1 mm, nominal trace width 1 mm
-
-0
-5
-1
-PCM_Elektuur
-Pad_Octa_2.41x1.71mm_Drill1.0mm_Offset
-Single octagonal THT pad 2.41×1.71 mm², hole ⌀ 1 mm, nominal trace width 1 mm, offset hole
-
-0
-5
-1
-PCM_Elektuur
-Pad_Octa_2.41x2.41mm_Drill1.0mm
-Single octagonal THT pad 2.41×2.41 mm², hole ⌀ 1 mm, nominal trace width 1 mm
-
-0
-1
-1
-PCM_Elektuur
-Pad_Octa_3.02x3.02mm_Drill1.2mm
-Single octagonal THT pad 3.02×3.02 mm², hole ⌀ 1.2 mm, nominal trace width 1.25 mm
-
-0
-1
-1
-PCM_Elektuur
-Pad_Rect_0.048x0.048in_Drill0.028in
-Single square THT pad 0.048×0.048 in², hole ⌀ 0.028 in, nominal trace width 0.020 in
-
-0
-1
-1
-PCM_Elektuur
-Pad_Rect_0.058x0.058in_Drill0.036in
-Single square THT pad 0.058×0.058 in², hole ⌀ 0.036 in, nominal trace width 0.024 in
-
-0
-1
-1
-PCM_Elektuur
-Pad_Rect_0.060x0.043in_Drill0.034in
-Single rectangular THT pad 0.060×0.043 in², hole ⌀ 0.034 in, nominal trace width 0.025 in
-
-0
-5
-1
-PCM_Elektuur
-Pad_Rect_0.060x0.060in_Drill0.034in
-Single square THT pad 0.060×0.060 in², hole ⌀ 0.034 in, nominal trace width 0.025 in
-
-0
-1
-1
-PCM_Elektuur
-Pad_Rect_0.063x0.063in_Drill0.039in
-Single square THT pad 0.063×0.063 in², hole ⌀ 0.039 in, nominal trace width 0.026 in
-
-0
-1
-1
-PCM_Elektuur
-Pad_Rect_0.072x0.072in_Drill0.040in
-Single square THT pad 0.072×0.072 in², hole ⌀ 0.040 in, nominal trace width 0.030 in
-
-0
-1
-1
-PCM_Elektuur
-Pad_Rect_0.072x0.072in_Drill0.052in
-Single square THT pad 0.072×0.072 in², hole ⌀ 0.052 in, nominal trace width 0.030 in
-
-0
-1
-1
-PCM_Elektuur
-Pad_Rect_0.097x0.068in_Drill0.040in
-Single rectangular THT pad 0.097×0.068 in², hole ⌀ 0.040 in, nominal trace width 0.040 in
-
-0
-5
-1
-PCM_Elektuur
-Pad_Rect_0.097x0.068in_Drill0.040in_Offset
-Single rectangular THT pad 0.097×0.068 in², hole ⌀ 0.040 in, nominal trace width 0.040 in, offset hole
-
-0
-5
-1
-PCM_Elektuur
-Pad_Rect_0.097x0.097in_Drill0.040in
-Single square THT pad 0.097×0.097 in², hole ⌀ 0.040 in, nominal trace width 0.040 in
-
-0
-1
-1
-PCM_Elektuur
-Pad_Rect_0.121x0.121in_Drill0.048in
-Single square THT pad 0.121×0.121 in², hole ⌀ 0.048 in, nominal trace width 0.050 in
-
-0
-1
-1
-PCM_Elektuur
-Pad_Rect_1.21x1.21mm_Drill0.7mm
-Single square THT pad 1.21×1.21 mm², hole ⌀ 0.7 mm, nominal trace width 0.5 mm
-
-0
-1
-1
-PCM_Elektuur
-Pad_Rect_1.45x1.45mm_Drill0.9mm
-Single square THT pad 1.45×1.45 mm², hole ⌀ 0.9 mm, nominal trace width 0.6 mm
-
-0
-1
-1
-PCM_Elektuur
-Pad_Rect_1.51x1.07mm_Drill0.8mm
-Single rectangular THT pad 1.51×1.07 mm², hole ⌀ 0.85 mm, nominal trace width 0.625 mm
-
-0
-5
-1
-PCM_Elektuur
-Pad_Rect_1.51x1.51mm_Drill0.8mm
-Single square THT pad 1.51×1.51 mm², hole ⌀ 0.85 mm, nominal trace width 0.625 mm
-
-0
-1
-1
-PCM_Elektuur
-Pad_Rect_1.57x1.57mm_Drill1.0mm
-Single square THT pad 1.57×1.57 mm², hole ⌀ 0.975 mm, nominal trace width 0.65 mm
-
-0
-1
-1
-PCM_Elektuur
-Pad_Rect_1.81x1.81mm_Drill1.0mm
-Single square THT pad 1.81×1.81 mm², hole ⌀ 1 mm, nominal trace width 0.75 mm
-
-0
-1
-1
-PCM_Elektuur
-Pad_Rect_1.81x1.81mm_Drill1.3mm
-Single square THT pad 1.81×1.81 mm², hole ⌀ 1.3 mm, nominal trace width 0.75 mm
-
-0
-1
-1
-PCM_Elektuur
-Pad_Rect_2.41x1.71mm_Drill1.0mm
-Single rectangular THT pad 2.41×1.71 mm², hole ⌀ 1 mm, nominal trace width 1 mm
-
-0
-5
-1
-PCM_Elektuur
-Pad_Rect_2.41x1.71mm_Drill1.0mm_Offset
-Single rectangular THT pad 2.41×1.71 mm², hole ⌀ 1 mm, nominal trace width 1 mm, offset hole
-
-0
-5
-1
-PCM_Elektuur
-Pad_Rect_2.41x2.41mm_Drill1.0mm
-Single square THT pad 2.41×2.41 mm², hole ⌀ 1 mm, nominal trace width 1 mm
-
-0
-1
-1
-PCM_Elektuur
-Pad_Rect_3.02x3.02mm_Drill1.2mm
-Single square THT pad 3.02×3.02 mm², hole ⌀ 1.2 mm, nominal trace width 1.25 mm
-
-0
-1
-1
 Package_BGA
 Analog_BGA-28_4.0x6.25mm_Layout4x7_P0.8mm_Ball0.45mm_Pad0.4
 Analog BGA-28 4.0mm x 6.25mm package, pitch 0.4mm pad, based on https://www.analog.com/media/en/technical-documentation/data-sheets/8063fa.pdf
