@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/home/scott/Documents/Projects/dev/git/971-electrical/circuit-boards/Orin-NX-PCBs/NX-ButtonInterface/NX-ButtonInterface.kicad_sch</source>
-    <date>Fri 05 Jan 2024 07:05:37 PM PST</date>
-    <tool>Eeschema 7.0.10-7.0.10~ubuntu22.04.1</tool>
+    <source>/home/scottberman/Documents/Projects/dev/git/971-electrical/circuit-boards/Orin-NX-PCBs/NX-ButtonInterface/NX-ButtonInterface.kicad_sch</source>
+    <date>Sun 07 Jan 2024 02:40:19 PM PST</date>
+    <tool>Eeschema 7.0.10-7.0.10~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Button Interface</title>
@@ -48,19 +48,12 @@
     </comp>
     <comp ref="J2">
       <value>CAN-NX</value>
-      <footprint>NX-ButtonInterface:70543-0003</footprint>
-      <datasheet>Components/Molex-70543-0001.pdf</datasheet>
-      <fields>
-        <field name="DIST">Digikey</field>
-        <field name="DIST P/N">WM4802-ND</field>
-        <field name="MFG">Molex</field>
-        <field name="MFG P/N">0705430003</field>
-      </fields>
+      <footprint>NX-ButtonInterface:4-pin-solder-pads</footprint>
       <libsource lib="Connector" part="Conn_01x04_Pin" description="Generic connector, single row, 01x04, script generated"/>
-      <property name="MFG" value="Molex"/>
-      <property name="MFG P/N" value="0705430003"/>
-      <property name="DIST" value="Digikey"/>
-      <property name="DIST P/N" value="WM4802-ND"/>
+      <property name="MFG" value=""/>
+      <property name="MFG P/N" value=""/>
+      <property name="DIST" value=""/>
+      <property name="DIST P/N" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="NX-ButtonInterface.kicad_sch"/>
       <property name="ki_description" value="Generic connector, single row, 01x04, script generated"/>
@@ -70,19 +63,12 @@
     </comp>
     <comp ref="J3">
       <value>NX-BUTTON</value>
-      <footprint>NX-ButtonInterface:70543-0006</footprint>
-      <datasheet>Components/Molex-70543-0001.pdf</datasheet>
-      <fields>
-        <field name="DIST">Digikey</field>
-        <field name="DIST P/N">WM4805-ND</field>
-        <field name="MFG">Molex</field>
-        <field name="MFG P/N">0705430006</field>
-      </fields>
+      <footprint>NX-ButtonInterface:7-pin-solder-pads</footprint>
       <libsource lib="Connector" part="Conn_01x07_Pin" description="Generic connector, single row, 01x07, script generated"/>
-      <property name="DIST" value="Digikey"/>
-      <property name="DIST P/N" value="WM4805-ND"/>
-      <property name="MFG" value="Molex"/>
-      <property name="MFG P/N" value="0705430006"/>
+      <property name="DIST" value=""/>
+      <property name="DIST P/N" value=""/>
+      <property name="MFG" value=""/>
+      <property name="MFG P/N" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="NX-ButtonInterface.kicad_sch"/>
       <property name="ki_description" value="Generic connector, single row, 01x07, script generated"/>
@@ -172,45 +158,45 @@
   <nets>
     <net code="1" name="/3V3">
       <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
-      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
     <net code="2" name="/CAN_RX">
       <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
     </net>
     <net code="3" name="/CAN_TX">
       <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
     </net>
     <net code="4" name="/GND">
       <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
     </net>
     <net code="5" name="/NX_PC_LED-">
       <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
-      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="7" pinfunction="Pin_7" pintype="passive"/>
     </net>
     <net code="6" name="/SYS_RST_RCV_RTN">
       <node ref="J1" pin="13" pinfunction="Pin_13" pintype="passive"/>
       <node ref="J1" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
-      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
     </net>
     <net code="7" name="/UART2_RXD">
       <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive"/>
-      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
     </net>
     <net code="8" name="/UART2_TXD">
       <node ref="J1" pin="10" pinfunction="Pin_10" pintype="passive"/>
-      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
     </net>
     <net code="9" name="/~{REC}">
       <node ref="J1" pin="16" pinfunction="Pin_16" pintype="passive"/>
-      <node ref="J3" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
     <net code="10" name="/~{SYS_RESET}">
       <node ref="J1" pin="14" pinfunction="Pin_14" pintype="passive"/>
-      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
     </net>
     <net code="11" name="unconnected-(J1-Pin_5-Pad5)">
       <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>

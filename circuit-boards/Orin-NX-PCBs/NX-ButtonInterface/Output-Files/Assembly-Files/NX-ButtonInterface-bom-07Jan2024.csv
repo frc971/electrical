@@ -1,4 +1,3 @@
 Item, Qty, Reference(s), Value, DIST, DIST P/N, MFG, MFG P/N, 
 "1","1","J1","NX CONTROL & UART","Digikey","S7016-ND","Sullins Connector Solutions","PPTC181LFBN-RC"
-"2","1","J2","CAN-NX","Digikey","WM4802-ND","Molex","0705430003"
-"3","1","J3","NX-BUTTON","Digikey","WM4805-ND","Molex","0705430006"
+"2","2","J2,J3","CAN-NX,NX-BUTTON","","","",""

@@ -1,9 +1,7 @@
-### Footprint positions - created on Fri 05 Jan 2024 07:06:29 PM PST ###
-### Printed by KiCad version 7.0.10-7.0.10~ubuntu22.04.1
+### Footprint positions - created on Sun 07 Jan 2024 02:41:38 PM PST ###
+### Printed by KiCad version 7.0.10-7.0.10~ubuntu20.04.1
 ## Unit = inches, Angle = deg.
 ## Side : top
 # Ref     Val                Package                               PosX       PosY       Rot  Side
 J1        NX_CONTROL_&_UART  PinSocket_1x18_P2.54mm_Vertical     5.1150    -3.6600  -90.0000  top
-J2        CAN-NX             70543-0003                          5.0150    -4.0700    0.0000  top
-J3        NX-BUTTON          70543-0006                          4.3150    -4.0700    0.0000  top
 ## End
