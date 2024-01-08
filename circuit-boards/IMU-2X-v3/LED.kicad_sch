@@ -644,7 +644,7 @@
   (symbol (lib_id "power:+3V3") (at 199.39 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 09e998d2-50ee-487e-a6b5-7284c3e75b9c)
-    (property "Reference" "#PWR071" (at 199.39 106.68 0)
+    (property "Reference" "#PWR069" (at 199.39 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 199.39 99.06 0)
@@ -659,9 +659,6 @@
     (pin "1" (uuid 58c0c729-f099-409a-abbf-5ef34edc78d0))
     (instances
       (project "IMU-2X"
-        (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6"
-          (reference "#PWR071") (unit 1)
-        )
         (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6/088575d8-b480-483a-8195-b5bd2af558b0"
           (reference "#PWR069") (unit 1)
         )
@@ -700,9 +697,6 @@
     (pin "2" (uuid f1321984-621c-4363-8f54-7f18c8163f30))
     (instances
       (project "IMU-2X"
-        (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6"
-          (reference "R22") (unit 1)
-        )
         (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6/088575d8-b480-483a-8195-b5bd2af558b0"
           (reference "R22") (unit 1)
         )
@@ -713,7 +707,7 @@
   (symbol (lib_id "Device:R_US") (at 210.82 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 163f4ea0-44a2-4dcf-9139-0041030434b6)
-    (property "Reference" "R23" (at 214.63 85.09 0)
+    (property "Reference" "R10" (at 214.63 85.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10.0k-1%-0603" (at 214.63 87.5438 0)
@@ -741,9 +735,6 @@
     (pin "2" (uuid 5719298c-55b8-4f22-aaa3-f7ec57384f87))
     (instances
       (project "IMU-2X"
-        (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6"
-          (reference "R23") (unit 1)
-        )
         (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6/088575d8-b480-483a-8195-b5bd2af558b0"
           (reference "R10") (unit 1)
         )
@@ -754,7 +745,7 @@
   (symbol (lib_id "power:+3V3") (at 245.11 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 179268b4-b0e3-41af-a324-786c530b8cac)
-    (property "Reference" "#PWR073" (at 245.11 130.81 0)
+    (property "Reference" "#PWR04" (at 245.11 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 245.11 123.19 0)
@@ -769,9 +760,6 @@
     (pin "1" (uuid ce3efb86-22b1-403f-ac7d-0b3276c09b1d))
     (instances
       (project "IMU-2X"
-        (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6"
-          (reference "#PWR073") (unit 1)
-        )
         (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6/088575d8-b480-483a-8195-b5bd2af558b0"
           (reference "#PWR04") (unit 1)
         )
@@ -810,9 +798,6 @@
     (pin "2" (uuid 55882c83-2e86-48f4-8df6-ab38795eed0a))
     (instances
       (project "IMU-2X"
-        (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6"
-          (reference "D3") (unit 1)
-        )
         (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6/088575d8-b480-483a-8195-b5bd2af558b0"
           (reference "D3") (unit 1)
         )
@@ -907,7 +892,7 @@
   (symbol (lib_id "power:+3V3") (at 236.22 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 36109bb4-9100-44c8-8058-3f1fb35f753f)
-    (property "Reference" "#PWR073" (at 236.22 41.91 0)
+    (property "Reference" "#PWR085" (at 236.22 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 236.22 34.29 0)
@@ -922,9 +907,6 @@
     (pin "1" (uuid f88fb8fa-2d3c-4c93-b00e-7e8a0ed4cb4b))
     (instances
       (project "IMU-2X"
-        (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6"
-          (reference "#PWR073") (unit 1)
-        )
         (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6/088575d8-b480-483a-8195-b5bd2af558b0"
           (reference "#PWR085") (unit 1)
         )
@@ -935,7 +917,7 @@
   (symbol (lib_id "Device:R_US") (at 199.39 106.68 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 38036eb6-c4fd-4280-90f3-fbde660a5abe)
-    (property "Reference" "R22" (at 195.58 105.41 0)
+    (property "Reference" "R9" (at 195.58 105.41 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10.0k-1%-0603" (at 195.58 107.8638 0)
@@ -963,9 +945,6 @@
     (pin "2" (uuid 1397acd4-8f60-4703-a877-1f50edece6dc))
     (instances
       (project "IMU-2X"
-        (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6"
-          (reference "R22") (unit 1)
-        )
         (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6/088575d8-b480-483a-8195-b5bd2af558b0"
           (reference "R9") (unit 1)
         )
@@ -976,7 +955,7 @@
   (symbol (lib_id "power:GND") (at 91.44 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4e5526bc-06b2-43a1-84ec-cd5048e805b6)
-    (property "Reference" "#PWR072" (at 91.44 151.13 0)
+    (property "Reference" "#PWR083" (at 91.44 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 91.44 148.59 0)
@@ -991,9 +970,6 @@
     (pin "1" (uuid 5c2c36eb-efb0-4987-838b-39d2f25aacd3))
     (instances
       (project "IMU-2X"
-        (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6"
-          (reference "#PWR072") (unit 1)
-        )
         (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6/088575d8-b480-483a-8195-b5bd2af558b0"
           (reference "#PWR083") (unit 1)
         )
@@ -1046,7 +1022,7 @@
   (symbol (lib_id "Device:R_US") (at 256.54 189.23 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5488935d-be79-43f8-ab3d-523c2ca18489)
-    (property "Reference" "R21" (at 255.27 191.77 90)
+    (property "Reference" "R26" (at 255.27 191.77 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "249R-1%-0805" (at 251.46 186.69 90)
@@ -1074,9 +1050,6 @@
     (pin "2" (uuid f1108062-52b9-44cf-857e-78e88ed073ae))
     (instances
       (project "IMU-2X"
-        (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6"
-          (reference "R21") (unit 1)
-        )
         (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6/088575d8-b480-483a-8195-b5bd2af558b0"
           (reference "R26") (unit 1)
         )
@@ -1087,7 +1060,7 @@
   (symbol (lib_id "power:+3V3") (at 234.95 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 54f22644-a97e-4267-a5a5-f19170adaa18)
-    (property "Reference" "#PWR073" (at 234.95 137.16 0)
+    (property "Reference" "#PWR076" (at 234.95 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 234.95 129.54 0)
@@ -1102,9 +1075,6 @@
     (pin "1" (uuid 0fe3c901-94c7-4b39-8794-7590730fce6b))
     (instances
       (project "IMU-2X"
-        (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6"
-          (reference "#PWR073") (unit 1)
-        )
         (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6/088575d8-b480-483a-8195-b5bd2af558b0"
           (reference "#PWR076") (unit 1)
         )
@@ -1115,7 +1085,7 @@
   (symbol (lib_id "power:GND") (at 226.06 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5ed77ba8-8c6d-4ac1-ad77-b5f69ab82efe)
-    (property "Reference" "#PWR010" (at 226.06 58.42 0)
+    (property "Reference" "#PWR086" (at 226.06 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 226.06 55.88 0)
@@ -1130,9 +1100,6 @@
     (pin "1" (uuid 05fa4657-37bd-48c5-8de0-edc4bd6cdb71))
     (instances
       (project "IMU-2X"
-        (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6"
-          (reference "#PWR010") (unit 1)
-        )
         (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6/088575d8-b480-483a-8195-b5bd2af558b0"
           (reference "#PWR086") (unit 1)
         )
@@ -1143,7 +1110,7 @@
   (symbol (lib_id "Device:R_US") (at 91.44 124.46 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5f264a86-9c0b-4c94-a4f6-a30307f66ea4)
-    (property "Reference" "R21" (at 93.98 123.19 0)
+    (property "Reference" "R25" (at 93.98 123.19 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100R-1%-0805" (at 93.98 125.73 0)
@@ -1171,9 +1138,6 @@
     (pin "2" (uuid c4c0507b-531c-4fa1-931b-6d72cbd864d9))
     (instances
       (project "IMU-2X"
-        (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6"
-          (reference "R21") (unit 1)
-        )
         (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6/088575d8-b480-483a-8195-b5bd2af558b0"
           (reference "R25") (unit 1)
         )
@@ -1184,7 +1148,7 @@
   (symbol (lib_id "power:GND") (at 245.11 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 77c1a558-420e-4926-9b01-be5cfd3f94e4)
-    (property "Reference" "#PWR072" (at 245.11 153.67 0)
+    (property "Reference" "#PWR071" (at 245.11 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 245.11 151.13 0)
@@ -1199,9 +1163,6 @@
     (pin "1" (uuid c906b87d-1486-4152-974b-01208eed2cea))
     (instances
       (project "IMU-2X"
-        (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6"
-          (reference "#PWR072") (unit 1)
-        )
         (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6/088575d8-b480-483a-8195-b5bd2af558b0"
           (reference "#PWR071") (unit 1)
         )
@@ -1212,7 +1173,7 @@
   (symbol (lib_id "power:+3V3") (at 226.06 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7c9dacb5-8f69-4c40-be2f-d474d727f368)
-    (property "Reference" "#PWR073" (at 226.06 48.26 0)
+    (property "Reference" "#PWR072" (at 226.06 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 226.06 40.64 0)
@@ -1227,9 +1188,6 @@
     (pin "1" (uuid 709604df-8c00-4736-8929-c557a5d32a0c))
     (instances
       (project "IMU-2X"
-        (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6"
-          (reference "#PWR073") (unit 1)
-        )
         (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6/088575d8-b480-483a-8195-b5bd2af558b0"
           (reference "#PWR072") (unit 1)
         )
@@ -1240,7 +1198,7 @@
   (symbol (lib_id "Device:R_US") (at 210.82 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7d03e152-d40f-4600-bcd1-0f49e725b98f)
-    (property "Reference" "R23" (at 214.63 162.56 0)
+    (property "Reference" "R24" (at 214.63 162.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10.0k-1%-0603" (at 214.63 165.1 0)
@@ -1268,9 +1226,6 @@
     (pin "2" (uuid 44741e8c-36bf-4eca-80a0-b80dce12f6ac))
     (instances
       (project "IMU-2X"
-        (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6"
-          (reference "R23") (unit 1)
-        )
         (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6/088575d8-b480-483a-8195-b5bd2af558b0"
           (reference "R24") (unit 1)
         )
@@ -1323,7 +1278,7 @@
   (symbol (lib_id "Device:R_US") (at 256.54 80.01 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7f2b80be-0409-4bdc-9aa3-c81aea33cc79)
-    (property "Reference" "R21" (at 255.27 82.55 90)
+    (property "Reference" "R3" (at 255.27 82.55 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "249R-1%-0805" (at 250.19 77.47 90)
@@ -1351,9 +1306,6 @@
     (pin "2" (uuid 8089e770-849f-45f8-9f46-73fce0b04ae1))
     (instances
       (project "IMU-2X"
-        (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6"
-          (reference "R21") (unit 1)
-        )
         (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6/088575d8-b480-483a-8195-b5bd2af558b0"
           (reference "R3") (unit 1)
         )
@@ -1364,7 +1316,7 @@
   (symbol (lib_id "power:+3V3") (at 91.44 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 977ba22c-a487-4638-acd9-1bb51b8c13f7)
-    (property "Reference" "#PWR073" (at 91.44 121.92 0)
+    (property "Reference" "#PWR082" (at 91.44 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 91.44 114.3 0)
@@ -1379,9 +1331,6 @@
     (pin "1" (uuid 5b04a61c-b525-41e1-9fce-3f0c5c128cc8))
     (instances
       (project "IMU-2X"
-        (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6"
-          (reference "#PWR073") (unit 1)
-        )
         (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6/088575d8-b480-483a-8195-b5bd2af558b0"
           (reference "#PWR082") (unit 1)
         )
@@ -1392,7 +1341,7 @@
   (symbol (lib_id "Device:LED_Dual_Bidirectional") (at 266.7 173.99 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9c109d85-02cb-46cb-8b3d-5134f0e47cf3)
-    (property "Reference" "D3" (at 274.32 173.2153 90)
+    (property "Reference" "D6" (at 274.32 173.2153 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IMU" (at 274.32 175.7553 90)
@@ -1420,9 +1369,6 @@
     (pin "2" (uuid 314a68c2-1c10-4470-b621-c76170e22c86))
     (instances
       (project "IMU-2X"
-        (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6"
-          (reference "D3") (unit 1)
-        )
         (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6/088575d8-b480-483a-8195-b5bd2af558b0"
           (reference "D6") (unit 1)
         )
@@ -1433,7 +1379,7 @@
   (symbol (lib_id "power:GND") (at 210.82 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a434d99a-eddf-42c3-b5c2-a18ba807bfdc)
-    (property "Reference" "#PWR070" (at 210.82 173.99 0)
+    (property "Reference" "#PWR075" (at 210.82 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 210.82 171.45 0)
@@ -1448,9 +1394,6 @@
     (pin "1" (uuid 688c8826-ecfa-4020-a605-500da884624a))
     (instances
       (project "IMU-2X"
-        (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6"
-          (reference "#PWR070") (unit 1)
-        )
         (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6/088575d8-b480-483a-8195-b5bd2af558b0"
           (reference "#PWR075") (unit 1)
         )
@@ -1461,7 +1404,7 @@
   (symbol (lib_id "Device:C") (at 226.06 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a581825a-5d6f-4895-b5c8-a32a0a9ac194)
-    (property "Reference" "C38" (at 222.25 45.72 0)
+    (property "Reference" "C13" (at 222.25 45.72 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1uF-25V-10%-0603" (at 222.25 48.26 0)
@@ -1489,9 +1432,6 @@
     (pin "2" (uuid 4b4dc9d0-7d77-4e06-83bd-3899f8b9b3e4))
     (instances
       (project "IMU-2X"
-        (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6"
-          (reference "C38") (unit 1)
-        )
         (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6/088575d8-b480-483a-8195-b5bd2af558b0"
           (reference "C13") (unit 1)
         )
@@ -1502,7 +1442,7 @@
   (symbol (lib_id "Device:LED_Dual_Bidirectional") (at 91.44 135.89 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a9c1f8ce-0505-4833-b3ea-ee08159cb777)
-    (property "Reference" "D3" (at 97.79 134.1247 90)
+    (property "Reference" "D7" (at 97.79 134.1247 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "PWR" (at 97.79 136.6647 90)
@@ -1530,9 +1470,6 @@
     (pin "2" (uuid 335cbf1e-09e8-4681-8a2c-40b2e76b5844))
     (instances
       (project "IMU-2X"
-        (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6"
-          (reference "D3") (unit 1)
-        )
         (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6/088575d8-b480-483a-8195-b5bd2af558b0"
           (reference "D7") (unit 1)
         )
@@ -1627,7 +1564,7 @@
   (symbol (lib_id "power:GND") (at 236.22 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cfc727ab-fdd6-4ddc-8d86-b75a70580670)
-    (property "Reference" "#PWR072" (at 236.22 64.77 0)
+    (property "Reference" "#PWR084" (at 236.22 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 236.22 62.23 0)
@@ -1642,9 +1579,6 @@
     (pin "1" (uuid 1f755bf6-b700-4711-8a59-1dd8a050565a))
     (instances
       (project "IMU-2X"
-        (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6"
-          (reference "#PWR072") (unit 1)
-        )
         (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6/088575d8-b480-483a-8195-b5bd2af558b0"
           (reference "#PWR084") (unit 1)
         )
@@ -1655,7 +1589,7 @@
   (symbol (lib_id "Device:C") (at 234.95 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid da1252d0-0045-4463-8d86-de4dfabce9d6)
-    (property "Reference" "C38" (at 231.14 134.62 0)
+    (property "Reference" "C44" (at 231.14 134.62 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1uF-25V-10%-0603" (at 231.14 137.16 0)
@@ -1683,9 +1617,6 @@
     (pin "2" (uuid be0df264-a8bb-47fa-ae6a-9dff4696dd85))
     (instances
       (project "IMU-2X"
-        (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6"
-          (reference "C38") (unit 1)
-        )
         (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6/088575d8-b480-483a-8195-b5bd2af558b0"
           (reference "C44") (unit 1)
         )
@@ -1696,7 +1627,7 @@
   (symbol (lib_id "power:+3V3") (at 199.39 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f0fbfa8c-c69f-4910-807e-70e2a4342016)
-    (property "Reference" "#PWR071" (at 199.39 184.15 0)
+    (property "Reference" "#PWR073" (at 199.39 184.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 199.39 176.53 0)
@@ -1711,9 +1642,6 @@
     (pin "1" (uuid 29768f56-9ac2-4b10-ae6b-ae556cf30838))
     (instances
       (project "IMU-2X"
-        (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6"
-          (reference "#PWR071") (unit 1)
-        )
         (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6/088575d8-b480-483a-8195-b5bd2af558b0"
           (reference "#PWR073") (unit 1)
         )
@@ -1724,7 +1652,7 @@
   (symbol (lib_id "power:GND") (at 234.95 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f40ce013-74fd-47c4-b87a-7849ef357d91)
-    (property "Reference" "#PWR010" (at 234.95 147.32 0)
+    (property "Reference" "#PWR03" (at 234.95 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 234.95 144.78 0)
@@ -1739,9 +1667,6 @@
     (pin "1" (uuid a15ad740-2412-45f0-99ac-42735a197b42))
     (instances
       (project "IMU-2X"
-        (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6"
-          (reference "#PWR010") (unit 1)
-        )
         (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6/088575d8-b480-483a-8195-b5bd2af558b0"
           (reference "#PWR03") (unit 1)
         )
@@ -1767,9 +1692,6 @@
     (pin "1" (uuid 9de7fc95-3b5e-43f0-b072-3bb613c51495))
     (instances
       (project "IMU-2X"
-        (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6"
-          (reference "#PWR070") (unit 1)
-        )
         (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6/088575d8-b480-483a-8195-b5bd2af558b0"
           (reference "#PWR070") (unit 1)
         )

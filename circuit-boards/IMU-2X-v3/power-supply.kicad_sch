@@ -1332,7 +1332,7 @@
   (symbol (lib_id "Device:C") (at 240.03 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 12aa6648-dee7-4318-94dd-51baec11e6e8)
-    (property "Reference" "C?" (at 238.76 167.64 0)
+    (property "Reference" "C2" (at 238.76 167.64 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "22uF-20%-0603" (at 243.84 170.18 90)
@@ -1360,9 +1360,6 @@
     (pin "2" (uuid de82b0a9-afcc-405d-a548-a789aab67ee3))
     (instances
       (project "IMU-2X"
-        (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6"
-          (reference "C?") (unit 1)
-        )
         (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6/dfddfc9c-e803-47e7-ad6c-6304a5151d35"
           (reference "C2") (unit 1)
         )
@@ -1821,7 +1818,7 @@
   (symbol (lib_id "Device:C") (at 227.33 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8e3544d6-2d15-4783-9ab3-1290a55bdfeb)
-    (property "Reference" "C?" (at 226.06 167.64 0)
+    (property "Reference" "C11" (at 226.06 167.64 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "22uF-20%-0603" (at 231.14 170.18 90)
@@ -1849,9 +1846,6 @@
     (pin "2" (uuid b94e0532-b2da-4282-a368-2d2f96d003c9))
     (instances
       (project "IMU-2X"
-        (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6"
-          (reference "C?") (unit 1)
-        )
         (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6/dfddfc9c-e803-47e7-ad6c-6304a5151d35"
           (reference "C11") (unit 1)
         )
@@ -2218,7 +2212,7 @@
   (symbol (lib_id "Device:C") (at 243.84 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ec922cc0-fbf6-49af-a414-047783cc9ece)
-    (property "Reference" "C?" (at 242.57 57.15 0)
+    (property "Reference" "C7" (at 242.57 57.15 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0.1uF-25V-10%-0603" (at 246.38 55.88 0)
@@ -2246,9 +2240,6 @@
     (pin "2" (uuid 127908e5-f434-42ad-b887-e9d5110a9c29))
     (instances
       (project "IMU-2X"
-        (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6"
-          (reference "C?") (unit 1)
-        )
         (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6/dfddfc9c-e803-47e7-ad6c-6304a5151d35"
           (reference "C7") (unit 1)
         )

@@ -848,7 +848,7 @@
   (symbol (lib_id "Device:C") (at 156.21 92.71 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 23bde260-0d27-4e74-82c6-8be64c5ee147)
-    (property "Reference" "C31" (at 152.4 92.71 0)
+    (property "Reference" "C41" (at 152.4 92.71 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF-25V-10%-1206" (at 154.94 95.25 0)
@@ -857,28 +857,25 @@
     (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 155.2448 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 156.21 92.71 0)
+    (property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/C1206C104K3RAC7800/2215076" (at 156.21 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "DIST" "" (at 156.21 92.71 0)
+    (property "DIST" "Digikey" (at 156.21 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "DIST P/N" "" (at 156.21 92.71 0)
+    (property "DIST P/N" "399-C1206C104K3RAC7800CT-ND" (at 156.21 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MFG" "" (at 156.21 92.71 0)
+    (property "MFG" "KEMET" (at 156.21 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MFG P/N" "" (at 156.21 92.71 0)
+    (property "MFG P/N" "C1206C104K3RAC7800" (at 156.21 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 339ebfa1-b5e2-4854-8f07-51363fe03341))
     (pin "2" (uuid 9eaf456e-b386-47a7-970b-99e8c4e9f992))
     (instances
       (project "IMU-2X"
-        (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6"
-          (reference "C31") (unit 1)
-        )
         (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6/4bacb90b-5ef0-490f-9fcc-20f01791f70e"
           (reference "C41") (unit 1)
         )
@@ -889,7 +886,7 @@
   (symbol (lib_id "power:+3V3") (at 163.83 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 40ea8f0c-3350-4163-8556-8bf1b7cb66c9)
-    (property "Reference" "#PWR037" (at 163.83 107.95 0)
+    (property "Reference" "#PWR090" (at 163.83 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 163.83 100.33 0)
@@ -904,9 +901,6 @@
     (pin "1" (uuid ef1fee66-2e6a-4fe8-b6b3-b1ebbcce632f))
     (instances
       (project "IMU-2X"
-        (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6"
-          (reference "#PWR037") (unit 1)
-        )
         (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6/4bacb90b-5ef0-490f-9fcc-20f01791f70e"
           (reference "#PWR090") (unit 1)
         )
@@ -917,7 +911,7 @@
   (symbol (lib_id "Device:D_Schottky") (at 212.09 77.47 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4429fc5e-9732-4658-8738-df7f2207917f)
-    (property "Reference" "D2" (at 212.09 72.39 0)
+    (property "Reference" "D4" (at 212.09 72.39 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "PMEG3020EP,115" (at 212.09 74.93 0)
@@ -945,9 +939,6 @@
     (pin "2" (uuid e7a67e1d-623f-4dc8-8ff7-5a09a73177fd))
     (instances
       (project "IMU-2X"
-        (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6/dfddfc9c-e803-47e7-ad6c-6304a5151d35"
-          (reference "D2") (unit 1)
-        )
         (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6/4bacb90b-5ef0-490f-9fcc-20f01791f70e"
           (reference "D4") (unit 1)
         )
@@ -958,7 +949,7 @@
   (symbol (lib_id "Device:D_Schottky") (at 212.09 86.36 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4fccbd76-d373-495d-b1af-e7e3b1cb5379)
-    (property "Reference" "D2" (at 212.09 81.28 0)
+    (property "Reference" "D5" (at 212.09 81.28 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "PMEG3020EP,115" (at 212.09 83.82 0)
@@ -986,9 +977,6 @@
     (pin "2" (uuid ef4cdd16-8972-44a0-88fa-1007891e7ecf))
     (instances
       (project "IMU-2X"
-        (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6/dfddfc9c-e803-47e7-ad6c-6304a5151d35"
-          (reference "D2") (unit 1)
-        )
         (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6/4bacb90b-5ef0-490f-9fcc-20f01791f70e"
           (reference "D5") (unit 1)
         )
@@ -1043,7 +1031,7 @@
   (symbol (lib_id "Device:C") (at 194.31 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6fda00a2-0302-497e-9c93-ed6d4015dfab)
-    (property "Reference" "C31" (at 198.12 92.71 0)
+    (property "Reference" "C42" (at 198.12 92.71 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF-25V-10%-1206" (at 195.58 95.25 0)
@@ -1052,28 +1040,25 @@
     (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 195.2752 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 194.31 92.71 0)
+    (property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/C1206C104K3RAC7800/2215076" (at 194.31 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "DIST" "" (at 194.31 92.71 0)
+    (property "DIST" "Digikey" (at 194.31 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "DIST P/N" "" (at 194.31 92.71 0)
+    (property "DIST P/N" "399-C1206C104K3RAC7800CT-ND" (at 194.31 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MFG" "" (at 194.31 92.71 0)
+    (property "MFG" "KEMET" (at 194.31 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MFG P/N" "" (at 194.31 92.71 0)
+    (property "MFG P/N" "C1206C104K3RAC7800" (at 194.31 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 784fc796-400b-49a6-b5a6-f94c0cc281ca))
     (pin "2" (uuid 8921fe0e-7eee-4a71-b638-e8de869ab0d5))
     (instances
       (project "IMU-2X"
-        (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6"
-          (reference "C31") (unit 1)
-        )
         (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6/4bacb90b-5ef0-490f-9fcc-20f01791f70e"
           (reference "C42") (unit 1)
         )
@@ -1128,7 +1113,7 @@
   (symbol (lib_id "Device:R_US") (at 200.66 119.38 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8c1fc850-d4e1-497e-bb16-244ab582a918)
-    (property "Reference" "R21" (at 200.66 116.84 90)
+    (property "Reference" "R23" (at 200.66 116.84 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100R-1%-0805" (at 200.66 121.92 90)
@@ -1156,12 +1141,6 @@
     (pin "2" (uuid f2644c8e-70e2-4caf-aaec-b1e584662c05))
     (instances
       (project "IMU-2X"
-        (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6"
-          (reference "R21") (unit 1)
-        )
-        (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6/088575d8-b480-483a-8195-b5bd2af558b0"
-          (reference "R20") (unit 1)
-        )
         (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6/4bacb90b-5ef0-490f-9fcc-20f01791f70e"
           (reference "R23") (unit 1)
         )
@@ -1216,7 +1195,7 @@
   (symbol (lib_id "Device:R_US") (at 200.66 109.22 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 981647d7-1422-4d79-98a2-0d0ceb0a5a1f)
-    (property "Reference" "R21" (at 200.66 106.68 90)
+    (property "Reference" "R19" (at 200.66 106.68 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100R-1%-0805" (at 200.66 111.76 90)
@@ -1244,12 +1223,6 @@
     (pin "2" (uuid 51387707-474c-43dc-ba4d-0dc617876fbb))
     (instances
       (project "IMU-2X"
-        (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6"
-          (reference "R21") (unit 1)
-        )
-        (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6/088575d8-b480-483a-8195-b5bd2af558b0"
-          (reference "R20") (unit 1)
-        )
         (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6/4bacb90b-5ef0-490f-9fcc-20f01791f70e"
           (reference "R19") (unit 1)
         )
@@ -1260,7 +1233,7 @@
   (symbol (lib_id "power:GND") (at 156.21 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9dea3cf1-a583-43e0-9b04-d069940be689)
-    (property "Reference" "#PWR035" (at 156.21 102.87 0)
+    (property "Reference" "#PWR089" (at 156.21 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 156.21 100.33 0)
@@ -1275,9 +1248,6 @@
     (pin "1" (uuid de89856e-5b32-49d6-a378-3aae28cc91b1))
     (instances
       (project "IMU-2X"
-        (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6"
-          (reference "#PWR035") (unit 1)
-        )
         (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6/4bacb90b-5ef0-490f-9fcc-20f01791f70e"
           (reference "#PWR089") (unit 1)
         )
@@ -1338,7 +1308,7 @@
   (symbol (lib_id "power:GND") (at 163.83 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e5b35ed1-b18e-4d5f-bab8-45bf00f60665)
-    (property "Reference" "#PWR035" (at 163.83 130.81 0)
+    (property "Reference" "#PWR091" (at 163.83 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 163.83 128.27 0)
@@ -1353,9 +1323,6 @@
     (pin "1" (uuid 832cb0be-296f-422c-9c96-f15b9c76cf44))
     (instances
       (project "IMU-2X"
-        (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6"
-          (reference "#PWR035") (unit 1)
-        )
         (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6/4bacb90b-5ef0-490f-9fcc-20f01791f70e"
           (reference "#PWR091") (unit 1)
         )
@@ -1366,7 +1333,7 @@
   (symbol (lib_id "power:+3V3") (at 156.21 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f03b4cb1-51ac-4130-924f-11232c4e1f5d)
-    (property "Reference" "#PWR037" (at 156.21 92.71 0)
+    (property "Reference" "#PWR088" (at 156.21 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 156.21 85.09 0)
@@ -1381,9 +1348,6 @@
     (pin "1" (uuid f1bbab0d-ab23-474d-a542-8a24d864e944))
     (instances
       (project "IMU-2X"
-        (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6"
-          (reference "#PWR037") (unit 1)
-        )
         (path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6/4bacb90b-5ef0-490f-9fcc-20f01791f70e"
           (reference "#PWR088") (unit 1)
         )
