@@ -1,0 +1,18 @@
+### Footprint positions - created on Sat 20 Jan 2024 01:36:02 PM PST ###
+### Printed by KiCad version 7.0.10-7.0.10~ubuntu20.04.1
+## Unit = inches, Angle = deg.
+## Side : top
+# Ref     Val             Package                   PosX       PosY       Rot  Side
+C1        0.1uF-25V-0805  C_0805_2012Metric       5.2750    -3.7750    0.0000  top
+D1        12V             LED_1206_3216Metric     5.5000    -4.1250  180.0000  top
+D2        S1D             D_SMA                   4.9100    -3.4200   90.0000  top
+D3        DET             LED_1206_3216Metric     5.5000    -3.9250  180.0000  top
+J1        POWER           Molex-705550001         4.7100    -3.9500  -90.0000  top
+J2        SENSOR          Molex-705550003         4.7100    -3.4750  -90.0000  top
+J3        RRIB            Molex-705550002         5.1600    -3.5750   90.0000  top
+R1        2.0k-1%-0805    R_0805_2012Metric       5.5000    -4.0250    0.0000  top
+R2        2.0k-1%-0805    R_0805_2012Metric       4.9150    -3.6800  -90.0000  top
+R3        1.0k-1%-0805    R_0805_2012Metric       5.5000    -3.7700    0.0000  top
+R4        390R-1%-1206    R_1206_3216Metric       5.1150    -3.7750    0.0000  top
+U1        H11L1SM         SMDIP-6_W9.53mm         5.0750    -4.0000    0.0000  top
+## End
