@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/scottberman/Documents/Projects/dev/git/971-electrical/circuit-boards/beambreak/beambreak.kicad_sch</source>
+    <date>Sat 20 Jan 2024 01:33:56 PM PST</date>
+    <tool>Eeschema 7.0.10-7.0.10~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Beam Break Monitor</title>
+        <company>971 Spartan Robotics</company>
+        <rev>1.0</rev>
+        <date>2022-10-09</date>
+        <source>beambreak.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>0.1uF-25V-0805</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">478-KGM21NR71E104KTCT-ND</field>
+        <field name="MFG">KYOCERA AVX</field>
+        <field name="MFG P/N">KGM21NR71E104KT</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="478-KGM21NR71E104KTCT-ND"/>
+      <property name="MFG" value="KYOCERA AVX"/>
+      <property name="MFG P/N" value="KGM21NR71E104KT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="beambreak.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c7e8f54a-669c-4cdd-95f4-10244ac24593</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>12V</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">492-1945-1-ND</field>
+        <field name="MFG">Bivar Inc.</field>
+        <field name="MFG P/N">SM1206NPGC-IL</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MFG" value="Bivar Inc."/>
+      <property name="MFG P/N" value="SM1206NPGC-IL"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="492-1945-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="beambreak.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36144711-b8f1-4526-a1da-35f9dafa535c</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>S1D</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">S1D-FDICT-ND</field>
+        <field name="MFG">Diodes Inc</field>
+        <field name="MFG P/N">S1D-13-F</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="MFG" value="Diodes Inc"/>
+      <property name="MFG P/N" value="S1D-13-F"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="S1D-FDICT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="beambreak.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4ef6aec7-3eed-44c2-a725-560499437014</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>DET</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">492-1945-1-ND</field>
+        <field name="MFG">Bivar Inc.</field>
+        <field name="MFG P/N">SM1206NPGC-IL</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="492-1945-1-ND"/>
+      <property name="MFG" value="Bivar Inc."/>
+      <property name="MFG P/N" value="SM1206NPGC-IL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="beambreak.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9cc259b4-4c89-474a-a8cd-ed22548b86a4</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>POWER</value>
+      <footprint>beambreak:Molex-705550001</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM4164-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">705550001</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="705550001"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM4164-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="beambreak.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3c39ebcf-85d0-47aa-9a76-9f226673911b</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>SENSOR</value>
+      <footprint>beambreak:Molex-705550003</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM4166-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">705550003</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="705550003"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM4166-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="beambreak.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e2de216-3528-408a-8b9b-064744373d91</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>RRIB</value>
+      <footprint>beambreak:Molex-705550002</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM4165-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">705550002</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="705550002"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM4165-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="beambreak.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>967e5ceb-9c98-4f2f-bea1-546d34719fdd</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>2.0k-1%-0805</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">RNCP0805FTD2K00CT-ND</field>
+        <field name="MFG">Stackpole Electronics</field>
+        <field name="MFG P/N">RNCP0805FTD2K00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Stackpole Electronics"/>
+      <property name="MFG P/N" value="RNCP0805FTD2K00"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="RNCP0805FTD2K00CT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="beambreak.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2fe4534f-72d5-4eff-808a-dc62953a90d6</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>2.0k-1%-0805</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">RNCP0805FTD2K00CT-ND</field>
+        <field name="MFG">Stackpole Electronics</field>
+        <field name="MFG P/N">RNCP0805FTD2K00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="RNCP0805FTD2K00CT-ND"/>
+      <property name="MFG" value="Stackpole Electronics"/>
+      <property name="MFG P/N" value="RNCP0805FTD2K00"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="beambreak.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd47a821-f863-4ba1-9802-59fdf3b2349e</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1.0k-1%-0805</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">RNCP0805FTD1K00CT-ND</field>
+        <field name="MFG">Stackpole Electronics</field>
+        <field name="MFG P/N">RNCP0805FTD1K00</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Stackpole Electronics"/>
+      <property name="MFG P/N" value="RNCP0805FTD1K00"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="RNCP0805FTD1K00CT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="beambreak.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>79317661-c926-4261-a0b9-6d5e7eb21826</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>390R-1%-1206</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">RMCF1206FT390RCT-ND</field>
+        <field name="MFG">Stackpole Electronics</field>
+        <field name="MFG P/N">RMCF1206FT390R</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MFG" value="Stackpole Electronics"/>
+      <property name="MFG P/N" value="RMCF1206FT390R"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="RMCF1206FT390RCT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="beambreak.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>daf0d393-b46b-48d6-be1a-05175ddd7bb8</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>H11L1SM</value>
+      <footprint>Package_DIP:SMDIP-6_W9.53mm</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/H11L3M-D.PDF</datasheet>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">H11L1SM-ND</field>
+        <field name="MFG">onsemi</field>
+        <field name="MFG P/N">H11L1SM</field>
+      </fields>
+      <libsource lib="Isolator" part="H11L1" description="Schmitt Trigger Output Optocoupler, High Speed, DIP-6, 1.6mA turn on threshold"/>
+      <property name="MFG P/N" value="H11L1SM"/>
+      <property name="MFG" value="onsemi"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="H11L1SM-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="beambreak.kicad_sch"/>
+      <property name="ki_description" value="Schmitt Trigger Output Optocoupler, High Speed, DIP-6, 1.6mA turn on threshold"/>
+      <property name="ki_keywords" value="High Speed Schmitt Optocoupler"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b9eaa4d1-8292-4797-9042-ffc431d002c0</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Male">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Male">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D?</field>
+        <field name="Value">D</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D?</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Isolator" part="H11L1">
+      <description>Schmitt Trigger Output Optocoupler, High Speed, DIP-6, 1.6mA turn on threshold</description>
+      <docs>https://www.onsemi.com/pub/Collateral/H11L3M-D.PDF</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>DIP*W10.16mm*</fp>
+        <fp>SMDIP*W9.53mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">H11L1</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/H11L3M-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="no_connect"/>
+        <pin num="4" name="" type="output"/>
+        <pin num="5" name="" type="power_in"/>
+        <pin num="6" name="" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Isolator">
+      <uri>/usr/share/kicad/symbols//Isolator.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/5V0">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="6" pintype="power_in"/>
+    </net>
+    <net code="2" name="/12V">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="3" name="/IN">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="2" pintype="passive"/>
+    </net>
+    <net code="4" name="/~{ON}">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pintype="output"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="GNDS">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="5" pintype="power_in"/>
+    </net>
+    <net code="7" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(D3-K)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="unconnected-(J2-Pin_4-Pad4)">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="12" name="unconnected-(U1-Pad3)">
+      <node ref="U1" pin="3" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
