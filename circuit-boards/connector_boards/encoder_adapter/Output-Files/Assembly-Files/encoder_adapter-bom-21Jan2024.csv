@@ -1,0 +1,4 @@
+Item, Qty, Reference(s), Value, DIST, DIST P/N, MFG, MFG P/N, 
+"1","1","D1","LED","Digikey","1080-1419-1-ND","Everlight Electronics Co Ltd","QTLP650D4TR"
+"2","1","J1","Encoder","Digikey","WM20416-ND","Molex","0705410074"
+"3","1","R1","1k 1% 0805","Digikey","311-1.00KCRCT-ND","YAGEO","RC0805FR-071KL"

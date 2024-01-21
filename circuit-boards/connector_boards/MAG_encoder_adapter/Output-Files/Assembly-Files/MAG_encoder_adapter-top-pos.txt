@@ -1,0 +1,10 @@
+### Footprint positions - created on Sun 21 Jan 2024 09:33:44 AM PST ###
+### Printed by KiCad version 7.0.10-7.0.10~ubuntu22.04.1
+## Unit = inches, Angle = deg.
+## Side : top
+# Ref     Val          Package                   PosX       PosY       Rot  Side
+D1        LED          LED_1206_3216Metric     6.9199    -4.1000    0.0000  top
+J1        Mag-encoder  20021521-00010T1LF      6.4242    -4.8200   90.0000  top
+R1        2.0k_1%      R_0805_2012Metric       7.1090    -4.1000    0.0000  top
+REF**     ziptie       ziptie                  6.4200    -4.5100    0.0000  top
+## End

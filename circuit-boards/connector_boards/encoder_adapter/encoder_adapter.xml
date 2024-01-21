@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/scott/Documents/Projects/dev/git/971-electrical/circuit-boards/connector_boards/encoder_adapter/encoder_adapter.kicad_sch</source>
+    <date>Sun 21 Jan 2024 09:21:34 AM PST</date>
+    <tool>Eeschema 7.0.10-7.0.10~ubuntu22.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Shaft Encoder Adapter PCB</title>
+        <company>971 Spartan Robotics</company>
+        <rev>V1</rev>
+        <date>2022-08-06</date>
+        <source>encoder_adapter.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">1080-1419-1-ND</field>
+        <field name="MFG">Everlight Electronics Co Ltd</field>
+        <field name="MFG P/N">QTLP650D4TR</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MFG P/N" value="QTLP650D4TR"/>
+      <property name="MFG" value="Everlight Electronics Co Ltd"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="1080-1419-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="encoder_adapter.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>79324b87-8404-4c76-864c-09eafa83bf99</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Encoder</value>
+      <footprint>encoder_adapter:MOLEX_0705410074</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM20416-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">0705410074</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x05_Male" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="0705410074"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM20416-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="encoder_adapter.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b3e8080-6e59-452f-841b-e804bf3dea49</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1k 1% 0805</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">311-1.00KCRCT-ND</field>
+        <field name="MFG">YAGEO</field>
+        <field name="MFG P/N">RC0805FR-071KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFG" value="YAGEO"/>
+      <property name="MFG P/N" value="RC0805FR-071KL"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="311-1.00KCRCT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="encoder_adapter.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>40464eca-6fa3-4f94-bed2-f2a60165e356</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x05_Male">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/A">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="2" name="/B">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="3" name="/GND">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="4" name="/IDX">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="5" name="/VCC">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+  </nets>
+</export>

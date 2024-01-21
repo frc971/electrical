@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/Users/alex/Documents/FRC971/PowerDistribution/PowerDistribution.kicad_sch</source>
-    <date>2023 November 23, Thursday 15:17:25</date>
-    <tool>Eeschema 7.0.7</tool>
+    <source>/home/scott/Documents/Projects/dev/git/971-electrical/circuit-boards/connector_boards/PowerDistribution/PowerDistribution.kicad_sch</source>
+    <date>Sun 21 Jan 2024 09:43:58 AM PST</date>
+    <tool>Eeschema 7.0.10-7.0.10~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Power Distribution </title>
@@ -545,13 +545,13 @@
   </libparts>
   <libraries>
     <library logical="Connector">
-      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
     </library>
     <library logical="Device">
-      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
     </library>
     <library logical="Mechanical">
-      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Mechanical.kicad_sym</uri>
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
     </library>
   </libraries>
   <nets>

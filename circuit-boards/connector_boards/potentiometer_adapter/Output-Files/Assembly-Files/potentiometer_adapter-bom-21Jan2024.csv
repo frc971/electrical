@@ -1,0 +1,5 @@
+Item, Qty, Reference(s), Value, DIST, DIST P/N, MFG, MFG P/N, 
+"1","1","D1","Green","Digikey","1080-1419-1-ND","Everlight Electronics Co Ltd","QTLP650D4TR"
+"2","1","J1","Conn_01x03_Male","Digikey","WM20415-ND","Molex","0705410037"
+"3","1","R1","2K 1%","Digikey","311-2.0KARCT-ND","YAGEO","RC0805JR-072KL"
+"4","1","RV1","R_Potentiometer","","","Bourns","Bourns3547"

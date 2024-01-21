@@ -1,0 +1,2627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/scott/Documents/Projects/dev/git/971-electrical/circuit-boards/connector_boards/RRIB2/RRIB2.kicad_sch</source>
+    <date>Sun 21 Jan 2024 09:52:48 AM PST</date>
+    <tool>Eeschema 7.0.10-7.0.10~ubuntu22.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>RRIB2</title>
+        <company>971 Spartan Robotics</company>
+        <rev>1.0</rev>
+        <date>2022-08-13</date>
+        <source>RRIB2.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2a621d55-4fe8-449a-944e-3cfd73917838</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7ec48e18-59d1-4b05-9902-3d4ee115f280</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>DIO0</value>
+      <footprint>RRIB2:70541-0002</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM7991-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0002</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0002"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM7991-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>49735dd8-00f5-4d11-9810-f39b20b080bd</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>DIO1</value>
+      <footprint>RRIB2:70541-0002</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM7991-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0002</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0002"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM7991-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d7a55017-572e-4bf9-8667-fcb82ed17109</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>DIO2</value>
+      <footprint>RRIB2:70541-0002</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM7991-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0002</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0002"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM7991-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6026bec0-0925-4a79-95eb-a60c777f51ae</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>DIO3</value>
+      <footprint>RRIB2:70541-0002</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM7991-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0002</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0002"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM7991-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb2b0203-92b1-4dba-ad1b-3cba78f60896</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>DIO4</value>
+      <footprint>RRIB2:70541-0002</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM7991-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0002</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0002"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM7991-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>418c2db8-0dc1-436e-b3cc-4089c6cc73d7</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>DIO5</value>
+      <footprint>RRIB2:70541-0002</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM7991-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0002</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0002"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM7991-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a65f47e-4f8c-4219-aa11-f6a8d78d4068</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>DIO6</value>
+      <footprint>RRIB2:70541-0002</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM7991-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0002</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0002"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM7991-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>575c7956-8a0d-4577-9c34-5d88b6129d4e</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>DIO7</value>
+      <footprint>RRIB2:70541-0002</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM7991-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0002</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0002"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM7991-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb424047-7271-4ab0-b9fc-c95ea7ca0765</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>DIO8</value>
+      <footprint>RRIB2:70541-0002</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM7991-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0002</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0002"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM7991-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f6bc1bee-c4fe-487a-8dc1-f75eb6e19ff0</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>DIO9</value>
+      <footprint>RRIB2:70541-0002</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM7991-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0002</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0002"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM7991-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d03b900b-e796-421f-b13e-cf1bb42f9445</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>DIO22</value>
+      <footprint>RRIB2:70541-0002</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM7991-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0002</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0002"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM7991-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f027e3c8-4732-4162-8f02-336068981aaa</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>DIO23</value>
+      <footprint>RRIB2:70541-0002</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM7991-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0002</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0002"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM7991-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ebe07cf-e039-43c1-bea7-a33517f97325</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>DIO24</value>
+      <footprint>RRIB2:70541-0002</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM7991-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0002</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0002"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM7991-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e2442d5e-6981-4580-9693-7ff42541dbff</tstamps>
+    </comp>
+    <comp ref="J14">
+      <value>DIO25</value>
+      <footprint>RRIB2:70541-0002</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM7991-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0002</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0002"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM7991-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9bc2a57e-779c-4469-8c1c-474df1a47b74</tstamps>
+    </comp>
+    <comp ref="J15">
+      <value>RR_DIO0</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">S7001-ND</field>
+        <field name="MFG">Sullins Connector Solutions</field>
+        <field name="MFG P/N">PPTC031LFBN-RC</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Sullins Connector Solutions"/>
+      <property name="MFG P/N" value="PPTC031LFBN-RC"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="S7001-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>49454989-c839-4cd7-944e-e6f523b2e4f7</tstamps>
+    </comp>
+    <comp ref="J16">
+      <value>RR_DIO1</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">S7001-ND</field>
+        <field name="MFG">Sullins Connector Solutions</field>
+        <field name="MFG P/N">PPTC031LFBN-RC</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Sullins Connector Solutions"/>
+      <property name="MFG P/N" value="PPTC031LFBN-RC"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="S7001-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>55455b7f-ea02-42c9-9bfd-160076304764</tstamps>
+    </comp>
+    <comp ref="J17">
+      <value>RR_DIO2</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">S7001-ND</field>
+        <field name="MFG">Sullins Connector Solutions</field>
+        <field name="MFG P/N">PPTC031LFBN-RC</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Sullins Connector Solutions"/>
+      <property name="MFG P/N" value="PPTC031LFBN-RC"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="S7001-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6771b8f2-d11c-4cff-b6f3-1ca78f84c327</tstamps>
+    </comp>
+    <comp ref="J18">
+      <value>RR_DIO3</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">S7001-ND</field>
+        <field name="MFG">Sullins Connector Solutions</field>
+        <field name="MFG P/N">PPTC031LFBN-RC</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Sullins Connector Solutions"/>
+      <property name="MFG P/N" value="PPTC031LFBN-RC"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="S7001-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1cae4975-32f4-4bdd-998c-f064f8fe7fc1</tstamps>
+    </comp>
+    <comp ref="J19">
+      <value>RR_DIO4</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">S7001-ND</field>
+        <field name="MFG">Sullins Connector Solutions</field>
+        <field name="MFG P/N">PPTC031LFBN-RC</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Sullins Connector Solutions"/>
+      <property name="MFG P/N" value="PPTC031LFBN-RC"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="S7001-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a422e1ef-c47a-4d30-9ead-5b941f5dfbfd</tstamps>
+    </comp>
+    <comp ref="J20">
+      <value>RR_DIO5</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">S7001-ND</field>
+        <field name="MFG">Sullins Connector Solutions</field>
+        <field name="MFG P/N">PPTC031LFBN-RC</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Sullins Connector Solutions"/>
+      <property name="MFG P/N" value="PPTC031LFBN-RC"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="S7001-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a957fe8-3299-4f67-a858-e508a65ee2e1</tstamps>
+    </comp>
+    <comp ref="J21">
+      <value>RR_DIO6</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">S7001-ND</field>
+        <field name="MFG">Sullins Connector Solutions</field>
+        <field name="MFG P/N">PPTC031LFBN-RC</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Sullins Connector Solutions"/>
+      <property name="MFG P/N" value="PPTC031LFBN-RC"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="S7001-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fb56fbab-36d4-4cbd-9be5-23eca9cbdb03</tstamps>
+    </comp>
+    <comp ref="J22">
+      <value>RR_DIO7</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">S7001-ND</field>
+        <field name="MFG">Sullins Connector Solutions</field>
+        <field name="MFG P/N">PPTC031LFBN-RC</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Sullins Connector Solutions"/>
+      <property name="MFG P/N" value="PPTC031LFBN-RC"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="S7001-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0714d255-d103-4894-a966-b0947c456a57</tstamps>
+    </comp>
+    <comp ref="J23">
+      <value>RR_DIO8</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">S7001-ND</field>
+        <field name="MFG">Sullins Connector Solutions</field>
+        <field name="MFG P/N">PPTC031LFBN-RC</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Sullins Connector Solutions"/>
+      <property name="MFG P/N" value="PPTC031LFBN-RC"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="S7001-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8ea115b8-1884-4dd9-bc36-085321ba0118</tstamps>
+    </comp>
+    <comp ref="J24">
+      <value>RR_DIO9</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">S7001-ND</field>
+        <field name="MFG">Sullins Connector Solutions</field>
+        <field name="MFG P/N">PPTC031LFBN-RC</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Sullins Connector Solutions"/>
+      <property name="MFG P/N" value="PPTC031LFBN-RC"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="S7001-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>106234be-1b27-4c18-a5d9-b9529feadc74</tstamps>
+    </comp>
+    <comp ref="J25">
+      <value>ENC0</value>
+      <footprint>RRIB2:70541-0003</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM7992-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0003</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0003"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM7992-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>750a72a7-733e-4969-8fbe-00f4ba1080d7</tstamps>
+    </comp>
+    <comp ref="J26">
+      <value>ENC1</value>
+      <footprint>RRIB2:70541-0003</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM7992-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0003</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0003"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM7992-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1f5bebbf-0afa-4af8-8e76-232a9dfce818</tstamps>
+    </comp>
+    <comp ref="J27">
+      <value>ENC2</value>
+      <footprint>RRIB2:70541-0003</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM7992-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0003</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0003"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM7992-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4634486f-bf34-4679-bd29-cf5b6d4bd2e7</tstamps>
+    </comp>
+    <comp ref="J28">
+      <value>ENC3</value>
+      <footprint>RRIB2:70541-0003</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM7992-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0003</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0003"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM7992-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>49f2639d-6633-4e20-b3ad-6524894bb73d</tstamps>
+    </comp>
+    <comp ref="J29">
+      <value>ENC4</value>
+      <footprint>RRIB2:70541-0003</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM7992-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0003</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0003"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM7992-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>21a3c96d-c2e4-4b79-b1b9-3312f74eaaad</tstamps>
+    </comp>
+    <comp ref="J30">
+      <value>ENC5</value>
+      <footprint>RRIB2:70541-0003</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM7992-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0003</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0003"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM7992-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e7ddbf6e-2daf-4722-836f-28f5c9896fd0</tstamps>
+    </comp>
+    <comp ref="J31">
+      <value>ENC_AD0</value>
+      <footprint>RRIB2:70541-0005</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM20413-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0005</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x06_Male" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0005"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM20413-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>279814a2-dbf9-45ac-acc0-bf9495991a5d</tstamps>
+    </comp>
+    <comp ref="J32">
+      <value>ENC_AD1</value>
+      <footprint>RRIB2:70541-0005</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM20413-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0005</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x06_Male" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0005"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM20413-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5f84181e-763e-465d-9b3e-6e08015c63b1</tstamps>
+    </comp>
+    <comp ref="J33">
+      <value>ENC_AD2</value>
+      <footprint>RRIB2:70541-0005</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM20413-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0005</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x06_Male" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0005"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM20413-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>46eb8dc8-abbb-48f0-a679-99d1fb4d8289</tstamps>
+    </comp>
+    <comp ref="J34">
+      <value>ENC_AD3</value>
+      <footprint>RRIB2:70541-0005</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM20413-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0005</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x06_Male" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0005"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM20413-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3f89a6ae-ef0b-40c9-a99c-9bdb7b030967</tstamps>
+    </comp>
+    <comp ref="J35">
+      <value>ENC_AD4</value>
+      <footprint>RRIB2:70541-0005</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM20413-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0005</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x06_Male" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0005"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM20413-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d58c8c0-7014-4119-82bd-4fc29c7d6426</tstamps>
+    </comp>
+    <comp ref="J36">
+      <value>ENC_AD5</value>
+      <footprint>RRIB2:70541-0005</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM20413-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0005</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x06_Male" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0005"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM20413-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>297d523b-90c2-401c-a2e0-055e28225611</tstamps>
+    </comp>
+    <comp ref="J37">
+      <value>RLY0</value>
+      <footprint>RRIB2:70541-0002</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM7991-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0002</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0002"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM7991-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fa39efb6-60fd-4b1b-b7a2-9c23b5b2c779</tstamps>
+    </comp>
+    <comp ref="J38">
+      <value>RLY1</value>
+      <footprint>RRIB2:70541-0002</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM7991-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0002</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0002"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM7991-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f3db8eb4-32be-444b-bc36-a31a5b15c41f</tstamps>
+    </comp>
+    <comp ref="J39">
+      <value>RLY2</value>
+      <footprint>RRIB2:70541-0002</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM7991-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0002</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0002"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM7991-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7f8bb119-32f1-4102-b01d-d6cab9941c29</tstamps>
+    </comp>
+    <comp ref="J40">
+      <value>RLY3</value>
+      <footprint>RRIB2:70541-0002</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM7991-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0002</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0002"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM7991-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9479ff00-160a-405f-959f-981b2eb63a36</tstamps>
+    </comp>
+    <comp ref="J41">
+      <value>AIN0</value>
+      <footprint>RRIB2:70541-0002</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM7991-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0002</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0002"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM7991-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5f7c5717-530e-4e1d-b0c5-fbb129511b39</tstamps>
+    </comp>
+    <comp ref="J42">
+      <value>AIN1</value>
+      <footprint>RRIB2:70541-0002</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM7991-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0002</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0002"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM7991-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7928d781-1806-48ac-8966-0735834ac7cf</tstamps>
+    </comp>
+    <comp ref="J43">
+      <value>AIN2</value>
+      <footprint>RRIB2:70541-0002</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM7991-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0002</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0002"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM7991-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>945378ce-e7ef-4df6-95cd-47c77da3c211</tstamps>
+    </comp>
+    <comp ref="J44">
+      <value>AIN3</value>
+      <footprint>RRIB2:70541-0002</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM7991-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0002</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0002"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM7991-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8be4bb65-b566-42ac-aff3-919101f16665</tstamps>
+    </comp>
+    <comp ref="J45">
+      <value>AIN4</value>
+      <footprint>RRIB2:70541-0002</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM7991-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0002</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0002"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM7991-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2a7dee84-2205-4daf-8f68-fac04e372f6a</tstamps>
+    </comp>
+    <comp ref="J46">
+      <value>AIN5</value>
+      <footprint>RRIB2:70541-0002</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM7991-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0002</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0002"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM7991-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cb111bb5-90e2-4b48-9951-346f22225fa8</tstamps>
+    </comp>
+    <comp ref="J47">
+      <value>AIN6</value>
+      <footprint>RRIB2:70541-0002</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM7991-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0002</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0002"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM7991-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>95e9457f-2a52-4095-a953-0929f7fc21c5</tstamps>
+    </comp>
+    <comp ref="J48">
+      <value>AIN7</value>
+      <footprint>RRIB2:70541-0002</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM7991-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0002</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0002"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM7991-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4bf4b743-0633-4feb-89dc-27174da60ba1</tstamps>
+    </comp>
+    <comp ref="J49">
+      <value>RR_RELAY0</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">S7001-ND</field>
+        <field name="MFG">Sullins Connector Solutions</field>
+        <field name="MFG P/N">PPTC031LFBN-RC</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Sullins Connector Solutions"/>
+      <property name="MFG P/N" value="PPTC031LFBN-RC"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="S7001-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e6a5fb6c-b583-4460-8152-f392212d16dd</tstamps>
+    </comp>
+    <comp ref="J50">
+      <value>RR_RELAY1</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">S7001-ND</field>
+        <field name="MFG">Sullins Connector Solutions</field>
+        <field name="MFG P/N">PPTC031LFBN-RC</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Sullins Connector Solutions"/>
+      <property name="MFG P/N" value="PPTC031LFBN-RC"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="S7001-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7660b8c1-fae6-43b3-a2a6-b6e3a6f02ac3</tstamps>
+    </comp>
+    <comp ref="J51">
+      <value>RR_RELAY2</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">S7001-ND</field>
+        <field name="MFG">Sullins Connector Solutions</field>
+        <field name="MFG P/N">PPTC031LFBN-RC</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Sullins Connector Solutions"/>
+      <property name="MFG P/N" value="PPTC031LFBN-RC"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="S7001-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a555a9cd-d56b-453c-8274-54647e0fd3ad</tstamps>
+    </comp>
+    <comp ref="J52">
+      <value>RR_RELAY3</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">S7001-ND</field>
+        <field name="MFG">Sullins Connector Solutions</field>
+        <field name="MFG P/N">PPTC031LFBN-RC</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Sullins Connector Solutions"/>
+      <property name="MFG P/N" value="PPTC031LFBN-RC"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="S7001-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>10ddb070-8336-4d21-bbb7-02a3643c74d4</tstamps>
+    </comp>
+    <comp ref="J53">
+      <value>RR_AIN0</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">S7001-ND</field>
+        <field name="MFG">Sullins Connector Solutions</field>
+        <field name="MFG P/N">PPTC031LFBN-RC</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Sullins Connector Solutions"/>
+      <property name="MFG P/N" value="PPTC031LFBN-RC"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="S7001-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0e65fa8-1162-4604-85cc-1b709fd37eb9</tstamps>
+    </comp>
+    <comp ref="J54">
+      <value>RR_AIN1</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">S7001-ND</field>
+        <field name="MFG">Sullins Connector Solutions</field>
+        <field name="MFG P/N">PPTC031LFBN-RC</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Sullins Connector Solutions"/>
+      <property name="MFG P/N" value="PPTC031LFBN-RC"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="S7001-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b04115de-9b01-47b9-bdcc-7d76290dbe45</tstamps>
+    </comp>
+    <comp ref="J55">
+      <value>RR_AIN2</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">S7001-ND</field>
+        <field name="MFG">Sullins Connector Solutions</field>
+        <field name="MFG P/N">PPTC031LFBN-RC</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Sullins Connector Solutions"/>
+      <property name="MFG P/N" value="PPTC031LFBN-RC"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="S7001-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>89ed79e9-a999-4ec1-a3e8-87bb4326f362</tstamps>
+    </comp>
+    <comp ref="J56">
+      <value>RR_AIN3</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">S7001-ND</field>
+        <field name="MFG">Sullins Connector Solutions</field>
+        <field name="MFG P/N">PPTC031LFBN-RC</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Sullins Connector Solutions"/>
+      <property name="MFG P/N" value="PPTC031LFBN-RC"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="S7001-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>67910112-9a57-47f7-8e8f-b758a03c81e9</tstamps>
+    </comp>
+    <comp ref="J57">
+      <value>PWM0</value>
+      <footprint>RRIB2:70541-0002</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM7991-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0002</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0002"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM7991-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dacf3316-9f5c-435e-8ba4-567e227ea596</tstamps>
+    </comp>
+    <comp ref="J58">
+      <value>PWM1</value>
+      <footprint>RRIB2:70541-0002</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM7991-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0002</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0002"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM7991-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>79a7cead-703c-463a-8cfa-f5bd428792d7</tstamps>
+    </comp>
+    <comp ref="J59">
+      <value>PWM2</value>
+      <footprint>RRIB2:70541-0002</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM7991-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0002</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0002"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM7991-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a9eb94f-fb30-4609-a4ce-46c7bae4c7b3</tstamps>
+    </comp>
+    <comp ref="J60">
+      <value>PWM3</value>
+      <footprint>RRIB2:70541-0002</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM7991-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0002</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0002"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM7991-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>62faf734-d6c1-4ef5-a65a-cb250ddaec7b</tstamps>
+    </comp>
+    <comp ref="J61">
+      <value>PWM4</value>
+      <footprint>RRIB2:70541-0002</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM7991-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0002</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0002"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM7991-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0d64961-6b72-46c6-95da-9e2ace7def8d</tstamps>
+    </comp>
+    <comp ref="J62">
+      <value>PWM5</value>
+      <footprint>RRIB2:70541-0002</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM7991-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0002</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0002"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM7991-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff89756c-083d-4434-8700-f2f4cd369446</tstamps>
+    </comp>
+    <comp ref="J63">
+      <value>PWM6</value>
+      <footprint>RRIB2:70541-0002</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM7991-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0002</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0002"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM7991-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fdfc2946-e248-4b9e-8ab0-374605322311</tstamps>
+    </comp>
+    <comp ref="J64">
+      <value>PWM7</value>
+      <footprint>RRIB2:70541-0002</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM7991-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0002</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0002"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM7991-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4a9a9631-42de-4254-b7b4-24659a74c4ea</tstamps>
+    </comp>
+    <comp ref="J65">
+      <value>PWM8</value>
+      <footprint>RRIB2:70541-0002</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM7991-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0002</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0002"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM7991-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>258aefa8-9466-4dac-814b-3141ca8e0786</tstamps>
+    </comp>
+    <comp ref="J66">
+      <value>PWM9</value>
+      <footprint>RRIB2:70541-0002</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM7991-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0002</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0002"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM7991-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9781a9f8-4d6c-4546-b326-e7ca942c3cb3</tstamps>
+    </comp>
+    <comp ref="J67">
+      <value>RR_PWM0</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">S7001-ND</field>
+        <field name="MFG">Sullins Connector Solutions</field>
+        <field name="MFG P/N">PPTC031LFBN-RC</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Sullins Connector Solutions"/>
+      <property name="MFG P/N" value="PPTC031LFBN-RC"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="S7001-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a994c2d0-8fa7-4637-bc21-b105505142e8</tstamps>
+    </comp>
+    <comp ref="J68">
+      <value>RR_PWM1</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">S7001-ND</field>
+        <field name="MFG">Sullins Connector Solutions</field>
+        <field name="MFG P/N">PPTC031LFBN-RC</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Sullins Connector Solutions"/>
+      <property name="MFG P/N" value="PPTC031LFBN-RC"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="S7001-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>506c2342-154e-4d48-bbe0-47012092438a</tstamps>
+    </comp>
+    <comp ref="J69">
+      <value>RR_PWM2</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">S7001-ND</field>
+        <field name="MFG">Sullins Connector Solutions</field>
+        <field name="MFG P/N">PPTC031LFBN-RC</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Sullins Connector Solutions"/>
+      <property name="MFG P/N" value="PPTC031LFBN-RC"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="S7001-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e42f1c73-9dc1-40cd-8c5d-e779a802cc64</tstamps>
+    </comp>
+    <comp ref="J70">
+      <value>RR_PWM3</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">S7001-ND</field>
+        <field name="MFG">Sullins Connector Solutions</field>
+        <field name="MFG P/N">PPTC031LFBN-RC</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Sullins Connector Solutions"/>
+      <property name="MFG P/N" value="PPTC031LFBN-RC"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="S7001-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a5e6589e-3ddc-4cad-ba98-cea303848cdc</tstamps>
+    </comp>
+    <comp ref="J71">
+      <value>RR_PWM4</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">S7001-ND</field>
+        <field name="MFG">Sullins Connector Solutions</field>
+        <field name="MFG P/N">PPTC031LFBN-RC</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Sullins Connector Solutions"/>
+      <property name="MFG P/N" value="PPTC031LFBN-RC"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="S7001-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>593d7f97-b1b8-4fa0-9a74-e6a4ba4cea34</tstamps>
+    </comp>
+    <comp ref="J72">
+      <value>RR_PWM5</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">S7001-ND</field>
+        <field name="MFG">Sullins Connector Solutions</field>
+        <field name="MFG P/N">PPTC031LFBN-RC</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Sullins Connector Solutions"/>
+      <property name="MFG P/N" value="PPTC031LFBN-RC"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="S7001-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>966083ec-c031-443a-b0cb-70a3c72d3a03</tstamps>
+    </comp>
+    <comp ref="J73">
+      <value>RR_PWM6</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">S7001-ND</field>
+        <field name="MFG">Sullins Connector Solutions</field>
+        <field name="MFG P/N">PPTC031LFBN-RC</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Sullins Connector Solutions"/>
+      <property name="MFG P/N" value="PPTC031LFBN-RC"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="S7001-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>25b2bd46-4514-41d7-9098-49be265b279e</tstamps>
+    </comp>
+    <comp ref="J74">
+      <value>RR_PWM7</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">S7001-ND</field>
+        <field name="MFG">Sullins Connector Solutions</field>
+        <field name="MFG P/N">PPTC031LFBN-RC</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Sullins Connector Solutions"/>
+      <property name="MFG P/N" value="PPTC031LFBN-RC"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="S7001-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b6a0451b-d492-4e0b-b201-9ced05d1a319</tstamps>
+    </comp>
+    <comp ref="J75">
+      <value>RR_PWM8</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">S7001-ND</field>
+        <field name="MFG">Sullins Connector Solutions</field>
+        <field name="MFG P/N">PPTC031LFBN-RC</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Sullins Connector Solutions"/>
+      <property name="MFG P/N" value="PPTC031LFBN-RC"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="S7001-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0f6ed954-6625-4cdd-9215-4854520f102a</tstamps>
+    </comp>
+    <comp ref="J76">
+      <value>RR_PWM9</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">S7001-ND</field>
+        <field name="MFG">Sullins Connector Solutions</field>
+        <field name="MFG P/N">PPTC031LFBN-RC</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Sullins Connector Solutions"/>
+      <property name="MFG P/N" value="PPTC031LFBN-RC"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="S7001-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aece571e-cdcc-4f7f-81af-b8cbf7f9dd98</tstamps>
+    </comp>
+    <comp ref="J77">
+      <value>RSL</value>
+      <footprint>RRIB2:70541-0001</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM14047-ND</field>
+        <field name="MFG">MOLEX</field>
+        <field name="MFG P/N">070541-0001</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="MOLEX"/>
+      <property name="MFG P/N" value="070541-0001"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM14047-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>06b99614-c6c7-4dce-84a8-6fd679bc655b</tstamps>
+    </comp>
+    <comp ref="J78">
+      <value>RS232</value>
+      <footprint>RRIB2:70541-0002</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM7991-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0002</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0002"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM7991-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c64ea987-31c8-4b52-87a4-a4ccae1d10c9</tstamps>
+    </comp>
+    <comp ref="J79">
+      <value>I2C</value>
+      <footprint>RRIB2:70541-0003</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM7992-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">070541-0003</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="070541-0003"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM7992-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>04c51723-3584-4b30-b5eb-c030b60cc775</tstamps>
+    </comp>
+    <comp ref="J80">
+      <value>SPI0</value>
+      <footprint>RRIB2:70541-0006</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">0705410006-ND</field>
+        <field name="MFG">MOLEX</field>
+        <field name="MFG P/N">070541-0006</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x07_Male" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG P/N" value="070541-0006"/>
+      <property name="MFG" value="MOLEX"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="0705410006-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d1b81c50-df51-45fe-87c4-e499ccf00902</tstamps>
+    </comp>
+    <comp ref="J81">
+      <value>SPI1</value>
+      <footprint>RRIB2:70541-0006</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">0705410006-ND</field>
+        <field name="MFG">MOLEX</field>
+        <field name="MFG P/N">070541-0006</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x07_Male" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG P/N" value="070541-0006"/>
+      <property name="MFG" value="MOLEX"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="0705410006-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>907d1e88-f17f-4e70-b5f9-dd136a4d1881</tstamps>
+    </comp>
+    <comp ref="J82">
+      <value>SPI2</value>
+      <footprint>RRIB2:70541-0006</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">0705410006-ND</field>
+        <field name="MFG">MOLEX</field>
+        <field name="MFG P/N">070541-0006</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x07_Male" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG P/N" value="070541-0006"/>
+      <property name="MFG" value="MOLEX"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="0705410006-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>49530a71-a98c-4e13-bd04-9a3edb93251e</tstamps>
+    </comp>
+    <comp ref="J83">
+      <value>SPI3</value>
+      <footprint>RRIB2:70541-0006</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">0705410006-ND</field>
+        <field name="MFG">MOLEX</field>
+        <field name="MFG P/N">070541-0006</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x07_Male" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG P/N" value="070541-0006"/>
+      <property name="MFG" value="MOLEX"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="0705410006-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e7ea8486-174e-4e57-b7ed-2815345038e5</tstamps>
+    </comp>
+    <comp ref="J84">
+      <value>RR_RSL</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">S7000-ND</field>
+        <field name="MFG">Sullins Connector Solutions</field>
+        <field name="MFG P/N">PPTC021LFBN-RC</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Sullins Connector Solutions"/>
+      <property name="MFG P/N" value="PPTC021LFBN-RC"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="S7000-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bc3c869b-bcf6-4a3c-8e67-4f000ecc392e</tstamps>
+    </comp>
+    <comp ref="J85">
+      <value>RR_RS-232</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">S7001-ND</field>
+        <field name="MFG">Sullins Connector Solutions</field>
+        <field name="MFG P/N">PPTC031LFBN-RC</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Sullins Connector Solutions"/>
+      <property name="MFG P/N" value="PPTC031LFBN-RC"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="S7001-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>575270b5-bf94-4796-9cd0-3b69a4ba4d2c</tstamps>
+    </comp>
+    <comp ref="J86">
+      <value>RR_I2C</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">S7002-ND</field>
+        <field name="MFG">Sullins Connector Solutions</field>
+        <field name="MFG P/N">PPTC041LFBN-RC</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Sullins Connector Solutions"/>
+      <property name="MFG P/N" value="PPTC041LFBN-RC"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="S7002-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cab680b5-009d-4011-acc1-b95ab61b589e</tstamps>
+    </comp>
+    <comp ref="J87">
+      <value>RR_MXP</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x17_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">S9199-ND</field>
+        <field name="MFG">Sullins Connector Solutions</field>
+        <field name="MFG P/N">SFH11-PBPC-D17-ST-BK</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x34_Female" description="Generic connector, single row, 01x34, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Sullins Connector Solutions"/>
+      <property name="MFG P/N" value="SFH11-PBPC-D17-ST-BK"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="S9199-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x34, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e58ffc7-8d50-4250-bea4-a79ddbf6a0f0</tstamps>
+    </comp>
+    <comp ref="J88">
+      <value>RR_SPI</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">S9194-ND</field>
+        <field name="MFG">Sullins Connector Solutions</field>
+        <field name="MFG P/N">SFH11-PBPC-D05-ST-BK</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x10_Female" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFG" value="Sullins Connector Solutions"/>
+      <property name="MFG P/N" value="SFH11-PBPC-D05-ST-BK"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="S9194-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RRIB2.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>995fff9d-4464-486e-adae-f0ceeade687b</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Female">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Female">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Male">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Female">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Male">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x06_Male">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x07_Male">
+      <description>Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x07_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x10_Female">
+      <description>Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x10_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x34_Female">
+      <description>Generic connector, single row, 01x34, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x34_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+        <pin num="33" name="Pin_33" type="passive"/>
+        <pin num="34" name="Pin_34" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/3V3">
+      <node ref="J79" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J80" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J81" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J82" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J83" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J86" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J88" pin="10" pinfunction="Pin_10" pintype="passive"/>
+    </net>
+    <net code="2" name="/5V0">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J11" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J12" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J13" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J14" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J15" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J16" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J17" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J18" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J19" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J20" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J21" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J22" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J23" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J24" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J25" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J26" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J27" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J28" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J29" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J30" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J31" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J32" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J33" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J34" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J35" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J36" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J41" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J42" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J43" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J44" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J45" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J46" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J47" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J48" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J53" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J54" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J55" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J56" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J80" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J81" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J82" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J83" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J87" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J88" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="3" name="/6V0">
+      <node ref="J57" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J58" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J59" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J60" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J61" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J62" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J63" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J64" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J65" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J66" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J67" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J68" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J69" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J70" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J71" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J72" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J73" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J74" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J75" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J76" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="4" name="/A0">
+      <node ref="J25" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J31" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J87" pin="13" pinfunction="Pin_13" pintype="passive"/>
+    </net>
+    <net code="5" name="/A1">
+      <node ref="J26" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J32" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J87" pin="17" pinfunction="Pin_17" pintype="passive"/>
+    </net>
+    <net code="6" name="/A2">
+      <node ref="J27" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J33" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J87" pin="21" pinfunction="Pin_21" pintype="passive"/>
+    </net>
+    <net code="7" name="/A3">
+      <node ref="J28" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J34" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J87" pin="25" pinfunction="Pin_25" pintype="passive"/>
+    </net>
+    <net code="8" name="/A4">
+      <node ref="J29" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J35" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J87" pin="29" pinfunction="Pin_29" pintype="passive"/>
+    </net>
+    <net code="9" name="/A5">
+      <node ref="J30" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J36" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J87" pin="18" pinfunction="Pin_18" pintype="passive"/>
+    </net>
+    <net code="10" name="/AIN0">
+      <node ref="J31" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J41" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J53" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="11" name="/AIN1">
+      <node ref="J32" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J42" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J54" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="12" name="/AIN2">
+      <node ref="J33" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J43" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J55" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="13" name="/AIN3">
+      <node ref="J34" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J44" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J56" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="14" name="/AIN4">
+      <node ref="J35" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J45" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J87" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="15" name="/AIN5">
+      <node ref="J36" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J46" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J87" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="16" name="/AIN6">
+      <node ref="J47" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J87" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="17" name="/AIN7">
+      <node ref="J48" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J87" pin="9" pinfunction="Pin_9" pintype="passive"/>
+    </net>
+    <net code="18" name="/B0">
+      <node ref="J25" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J31" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J87" pin="11" pinfunction="Pin_11" pintype="passive"/>
+    </net>
+    <net code="19" name="/B1">
+      <node ref="J26" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J32" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J87" pin="15" pinfunction="Pin_15" pintype="passive"/>
+    </net>
+    <net code="20" name="/B2">
+      <node ref="J27" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J33" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J87" pin="19" pinfunction="Pin_19" pintype="passive"/>
+    </net>
+    <net code="21" name="/B3">
+      <node ref="J28" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J34" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J87" pin="23" pinfunction="Pin_23" pintype="passive"/>
+    </net>
+    <net code="22" name="/B4">
+      <node ref="J29" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J35" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J87" pin="27" pinfunction="Pin_27" pintype="passive"/>
+    </net>
+    <net code="23" name="/B5">
+      <node ref="J30" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J36" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J87" pin="31" pinfunction="Pin_31" pintype="passive"/>
+    </net>
+    <net code="24" name="/DIO0">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J15" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J31" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="25" name="/DIO1">
+      <node ref="J16" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J32" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="26" name="/DIO2">
+      <node ref="J17" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J33" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="27" name="/DIO3">
+      <node ref="J18" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J34" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="28" name="/DIO4">
+      <node ref="J19" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J35" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="29" name="/DIO5">
+      <node ref="J20" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J36" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="30" name="/DIO6">
+      <node ref="J21" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="31" name="/DIO7">
+      <node ref="J22" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="32" name="/DIO8">
+      <node ref="J23" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="33" name="/DIO9">
+      <node ref="J10" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J24" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="34" name="/DIO22">
+      <node ref="J11" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J87" pin="22" pinfunction="Pin_22" pintype="passive"/>
+    </net>
+    <net code="35" name="/DIO23">
+      <node ref="J12" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J87" pin="26" pinfunction="Pin_26" pintype="passive"/>
+    </net>
+    <net code="36" name="/DIO24">
+      <node ref="J13" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J87" pin="32" pinfunction="Pin_32" pintype="passive"/>
+    </net>
+    <net code="37" name="/DIO25">
+      <node ref="J14" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J87" pin="34" pinfunction="Pin_34" pintype="passive"/>
+    </net>
+    <net code="38" name="/FWD0">
+      <node ref="J37" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J49" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="39" name="/FWD1">
+      <node ref="J38" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J50" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="40" name="/FWD2">
+      <node ref="J39" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J51" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="41" name="/FWD3">
+      <node ref="J40" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J52" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="42" name="/GND">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J12" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J13" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J14" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J15" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J16" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J17" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J18" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J19" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J20" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J21" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J22" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J23" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J24" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J25" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J26" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J27" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J28" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J29" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J30" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J31" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J32" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J33" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J34" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J35" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J36" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J37" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J38" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J39" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J40" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J41" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J42" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J43" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J44" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J45" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J46" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J47" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J48" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J49" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J50" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J51" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J52" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J53" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J54" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J55" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J56" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J57" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J58" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J59" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J60" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J61" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J62" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J63" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J64" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J65" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J66" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J67" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J68" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J69" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J70" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J71" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J72" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J73" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J74" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J75" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J76" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J78" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J79" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J80" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J81" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J82" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J83" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J85" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J86" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J87" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J87" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="J87" pin="20" pinfunction="Pin_20" pintype="passive"/>
+      <node ref="J87" pin="24" pinfunction="Pin_24" pintype="passive"/>
+      <node ref="J87" pin="28" pinfunction="Pin_28" pintype="passive"/>
+      <node ref="J87" pin="30" pinfunction="Pin_30" pintype="passive"/>
+      <node ref="J87" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J87" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J88" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="43" name="/MISO">
+      <node ref="J80" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J81" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J82" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J83" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J88" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="44" name="/MOSI">
+      <node ref="J80" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J81" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J82" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J83" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J88" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="45" name="/PWM0">
+      <node ref="J57" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J67" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="46" name="/PWM1">
+      <node ref="J58" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J68" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="47" name="/PWM2">
+      <node ref="J59" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J69" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="48" name="/PWM3">
+      <node ref="J60" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J70" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="49" name="/PWM4">
+      <node ref="J61" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J71" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="50" name="/PWM5">
+      <node ref="J62" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J72" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="51" name="/PWM6">
+      <node ref="J63" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J73" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="52" name="/PWM7">
+      <node ref="J64" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J74" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="53" name="/PWM8">
+      <node ref="J65" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J75" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="54" name="/PWM9">
+      <node ref="J66" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J76" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="55" name="/REV0">
+      <node ref="J37" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J49" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="56" name="/REV1">
+      <node ref="J38" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J50" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="57" name="/REV2">
+      <node ref="J39" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J51" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="58" name="/REV3">
+      <node ref="J40" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J52" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="59" name="/RSL">
+      <node ref="J77" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J84" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="60" name="/RSL_GND">
+      <node ref="J77" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J84" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="61" name="/RXD">
+      <node ref="J78" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J85" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="62" name="/SCL">
+      <node ref="J79" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J86" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="63" name="/SCLK">
+      <node ref="J80" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J81" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J82" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J83" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J88" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="64" name="/SDA">
+      <node ref="J79" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J86" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="65" name="/TXD">
+      <node ref="J78" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J85" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="66" name="/~{CS0}">
+      <node ref="J80" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J88" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="67" name="/~{CS1}">
+      <node ref="J81" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J88" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="68" name="/~{CS2}">
+      <node ref="J82" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J88" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="69" name="/~{CS3}">
+      <node ref="J83" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J88" pin="9" pinfunction="Pin_9" pintype="passive"/>
+    </net>
+    <net code="70" name="unconnected-(J87-Pin_2-Pad2)">
+      <node ref="J87" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(J87-Pin_4-Pad4)">
+      <node ref="J87" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(J87-Pin_10-Pad10)">
+      <node ref="J87" pin="10" pinfunction="Pin_10" pintype="passive+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(J87-Pin_14-Pad14)">
+      <node ref="J87" pin="14" pinfunction="Pin_14" pintype="passive+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(J87-Pin_33-Pad33)">
+      <node ref="J87" pin="33" pinfunction="Pin_33" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
