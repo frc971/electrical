@@ -1,0 +1,6 @@
+Item, Qty, Reference(s), Value, DIST, DIST P/N, MFG, MFG P/N, 
+"1","1","D1","LED","Digikey","1080-1419-1-ND","Everlight Electronics Co Ltd","QTLP650D4TR"
+"2","1","J1","Mag-encoder","Digikey","609-4054-ND","Amphenol ICC","20021521-00010T1LF"
+"3","1","J2","POT","Digikey","WM4165-ND","Molex","0705550002"
+"4","1","J3","RIO","Digikey","23-0705550005-ND","Molex","705550005"
+"5","1","R1","2.0k 1%","Digikey","311-2.0KARCT-ND","YAGEO","RC0805JR-072KL"

@@ -1,0 +1,14 @@
+"Source:","/home/scott/Documents/Projects/dev/git/971-electrical/circuit-boards/connector_boards/MAG_encoder_adapter/MAG_encoder_adapter.kicad_sch"
+"Date:","Sun 21 Jan 2024 09:32:53 AM PST"
+"Tool:","Eeschema 7.0.10-7.0.10~ubuntu22.04.1"
+"Generator:","/usr/share/kicad/plugins/bom_csv_grouped_by_value.py"
+"Component Count:","5"
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","DNP","DIST","DIST P/N","MFG","MFG P/N"
+"1","1","D1","LED","Device:LED","LED_SMD:LED_1206_3216Metric","~","","Digikey","1080-1419-1-ND","Everlight Electronics Co Ltd","QTLP650D4TR"
+"2","1","J1","Mag-encoder","Connector_Generic:Conn_01x10","MAG-encoder:20021521-00010T1LF","~","","Digikey","609-4054-ND","Amphenol ICC","20021521-00010T1LF"
+"3","1","J2","POT","Connector_Generic:Conn_01x03","MAG-encoder:70555-0002","~","","Digikey","WM4165-ND","Molex","0705550002"
+"4","1","J3","RIO","Connector:Conn_01x06_Male","mag:705550005","~","","Digikey","23-0705550005-ND","Molex","705550005"
+"5","1","R1","2.0k 1%","Device:R_US","Resistor_SMD:R_0805_2012Metric","~","","Digikey","311-2.0KARCT-ND","YAGEO","RC0805JR-072KL"
