@@ -1930,6 +1930,9 @@
   (junction (at 487.68 241.3) (diameter 0) (color 0 0 0 0)
     (uuid 3af25920-714b-4a84-a2b7-586f899058fe)
   )
+  (junction (at 586.74 38.1) (diameter 0) (color 0 0 0 0)
+    (uuid 440c733a-8e0b-4141-b642-d29a09a91990)
+  )
   (junction (at 595.63 410.21) (diameter 0) (color 0 0 0 0)
     (uuid 49afe555-a47f-4d14-b67e-c9a2596f6d13)
   )
@@ -2098,9 +2101,6 @@
   (junction (at 589.28 237.49) (diameter 0) (color 0 0 0 0)
     (uuid d3fc5d0f-0370-4792-b5b4-6c163eb5219b)
   )
-  (junction (at 157.48 92.71) (diameter 0) (color 0 0 0 0)
-    (uuid d4287fe4-64bc-4d31-a0bc-128f6f4f55b6)
-  )
   (junction (at 92.71 64.77) (diameter 0) (color 255 0 0 1)
     (uuid d950eb9f-14e4-4b62-b87e-a9bde817f7e1)
   )
@@ -2121,6 +2121,9 @@
   )
   (junction (at 590.55 440.69) (diameter 0) (color 0 0 0 0)
     (uuid e9d86eb5-71fe-44b7-b32a-3ae200019f25)
+  )
+  (junction (at 157.48 92.71) (diameter 0) (color 0 0 0 0)
+    (uuid ee59a077-ddbd-4023-b585-cc0562c6b3e5)
   )
   (junction (at 594.36 154.94) (diameter 0) (color 0 0 0 0)
     (uuid f1833caa-19d9-4b5b-bb0d-51138beb70f6)
@@ -2198,6 +2201,7 @@
   (no_connect (at 224.79 328.93) (uuid d219426b-b0b0-485a-b535-bcbf03524ee8))
   (no_connect (at 224.79 457.2) (uuid d82de9d4-247d-463b-b475-01da8ca6b4b9))
   (no_connect (at 220.98 200.66) (uuid db84b527-ba09-4bc9-8c56-3a482ce9b5cd))
+  (no_connect (at 220.98 495.3) (uuid e14bbfa1-7c60-4c48-be5d-43f9576eb8b8))
   (no_connect (at 220.98 261.62) (uuid e73987f3-727f-421f-b165-2d80f119c2d3))
   (no_connect (at 220.98 254) (uuid eaebb23b-c695-4fc4-9786-00507da39f71))
   (no_connect (at 87.63 279.4) (uuid ed751714-b3b4-4127-92fb-f89184d0b5b6))
@@ -2265,10 +2269,6 @@
   (wire (pts (xy 598.17 40.64) (xy 598.17 41.91))
     (stroke (width 0.254) (type default) (color 255 153 0 1))
     (uuid 0e43baa8-bb54-4b39-9d2a-6ce4c7d39128)
-  )
-  (wire (pts (xy 157.48 92.71) (xy 158.75 92.71))
-    (stroke (width 0) (type default))
-    (uuid 0e5f8365-0432-4b57-9e69-118c544fc8ca)
   )
   (wire (pts (xy 87.63 226.06) (xy 111.76 226.06))
     (stroke (width 0.508) (type default) (color 132 132 0 1))
@@ -2818,7 +2818,7 @@
     (stroke (width 0.254) (type default) (color 255 0 0 1))
     (uuid 6cee28d4-59b8-479d-9705-a4602bb1e089)
   )
-  (wire (pts (xy 584.2 38.1) (xy 605.79 38.1))
+  (wire (pts (xy 584.2 38.1) (xy 586.74 38.1))
     (stroke (width 0.254) (type default) (color 255 153 0 1))
     (uuid 6eed52f7-2849-498b-89f8-e3d8da21c60c)
   )
@@ -2861,6 +2861,10 @@
   (wire (pts (xy 171.45 494.03) (xy 199.39 494.03))
     (stroke (width 0.508) (type default) (color 255 0 0 1))
     (uuid 71f37d18-b725-4e3b-b125-32579f5c040c)
+  )
+  (wire (pts (xy 586.74 38.1) (xy 589.28 38.1))
+    (stroke (width 0) (type default))
+    (uuid 72406b06-fb00-4d58-a961-7a808fc606f4)
   )
   (wire (pts (xy 240.03 414.02) (xy 250.19 414.02))
     (stroke (width 0.254) (type default) (color 0 194 194 1))
@@ -3189,6 +3193,10 @@
   (wire (pts (xy 487.68 287.02) (xy 441.96 287.02))
     (stroke (width 0.508) (type default) (color 255 0 0 1))
     (uuid a22c486f-55b2-4e2a-9a43-43c899476bd1)
+  )
+  (wire (pts (xy 586.74 38.1) (xy 605.79 38.1))
+    (stroke (width 0.254) (type default) (color 255 153 0 1))
+    (uuid a2f56f98-36c6-4bd3-acb4-c5437d092b4c)
   )
   (wire (pts (xy 129.54 381) (xy 171.45 381))
     (stroke (width 0.508) (type default) (color 255 0 0 1))
@@ -3554,10 +3562,6 @@
     (stroke (width 0.254) (type default) (color 0 194 194 1))
     (uuid e11b6ad7-f4ab-47e1-9f07-ce85afeb7913)
   )
-  (wire (pts (xy 157.48 92.71) (xy 165.1 92.71))
-    (stroke (width 0.254) (type default) (color 255 153 0 1))
-    (uuid e11fe39a-dfa7-4066-8c03-a394a550ddbb)
-  )
   (wire (pts (xy 567.69 87.63) (xy 567.69 80.01))
     (stroke (width 0.508) (type default) (color 255 0 0 1))
     (uuid e16baf43-0af7-4288-829a-d64cd5aa8e49)
@@ -3629,6 +3633,10 @@
   (wire (pts (xy 231.14 424.18) (xy 240.03 424.18))
     (stroke (width 0.254) (type default) (color 0 194 194 1))
     (uuid ed736123-0176-441c-ac88-2daaff573282)
+  )
+  (wire (pts (xy 157.48 92.71) (xy 165.1 92.71))
+    (stroke (width 0.254) (type default) (color 255 153 0 1))
+    (uuid edd8324c-0785-43fa-82d8-3392b3b79d1a)
   )
   (wire (pts (xy 224.79 386.08) (xy 231.14 386.08))
     (stroke (width 0.254) (type default) (color 0 194 194 1))
@@ -4159,7 +4167,7 @@
   (symbol (lib_id "SystemDiagram:WireTag") (at 601.98 419.1 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 09076650-0ee6-4780-9069-a2e2bdb73230)
-    (property "Reference" "W77" (at 599.44 420.37 90)
+    (property "Reference" "W114" (at 599.44 420.37 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CAN" (at 599.44 417.83 90)
@@ -4175,7 +4183,7 @@
     (instances
       (project "2024-SystemDiagram"
         (path "/12a52703-e3f4-4774-b510-3055ab1abf35"
-          (reference "W77") (unit 1)
+          (reference "W114") (unit 1)
         )
       )
     )
@@ -4236,7 +4244,7 @@
   (symbol (lib_id "SystemDiagram:WireTag") (at 601.98 276.86 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0d12cc26-626f-40f3-bf04-c72e2c8460e6)
-    (property "Reference" "W73" (at 599.44 278.13 90)
+    (property "Reference" "W110" (at 599.44 278.13 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CAN" (at 599.44 275.59 90)
@@ -4252,7 +4260,7 @@
     (instances
       (project "2024-SystemDiagram"
         (path "/12a52703-e3f4-4774-b510-3055ab1abf35"
-          (reference "W73") (unit 1)
+          (reference "W110") (unit 1)
         )
       )
     )
@@ -4580,7 +4588,7 @@
   (symbol (lib_id "SystemDiagram:WireTag") (at 601.98 461.01 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1c537ffe-8b0b-4ae4-adf6-2277641cf69c)
-    (property "Reference" "W79" (at 599.44 462.28 90)
+    (property "Reference" "W116" (at 599.44 462.28 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CAN" (at 599.44 459.74 90)
@@ -4596,7 +4604,7 @@
     (instances
       (project "2024-SystemDiagram"
         (path "/12a52703-e3f4-4774-b510-3055ab1abf35"
-          (reference "W79") (unit 1)
+          (reference "W116") (unit 1)
         )
       )
     )
@@ -5253,7 +5261,7 @@
   (symbol (lib_id "SystemDiagram:WireTag") (at 157.48 107.95 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3ea478ad-3510-4aec-9d82-96c5dc8dfaa8)
-    (property "Reference" "W83" (at 154.94 109.22 90)
+    (property "Reference" "W102" (at 154.94 109.22 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CAN" (at 154.94 106.68 90)
@@ -5269,7 +5277,7 @@
     (instances
       (project "2024-SystemDiagram"
         (path "/12a52703-e3f4-4774-b510-3055ab1abf35"
-          (reference "W83") (unit 1)
+          (reference "W102") (unit 1)
         )
       )
     )
@@ -5480,7 +5488,7 @@
   (symbol (lib_id "SystemDiagram:WireTag") (at 601.98 196.85 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4e1f5402-ca6e-4997-99af-9c7719069bed)
-    (property "Reference" "W71" (at 599.44 198.12 90)
+    (property "Reference" "W108" (at 599.44 198.12 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CAN" (at 599.44 195.58 90)
@@ -5496,7 +5504,7 @@
     (instances
       (project "2024-SystemDiagram"
         (path "/12a52703-e3f4-4774-b510-3055ab1abf35"
-          (reference "W71") (unit 1)
+          (reference "W108") (unit 1)
         )
       )
     )
@@ -5807,7 +5815,7 @@
   (symbol (lib_id "SystemDiagram:WireTag") (at 598.17 86.36 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5aa84bea-0911-4421-bb91-93a522dad34f)
-    (property "Reference" "W70" (at 595.63 87.63 90)
+    (property "Reference" "W107" (at 595.63 87.63 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CAN" (at 595.63 85.09 90)
@@ -5823,7 +5831,7 @@
     (instances
       (project "2024-SystemDiagram"
         (path "/12a52703-e3f4-4774-b510-3055ab1abf35"
-          (reference "W70") (unit 1)
+          (reference "W107") (unit 1)
         )
       )
     )
@@ -5859,7 +5867,7 @@
   (symbol (lib_id "SystemDiagram:WireTag") (at 601.98 318.77 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5c1217ab-070c-4aa5-a1b2-9c6c66b58c89)
-    (property "Reference" "W74" (at 599.44 320.04 90)
+    (property "Reference" "W111" (at 599.44 320.04 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CAN" (at 599.44 317.5 90)
@@ -5875,7 +5883,7 @@
     (instances
       (project "2024-SystemDiagram"
         (path "/12a52703-e3f4-4774-b510-3055ab1abf35"
-          (reference "W74") (unit 1)
+          (reference "W111") (unit 1)
         )
       )
     )
@@ -6119,7 +6127,7 @@
   (symbol (lib_id "SystemDiagram:WireTag") (at 598.17 53.34 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 674bf337-8f38-4a0b-945a-a5780519366a)
-    (property "Reference" "W69" (at 595.63 54.61 90)
+    (property "Reference" "W106" (at 595.63 54.61 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CAN" (at 595.63 52.07 90)
@@ -6135,7 +6143,7 @@
     (instances
       (project "2024-SystemDiagram"
         (path "/12a52703-e3f4-4774-b510-3055ab1abf35"
-          (reference "W69") (unit 1)
+          (reference "W106") (unit 1)
         )
       )
     )
@@ -6345,6 +6353,31 @@
     )
   )
 
+  (symbol (lib_id "SystemDiagram:WireTag") (at 586.74 38.1 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 732501b2-f784-4d5d-acff-3993205c51ec)
+    (property "Reference" "W103" (at 585.47 39.37 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "CAN" (at 588.01 36.83 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 586.74 38.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 586.74 38.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "" (uuid a8b3e702-e7f6-45bb-a5ce-5ab8e9f95e76))
+    (instances
+      (project "2024-SystemDiagram"
+        (path "/12a52703-e3f4-4774-b510-3055ab1abf35"
+          (reference "W103") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "SystemDiagram:Falcon_Motor") (at 609.6 265.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 73df0367-4fd1-4539-a04d-5a4358cd3a06)
@@ -6500,7 +6533,7 @@
   (symbol (lib_id "SystemDiagram:WireTag") (at 157.48 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 815bcb14-77d4-434c-ae2a-a58eaf77a958)
-    (property "Reference" "W82" (at 158.75 93.98 0)
+    (property "Reference" "W101" (at 158.75 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CAN" (at 157.48 90.17 0)
@@ -6516,7 +6549,7 @@
     (instances
       (project "2024-SystemDiagram"
         (path "/12a52703-e3f4-4774-b510-3055ab1abf35"
-          (reference "W82") (unit 1)
+          (reference "W101") (unit 1)
         )
       )
     )
@@ -6877,7 +6910,7 @@
   (symbol (lib_id "SystemDiagram:WireTag") (at 601.98 347.98 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 929f6201-fdfd-446c-9a81-c01ed7aad937)
-    (property "Reference" "W75" (at 599.44 349.25 90)
+    (property "Reference" "W112" (at 599.44 349.25 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CAN" (at 599.44 346.71 90)
@@ -6893,7 +6926,7 @@
     (instances
       (project "2024-SystemDiagram"
         (path "/12a52703-e3f4-4774-b510-3055ab1abf35"
-          (reference "W75") (unit 1)
+          (reference "W112") (unit 1)
         )
       )
     )
@@ -7292,7 +7325,7 @@
   (symbol (lib_id "SystemDiagram:WireTag") (at 601.98 476.25 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid afc6382d-bd7c-436a-a50a-4066e6463ade)
-    (property "Reference" "W80" (at 599.44 477.52 90)
+    (property "Reference" "W117" (at 599.44 477.52 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CAN" (at 599.44 474.98 90)
@@ -7308,7 +7341,7 @@
     (instances
       (project "2024-SystemDiagram"
         (path "/12a52703-e3f4-4774-b510-3055ab1abf35"
-          (reference "W80") (unit 1)
+          (reference "W117") (unit 1)
         )
       )
     )
@@ -7676,7 +7709,7 @@
   (symbol (lib_id "SystemDiagram:WireTag") (at 601.98 255.27 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c6f73f60-9121-4cae-b77d-7e1fc76641bc)
-    (property "Reference" "W72" (at 599.44 256.54 90)
+    (property "Reference" "W109" (at 599.44 256.54 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CAN" (at 599.44 254 90)
@@ -7692,7 +7725,7 @@
     (instances
       (project "2024-SystemDiagram"
         (path "/12a52703-e3f4-4774-b510-3055ab1abf35"
-          (reference "W72") (unit 1)
+          (reference "W109") (unit 1)
         )
       )
     )
@@ -7726,7 +7759,7 @@
   (symbol (lib_id "SystemDiagram:WireTag") (at 601.98 379.73 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c817758c-7eb9-4508-b628-2c799cb35e49)
-    (property "Reference" "W76" (at 599.44 381 90)
+    (property "Reference" "W113" (at 599.44 381 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CAN" (at 599.44 378.46 90)
@@ -7742,7 +7775,7 @@
     (instances
       (project "2024-SystemDiagram"
         (path "/12a52703-e3f4-4774-b510-3055ab1abf35"
-          (reference "W76") (unit 1)
+          (reference "W113") (unit 1)
         )
       )
     )
@@ -7903,7 +7936,7 @@
   (symbol (lib_id "SystemDiagram:WireTag") (at 598.17 41.91 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d10c645d-4c96-4d34-ab2f-499a992b49fe)
-    (property "Reference" "W68" (at 595.63 43.18 90)
+    (property "Reference" "W105" (at 595.63 43.18 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CAN" (at 595.63 40.64 90)
@@ -7919,7 +7952,7 @@
     (instances
       (project "2024-SystemDiagram"
         (path "/12a52703-e3f4-4774-b510-3055ab1abf35"
-          (reference "W68") (unit 1)
+          (reference "W105") (unit 1)
         )
       )
     )
@@ -8029,7 +8062,7 @@
   (symbol (lib_id "SystemDiagram:WireTag") (at 601.98 433.07 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d9f5b9c3-3b86-474e-97f2-39efb1240e07)
-    (property "Reference" "W78" (at 599.44 434.34 90)
+    (property "Reference" "W115" (at 599.44 434.34 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CAN" (at 599.44 431.8 90)
@@ -8045,7 +8078,7 @@
     (instances
       (project "2024-SystemDiagram"
         (path "/12a52703-e3f4-4774-b510-3055ab1abf35"
-          (reference "W78") (unit 1)
+          (reference "W115") (unit 1)
         )
       )
     )
@@ -8330,7 +8363,7 @@
   (symbol (lib_id "SystemDiagram:WireTag") (at 594.36 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e5656b8d-6208-4441-98e6-83bad09edecd)
-    (property "Reference" "W81" (at 595.63 97.79 0)
+    (property "Reference" "W104" (at 595.63 97.79 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CAN" (at 594.36 93.98 0)
@@ -8346,7 +8379,7 @@
     (instances
       (project "2024-SystemDiagram"
         (path "/12a52703-e3f4-4774-b510-3055ab1abf35"
-          (reference "W81") (unit 1)
+          (reference "W104") (unit 1)
         )
       )
     )
