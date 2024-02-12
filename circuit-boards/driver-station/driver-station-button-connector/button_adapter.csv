@@ -1,0 +1,11 @@
+"Source:","/home/scottberman/Documents/Projects/dev/git/971-electrical/circuit-boards/driver-station/driver-station-button-connector/button_adapter.kicad_sch"
+"Date:","Sun 11 Feb 2024 05:16:06 PM PST"
+"Tool:","Eeschema 7.0.10-7.0.10~ubuntu22.04.1"
+"Generator:","/usr/share/kicad/plugins/bom_csv_grouped_by_value.py"
+"Component Count:","2"
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","DNP","DIST","DIST P/N","MFG","MFG P/N"
+"1","1","J1","BUTTON","Connector:Conn_01x02_Socket","button_adapter:button","~","","","","Sanwa","OBSF-30"
+"2","1","J2","MOLEX 2PIN","Connector:Conn_01x02_Socket","button_adapter:2 pin molex sl right angle","~","","Digikey","WM14786-ND","Molex","0705550071"
