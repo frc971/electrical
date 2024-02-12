@@ -1,0 +1,7 @@
+### Footprint positions - created on Sun 11 Feb 2024 05:22:48 PM PST ###
+### Printed by KiCad version 7.0.10-7.0.10~ubuntu22.04.1
+## Unit = inches, Angle = deg.
+## Side : top
+# Ref     Val         Package                          PosX       PosY       Rot  Side
+J2        MOLEX_2PIN  2_pin_molex_sl_right_angle     6.8010    -4.4600  180.0000  top
+## End

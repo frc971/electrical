@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/scottberman/Documents/Projects/dev/git/971-electrical/circuit-boards/driver-station/driver-station-button-connector/button_adapter.kicad_sch</source>
+    <date>Sun 11 Feb 2024 05:16:06 PM PST</date>
+    <tool>Eeschema 7.0.10-7.0.10~ubuntu22.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Driver Station Button Connector</title>
+        <company/>
+        <rev>1</rev>
+        <date>2024-02-11</date>
+        <source>button_adapter.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>BUTTON</value>
+      <footprint>button_adapter:button</footprint>
+      <fields>
+        <field name="MFG">Sanwa</field>
+        <field name="MFG P/N">OBSF-30</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Socket" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="MFG" value="Sanwa"/>
+      <property name="MFG P/N" value="OBSF-30"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="button_adapter.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ffa67da-a55b-46a8-a6d6-ea26cf5e7993</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>MOLEX 2PIN</value>
+      <footprint>button_adapter:2 pin molex sl right angle</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM14786-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">0705550071</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Socket" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="0705550071"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM14786-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="button_adapter.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1c3617e8-348d-4dc8-9ff7-efca4fd57de6</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Socket">
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Socket</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(J1-Pin_1)">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="2" name="Net-(J1-Pin_2)">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+  </nets>
+</export>
