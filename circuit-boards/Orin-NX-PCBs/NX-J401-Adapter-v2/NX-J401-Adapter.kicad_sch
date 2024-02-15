@@ -980,6 +980,11 @@
     (uuid 6bbab1bf-a8cf-40c1-91de-c0c23d6a433a)
   )
 
+  (text "Revision Notes\n1. CAN SUR connectors have pin 1 side swapped"
+    (at 290.83 24.13 0)
+    (effects (font (size 1.905 1.905) (thickness 0.381) bold (color 255 0 0 1)) (justify left bottom))
+    (uuid 00575c41-59ff-4a8c-8027-324beb0cf0e6)
+  )
   (text "FFC: 36 pin" (at 360.68 80.01 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 098658d4-d633-444c-a26f-a77833bedd86)
@@ -1200,12 +1205,6 @@
         )
       )
       (project "NX-J401-Adapter"
-        (path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/584f7d71-5922-4ce5-8f88-d664ca9e2a8c"
-          (reference "R7") (unit 1)
-        )
-        (path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/31806f24-7fa6-46e2-ae93-f7306b662757"
-          (reference "R5") (unit 1)
-        )
         (path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658"
           (reference "R11") (unit 1)
         )
@@ -1478,10 +1477,10 @@
     (property "DIST P/N" "350-5913001858FCT-ND" (at 162.56 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fcdf0dc0-cbf2-41b6-a9b1-44c6c7490bca))
-    (pin "2" (uuid bbcda079-ddeb-405b-8ff6-3f9666a36bea))
-    (pin "3" (uuid 99f385b1-a796-49c0-985d-f7aa2c786d83))
-    (pin "4" (uuid 316d4d51-12f3-42b2-ab54-73288f074a03))
+    (pin "1" (uuid fcdf0dc0-cbf2-41b6-a9b1-44c6c7490bcb))
+    (pin "2" (uuid bbcda079-ddeb-405b-8ff6-3f9666a36beb))
+    (pin "3" (uuid 99f385b1-a796-49c0-985d-f7aa2c786d84))
+    (pin "4" (uuid 316d4d51-12f3-42b2-ab54-73288f074a04))
     (instances
       (project "NX-J401-Adapter"
         (path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658"
