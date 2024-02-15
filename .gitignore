@@ -5,6 +5,7 @@
 *.000
 *.bak
 *.bck
+*.lck
 *.kicad_pcb-bak
 *.kicad_sch-bak
 *-backups
@@ -16,6 +17,15 @@ _autosave-*
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
+
+# zipfiles
+*.zip
+
+# step files
+*.step
+*.stp
+*.STEP
+*.STP
 
 # Netlist files (exported from Eeschema)
 *.net
