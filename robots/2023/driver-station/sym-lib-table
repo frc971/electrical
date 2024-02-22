@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SystemDiagram")(type "KiCad")(uri "/home/scottberman/Documents/Projects/FRC971/Driver Station/SystemDiagram.kicad_sym")(options "")(descr ""))
+)
