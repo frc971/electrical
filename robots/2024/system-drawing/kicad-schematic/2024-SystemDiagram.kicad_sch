@@ -5869,7 +5869,7 @@
   )
 
   (symbol (lib_id "SystemDiagram:WireTag") (at 586.74 340.36 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 31f337e4-1a94-4615-b146-012c875caf90)
     (property "Reference" "W35" (at 582.93 341.63 0)
       (effects (font (face "FreeSans") (size 1.524 1.524) bold))
@@ -6447,7 +6447,7 @@
   )
 
   (symbol (lib_id "SystemDiagram:WireTag") (at 487.68 341.63 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 467073a8-4337-4ad2-8ed3-f7b03c850ad0)
     (property "Reference" "W58" (at 483.87 342.9 0)
       (effects (font (face "FreeSans") (size 1.524 1.524) bold))
@@ -6727,7 +6727,7 @@
   )
 
   (symbol (lib_id "SystemDiagram:WireTag") (at 543.56 339.09 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 571ed99d-28ac-4e1a-b65d-d825fd46c449)
     (property "Reference" "W64" (at 547.37 340.36 0)
       (effects (font (face "FreeSans") (size 1.524 1.524) bold))
@@ -8846,7 +8846,7 @@
   )
 
   (symbol (lib_id "SystemDiagram:BeamBreakSensor") (at 623.57 344.17 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid b96f6c9b-b96c-4ddd-98b3-5d7e4cc9268c)
     (property "Reference" "BB3" (at 624.84 339.09 0)
       (effects (font (face "FreeSans") (size 1.524 1.524) bold) (justify right))
@@ -10181,7 +10181,7 @@
   )
 
   (symbol (lib_id "SystemDiagram:BeamBreakAdapter") (at 557.53 336.55 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid ff0c2b81-9026-4232-ad7c-65ca255aba42)
     (property "Reference" "BBA1" (at 563.88 331.47 0)
       (effects (font (face "FreeSans") (size 1.524 1.524) bold))
