@@ -7369,12 +7369,6 @@
 		(uuid "49afe555-a47f-4d14-b67e-c9a2596f6d13")
 	)
 	(junction
-		(at 601.98 331.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4d73fe4e-a548-44a6-bd44-0a5662d5761b")
-	)
-	(junction
 		(at 54.61 269.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7483,7 +7477,7 @@
 		(uuid "7b997c3b-29f2-4d89-b1db-639b766d81a9")
 	)
 	(junction
-		(at 228.6 472.44)
+		(at 275.59 472.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ecc6631-2e33-4a03-b6c8-8210a7e64a93")
@@ -7573,6 +7567,12 @@
 		(uuid "934c05cf-0098-4727-bcac-d73d6de4b6de")
 	)
 	(junction
+		(at 601.98 331.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95f460c7-2703-47a5-8dbe-c4c4e22dfb0f")
+	)
+	(junction
 		(at 595.63 364.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7657,7 +7657,7 @@
 		(uuid "b8a95c18-8cc1-409a-b3b7-47479050ac39")
 	)
 	(junction
-		(at 243.84 433.07)
+		(at 273.05 426.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8dcf897-1ef3-4a9e-9ce8-196efb6d53b8")
@@ -7943,10 +7943,6 @@
 		(uuid "1f6e2597-d947-47f1-86f3-22a74ebf600e")
 	)
 	(no_connect
-		(at 224.79 434.34)
-		(uuid "2728b31e-6ade-45ff-a4ef-cb33579260e7")
-	)
-	(no_connect
 		(at 179.07 252.73)
 		(uuid "294f773f-a4e6-4c7c-9ff4-5a8039021081")
 	)
@@ -8057,10 +8053,6 @@
 	(no_connect
 		(at 220.98 208.28)
 		(uuid "8cd5687d-e81f-45b3-9cbc-5b159eb5b190")
-	)
-	(no_connect
-		(at 224.79 436.88)
-		(uuid "8cd99a12-3307-434f-915c-4a673515a536")
 	)
 	(no_connect
 		(at 87.63 271.78)
@@ -8262,6 +8254,17 @@
 	)
 	(wire
 		(pts
+			(xy 572.77 331.47) (xy 601.98 331.47)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "05f9e9e7-7108-40fa-bf44-63f40b979e9a")
+	)
+	(wire
+		(pts
 			(xy 436.88 326.39) (xy 436.88 128.27)
 		)
 		(stroke
@@ -8372,7 +8375,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 429.26) (xy 224.79 429.26)
+			(xy 275.59 429.26) (xy 224.79 429.26)
 		)
 		(stroke
 			(width 0.254)
@@ -9873,17 +9876,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 433.07) (xy 233.68 426.72)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 255 153 0 1)
-		)
-		(uuid "5fe3695e-4b44-4a53-9feb-2940367727b8")
-	)
-	(wire
-		(pts
 			(xy 416.56 113.03) (xy 416.56 452.12)
 		)
 		(stroke
@@ -10024,7 +10016,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 433.07) (xy 254 433.07)
+			(xy 273.05 426.72) (xy 283.21 426.72)
 		)
 		(stroke
 			(width 0.254)
@@ -10207,6 +10199,17 @@
 			(color 255 0 0 1)
 		)
 		(uuid "739b69bf-688b-441a-8314-37234f93357f")
+	)
+	(wire
+		(pts
+			(xy 224.79 434.34) (xy 228.6 434.34)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "7443230a-e358-4f1d-90d3-856627bc74f1")
 	)
 	(wire
 		(pts
@@ -10464,17 +10467,6 @@
 			(type default)
 		)
 		(uuid "85666ee4-fb1d-4b0d-bb21-6184611b832d")
-	)
-	(wire
-		(pts
-			(xy 233.68 433.07) (xy 243.84 433.07)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 255 153 0 1)
-		)
-		(uuid "856d87f4-b9ef-4dc2-b851-e22a1b793d81")
 	)
 	(wire
 		(pts
@@ -10925,7 +10917,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 487.68) (xy 228.6 487.68)
+			(xy 220.98 487.68) (xy 275.59 487.68)
 		)
 		(stroke
 			(width 0.254)
@@ -11155,7 +11147,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 472.44) (xy 228.6 487.68)
+			(xy 275.59 472.44) (xy 275.59 487.68)
 		)
 		(stroke
 			(width 0.254)
@@ -11296,7 +11288,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 429.26) (xy 228.6 472.44)
+			(xy 275.59 429.26) (xy 275.59 472.44)
 		)
 		(stroke
 			(width 0.254)
@@ -11359,6 +11351,17 @@
 			(color 194 0 194 1)
 		)
 		(uuid "b61235c0-cd30-44e5-9dcd-a83b928c070a")
+	)
+	(wire
+		(pts
+			(xy 224.79 436.88) (xy 228.6 436.88)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "b631f1c8-cb1f-45c7-89cf-2b3225b3766c")
 	)
 	(wire
 		(pts
@@ -11806,17 +11809,6 @@
 	)
 	(wire
 		(pts
-			(xy 601.98 331.47) (xy 601.98 354.33)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 255 153 0 1)
-		)
-		(uuid "d3f1f878-bdfb-4c0a-816c-0107bc7589a6")
-	)
-	(wire
-		(pts
 			(xy 601.98 354.33) (xy 607.06 354.33)
 		)
 		(stroke
@@ -11860,7 +11852,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 426.72) (xy 224.79 426.72)
+			(xy 224.79 426.72) (xy 273.05 426.72)
 		)
 		(stroke
 			(width 0.254)
@@ -12663,7 +12655,10 @@
 		(fields_autoplaced yes)
 		(effects
 			(font
+				(face "FreeSans")
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify right bottom)
 		)
@@ -12771,6 +12766,20 @@
 		)
 		(uuid "2dd9ef0d-60c6-4d9e-9ec6-00e60629c7c6")
 	)
+	(label "CAN_FD_NX_TO_EXTEND"
+		(at 228.6 436.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "FreeSans")
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e03330e-b49d-4a92-a526-6a9e03bf8c55")
+	)
 	(label "CAN_INTAKE_TO_CANDLE"
 		(at 601.98 472.44 180)
 		(fields_autoplaced yes)
@@ -12783,6 +12792,20 @@
 			(justify right bottom)
 		)
 		(uuid "2e157138-a049-4f7c-8b42-dde27eb15ce1")
+	)
+	(label "CAN_FD_EXTEND_TO_TURRET"
+		(at 570.23 356.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "FreeSans")
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "364e9f63-3fbb-4901-85c7-082816249a3c")
 	)
 	(label "CAN_PD"
 		(at 601.98 388.62 180)
@@ -12848,19 +12871,6 @@
 			(justify left bottom)
 		)
 		(uuid "4da1150a-7e59-48d4-a7e9-d0a300e95cac")
-	)
-	(label "CAN_FD_TURRET_RIGHT_BACK"
-		(at 591.82 229.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "FreeSans")
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify right bottom)
-		)
-		(uuid "51b4c158-856c-4868-91da-5c36abf71875")
 	)
 	(label "CAN_FD_RIGHT_FRONT_INTAKE_PIVOT"
 		(at 598.17 52.07 180)
@@ -12993,8 +13003,8 @@
 		)
 		(uuid "75e1dc26-b505-42f2-bb50-494b3c549449")
 	)
-	(label "CAN_FD_DRV_TURRET"
-		(at 598.17 82.55 180)
+	(label "CAN_FD_NX_TO_RIGHT_BACK"
+		(at 228.6 434.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13002,9 +13012,9 @@
 				(size 1.27 1.27)
 				(bold yes)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "7663c7e0-cea0-447e-9c89-223861ad5742")
+		(uuid "7ce4d318-d92d-4c50-ad6e-55d1471fdf47")
 	)
 	(label "TRANSFER ROLLER BB PWR"
 		(at 265.43 340.36 0)
@@ -13018,6 +13028,19 @@
 			(justify left bottom)
 		)
 		(uuid "7e6bd26d-8e93-4282-bd6b-0470395e5cfe")
+	)
+	(label "CAN_TRANSFER_TO_DUMP"
+		(at 572.77 331.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "FreeSans")
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "807f1017-571d-471c-a5f9-cc6004ab5c8a")
 	)
 	(label "CAN_PD"
 		(at 151.13 92.71 180)
@@ -13136,7 +13159,7 @@
 		)
 		(uuid "98539798-9425-4a11-8160-6e4bb2010fc2")
 	)
-	(label "CAN_FD_TURRET_RIGHT_BACK"
+	(label "CAN_FD_NX_TO_RIGHT_BACK"
 		(at 598.17 38.1 180)
 		(fields_autoplaced yes)
 		(effects
@@ -13161,6 +13184,19 @@
 			(justify left bottom)
 		)
 		(uuid "9ebb22f7-86ab-44c9-8470-b133d6664b8f")
+	)
+	(label "CAN_FD_EXTEND_TO_RIGHT_BACK"
+		(at 601.98 354.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "FreeSans")
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "a0b2a038-50bc-449b-9808-8f06c066464c")
 	)
 	(label "INTAKE PIVOT ENC POT RIO"
 		(at 222.25 191.77 0)
@@ -13225,6 +13261,19 @@
 		)
 		(uuid "bee1732d-7079-427e-ab78-190d918fe459")
 	)
+	(label "CAN_FD_DRV_TURRET"
+		(at 598.17 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "FreeSans")
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "bee36bf9-1514-47fb-b19b-9712c325a181")
+	)
 	(label "CAT ALTITUDE ENC POT RIO"
 		(at 222.25 186.69 0)
 		(fields_autoplaced yes)
@@ -13237,19 +13286,6 @@
 			(justify left bottom)
 		)
 		(uuid "c084f510-7cb7-4d40-8b90-be195b2980d5")
-	)
-	(label "CAN_EXTEND_TO_DUMP"
-		(at 570.23 356.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "FreeSans")
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify right bottom)
-		)
-		(uuid "c147ba8e-438f-42cb-8a1f-d5bb1f1c4cc3")
 	)
 	(label "TRAP EXTEND ENC POT RIO"
 		(at 222.25 196.85 0)
@@ -13368,6 +13404,20 @@
 		)
 		(uuid "e0880d5e-9d37-4e8d-a8cf-b093ab3ed193")
 	)
+	(label "CAN_FD_EXTEND_TO_TURRET"
+		(at 591.82 229.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "FreeSans")
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "e36dd29b-feb0-48f7-baa4-8071f77e9803")
+	)
 	(label "CATAPULT1 PWR"
 		(at 242.57 80.01 0)
 		(fields_autoplaced yes)
@@ -13394,7 +13444,7 @@
 		)
 		(uuid "eb6631be-a6a5-451e-81f5-073a47d63bb6")
 	)
-	(label "CAN_EXTEND_TO_DUMP"
+	(label "CAN_TRANSFER_TO_DUMP"
 		(at 601.98 426.72 180)
 		(fields_autoplaced yes)
 		(effects
@@ -14786,7 +14836,7 @@
 	)
 	(symbol
 		(lib_id "SystemDiagram:WireTag")
-		(at 243.84 433.07 0)
+		(at 273.05 426.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14794,7 +14844,7 @@
 		(dnp no)
 		(uuid "1663cbe0-bb44-4c99-ae22-13efbe7c6545")
 		(property "Reference" "W134"
-			(at 251.46 431.8 0)
+			(at 280.67 425.45 0)
 			(effects
 				(font
 					(face "FreeSans")
@@ -14804,7 +14854,7 @@
 			)
 		)
 		(property "Value" "IMU CAN"
-			(at 243.84 430.53 0)
+			(at 273.05 424.18 0)
 			(effects
 				(font
 					(face "FreeSans")
@@ -14814,7 +14864,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 433.07 0)
+			(at 273.05 426.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14823,7 +14873,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 433.07 0)
+			(at 273.05 426.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14832,7 +14882,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 243.84 433.07 0)
+			(at 273.05 426.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19642,7 +19692,7 @@
 	)
 	(symbol
 		(lib_id "SystemDiagram:WireTag")
-		(at 228.6 472.44 270)
+		(at 275.59 472.44 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19650,7 +19700,7 @@
 		(dnp no)
 		(uuid "5eebc6a2-5d93-41e6-8100-e39ca96af234")
 		(property "Reference" "W47"
-			(at 234.95 472.44 90)
+			(at 281.94 472.44 90)
 			(effects
 				(font
 					(face "FreeSans")
@@ -19660,7 +19710,7 @@
 			)
 		)
 		(property "Value" "IMU CAN"
-			(at 231.14 472.44 0)
+			(at 278.13 472.44 0)
 			(effects
 				(font
 					(face "FreeSans")
@@ -19670,7 +19720,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 472.44 0)
+			(at 275.59 472.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19679,7 +19729,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 472.44 0)
+			(at 275.59 472.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19688,7 +19738,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 228.6 472.44 0)
+			(at 275.59 472.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22423,7 +22473,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SystemDiagram:Orin_NX")
 		(lib_id "SystemDiagram:Orin_NX")
 		(at 208.28 448.31 0)
 		(unit 1)
@@ -25660,7 +25709,7 @@
 	)
 	(symbol
 		(lib_id "SystemDiagram:CAN_Terminator")
-		(at 256.54 433.07 0)
+		(at 285.75 426.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25669,7 +25718,7 @@
 		(fields_autoplaced yes)
 		(uuid "ca06bd32-a80f-4912-9048-d3ab88fd94f4")
 		(property "Reference" "CAN103"
-			(at 262.89 431.8 0)
+			(at 292.1 425.45 0)
 			(effects
 				(font
 					(face "FreeSans")
@@ -25680,7 +25729,7 @@
 			)
 		)
 		(property "Value" "CAN_Terminator"
-			(at 262.89 434.34 0)
+			(at 292.1 427.99 0)
 			(effects
 				(font
 					(face "FreeSans")
@@ -25691,7 +25740,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 433.07 0)
+			(at 285.75 426.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25700,7 +25749,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 433.07 0)
+			(at 285.75 426.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25709,7 +25758,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 256.54 433.07 0)
+			(at 285.75 426.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
