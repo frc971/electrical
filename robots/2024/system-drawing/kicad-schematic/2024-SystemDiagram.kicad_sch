@@ -8011,6 +8011,10 @@
 		(uuid "64271aab-518f-4d4f-a5aa-e22b40fb5cbd")
 	)
 	(no_connect
+		(at 224.79 436.88)
+		(uuid "658a8c26-0131-41d7-821b-469f1a1ac215")
+	)
+	(no_connect
 		(at 224.79 401.32)
 		(uuid "665fcc3f-0ac3-4b07-8642-378640a26337")
 	)
@@ -8029,6 +8033,10 @@
 	(no_connect
 		(at 220.98 205.74)
 		(uuid "7765a75a-c362-4b2a-acc0-fd5d8587b02b")
+	)
+	(no_connect
+		(at 224.79 434.34)
+		(uuid "7d2e15d0-1b54-4504-b34b-9a8aaf757ddb")
 	)
 	(no_connect
 		(at 87.63 259.08)
@@ -10202,17 +10210,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 434.34) (xy 228.6 434.34)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 255 153 0 1)
-		)
-		(uuid "7443230a-e358-4f1d-90d3-856627bc74f1")
-	)
-	(wire
-		(pts
 			(xy 323.85 250.19) (xy 323.85 492.76)
 		)
 		(stroke
@@ -11351,17 +11348,6 @@
 			(color 194 0 194 1)
 		)
 		(uuid "b61235c0-cd30-44e5-9dcd-a83b928c070a")
-	)
-	(wire
-		(pts
-			(xy 224.79 436.88) (xy 228.6 436.88)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 255 153 0 1)
-		)
-		(uuid "b631f1c8-cb1f-45c7-89cf-2b3225b3766c")
 	)
 	(wire
 		(pts
@@ -12766,20 +12752,6 @@
 		)
 		(uuid "2dd9ef0d-60c6-4d9e-9ec6-00e60629c7c6")
 	)
-	(label "CAN_FD_NX_TO_EXTEND"
-		(at 228.6 436.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "FreeSans")
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "2e03330e-b49d-4a92-a526-6a9e03bf8c55")
-	)
 	(label "CAN_INTAKE_TO_CANDLE"
 		(at 601.98 472.44 180)
 		(fields_autoplaced yes)
@@ -12806,6 +12778,19 @@
 			(justify right bottom)
 		)
 		(uuid "364e9f63-3fbb-4901-85c7-082816249a3c")
+	)
+	(label "CAN_FD_EXTEND_TO_RIGHT_BACK"
+		(at 598.17 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "FreeSans")
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "3ba85e55-a0c5-4d2b-ab7f-7eff69bd1dd4")
 	)
 	(label "CAN_PD"
 		(at 601.98 388.62 180)
@@ -13003,19 +12988,6 @@
 		)
 		(uuid "75e1dc26-b505-42f2-bb50-494b3c549449")
 	)
-	(label "CAN_FD_NX_TO_RIGHT_BACK"
-		(at 228.6 434.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "FreeSans")
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "7ce4d318-d92d-4c50-ad6e-55d1471fdf47")
-	)
 	(label "TRANSFER ROLLER BB PWR"
 		(at 265.43 340.36 0)
 		(fields_autoplaced yes)
@@ -13158,19 +13130,6 @@
 			(justify right bottom)
 		)
 		(uuid "98539798-9425-4a11-8160-6e4bb2010fc2")
-	)
-	(label "CAN_FD_NX_TO_RIGHT_BACK"
-		(at 598.17 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "FreeSans")
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify right bottom)
-		)
-		(uuid "9bb4024e-fdda-4a2d-9490-5df97d2d4921")
 	)
 	(label "CLIMBER PWR"
 		(at 242.57 132.08 0)
