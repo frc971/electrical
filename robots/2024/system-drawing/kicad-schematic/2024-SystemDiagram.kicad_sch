@@ -9497,7 +9497,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 492.76) (xy 281.94 492.76)
+			(xy 323.85 492.76) (xy 281.94 492.76)
 		)
 		(stroke
 			(width 0.254)
@@ -10213,7 +10213,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 250.19) (xy 304.8 492.76)
+			(xy 323.85 250.19) (xy 323.85 492.76)
 		)
 		(stroke
 			(width 0.254)
@@ -12436,7 +12436,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 250.19) (xy 304.8 250.19)
+			(xy 220.98 250.19) (xy 323.85 250.19)
 		)
 		(stroke
 			(width 0.254)
@@ -20223,15 +20223,14 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Camera"
-			(at 259.08 422.91 0)
+		(property "Value" " Left Camera"
+			(at 255.524 424.942 0)
 			(effects
 				(font
 					(face "FreeSans")
 					(size 1.524 1.524)
 					(bold yes)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -20584,15 +20583,14 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Camera"
-			(at 259.08 389.89 0)
+		(property "Value" "Front Camera"
+			(at 255.27 392.43 0)
 			(effects
 				(font
 					(face "FreeSans")
 					(size 1.524 1.524)
 					(bold yes)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -21997,15 +21995,14 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Camera"
-			(at 259.08 410.21 0)
+		(property "Value" "Back Camera"
+			(at 255.27 412.242 0)
 			(effects
 				(font
 					(face "FreeSans")
 					(size 1.524 1.524)
 					(bold yes)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -26234,15 +26231,14 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Camera"
-			(at 259.08 379.73 0)
+		(property "Value" "Right Camera"
+			(at 255.27 382.27 0)
 			(effects
 				(font
 					(face "FreeSans")
 					(size 1.524 1.524)
 					(bold yes)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
