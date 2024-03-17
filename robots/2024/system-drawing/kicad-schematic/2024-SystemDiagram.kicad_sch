@@ -7363,6 +7363,12 @@
 		(uuid "447cc6cc-1c2d-4d3f-b279-d1ec5864d43b")
 	)
 	(junction
+		(at 181.61 434.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46d1aaf0-5b4f-4e96-8a5d-baa6c96b1589")
+	)
+	(junction
 		(at 595.63 410.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7657,12 +7663,6 @@
 		(uuid "b8a95c18-8cc1-409a-b3b7-47479050ac39")
 	)
 	(junction
-		(at 273.05 426.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b8dcf897-1ef3-4a9e-9ce8-196efb6d53b8")
-	)
-	(junction
 		(at 594.36 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7709,12 +7709,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce03bdc4-ed72-4b07-9a94-c81ab2280ba4")
-	)
-	(junction
-		(at 200.66 306.07)
-		(diameter 0)
-		(color 255 0 0 1)
-		(uuid "ce0d2b2b-cc2f-43f4-95d5-9bda5619f76c")
 	)
 	(junction
 		(at 595.63 374.65)
@@ -7915,6 +7909,10 @@
 		(uuid "fdcfc41d-40d1-4808-b705-49b58dccb8c6")
 	)
 	(no_connect
+		(at 208.28 340.36)
+		(uuid "0009d1e5-ce26-4e21-8a97-1f57d015f113")
+	)
+	(no_connect
 		(at 220.98 269.24)
 		(uuid "0a7b3b7a-1e45-47fc-919b-d628c60aac8c")
 	)
@@ -7945,6 +7943,10 @@
 	(no_connect
 		(at 179.07 252.73)
 		(uuid "294f773f-a4e6-4c7c-9ff4-5a8039021081")
+	)
+	(no_connect
+		(at 147.32 234.95)
+		(uuid "2d4e75e6-7163-4ac3-9084-19d763c7afcb")
 	)
 	(no_connect
 		(at 179.07 257.81)
@@ -8095,12 +8097,12 @@
 		(uuid "ac88e0dd-c609-4973-bfe3-e905795dec3f")
 	)
 	(no_connect
-		(at 220.98 278.13)
-		(uuid "bb3a6310-99fa-44be-a57a-8f18bf63caac")
+		(at 201.93 317.5)
+		(uuid "b95a39a3-5161-4963-bdb8-1d3fc6dd64e2")
 	)
 	(no_connect
-		(at 191.77 434.34)
-		(uuid "bf310577-514c-4766-8bf8-5c8f130d0f24")
+		(at 220.98 278.13)
+		(uuid "bb3a6310-99fa-44be-a57a-8f18bf63caac")
 	)
 	(no_connect
 		(at 224.79 398.78)
@@ -8109,10 +8111,6 @@
 	(no_connect
 		(at 191.77 472.44)
 		(uuid "c8410278-17a5-4e34-b8c3-5694d2303960")
-	)
-	(no_connect
-		(at 191.77 436.88)
-		(uuid "cce37ec5-d4dc-4b8d-9808-6fdea8c7c27f")
 	)
 	(no_connect
 		(at 220.98 271.78)
@@ -8153,6 +8151,10 @@
 	(no_connect
 		(at 179.07 231.14)
 		(uuid "e740feda-e990-453b-bb14-bb215b7762e9")
+	)
+	(no_connect
+		(at 250.19 335.28)
+		(uuid "e857415e-e31e-4413-b97e-d86126704fd4")
 	)
 	(no_connect
 		(at 220.98 254)
@@ -8317,17 +8319,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 340.36) (xy 231.14 317.5)
-		)
-		(stroke
-			(width 0.508)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "08a583c6-cdd8-4d4b-822f-df349f0a5de2")
-	)
-	(wire
-		(pts
 			(xy 441.96 287.02) (xy 441.96 109.22)
 		)
 		(stroke
@@ -8380,17 +8371,6 @@
 			(color 255 0 0 1)
 		)
 		(uuid "0ab5e9ad-1620-4934-b895-43f87f3f4f73")
-	)
-	(wire
-		(pts
-			(xy 275.59 429.26) (xy 224.79 429.26)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 255 153 0 1)
-		)
-		(uuid "0c03ea6a-2485-42ae-bbf0-f34fe188422f")
 	)
 	(wire
 		(pts
@@ -8470,17 +8450,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 306.07) (xy 143.51 234.95)
-		)
-		(stroke
-			(width 0.508)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "10a1854f-3ef4-46f1-b5df-054545a4ab9e")
-	)
-	(wire
-		(pts
 			(xy 598.17 41.91) (xy 598.17 49.53)
 		)
 		(stroke
@@ -8536,7 +8505,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 322.58) (xy 203.2 322.58)
+			(xy 201.93 322.58) (xy 204.47 322.58)
 		)
 		(stroke
 			(width 0.508)
@@ -8679,14 +8648,14 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 340.36) (xy 231.14 340.36)
+			(xy 187.96 443.23) (xy 187.96 436.88)
 		)
 		(stroke
-			(width 0.508)
+			(width 0.254)
 			(type default)
-			(color 255 0 0 1)
+			(color 255 153 0 1)
 		)
-		(uuid "1b774c23-9069-46f4-ac19-544b01f7747a")
+		(uuid "1beb3155-dc85-45f6-8253-667cbba3431f")
 	)
 	(wire
 		(pts
@@ -9070,17 +9039,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 335.28) (xy 250.19 335.28)
-		)
-		(stroke
-			(width 0.508)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "32ffeee2-0b9c-4272-bf55-1bcefefc0434")
-	)
-	(wire
-		(pts
 			(xy 567.69 91.44) (xy 605.79 91.44)
 		)
 		(stroke
@@ -9384,7 +9342,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 311.15) (xy 111.76 311.15)
+			(xy 204.47 311.15) (xy 111.76 311.15)
 		)
 		(stroke
 			(width 0.508)
@@ -9403,6 +9361,17 @@
 			(color 255 0 0 1)
 		)
 		(uuid "3efcd4c0-5682-446e-85ef-258cc340759e")
+	)
+	(wire
+		(pts
+			(xy 187.96 436.88) (xy 191.77 436.88)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "3f725757-ebaa-4d7c-8a50-c814f7b6a822")
 	)
 	(wire
 		(pts
@@ -9593,7 +9562,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 322.58) (xy 203.2 311.15)
+			(xy 204.47 322.58) (xy 204.47 311.15)
 		)
 		(stroke
 			(width 0.508)
@@ -9895,6 +9864,17 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 443.23) (xy 275.59 472.44)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "600c0b18-2fa2-4587-9d39-22ad287dc003")
+	)
+	(wire
+		(pts
 			(xy 43.18 269.24) (xy 43.18 193.04)
 		)
 		(stroke
@@ -10024,17 +10004,6 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 426.72) (xy 283.21 426.72)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 255 153 0 1)
-		)
-		(uuid "686edd0d-460b-4fe9-971e-1854a8f8402d")
-	)
-	(wire
-		(pts
 			(xy 405.13 304.8) (xy 487.68 304.8)
 		)
 		(stroke
@@ -10065,17 +10034,6 @@
 			(color 255 0 0 1)
 		)
 		(uuid "6c76bc0a-76ae-4e94-b842-a77f4c5ae475")
-	)
-	(wire
-		(pts
-			(xy 143.51 234.95) (xy 147.32 234.95)
-		)
-		(stroke
-			(width 0.508)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "6cee28d4-59b8-479d-9705-a4602bb1e089")
 	)
 	(wire
 		(pts
@@ -10467,17 +10425,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 306.07) (xy 200.66 306.07)
-		)
-		(stroke
-			(width 0.508)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "86159a33-ec5f-45c4-bf1c-a5fd603a8bf5")
-	)
-	(wire
-		(pts
 			(xy 234.95 490.22) (xy 245.11 490.22)
 		)
 		(stroke
@@ -10519,6 +10466,17 @@
 			(color 255 153 0 1)
 		)
 		(uuid "8800f898-2fbe-4787-aa7a-a5d6241539e6")
+	)
+	(wire
+		(pts
+			(xy 187.96 443.23) (xy 275.59 443.23)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "88414200-681c-4c45-8482-604e3a09cc47")
 	)
 	(wire
 		(pts
@@ -11188,17 +11146,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 317.5) (xy 231.14 317.5)
-		)
-		(stroke
-			(width 0.508)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "aecfcc04-af52-4a58-81c9-11e1da1b584d")
-	)
-	(wire
-		(pts
 			(xy 452.12 91.44) (xy 241.3 91.44)
 		)
 		(stroke
@@ -11282,17 +11229,6 @@
 			(type default)
 		)
 		(uuid "b1b448c4-e8d0-455e-b937-ddc8a17c8f43")
-	)
-	(wire
-		(pts
-			(xy 275.59 429.26) (xy 275.59 472.44)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 255 153 0 1)
-		)
-		(uuid "b2e0e0e6-0faa-4848-9d68-a839bcf0bc61")
 	)
 	(wire
 		(pts
@@ -11512,14 +11448,14 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 306.07) (xy 143.51 306.07)
+			(xy 181.61 434.34) (xy 171.45 434.34)
 		)
 		(stroke
-			(width 0.508)
+			(width 0.254)
 			(type default)
-			(color 255 0 0 1)
+			(color 255 153 0 1)
 		)
-		(uuid "c28e0891-900d-4cdb-8689-81e6f1830aa4")
+		(uuid "c2fbbfdf-c497-4a17-b7f2-db0b6e19c512")
 	)
 	(wire
 		(pts
@@ -11835,28 +11771,6 @@
 			(color 255 0 0 1)
 		)
 		(uuid "d68fb24c-6157-4103-8c3a-589c0653113e")
-	)
-	(wire
-		(pts
-			(xy 224.79 426.72) (xy 273.05 426.72)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 255 153 0 1)
-		)
-		(uuid "d69a543f-c87d-4a77-8528-ddb2492c3e4b")
-	)
-	(wire
-		(pts
-			(xy 256.54 335.28) (xy 256.54 306.07)
-		)
-		(stroke
-			(width 0.508)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "d7ae0629-5a2c-445d-bf4e-a42650aecd7b")
 	)
 	(wire
 		(pts
@@ -12342,6 +12256,17 @@
 			(color 255 0 0 1)
 		)
 		(uuid "f27710f1-ad97-49fb-86aa-4c5ea665f99d")
+	)
+	(wire
+		(pts
+			(xy 181.61 434.34) (xy 191.77 434.34)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "f2b67c12-f216-4807-a5bb-4c71205b8353")
 	)
 	(wire
 		(pts
@@ -14788,74 +14713,6 @@
 			(project "2024-SystemDiagram"
 				(path "/12a52703-e3f4-4774-b510-3055ab1abf35"
 					(reference "W8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SystemDiagram:WireTag")
-		(at 273.05 426.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1663cbe0-bb44-4c99-ae22-13efbe7c6545")
-		(property "Reference" "W134"
-			(at 280.67 425.45 0)
-			(effects
-				(font
-					(face "FreeSans")
-					(size 1.524 1.524)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "IMU CAN"
-			(at 273.05 424.18 0)
-			(effects
-				(font
-					(face "FreeSans")
-					(size 1.524 1.524)
-					(bold yes)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 273.05 426.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 273.05 426.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 273.05 426.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "4b28c9d1-e1fc-4a07-90b4-f8671b78e63c")
-		)
-		(instances
-			(project "2024-SystemDiagram"
-				(path "/12a52703-e3f4-4774-b510-3055ab1abf35"
-					(reference "W134")
 					(unit 1)
 				)
 			)
@@ -19533,7 +19390,7 @@
 			)
 		)
 		(property "Value" "RSL"
-			(at 170.18 287.02 0)
+			(at 170.18 286.766 0)
 			(effects
 				(font
 					(face "FreeSans")
@@ -20865,6 +20722,78 @@
 			(project "2024-SystemDiagram"
 				(path "/12a52703-e3f4-4774-b510-3055ab1abf35"
 					(reference "CB4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SystemDiagram:CAN_Terminator")
+		(at 168.91 434.34 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "716f3d5f-e7fa-4851-a536-fa60a3e983f0")
+		(property "Reference" "CAN103"
+			(at 162.56 433.07 0)
+			(effects
+				(font
+					(face "FreeSans")
+					(size 1.524 1.524)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CAN_Terminator"
+			(at 162.56 435.61 0)
+			(effects
+				(font
+					(face "FreeSans")
+					(size 1.524 1.524)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 434.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 434.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 434.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "86851dd3-ee9c-406d-a4ad-426247f458b7")
+		)
+		(instances
+			(project "2024-SystemDiagram"
+				(path "/12a52703-e3f4-4774-b510-3055ab1abf35"
+					(reference "CAN103")
 					(unit 1)
 				)
 			)
@@ -23394,74 +23323,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SystemDiagram:WireTag")
-		(at 200.66 306.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9fd4e5ec-7fd8-4001-8753-879a54a2ca7f")
-		(property "Reference" "W67"
-			(at 210.82 304.8 0)
-			(effects
-				(font
-					(face "FreeSans")
-					(size 1.524 1.524)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "CANivore PWR"
-			(at 200.66 303.53 0)
-			(effects
-				(font
-					(face "FreeSans")
-					(size 1.524 1.524)
-					(bold yes)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 200.66 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "50ab3a47-aa84-4593-b699-2c8c3a543f4f")
-		)
-		(instances
-			(project "2024-SystemDiagram"
-				(path "/12a52703-e3f4-4774-b510-3055ab1abf35"
-					(reference "W67")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SystemDiagram:MagEncoderAdapter")
 		(at 568.96 238.76 0)
 		(mirror y)
@@ -23899,6 +23760,75 @@
 			(project "2024-SystemDiagram"
 				(path "/12a52703-e3f4-4774-b510-3055ab1abf35"
 					(reference "WJ105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SystemDiagram:WireTag")
+		(at 181.61 434.34 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a9d10166-cb6b-4fae-a26d-77815d2b8b53")
+		(property "Reference" "W134"
+			(at 173.99 433.07 0)
+			(effects
+				(font
+					(face "FreeSans")
+					(size 1.524 1.524)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "IMU CAN"
+			(at 181.61 431.8 0)
+			(effects
+				(font
+					(face "FreeSans")
+					(size 1.524 1.524)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 434.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 434.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 181.61 434.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "1132cf9d-7cae-42d0-9f72-71bbb102cca9")
+		)
+		(instances
+			(project "2024-SystemDiagram"
+				(path "/12a52703-e3f4-4774-b510-3055ab1abf35"
+					(reference "W134")
 					(unit 1)
 				)
 			)
@@ -25658,77 +25588,6 @@
 			(project "2024-SystemDiagram"
 				(path "/12a52703-e3f4-4774-b510-3055ab1abf35"
 					(reference "W66")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SystemDiagram:CAN_Terminator")
-		(at 285.75 426.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ca06bd32-a80f-4912-9048-d3ab88fd94f4")
-		(property "Reference" "CAN103"
-			(at 292.1 425.45 0)
-			(effects
-				(font
-					(face "FreeSans")
-					(size 1.524 1.524)
-					(bold yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CAN_Terminator"
-			(at 292.1 427.99 0)
-			(effects
-				(font
-					(face "FreeSans")
-					(size 1.524 1.524)
-					(bold yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 285.75 426.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 285.75 426.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 285.75 426.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "6f429b55-0e90-4c25-b2c3-b93f50987157")
-		)
-		(instances
-			(project "2024-SystemDiagram"
-				(path "/12a52703-e3f4-4774-b510-3055ab1abf35"
-					(reference "CAN103")
 					(unit 1)
 				)
 			)
