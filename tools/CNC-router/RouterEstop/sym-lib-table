@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "router")(type "KiCad")(uri "${KIPRJMOD}/router.kicad_sym")(options "")(descr ""))
+  (lib (name "LadderLogic")(type "KiCad")(uri "${KIPRJMOD}/LadderLogic.kicad_sym")(options "")(descr ""))
+)
