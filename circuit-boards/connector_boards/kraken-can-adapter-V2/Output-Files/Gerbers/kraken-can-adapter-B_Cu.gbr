@@ -1,0 +1,100 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,7.0.9-7.0.9~ubuntu22.04.1*%
+%TF.CreationDate,2024-01-02T11:30:02-08:00*%
+%TF.ProjectId,kraken-can-adapter,6b72616b-656e-42d6-9361-6e2d61646170,1*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Copper,L2,Bot*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 7.0.9-7.0.9~ubuntu22.04.1) date 2024-01-02 11:30:02*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 Aperture macros list*
+%AMHorizOval*
+0 Thick line with rounded ends*
+0 $1 width*
+0 $2 $3 position (X,Y) of the first rounded end (center of the circle)*
+0 $4 $5 position (X,Y) of the second rounded end (center of the circle)*
+0 Add line between two ends*
+20,1,$1,$2,$3,$4,$5,0*
+0 Add two circle primitives to create the rounded ends*
+1,1,$1,$2,$3*
+1,1,$1,$4,$5*%
+%AMRotRect*
+0 Rectangle, with rotation*
+0 The origin of the aperture is its center*
+0 $1 length*
+0 $2 width*
+0 $3 Rotation angle, in degrees counterclockwise*
+0 Add horizontal line*
+21,1,$1,$2,0,0,$3*%
+G04 Aperture macros list end*
+%TA.AperFunction,ComponentPad*%
+%ADD10C,5.969000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD11RotRect,1.600200X1.905000X222.500000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD12HorizOval,1.600200X-0.102960X0.112361X0.102960X-0.112361X0*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD13RotRect,1.600200X1.905000X137.500000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD14HorizOval,1.600200X0.102960X0.112361X-0.102960X-0.112361X0*%
+%TD*%
+%TA.AperFunction,Conductor*%
+%ADD15C,0.508000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+%TO.P,J4,1,Pin_1*%
+%TO.N,/CAN_H*%
+X99745307Y-110386204D03*
+%TD*%
+%TO.P,J3,1,Pin_1*%
+%TO.N,/CAN_L*%
+X112750107Y-110386204D03*
+%TD*%
+D11*
+%TO.P,J1,1,Pin_1*%
+%TO.N,/CAN_L*%
+X122903191Y-122030605D03*
+D12*
+%TO.P,J1,2,Pin_2*%
+%TO.N,/CAN_H*%
+X121030507Y-123746604D03*
+%TD*%
+D13*
+%TO.P,J2,1,Pin_1*%
+%TO.N,/CAN_L*%
+X91464907Y-123746604D03*
+D14*
+%TO.P,J2,2,Pin_2*%
+%TO.N,/CAN_H*%
+X89592223Y-122030605D03*
+%TD*%
+D15*
+%TO.N,/CAN_L*%
+X122903191Y-122030605D02*
+X121774390Y-120901804D01*
+X112750107Y-114526404D02*
+X112750107Y-110386204D01*
+X119125507Y-120901804D02*
+X112750107Y-114526404D01*
+X121774390Y-120901804D02*
+X119125507Y-120901804D01*
+%TO.N,/CAN_H*%
+X120533467Y-123746604D02*
+X111721863Y-114935000D01*
+X111721863Y-114935000D02*
+X104294103Y-114935000D01*
+X104294103Y-114935000D02*
+X99745307Y-110386204D01*
+X121030507Y-123746604D02*
+X120533467Y-123746604D01*
+%TD*%
+M02*

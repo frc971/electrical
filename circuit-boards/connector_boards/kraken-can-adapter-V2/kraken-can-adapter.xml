@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/scott/Documents/Projects/dev/git/971-electrical/circuit-boards/connector_boards/kraken-can-adapter/kraken-can-adapter.kicad_sch</source>
+    <date>Thu 28 Dec 2023 10:46:32 PM PST</date>
+    <tool>Eeschema 7.0.9-7.0.9~ubuntu22.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Kraken CAN Adapter</title>
+        <company>971 Spartan Robotics</company>
+        <rev>1</rev>
+        <date>2023-12-28</date>
+        <source>kraken-can-adapter.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="HW1">
+      <value>4-40 x 3/16 Brass socket head screw</value>
+      <datasheet>https://www.mcmaster.com/93465A103/</datasheet>
+      <fields>
+        <field name="MFG">McMaster-Carr</field>
+        <field name="MFG P/N">93465A103</field>
+      </fields>
+      <libsource lib="Graphic" part="SYM_Arrow_Large" description="Filled arrow, 300mil"/>
+      <property name="MFG" value="McMaster-Carr"/>
+      <property name="MFG P/N" value="93465A103"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kraken-can-adapter.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <property name="ki_description" value="Filled arrow, 300mil"/>
+      <property name="ki_keywords" value="symbol arrow"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>75b32162-bd9c-4080-bd12-185e49fe9619</tstamps>
+    </comp>
+    <comp ref="HW2">
+      <value>4-40 x 3/16 Brass socket head screw</value>
+      <datasheet>https://www.mcmaster.com/93465A103/</datasheet>
+      <fields>
+        <field name="MFG">McMaster-Carr</field>
+        <field name="MFG P/N">93465A103</field>
+      </fields>
+      <libsource lib="Graphic" part="SYM_Arrow_Large" description="Filled arrow, 300mil"/>
+      <property name="MFG" value="McMaster-Carr"/>
+      <property name="MFG P/N" value="93465A103"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kraken-can-adapter.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <property name="ki_description" value="Filled arrow, 300mil"/>
+      <property name="ki_keywords" value="symbol arrow"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b9396e8-ba46-4f85-9eb2-96031374b868</tstamps>
+    </comp>
+    <comp ref="HW3">
+      <value>4-40 Brass Washer</value>
+      <datasheet>https://www.mcmaster.com/92916A320/</datasheet>
+      <fields>
+        <field name="MFG">McMaster-Carr</field>
+        <field name="MFG P/N">92916A320</field>
+      </fields>
+      <libsource lib="Graphic" part="SYM_Arrow_Large" description="Filled arrow, 300mil"/>
+      <property name="MFG" value="McMaster-Carr"/>
+      <property name="MFG P/N" value="92916A320"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kraken-can-adapter.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <property name="ki_description" value="Filled arrow, 300mil"/>
+      <property name="ki_keywords" value="symbol arrow"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>678032b4-ab44-4e87-9c3c-23463bd456aa</tstamps>
+    </comp>
+    <comp ref="HW4">
+      <value>4-40 Brass Washer</value>
+      <datasheet>https://www.mcmaster.com/92916A320/</datasheet>
+      <fields>
+        <field name="MFG">McMaster-Carr</field>
+        <field name="MFG P/N">92916A320</field>
+      </fields>
+      <libsource lib="Graphic" part="SYM_Arrow_Large" description="Filled arrow, 300mil"/>
+      <property name="MFG" value="McMaster-Carr"/>
+      <property name="MFG P/N" value="92916A320"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kraken-can-adapter.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <property name="ki_description" value="Filled arrow, 300mil"/>
+      <property name="ki_keywords" value="symbol arrow"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e5d772f2-f369-4ae9-86cc-201197ab2a4b</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>CAN</value>
+      <footprint>kraken-adapter:70543-0001</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM4800-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">70543-0001</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="70543-0001"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM4800-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kraken-can-adapter.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a2b75fab-c379-4129-be6a-4b109b0a2d54</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>CAN</value>
+      <footprint>kraken-adapter:70543-0001</footprint>
+      <fields>
+        <field name="DIST">Digikey</field>
+        <field name="DIST P/N">WM4800-ND</field>
+        <field name="MFG">Molex</field>
+        <field name="MFG P/N">70543-0001</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="MFG" value="Molex"/>
+      <property name="MFG P/N" value="70543-0001"/>
+      <property name="DIST" value="Digikey"/>
+      <property name="DIST P/N" value="WM4800-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="kraken-can-adapter.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82ce4602-88ac-4d5c-8d86-ac785812dc7b</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x01_Pin">
+      <description>Generic connector, single row, 01x01, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Pin">
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Graphic" part="SYM_Arrow_Large">
+      <description>Filled arrow, 300mil</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">#SYM</field>
+        <field name="Value">SYM_Arrow_Large</field>
+        <field name="Datasheet">~</field>
+        <field name="Sim.Enable">0</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Graphic">
+      <uri>/usr/share/kicad/symbols//Graphic.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/CAN_H">
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="2" name="/CAN_L">
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+  </nets>
+</export>
