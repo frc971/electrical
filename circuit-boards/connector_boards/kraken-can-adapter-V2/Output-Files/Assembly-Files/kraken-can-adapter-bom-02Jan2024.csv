@@ -1,0 +1,4 @@
+Item, Qty, Reference(s), Value, DIST, DIST P/N, MFG, MFG P/N, Sim.Enable, 
+"1","2","HW1,HW2","4-40 x 3/16 Brass socket head screw","","","McMaster-Carr","93465A103","0"
+"2","2","HW3,HW4","4-40 Brass Washer","","","McMaster-Carr","92916A320","0"
+"3","2","J6,J7","CAN","Digikey","WM4800-ND","Molex","70543-0001",""
