@@ -22,10 +22,10 @@ fp-info-cache
 *.zip
 
 # step files
-*.step
-*.stp
-*.STEP
-*.STP
+#*.step
+#*.stp
+#*.STEP
+#*.STP
 
 # Netlist files (exported from Eeschema)
 *.net
