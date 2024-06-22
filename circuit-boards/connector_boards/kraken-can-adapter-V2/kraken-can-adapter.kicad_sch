@@ -6,8 +6,8 @@
 	(paper "A")
 	(title_block
 		(title "Kraken CAN Adapter")
-		(date "2023-12-28")
-		(rev "1")
+		(date "2024-06-22")
+		(rev "2")
 		(company "971 Spartan Robotics")
 	)
 	(lib_symbols
@@ -507,7 +507,7 @@
 		(in_bom yes)
 		(on_board no)
 		(dnp no)
-		(uuid "4b9396e8-ba46-4f85-9eb2-96031374b868")
+		(uuid "0b860054-5455-44c0-ac41-945506a30279")
 		(property "Reference" "HW2"
 			(at 55.88 150.114 0)
 			(effects
@@ -516,7 +516,7 @@
 				)
 			)
 		)
-		(property "Value" "4-40 x 3/16 Brass socket head screw"
+		(property "Value" "4-40 x 3/16 Steel Pan Head Torx Screw"
 			(at 60.96 152.4 0)
 			(effects
 				(font
@@ -534,7 +534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mcmaster.com/93465A103/"
+		(property "Datasheet" "https://www.mcmaster.com/93701A250/"
 			(at 55.88 152.4 0)
 			(effects
 				(font
@@ -561,7 +561,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "93465A103"
+		(property "MFG P/N" "93701A250"
 			(at 55.88 152.4 0)
 			(effects
 				(font
@@ -596,7 +596,7 @@
 				)
 			)
 		)
-		(property "Value" "4-40 Brass Washer"
+		(property "Value" "#4 Belleville Spring Lock Washer"
 			(at 60.96 158.75 0)
 			(effects
 				(font
@@ -614,7 +614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mcmaster.com/92916A320/"
+		(property "Datasheet" "https://www.mcmaster.com/90895A121/"
 			(at 55.88 158.75 0)
 			(effects
 				(font
@@ -641,7 +641,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "92916A320"
+		(property "MFG P/N" "90895A121"
 			(at 55.88 158.75 0)
 			(effects
 				(font
@@ -654,6 +654,86 @@
 			(project "kraken-can-adapter"
 				(path "/a8891e91-a521-46c1-a433-4a59f557fea2"
 					(reference "HW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Graphic:SYM_Arrow_Large")
+		(at 55.88 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "72886414-1fcf-4c68-b1e4-93bad101fe83")
+		(property "Reference" "HW4"
+			(at 55.88 161.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "#4 Belleville Spring Lock Washer"
+			(at 60.96 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mcmaster.com/90895A121/"
+			(at 55.88 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "McMaster-Carr"
+			(at 55.88 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "90895A121"
+			(at 55.88 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "kraken-can-adapter"
+				(path "/a8891e91-a521-46c1-a433-4a59f557fea2"
+					(reference "HW4")
 					(unit 1)
 				)
 			)
@@ -676,7 +756,7 @@
 				)
 			)
 		)
-		(property "Value" "4-40 x 3/16 Brass socket head screw"
+		(property "Value" "4-40 x 3/16 Steel Pan Head Torx Screw"
 			(at 60.96 146.05 0)
 			(effects
 				(font
@@ -694,7 +774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mcmaster.com/93465A103/"
+		(property "Datasheet" "https://www.mcmaster.com/93701A250/"
 			(at 55.88 146.05 0)
 			(effects
 				(font
@@ -721,7 +801,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "93465A103"
+		(property "MFG P/N" "93701A250"
 			(at 55.88 146.05 0)
 			(effects
 				(font
@@ -869,7 +949,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "70543-0001"
+		(property "MFG P/N" "0705450036"
 			(at 156.21 118.11 0)
 			(effects
 				(font
@@ -887,7 +967,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "WM4800-ND"
+		(property "DIST P/N" "WM4142-ND"
 			(at 156.21 118.11 0)
 			(effects
 				(font
@@ -1014,7 +1094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Components/Molex-705450011_sd.pdf"
 			(at 156.21 101.6 0)
 			(effects
 				(font
@@ -1041,7 +1121,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "70543-0001"
+		(property "MFG P/N" "0705450036"
 			(at 156.21 101.6 0)
 			(effects
 				(font
@@ -1059,7 +1139,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "WM4800-ND"
+		(property "DIST P/N" "WM4142-ND"
 			(at 156.21 101.6 0)
 			(effects
 				(font
@@ -1078,86 +1158,6 @@
 			(project "kraken-can-adapter"
 				(path "/a8891e91-a521-46c1-a433-4a59f557fea2"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Graphic:SYM_Arrow_Large")
-		(at 55.88 163.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(uuid "e5d772f2-f369-4ae9-86cc-201197ab2a4b")
-		(property "Reference" "HW4"
-			(at 55.88 161.544 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4-40 Brass Washer"
-			(at 60.96 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mcmaster.com/92916A320/"
-			(at 55.88 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 55.88 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "McMaster-Carr"
-			(at 55.88 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG P/N" "92916A320"
-			(at 55.88 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "kraken-can-adapter"
-				(path "/a8891e91-a521-46c1-a433-4a59f557fea2"
-					(reference "HW4")
 					(unit 1)
 				)
 			)
