@@ -1,4 +1,4 @@
-Item,QUANTITY,Reference,Value,MFG,MFG P/N,DIST,DIST P/N
-1,2,"HW1,HW2",4-40 x 3/16 Steel Pan Head Torx Screw,McMaster-Carr,93701A250,,
-2,2,"HW3,HW4",#4 Belleville Spring Lock Washer,McMaster-Carr,90895A121,,
-3,2,"J1,J2",CAN,Molex,705450036,Digikey,WM4142-ND
+"Item","QUANTITY","Reference","Value","MFG","MFG P/N","DIST","DIST P/N"
+"${Item}","2","HW1,HW2","4-40 x 3/16 Steel Pan Head Torx Screw","McMaster-Carr","93701A250","",""
+"${Item}","2","HW3,HW4","#4 Belleville Spring Lock Washer","McMaster-Carr","90895A121","",""
+"${Item}","2","J1,J2","CAN","Molex","0705450036","Digikey","WM4142-ND"
