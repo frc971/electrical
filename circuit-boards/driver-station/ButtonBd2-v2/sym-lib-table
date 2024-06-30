@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "drive-station")(type "KiCad")(uri "/home/scott/Documents/Projects/FRC/PI-Power-Board/drive-station.kicad_sym")(options "")(descr ""))
+  (lib (name "ButtonBd2")(type "KiCad")(uri "${KIPRJMOD}/ButtonBd2.kicad_sym")(options "")(descr ""))
+)
