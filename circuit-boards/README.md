@@ -15,7 +15,7 @@ Table Of Contents
     * [Features](#features-4)
 5. [Potentiometer Adapter Board](#potentiometer-adapter-board)
     * [Features](#features-5)
-6. [Can Terminator](#can-terminator)
+6. [CAN Terminator](#can-terminator)
     * [Features](#features-6)
 7. [Mini Power Distribution Board](#mini-power-distribution-board)
     * [Features](#features-7)
@@ -23,8 +23,6 @@ Table Of Contents
         * [Rated Current](#rated-current)
 8. [Kraken CAN Connector Board](#kraken-can-connector-board)
     * [Features](#features-8)
-9. [Closing Notes](#closing-notes)
-    * [Resources](#resources)
 
 ---
 
@@ -107,12 +105,12 @@ Table Of Contents
 
 ---
 
-## Can Terminator
+## CAN Terminator
 
 <img src="media/image7.png" width="200">
 
 ### Features
-* 120 Ohm CAN bus terminator using a Molex SL connector
+* 120 Ohm CAN bus terminator using a 2 pin Molex SL connector
 
 ---
 
@@ -129,9 +127,7 @@ Table Of Contents
 * 12-24 AWG output WAGO connectors
 * 8-24AWG input WAGO connectors
 * [MINI® 297 fuses](https://www.littelfuse.com/products/fuses/automotive-passenger-car/blade-fuses/297.aspx)
-
-	#### Rated Current
-	* Max current is 10 amps per circuit
+* Max current is 10 amps per circuit
 
 ---
 
