@@ -45,9 +45,9 @@ Table Of Contents
 * Beam Break
 * Other sensors with similar active low (NPN) output signal
 
-#### Compatibility
-* Sensors or switching devices with similar Output to Automation Direct QMI7-0N-0F
-* Compatible with Spartan Board
+  #### Compatibility
+  * Sensors or switching devices with similar Output to Automation Direct QMI7-0N-0F
+  * Compatible with Spartan Board
 
 ---
 
