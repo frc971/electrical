@@ -21,6 +21,24 @@ function export_gerber () {
     layer_fname=$(echo $layer| tr "." _ )
     kicad-cli pcb export gerber --output "${GERBER_DIR}/${fname}-${layer_fname}.gbr" --layers ${layer} ${pcb}
 }
+function update_bom_item_number () {
+    set +x
+    fileName=$1
+    item=1
+    touch ${fileName}.tmp
+    while IFS= read -r line; do
+        if [[ "${line}" =~ "{Item}" ]]; then
+            echo ${line/\$\{Item\}/${item}} >> ${fileName}.tmp
+            item=$((item+1))
+        else
+            echo ${line} >> ${fileName}.tmp
+        fi
+    done < ${fileName}
+    rm ${fileName}
+    mv ${fileName}.tmp ${fileName}
+    set -x
+}
+
 
 timestamp=$(date +"%d%b%Y")
 
@@ -57,6 +75,7 @@ kicad-cli pcb export pdf --output ${GERBER_DIR}/${fname}-fab-${timestamp}.pdf --
 
 #generate BOM from schematic
 kicad-cli sch export bom --sort-field "Reference" --sort-asc --group-by "MFG P/N" --fields "\${Item},\${QUANTITY},Reference,Value,MFG,MFG P/N,DIST,DIST P/N" --ref-range-delimiter "-" --exclude-dnp --output ${FAB_DIR}/${fname}-bom.csv $fname.kicad_sch 
+update_bom_item_number ${FAB_DIR}/${fname}-bom.csv
 
 #generate Assembly Drawing
 kicad-cli pcb export pdf --output ${FAB_DIR}/${fname}-assy-${timestamp}.pdf --layers ${pcb_assembly_layers} --include-border-title --black-and-white ${pcb} 
