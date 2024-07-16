@@ -1,0 +1,59 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# 1-1734248-5
+#
+DEF 1-1734248-5 J 0 40 Y Y 1 L N
+F0 "J" -200 825 50 H V L BNN
+F1 "1-1734248-5" -200 -2400 50 H V L BNN
+F2 "TE_1-1734248-5" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "1-1734248-5" 0 0 50 H I L BNN "COMMENT"
+F5 "Conn FPC Connector SKT 15 POS 1mm Solder ST SMD T/R" 0 0 50 H I L BNN "DESCRIPTION"
+F6 "None" 0 0 50 H I L BNN "PACKAGE"
+F7 "None" 0 0 50 H I L BNN "PRICE"
+F8 "https://www.te.com/usa-en/product-1-1734248-5.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" 0 0 50 H I L BNN "TE_PURCHASE_URL"
+F9 "Manufacturer Recommendations" 0 0 50 H I L BNN "STANDARD"
+F10 "E1" 0 0 50 H I L BNN "PARTREV"
+F11 "1-1734248-5" 0 0 50 H I L BNN "MP"
+F12 "Compliant" 0 0 50 H I L BNN "EU_ROHS_COMPLIANCE"
+F13 "Unavailable" 0 0 50 H I L BNN "AVAILABILITY"
+F14 "TE Connectivity" 0 0 50 H I L BNN "MANUFACTURER"
+DRAW
+S -200 -2300 200 800 0 0 8 f
+X 1 1 -300 700 100 R 40 40 0 0 P 
+X 2 2 -300 500 100 R 40 40 0 0 P 
+X 3 3 -300 300 100 R 40 40 0 0 P 
+X 4 4 -300 100 100 R 40 40 0 0 P 
+X 5 5 -300 -100 100 R 40 40 0 0 P 
+X 6 6 -300 -300 100 R 40 40 0 0 P 
+X 7 7 -300 -500 100 R 40 40 0 0 P 
+X 8 8 -300 -700 100 R 40 40 0 0 P 
+X 9 9 -300 -900 100 R 40 40 0 0 P 
+X 10 10 -300 -1100 100 R 40 40 0 0 P 
+X 11 11 -300 -1300 100 R 40 40 0 0 P 
+X 12 12 -300 -1500 100 R 40 40 0 0 P 
+X 13 13 -300 -1700 100 R 40 40 0 0 P 
+X 14 14 -300 -1900 100 R 40 40 0 0 P 
+X 15 15 -300 -2100 100 R 40 40 0 0 P 
+X 1__1 1_1 -300 600 100 R 40 40 0 0 P 
+X 2__1 2_1 -300 400 100 R 40 40 0 0 P 
+X 3__1 3_1 -300 200 100 R 40 40 0 0 P 
+X 4__1 4_1 -300 0 100 R 40 40 0 0 P 
+X 5__1 5_1 -300 -200 100 R 40 40 0 0 P 
+X 6__1 6_1 -300 -400 100 R 40 40 0 0 P 
+X 7__1 7_1 -300 -600 100 R 40 40 0 0 P 
+X 8__1 8_1 -300 -800 100 R 40 40 0 0 P 
+X 9__1 9_1 -300 -1000 100 R 40 40 0 0 P 
+X 10__1 10_1 -300 -1200 100 R 40 40 0 0 P 
+X 11__1 11_1 -300 -1400 100 R 40 40 0 0 P 
+X 12__1 12_1 -300 -1600 100 R 40 40 0 0 P 
+X 13__1 13_1 -300 -1800 100 R 40 40 0 0 P 
+X 14__1 14_1 -300 -2000 100 R 40 40 0 0 P 
+X 15__1 15_1 -300 -2200 100 R 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
