@@ -2044,7 +2044,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "NX-J401-Adapter:HDMI_A_Molex_208658-1001_Horizontal"
+		(property "Footprint" "NX-J401-Adapter:SWITCHCRAFT_RAVHD19ETR"
 			(at 278.765 120.65 0)
 			(effects
 				(font
@@ -2053,7 +2053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "Components/Molex-HDMI-A-2086581051_sd.pdf"
+		(property "Datasheet" "Components/Switchcraft-RAVHD19ETR_CD.pdf"
 			(at 278.765 120.65 0)
 			(effects
 				(font
@@ -2062,7 +2062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "HDMI HDMI 2.0 Receptacle Connector 19 Position Through Hole, Right Angle"
 			(at 278.13 120.65 0)
 			(effects
 				(font
@@ -2071,7 +2071,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Molex"
+		(property "MFG" "Switchcraft"
 			(at 278.13 120.65 0)
 			(effects
 				(font
@@ -2080,7 +2080,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "2086581051"
+		(property "MFG P/N" "RAVHD19ETR"
 			(at 278.13 120.65 0)
 			(effects
 				(font
@@ -2098,7 +2098,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "900-2086581051CT-ND"
+		(property "DIST P/N" "137-RAVHD19ECT-ND"
 			(at 278.13 120.65 0)
 			(effects
 				(font
