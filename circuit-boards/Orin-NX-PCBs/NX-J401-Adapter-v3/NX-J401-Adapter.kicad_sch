@@ -333,6 +333,207 @@
 				)
 			)
 		)
+		(symbol "Connector:Conn_01x03_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
 				(offset 1.016) hide)
@@ -1490,6 +1691,151 @@
 				)
 			)
 		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -1713,6 +2059,12 @@
 		(uuid "779acc5c-270d-4e15-b29c-5eeb469967d2")
 	)
 	(junction
+		(at 227.33 237.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c280fae3-3316-419c-9dae-afd07b348c4e")
+	)
+	(junction
 		(at 165.1 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1733,6 +2085,26 @@
 			(type default)
 		)
 		(uuid "0363be07-f30f-494d-8d80-7d9514b92bb2")
+	)
+	(wire
+		(pts
+			(xy 227.33 234.95) (xy 227.33 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "077e2f36-cb79-4218-9e03-9db4edb35964")
+	)
+	(wire
+		(pts
+			(xy 227.33 219.71) (xy 227.33 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "096822d3-dd8b-49f8-8579-434cc18127ea")
 	)
 	(wire
 		(pts
@@ -1763,6 +2135,16 @@
 			(type default)
 		)
 		(uuid "19b7853a-5a42-4a88-bbd1-cd897beae268")
+	)
+	(wire
+		(pts
+			(xy 207.01 237.49) (xy 227.33 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25842e5c-8380-4e59-aa38-a02e64889535")
 	)
 	(wire
 		(pts
@@ -1823,6 +2205,16 @@
 			(type default)
 		)
 		(uuid "3c289cdc-67c4-444b-a39b-09bc67ff9e7c")
+	)
+	(wire
+		(pts
+			(xy 245.11 214.63) (xy 245.11 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cf3aed5-9a64-48e1-9867-5d8df737ae52")
 	)
 	(wire
 		(pts
@@ -1896,6 +2288,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 237.49) (xy 245.11 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78c05e03-dd8c-4bce-9b52-e98b6f0ba82f")
+	)
+	(wire
+		(pts
 			(xy 229.87 158.75) (xy 276.86 158.75)
 		)
 		(stroke
@@ -1913,6 +2315,16 @@
 			(type default)
 		)
 		(uuid "8392e85b-2f46-4471-afc3-911b04b6c2db")
+	)
+	(wire
+		(pts
+			(xy 245.11 234.95) (xy 245.11 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8afc30da-22bb-42b0-9e50-3c82543c8ea4")
 	)
 	(wire
 		(pts
@@ -2006,6 +2418,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 217.17) (xy 207.01 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccac56b1-11d0-433b-9f13-cb4090755a92")
+	)
+	(wire
+		(pts
 			(xy 167.64 87.63) (xy 167.64 90.17)
 		)
 		(stroke
@@ -2026,13 +2448,23 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 214.63) (xy 224.79 214.63)
+			(xy 193.04 214.63) (xy 245.11 214.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dfdb668a-46af-4dfa-aa6b-bb99d1857b5d")
+	)
+	(wire
+		(pts
+			(xy 207.01 217.17) (xy 207.01 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4b4c402-8bdc-480f-94b4-ed7daba002c0")
 	)
 	(wire
 		(pts
@@ -2056,7 +2488,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 219.71) (xy 224.79 219.71)
+			(xy 193.04 219.71) (xy 227.33 219.71)
 		)
 		(stroke
 			(width 0)
@@ -2083,16 +2515,6 @@
 			(type default)
 		)
 		(uuid "fa8b1a1e-a452-45d6-93c8-34a7ef545a58")
-	)
-	(wire
-		(pts
-			(xy 193.04 217.17) (xy 224.79 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "feb8d56a-a3b8-4c19-8b4e-65fe47db775a")
 	)
 	(text_box "   POWER LED\n  V_{BAT}      COLOR\n------------------\nOK         GREEN\nREVERSE    RED"
 		(exclude_from_sim no)
@@ -2250,28 +2672,6 @@
 		)
 		(uuid "0f80fa67-302c-4615-a4a5-21e10250eaad")
 	)
-	(label "~{REC}"
-		(at 224.79 219.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1869f987-1d4d-4749-b9cb-f7d20dd47e01")
-	)
-	(label "~{SYS_RESET}"
-		(at 224.79 214.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "33051c82-9e2d-4a7d-ad45-837ba773c74c")
-	)
 	(label "UART2_TXD"
 		(at 224.79 212.09 180)
 		(fields_autoplaced yes)
@@ -2295,7 +2695,7 @@
 		(uuid "4945e00c-1de1-482e-a3e9-33f14b8ab862")
 	)
 	(label "RTN"
-		(at 224.79 217.17 180)
+		(at 226.06 237.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2555,7 +2955,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.99k-1%-0603"
+		(property "Value" "4.99k-1%-0805"
 			(at 162.56 72.39 0)
 			(effects
 				(font
@@ -2564,7 +2964,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 166.116 70.866 90)
 			(effects
 				(font
@@ -2591,7 +2991,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Yageo"
+		(property "MFG" ""
 			(at 165.1 71.12 0)
 			(effects
 				(font
@@ -2600,7 +3000,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "RC0603FR-074K99L"
+		(property "MFG P/N" ""
 			(at 165.1 71.12 0)
 			(effects
 				(font
@@ -2609,7 +3009,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "Digikey"
+		(property "DIST" ""
 			(at 165.1 71.12 0)
 			(effects
 				(font
@@ -2618,7 +3018,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "311-4.99KHRCT-ND"
+		(property "DIST P/N" ""
 			(at 165.1 71.12 0)
 			(effects
 				(font
@@ -2709,6 +3109,112 @@
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 227.33 229.87 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25c38950-100a-4ad0-80b0-577b869b4ec6")
+		(property "Reference" "SW2"
+			(at 231.14 228.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RECOVERY"
+			(at 231.14 231.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "NX-J401-Adapter:SW_TL1105VF100Q_EWI"
+			(at 232.41 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "Components/E-SWITCH-tl1105vf100q-drawing.pdf"
+			(at 232.41 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" "Digikey"
+			(at 227.33 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST P/N" "EG2507-ND"
+			(at 227.33 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "E-Switch"
+			(at 227.33 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "TL1105VF100Q"
+			(at 227.33 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c28973e-0dd7-49ba-8210-565c8980e0c9")
+		)
+		(pin "2"
+			(uuid "8ac7994e-e833-4513-8cc2-1d9fae38ee3b")
+		)
+		(instances
+			(project "NX-J401-Adapter"
+				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -3064,122 +3570,6 @@
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x06_Pin")
-		(at 229.87 212.09 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6ba75544-5aab-4995-b3c7-9e5d5e409203")
-		(property "Reference" "J4"
-			(at 229.235 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CONSOLE"
-			(at 229.235 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NX-J401-Adapter:70555-0005"
-			(at 229.87 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "Components/Molex-70543-0001.pdf"
-			(at 229.87 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 229.87 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "Molex"
-			(at 229.87 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG P/N" "0705550040"
-			(at 229.87 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" "Digikey"
-			(at 229.87 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST P/N" "WM4179-ND"
-			(at 229.87 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "4c92602e-992c-4cc5-bc1b-544e26efc8ff")
-		)
-		(pin "6"
-			(uuid "a4e341b0-41b6-4f14-b236-43310f9c698e")
-		)
-		(pin "2"
-			(uuid "779d1649-11fe-4b03-899c-af2754d24fa6")
-		)
-		(pin "3"
-			(uuid "711fd7c1-a97b-4707-bac9-514cd48006c7")
-		)
-		(pin "4"
-			(uuid "14975d9e-c6b4-4bfe-82a2-a632aca6adec")
-		)
-		(pin "1"
-			(uuid "933fff16-2828-493e-b1c0-4b9082702be2")
-		)
-		(instances
-			(project "NX-J401-Adapter"
-				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -3674,6 +4064,112 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 245.11 229.87 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99e4c4e8-be25-408a-ad81-236da6ecafaf")
+		(property "Reference" "SW1"
+			(at 248.92 228.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RESET"
+			(at 248.92 231.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "NX-J401-Adapter:SW_TL1105VF100Q_EWI"
+			(at 250.19 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "Components/E-SWITCH-tl1105vf100q-drawing.pdf"
+			(at 250.19 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 245.11 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" "Digikey"
+			(at 245.11 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST P/N" "EG2507-ND"
+			(at 245.11 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "E-Switch"
+			(at 245.11 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "TL1105VF100Q"
+			(at 245.11 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e9ebb41-0b0a-48a4-9718-04acee7458cd")
+		)
+		(pin "2"
+			(uuid "30c1b9dc-c56f-4c55-a5ee-64b50c0cbe47")
+		)
+		(instances
+			(project "NX-J401-Adapter"
+				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 259.08 63.5 0)
 		(mirror y)
@@ -3839,6 +4335,116 @@
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 229.87 209.55 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6c5638d-9f01-41b7-bec8-723b62f15b1f")
+		(property "Reference" "J12"
+			(at 231.14 208.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CONSOLE"
+			(at 231.14 210.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "NX-J401-Adapter:70555-0002"
+			(at 229.87 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "Components/Molex-70543-0001.pdf"
+			(at 229.87 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 229.87 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Molex"
+			(at 229.87 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "0705550037"
+			(at 229.87 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" "Digikey"
+			(at 229.87 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST P/N" "WM4176-ND"
+			(at 229.87 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a67c729e-10ee-4f59-92f0-4f480ff4ab80")
+		)
+		(pin "2"
+			(uuid "8b3e56f9-28f9-40a7-b87a-611c920c1a8e")
+		)
+		(pin "3"
+			(uuid "6bac2947-dbef-4b42-aaee-2e25b486a944")
+		)
+		(instances
+			(project ""
+				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658"
+					(reference "J12")
 					(unit 1)
 				)
 			)

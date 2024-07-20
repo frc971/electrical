@@ -1,0 +1,259 @@
+(footprint "INDUCTOR_IHLE-5050FH-Vishay"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "IHLP6767GZER4R7M11 ")
+	(property "Reference" "REF**"
+		(at -0.5 -0.5 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5ae0034f-0219-48f0-af5b-90d51f9f178d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "INDUCTOR_IHLE-5050FH-Vishay"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a6f3aa8a-2138-4f5b-a8ee-1b015eeeff2d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -0.5 -0.5 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5b1f8add-393b-438d-8330-c62edfa820d9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.5 -0.5 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e7f92ce-34cb-450b-b316-7d05210eb088")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.5 -0.5 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "207bb4f4-ea07-48be-97b9-b68e3631d3fe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -7.5 -7.5)
+		(end -7.5 -4.5)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2f6ebe0e-a11e-4166-9345-5c1349723dfa")
+	)
+	(fp_line
+		(start -7.5 -7.5)
+		(end -4.5 -7.5)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7a85020d-fb1e-4aac-b6b5-5b5d915596f2")
+	)
+	(fp_line
+		(start -7.5 7.5)
+		(end -7.5 4.5)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1b9cf272-430c-472a-a847-de0fa3d7e884")
+	)
+	(fp_line
+		(start -7.5 7.5)
+		(end -4.5 7.5)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "def1e3e5-da11-469d-b936-f8005f9dd1b9")
+	)
+	(fp_line
+		(start 7.5 -7.5)
+		(end 4.5 -7.5)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9ac65b72-519f-464e-8216-0adee0ceacd7")
+	)
+	(fp_line
+		(start 7.5 -7.5)
+		(end 7.5 -4.5)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a441f973-6f26-4385-9bc0-6abf98b3df47")
+	)
+	(fp_line
+		(start 7.5 7.5)
+		(end 4.5 7.5)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "febc4a74-8b0c-45d9-b8c8-5519de08c5d3")
+	)
+	(fp_line
+		(start 7.5 7.5)
+		(end 7.5 4.5)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "617e2dad-5931-48ed-862b-b934fd310929")
+	)
+	(fp_circle
+		(center -3.5 8)
+		(end -3.5 7.75)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "a096930c-e208-4240-8d00-7bbbc5bcb2ea")
+	)
+	(fp_rect
+		(start -7.5 -7.5)
+		(end 7.5 7.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "92000dfd-0919-4ea0-8e39-08d349bac778")
+	)
+	(fp_circle
+		(center -0.5 7.628)
+		(end -0.5 7.5518)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "c7e39bb9-e972-4608-8f6f-e8493d0a4ec1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.5 -0.5 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a3d607fe-0085-409f-87cb-9969bf46312d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 5.7325)
+		(size 5.21 3.265)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "14657ebf-a3d7-4e14-8c1a-8ea0353dd80d")
+	)
+	(pad "2" smd rect
+		(at 0 -5.7325)
+		(size 5.21 3.265)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a8a1a819-4ff1-4389-8696-b45b7af2917c")
+	)
+	(pad "3" smd rect
+		(at -5.6775 0 90)
+		(size 5.21 3.275)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7aa36284-cb2a-4788-a2e0-3e4b31c8d8cd")
+	)
+	(pad "4" smd rect
+		(at 5.6775 0 90)
+		(size 5.21 3.275)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7e69ef4c-6dae-4348-b4c9-49090962c86d")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "F.CrtYd")
+		(uuid "a530c7e1-eeb8-4742-a043-f07727bebfb2")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -7.112 2.794) (xy -7.112 7.112) (xy -2.794 7.112) (xy -2.794 3.81) (xy 2.794 3.81) (xy 2.794 7.112)
+				(xy 7.112 7.112) (xy 7.112 2.794) (xy 3.81 2.794) (xy 3.81 -2.794) (xy 7.112 -2.794) (xy 7.112 -7.112)
+				(xy 2.794 -7.112) (xy 2.794 -3.81) (xy -2.794 -3.81) (xy -2.794 -7.112) (xy -7.112 -7.112) (xy -7.112 -2.794)
+				(xy -3.81 -2.794) (xy -3.81 2.794)
+			)
+		)
+	)
+	(model "${KIPRJMOD}/3dModels/Vishay-IHLE5050FH.STEP"
+		(offset
+			(xyz 6.35 -6.35 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)

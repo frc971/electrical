@@ -796,16 +796,16 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "L"
-				(at -1.27 0 90)
+			(property "Reference" "L1"
+				(at 6.35 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "L_Iron"
-				(at 2.794 0 90)
+			(property "Value" "6.8 uH-12m-20%"
+				(at 3.81 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -821,7 +821,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "Components/Vishay-ihle-5050fh-5a.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -830,8 +830,44 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Inductor with iron core"
+			(property "Description" "6.8 µH Shielded Inductor 14.9 A 12.09mOhm Max Nonstandard"
 				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFG" "Vishay Dale"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFG P/N" "IHLE5050FHER6R8M5A"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DIST" "Digikey"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DIST P/N" "541-IHLE5050FHER6R8M5ACT-ND"
+				(at 0 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -932,6 +968,18 @@
 				)
 			)
 			(symbol "L_Iron_1_1"
+				(polyline
+					(pts
+						(xy -0.9525 2.54) (xy -0.9525 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type dot)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -961,6 +1009,42 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 1.27 0)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -1.27 0)
+					(length 1.27)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1357,234 +1441,6 @@
 						)
 					)
 					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:R_Shunt_US"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at -5.08 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_Shunt_US"
-				(at -3.048 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Shunt resistor, US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res shunt resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*Shunt*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Shunt_US_1_1"
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 2.54 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 -2.54 180)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2579,6 +2435,12 @@
 		(uuid "29476cb7-0d9c-46bc-8543-01435de0ce03")
 	)
 	(junction
+		(at 250.19 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "296646ee-4e7d-4734-8a31-8047c2f0aa62")
+	)
+	(junction
 		(at 280.67 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2601,6 +2463,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "41842e5b-b195-44d1-aee5-1067ffbfd343")
+	)
+	(junction
+		(at 226.06 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "438706ae-b3cd-4b7f-9cdc-4179c0126e77")
 	)
 	(junction
 		(at 208.28 130.81)
@@ -2751,10 +2619,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f83f481f-2ab0-4fe8-9842-420ce8925aed")
-	)
-	(no_connect
-		(at 246.38 116.84)
-		(uuid "9400715d-0c47-4e20-b9c4-9f9f6c20aac0")
 	)
 	(wire
 		(pts
@@ -2928,6 +2792,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 73.66) (xy 223.52 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25e246b6-2aeb-4ed6-943d-aa3121e85311")
+	)
+	(wire
+		(pts
 			(xy 106.68 86.36) (xy 106.68 91.44)
 		)
 		(stroke
@@ -3098,6 +2972,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 73.66) (xy 226.06 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47ff86bf-29ff-495f-8149-e4d7ec6d502b")
+	)
+	(wire
+		(pts
 			(xy 96.52 68.58) (xy 99.06 68.58)
 		)
 		(stroke
@@ -3198,7 +3082,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 71.12) (xy 207.01 71.12)
+			(xy 189.23 71.12) (xy 220.98 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3278,7 +3162,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 95.25) (xy 250.19 109.22)
+			(xy 250.19 95.25) (xy 250.19 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3315,6 +3199,16 @@
 			(type default)
 		)
 		(uuid "78619a3a-5b81-4081-9ef8-08dd74ab794e")
+	)
+	(wire
+		(pts
+			(xy 242.57 114.3) (xy 247.65 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7869c4cc-9963-4d5d-a938-832f0417771f")
 	)
 	(wire
 		(pts
@@ -3458,13 +3352,13 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 111.76) (xy 246.38 111.76)
+			(xy 223.52 74.93) (xy 226.06 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a2648086-3a08-4c96-9c88-4e10e1bdf1e2")
+		(uuid "a07190f2-cd18-43c6-a4c8-5ff2d0893aa7")
 	)
 	(wire
 		(pts
@@ -3518,7 +3412,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 111.76) (xy 242.57 95.25)
+			(xy 242.57 95.25) (xy 242.57 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3688,6 +3582,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 114.3) (xy 250.19 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db10791d-f849-4a6e-9ed9-315db3df75c5")
+	)
+	(wire
+		(pts
 			(xy 148.59 104.14) (xy 148.59 130.81)
 		)
 		(stroke
@@ -3718,7 +3622,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 71.12) (xy 250.19 71.12)
+			(xy 228.6 71.12) (xy 250.19 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3951,6 +3855,110 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 91.44 105.41 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "039dca1f-7187-4696-876b-ebf3fb3fb6e6")
+		(property "Reference" "R2"
+			(at 95.25 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1.05k-1%-0805"
+			(at 93.98 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 90.424 105.156 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Yageo"
+			(at 91.44 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "RC0805FR-071K05L"
+			(at 91.44 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" "Digikey"
+			(at 91.44 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST P/N" "311-1.05KCRCT-ND"
+			(at 91.44 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78d92d4b-40e5-4c23-8c14-c2bd0485854a")
+		)
+		(pin "2"
+			(uuid "760c0a70-39c8-42c9-81b2-4ab61131921f")
+		)
+		(instances
+			(project "NX-J401-Adapter"
+				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/584f7d71-5922-4ce5-8f88-d664ca9e2a8c"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 189.23 119.38 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3967,7 +3975,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1.0k-1%-0603"
+		(property "Value" "1.05k-1%-0805"
 			(at 191.77 119.38 90)
 			(effects
 				(font
@@ -3975,7 +3983,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 188.214 119.126 90)
 			(effects
 				(font
@@ -4011,7 +4019,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "RC0603FR-071KL"
+		(property "MFG P/N" "RC0805FR-071K05L"
 			(at 189.23 119.38 0)
 			(effects
 				(font
@@ -4029,7 +4037,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "311-1.00KHRCT-ND"
+		(property "DIST P/N" "311-1.05KCRCT-ND"
 			(at 189.23 119.38 0)
 			(effects
 				(font
@@ -4060,34 +4068,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 91.44 105.41 0)
-		(mirror x)
+		(lib_id "power:GND")
+		(at 226.06 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "064e9bf5-828f-465f-b9bc-ab082b6c022f")
-		(property "Reference" "R17"
-			(at 93.98 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1.0k-1%-0603"
-			(at 88.9 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 92.456 105.156 90)
+		(uuid "06c265ec-b9ff-44f0-9c66-4685c7aba29b")
+		(property "Reference" "#PWR013"
+			(at 226.06 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4095,8 +4085,25 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 91.44 105.41 0)
+		(property "Value" "GND"
+			(at 226.06 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4105,43 +4112,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.44 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "Yageo"
-			(at 91.44 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG P/N" "RC0603FR-071KL"
-			(at 91.44 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" "Digikey"
-			(at 91.44 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST P/N" "311-1.00KHRCT-ND"
-			(at 91.44 105.41 0)
+			(at 226.06 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4150,21 +4121,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "6e241ae9-cd74-4f8e-8318-17c980161646")
-		)
-		(pin "2"
-			(uuid "9155f450-61a5-4b6f-927a-ea26552edd01")
+			(uuid "058b46d1-b500-4f2d-83a7-50a641fa9fd4")
 		)
 		(instances
-			(project "PI-Power-Board"
-				(path "/2707d6e5-f0fd-4132-ae41-e0b291f42ef6/feeb2d6c-4828-41f4-95de-5c15de403137"
-					(reference "R17")
-					(unit 1)
-				)
-			)
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/584f7d71-5922-4ce5-8f88-d664ca9e2a8c"
-					(reference "R2")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -4188,7 +4150,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10pF-5%-50V-0603"
+		(property "Value" "10pF-5%-50V-0805"
 			(at 231.14 114.3 90)
 			(effects
 				(font
@@ -4196,7 +4158,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 228.2952 118.11 0)
 			(effects
 				(font
@@ -4223,7 +4185,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "KYOCERA AVX"
+		(property "MFG" "Samsung Electro-Mechanics"
 			(at 227.33 114.3 0)
 			(effects
 				(font
@@ -4232,7 +4194,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "KGM15ACG1H100JT"
+		(property "MFG P/N" "CL21C100CBANNNC"
 			(at 227.33 114.3 0)
 			(effects
 				(font
@@ -4250,7 +4212,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "478-KGM15ACG1H100JTCT-ND"
+		(property "DIST P/N" "1276-2561-1-ND"
 			(at 227.33 114.3 0)
 			(effects
 				(font
@@ -4275,116 +4237,6 @@
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/584f7d71-5922-4ce5-8f88-d664ca9e2a8c"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 280.67 116.84 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0f831a4e-888e-497a-8db5-93f64ff9080f")
-		(property "Reference" "R17"
-			(at 284.48 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1.0k-1%-0603"
-			(at 283.21 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 279.654 116.586 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 280.67 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 280.67 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "Yageo"
-			(at 280.67 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG P/N" "RC0603FR-071KL"
-			(at 280.67 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" "Digikey"
-			(at 280.67 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST P/N" "311-1.00KHRCT-ND"
-			(at 280.67 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d955168d-8548-438d-bebf-7747401d7e38")
-		)
-		(pin "2"
-			(uuid "6c292413-68d5-4d45-9a0a-a6def5c0d09b")
-		)
-		(instances
-			(project "PI-Power-Board"
-				(path "/2707d6e5-f0fd-4132-ae41-e0b291f42ef6/feeb2d6c-4828-41f4-95de-5c15de403137"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-			(project "NX-J401-Adapter"
-				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/584f7d71-5922-4ce5-8f88-d664ca9e2a8c"
-					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -4698,7 +4550,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "64.9k-1%-0603"
+		(property "Value" "59.0k-1%-0805"
 			(at 157.48 105.41 90)
 			(effects
 				(font
@@ -4706,7 +4558,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 161.036 105.156 90)
 			(effects
 				(font
@@ -4742,7 +4594,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "RC0603FR-0764K9L"
+		(property "MFG P/N" "RC0805FR-0759KL"
 			(at 160.02 105.41 0)
 			(effects
 				(font
@@ -4760,7 +4612,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "311-64.9KHRCT-ND"
+		(property "DIST P/N" "311-59.0KCRCT-ND"
 			(at 160.02 105.41 0)
 			(effects
 				(font
@@ -4915,7 +4767,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.01uF-10%-50V-0603"
+		(property "Value" "0.01uF-10%-50V-0805"
 			(at 173.99 114.3 90)
 			(effects
 				(font
@@ -4923,7 +4775,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 176.8348 118.11 0)
 			(effects
 				(font
@@ -4959,7 +4811,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "CL10B103KB8NNNC"
+		(property "MFG P/N" "CL21B103KBANNNC"
 			(at 177.8 114.3 0)
 			(effects
 				(font
@@ -4977,7 +4829,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "1276-1009-1-ND"
+		(property "DIST P/N" "1276-1015-1-ND"
 			(at 177.8 114.3 0)
 			(effects
 				(font
@@ -5024,7 +4876,7 @@
 				)
 			)
 		)
-		(property "Value" "100R-1%-0603"
+		(property "Value" "100R-1%-0805"
 			(at 234.95 92.71 90)
 			(effects
 				(font
@@ -5032,7 +4884,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 234.696 96.266 90)
 			(effects
 				(font
@@ -5068,7 +4920,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "RC0603FR-07100RL"
+		(property "MFG P/N" "RC0805FR-07100RL"
 			(at 234.95 95.25 0)
 			(effects
 				(font
@@ -5086,7 +4938,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "311-100HRCT-ND"
+		(property "DIST P/N" "311-100CRCT-ND"
 			(at 234.95 95.25 0)
 			(effects
 				(font
@@ -5238,6 +5090,111 @@
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/584f7d71-5922-4ce5-8f88-d664ca9e2a8c"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 148.59 100.33 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b726b4a-4fdb-4e2e-ac04-28c2e477582c")
+		(property "Reference" "C3"
+			(at 149.86 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.22uF-10%-50V-0805"
+			(at 144.78 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 147.6248 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "KEMET"
+			(at 148.59 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "C0805C224K5RAC7800"
+			(at 148.59 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" "Digikey"
+			(at 148.59 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST P/N" "399-C0805C224K5RACTUCT-ND"
+			(at 148.59 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a18f59b-b74d-44a3-a39d-305d20da314f")
+		)
+		(pin "2"
+			(uuid "df91ab6a-ba30-4ae0-9dc3-3c1226f5c054")
+		)
+		(instances
+			(project "NX-J401-Adapter"
+				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/584f7d71-5922-4ce5-8f88-d664ca9e2a8c"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -5532,17 +5489,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 148.59 100.33 0)
-		(mirror y)
+		(lib_id "Device:R_US")
+		(at 280.67 116.84 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7116286b-6eb2-4b10-b990-138e4826043e")
-		(property "Reference" "C24"
-			(at 149.86 97.79 0)
+		(uuid "75e442e0-9520-4ad6-bca4-2e31bfddbdde")
+		(property "Reference" "R9"
+			(at 284.48 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5550,16 +5506,16 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF-10%-50V-0603"
-			(at 144.78 100.33 90)
+		(property "Value" "1.05k-1%-0805"
+			(at 283.21 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 147.6248 104.14 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 279.654 116.586 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5568,7 +5524,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 100.33 0)
+			(at 280.67 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5577,7 +5533,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 148.59 100.33 0)
+			(at 280.67 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5585,8 +5541,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Samsung Electro-Mechanics"
-			(at 148.59 100.33 0)
+		(property "MFG" "Yageo"
+			(at 280.67 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5594,8 +5550,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "CL10B104KB8NNNC"
-			(at 148.59 100.33 0)
+		(property "MFG P/N" "RC0805FR-071K05L"
+			(at 280.67 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5604,7 +5560,7 @@
 			)
 		)
 		(property "DIST" "Digikey"
-			(at 148.59 100.33 0)
+			(at 280.67 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5612,8 +5568,8 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "1276-1000-1-ND"
-			(at 148.59 100.33 0)
+		(property "DIST P/N" "311-1.05KCRCT-ND"
+			(at 280.67 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5622,21 +5578,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "5e850e61-5609-462d-9e39-f6878f780ebe")
+			(uuid "156c5407-7aa1-4291-adc2-ced2fd0a2301")
 		)
 		(pin "2"
-			(uuid "6109d65f-229b-4a14-b820-dcb5d253f24c")
+			(uuid "2d347e4a-2fa0-4283-9f15-84122589223a")
 		)
 		(instances
-			(project "PI-Power-Board"
-				(path "/2707d6e5-f0fd-4132-ae41-e0b291f42ef6/feeb2d6c-4828-41f4-95de-5c15de403137"
-					(reference "C24")
-					(unit 1)
-				)
-			)
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/584f7d71-5922-4ce5-8f88-d664ca9e2a8c"
-					(reference "C3")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -5661,7 +5611,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "13.3k-1%-0603"
+		(property "Value" "14.0k-1%-0805"
 			(at 278.13 87.63 90)
 			(effects
 				(font
@@ -5669,7 +5619,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 281.686 87.376 90)
 			(effects
 				(font
@@ -5705,7 +5655,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "RC0603FR-0713K3L"
+		(property "MFG P/N" "RC0805FR-0714KL"
 			(at 280.67 87.63 0)
 			(effects
 				(font
@@ -5723,7 +5673,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "311-13.3KHRCT-ND"
+		(property "DIST P/N" "311-14.0KCRCT-ND"
 			(at 280.67 87.63 0)
 			(effects
 				(font
@@ -5754,128 +5704,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 100.33 82.55 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "b58ed2ad-84f7-45ab-99d7-cbaed0f264c8")
-		(property "Reference" "R16"
-			(at 101.6 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "20.0k-1%-0603"
-			(at 97.79 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 101.346 82.296 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 100.33 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "Yageo"
-			(at 100.33 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG P/N" "RC0603FR-0720KL"
-			(at 100.33 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" "Digikey"
-			(at 100.33 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST P/N" "311-20.0KHRCT-ND"
-			(at 100.33 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "30a683fe-1520-4542-99b0-2d8822344201")
-		)
-		(pin "2"
-			(uuid "76cd398e-5d30-4099-ba1c-9f1b29d285ae")
-		)
-		(instances
-			(project "PI-Power-Board"
-				(path "/2707d6e5-f0fd-4132-ae41-e0b291f42ef6/feeb2d6c-4828-41f4-95de-5c15de403137"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-			(project "NX-J401-Adapter"
-				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/584f7d71-5922-4ce5-8f88-d664ca9e2a8c"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 71.12 100.33 180)
+		(at 71.12 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "be9200b3-491f-4919-a91f-3739b0fde48f")
-		(property "Reference" "C38"
-			(at 72.39 97.79 0)
+		(uuid "cc36c113-8782-4996-989a-00a905197041")
+		(property "Reference" "C1"
+			(at 69.85 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5883,17 +5721,16 @@
 				(justify right)
 			)
 		)
-		(property "Value" "22uF-25V-10%-1210"
-			(at 67.31 111.76 90)
+		(property "Value" "22uF-20%-25V-0805"
+			(at 74.93 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 70.1548 96.52 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 72.0852 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5901,7 +5738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 71.12 100.33 0)
 			(effects
 				(font
@@ -5910,7 +5747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "22 µF ±20% 25V Ceramic Capacitor X5R 0805 (2012 Metric)"
 			(at 71.12 100.33 0)
 			(effects
 				(font
@@ -5919,7 +5756,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Murata"
+		(property "MFG" "Samsung Electro-Mechanics"
 			(at 71.12 100.33 0)
 			(effects
 				(font
@@ -5928,7 +5765,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "GRM32ER61E226KE15L"
+		(property "MFG P/N" "CL21A226MAYNNNE"
 			(at 71.12 100.33 0)
 			(effects
 				(font
@@ -5946,7 +5783,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "490-3889-1-ND"
+		(property "DIST P/N" "1276-CL21A226MAYNNNECT-ND"
 			(at 71.12 100.33 0)
 			(effects
 				(font
@@ -5956,18 +5793,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "175193f9-78f6-466a-b6e7-b2cf39018060")
+			(uuid "d551c3e3-943d-4c28-9993-2e173d765e45")
 		)
 		(pin "2"
-			(uuid "f327d8b4-8bef-4d78-96b5-d2b5f6460c63")
+			(uuid "d8509c0f-8cb6-46b8-86df-2939753597ab")
 		)
 		(instances
-			(project "PI-Power-Board"
-				(path "/2707d6e5-f0fd-4132-ae41-e0b291f42ef6/feeb2d6c-4828-41f4-95de-5c15de403137"
-					(reference "C38")
-					(unit 1)
-				)
-			)
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/584f7d71-5922-4ce5-8f88-d664ca9e2a8c"
 					(reference "C1")
@@ -5977,120 +5808,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Shunt_US")
-		(at 250.19 114.3 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d29b527d-6263-4e31-8897-8ccab86cd4a1")
-		(property "Reference" "R7"
-			(at 252.73 113.0299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "4.0m-1%-1W"
-			(at 252.73 115.5699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Shunt_Vishay_WSKW0612"
-			(at 251.968 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/30332/wskw0612.pdf"
-			(at 250.19 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 250.19 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "Vishay Dale"
-			(at 250.19 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG P/N" "WSKW06124L000FEA"
-			(at 250.19 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" "Digikey"
-			(at 250.19 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST P/N" "541-WSKW06124L000FEACT-ND"
-			(at 250.19 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "39a570bf-40cd-4b99-af75-92923cf2441c")
-		)
-		(pin "2"
-			(uuid "bbd8f86f-e88e-4dff-869c-890bb8266971")
-		)
-		(pin "3"
-			(uuid "aea999ae-9511-479a-8826-8fa5b9a91c38")
-		)
-		(pin "4"
-			(uuid "d4635604-3587-45f6-bd21-6d62ef886248")
-		)
-		(instances
-			(project "NX-J401-Adapter"
-				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/584f7d71-5922-4ce5-8f88-d664ca9e2a8c"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L_Iron")
-		(at 210.82 71.12 90)
+		(at 224.79 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6099,32 +5818,23 @@
 		(fields_autoplaced yes)
 		(uuid "d3cfd995-9631-4a74-812f-b5ef975cef98")
 		(property "Reference" "L2"
-			(at 210.82 64.77 90)
+			(at 224.79 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4.7 uH-8.4m-20%"
-			(at 210.82 67.31 90)
+		(property "Value" "6.8 uH-12m-20%"
+			(at 224.79 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "NX-J401-Adapter:Bourns-SRP1265A"
-			(at 210.82 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "Components/Bourns-SRP1265A-4R7M.pdf"
-			(at 210.82 71.12 0)
+		(property "Footprint" "NX-J401-Adapter:INDUCTOR_IHLE-5050FH-Vishay"
+			(at 224.79 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6132,8 +5842,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 210.82 71.12 0)
+		(property "Datasheet" "Components/Vishay-ihle-5050fh-5a.pdf"
+			(at 224.79 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6141,8 +5851,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Bourns"
-			(at 210.82 71.12 90)
+		(property "Description" "6.8 µH Shielded Inductor 14.9 A 12.09mOhm Max Nonstandard"
+			(at 224.79 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6150,8 +5860,17 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "SRP1265A-4R7M"
-			(at 210.82 71.12 90)
+		(property "MFG" "Vishay Dale"
+			(at 224.79 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "IHLE5050FHER6R8M5A"
+			(at 224.79 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6160,7 +5879,7 @@
 			)
 		)
 		(property "DIST" "Digikey"
-			(at 210.82 71.12 90)
+			(at 224.79 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6168,8 +5887,8 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "SRP1265A-4R7MCT-ND"
-			(at 210.82 71.12 90)
+		(property "DIST P/N" "541-IHLE5050FHER6R8M5ACT-ND"
+			(at 224.79 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6183,6 +5902,12 @@
 		(pin "2"
 			(uuid "00c6ca85-17e1-4ed7-96b3-3744e0cf4b36")
 		)
+		(pin "3"
+			(uuid "81eb2243-c8a5-425e-8a8b-bcdedd826c69")
+		)
+		(pin "4"
+			(uuid "c9ab3372-303b-4adb-847c-b13ede6c50a6")
+		)
 		(instances
 			(project "PI-Power-Board"
 				(path "/2707d6e5-f0fd-4132-ae41-e0b291f42ef6/feeb2d6c-4828-41f4-95de-5c15de403137"
@@ -6193,6 +5918,214 @@
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/584f7d71-5922-4ce5-8f88-d664ca9e2a8c"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 250.19 115.57 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9f12de7-02dd-4165-8057-cd21496eb734")
+		(property "Reference" "R7"
+			(at 254 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.0m-1%-2512"
+			(at 252.73 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 249.174 115.316 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 250.19 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Bourns Inc."
+			(at 250.19 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "CRE2512-FZ-R004E-3"
+			(at 250.19 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" "Digikey"
+			(at 250.19 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST P/N" "CRE2512-FZ-R004E-3CT-ND"
+			(at 250.19 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63828819-a14d-4758-a6ee-788b58437b8a")
+		)
+		(pin "2"
+			(uuid "c58ff20e-0f11-4a11-970f-1ff230b17b0d")
+		)
+		(instances
+			(project "NX-J401-Adapter"
+				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/584f7d71-5922-4ce5-8f88-d664ca9e2a8c"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 100.33 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "dc200971-ff75-4f26-9a60-5185e4316311")
+		(property "Reference" "R3"
+			(at 98.298 84.836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "20.0k-1%-0805"
+			(at 102.87 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 99.314 82.296 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" ""
+			(at 100.33 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" ""
+			(at 100.33 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
+			(at 100.33 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST P/N" ""
+			(at 100.33 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf4da32a-f3b0-4795-8719-cc84838ce5b4")
+		)
+		(pin "2"
+			(uuid "b64f27a1-f5e3-47ec-a1f2-5d8ec947c2b8")
+		)
+		(instances
+			(project "NX-J401-Adapter"
+				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/584f7d71-5922-4ce5-8f88-d664ca9e2a8c"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -6446,7 +6379,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.22uF-10%-50V-0603"
+		(property "Value" "0.22uF-10%-50V-0805"
 			(at 185.42 109.22 90)
 			(effects
 				(font
@@ -6454,7 +6387,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 188.2648 113.03 0)
 			(effects
 				(font
@@ -6481,7 +6414,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Samsung Electro-Mechanics"
+		(property "MFG" "KEMET"
 			(at 189.23 109.22 0)
 			(effects
 				(font
@@ -6490,7 +6423,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "CL10B224KB8VPNC"
+		(property "MFG P/N" "C0805C224K5RAC7800"
 			(at 189.23 109.22 0)
 			(effects
 				(font
@@ -6508,7 +6441,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "1276-6600-1-ND"
+		(property "DIST P/N" "399-C0805C224K5RACTUCT-ND"
 			(at 189.23 109.22 0)
 			(effects
 				(font
