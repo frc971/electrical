@@ -1283,6 +1283,12 @@
 		(uuid "1dd91807-1453-4ff2-9157-e97d12c597f3")
 	)
 	(junction
+		(at 195.58 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ed0ecb4-5ae2-4378-8bb1-20703adb9eca")
+	)
+	(junction
 		(at 233.68 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1305,12 +1311,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0120a09-a207-453e-8dd3-5d950a4fdd32")
-	)
-	(junction
-		(at 195.58 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c952ff71-2ae5-4d8b-89e1-906d8d201620")
 	)
 	(junction
 		(at 219.71 165.1)
@@ -2037,120 +2037,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 246.38 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1dd80d67-e632-4bea-a4ac-873763a3fc6a")
-		(property "Reference" "C?"
-			(at 245.11 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22uF-20%-0603"
-			(at 250.19 177.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 247.3452 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "Components/TDK-mlcc_commercial_general_en.pdf"
-			(at 246.38 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 246.38 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "TDK"
-			(at 246.38 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG P/N" "C1608X5R1A226M080AC"
-			(at 246.38 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" "Digikey"
-			(at 246.38 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST P/N" "445-9077-1-ND"
-			(at 246.38 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7d195627-dcc8-4539-bd87-7412635ec15e")
-		)
-		(pin "2"
-			(uuid "d3f234b8-e2bf-4a58-8ac4-7bcf8bb8a1fd")
-		)
-		(instances
-			(project "IMU-2X"
-				(path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6"
-					(reference "C?")
-					(unit 1)
-				)
-				(path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6/dfddfc9c-e803-47e7-ad6c-6304a5151d35"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-			(project "IMU-2X"
-				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/b82ca404-386f-4bdf-8b2c-60800790d9b9"
-					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PI-Power-Board:PESD1CAN")
 		(at 245.11 104.14 270)
 		(unit 1)
@@ -2249,16 +2135,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 208.28 73.66 0)
-		(mirror y)
+		(at 233.68 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2d696cf0-eff0-4478-abc7-520cb02a9c71")
-		(property "Reference" "C24"
-			(at 209.55 71.12 0)
+		(uuid "332dc8fc-adf7-4785-a7b4-8d090b1d37d4")
+		(property "Reference" "C13"
+			(at 232.41 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2266,26 +2151,16 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF-10%-50V-0603"
-			(at 210.82 73.66 0)
+		(property "Value" "22uF-20%-25V-0805"
+			(at 237.49 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 207.3148 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 208.28 73.66 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 234.6452 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2293,8 +2168,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 208.28 73.66 0)
+		(property "Datasheet" ""
+			(at 233.68 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "22 µF ±20% 25V Ceramic Capacitor X5R 0805 (2012 Metric)"
+			(at 233.68 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2303,7 +2187,7 @@
 			)
 		)
 		(property "MFG" "Samsung Electro-Mechanics"
-			(at 208.28 73.66 0)
+			(at 233.68 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2311,8 +2195,26 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "CL10B104KB8NNNC"
-			(at 208.28 73.66 0)
+		(property "MFG P/N" "CL21A226MAYNNNE"
+			(at 233.68 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" "Digikey"
+			(at 233.68 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST P/N" "1276-CL21A226MAYNNNECT-ND"
+			(at 233.68 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2321,21 +2223,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "af7a91f0-2ceb-4597-a5cf-0531f32e5bc4")
+			(uuid "71d44caa-73f3-4855-b699-2cb5079dd8a5")
 		)
 		(pin "2"
-			(uuid "d6e38b72-6f0e-4039-bf60-a7d4994bbeaa")
+			(uuid "dc71c9dc-d023-48af-b609-a8d4154455ed")
 		)
 		(instances
-			(project "PI-Power-Board"
-				(path "/2707d6e5-f0fd-4132-ae41-e0b291f42ef6/feeb2d6c-4828-41f4-95de-5c15de403137"
-					(reference "C24")
-					(unit 1)
-				)
-			)
-			(project "PI-Power-Board"
+			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/b82ca404-386f-4bdf-8b2c-60800790d9b9"
-					(reference "C11")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -2597,6 +2493,112 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 195.58 73.66 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ff1d3e7-6f44-409b-a369-530db1af6556")
+		(property "Reference" "C14"
+			(at 194.31 70.866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.22uF-10%-50V-0805"
+			(at 192.024 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 194.6148 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "KEMET"
+			(at 195.58 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "C0805C224K5RAC7800"
+			(at 195.58 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" "Digikey"
+			(at 195.58 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST P/N" "399-C0805C224K5RACTUCT-ND"
+			(at 195.58 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a58103c4-bb6a-4b6c-a120-2e7eadb30327")
+		)
+		(pin "2"
+			(uuid "1ac90ed0-1458-45ac-8365-60c592f70e4b")
+		)
+		(instances
+			(project "NX-J401-Adapter"
+				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/b82ca404-386f-4bdf-8b2c-60800790d9b9"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDD")
 		(at 203.2 102.87 0)
 		(unit 1)
@@ -2664,15 +2666,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 233.68 177.8 0)
+		(at 246.38 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a6883cd6-e221-4ec6-aed9-0b0b300ced08")
-		(property "Reference" "C?"
-			(at 232.41 175.26 0)
+		(uuid "b90f3a0c-512f-47ff-aec1-67f113e5a53e")
+		(property "Reference" "C11"
+			(at 245.11 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2680,25 +2682,16 @@
 				(justify right)
 			)
 		)
-		(property "Value" "22uF-20%-0603"
-			(at 237.49 177.8 90)
+		(property "Value" "22uF-20%-25V-0805"
+			(at 250.19 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 234.6452 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "Components/TDK-mlcc_commercial_general_en.pdf"
-			(at 233.68 177.8 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 247.3452 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2706,8 +2699,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 233.68 177.8 0)
+		(property "Datasheet" ""
+			(at 246.38 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2715,8 +2708,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "TDK"
-			(at 233.68 177.8 0)
+		(property "Description" "22 µF ±20% 25V Ceramic Capacitor X5R 0805 (2012 Metric)"
+			(at 246.38 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2724,8 +2717,17 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "C1608X5R1A226M080AC"
-			(at 233.68 177.8 0)
+		(property "MFG" "Samsung Electro-Mechanics"
+			(at 246.38 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "CL21A226MAYNNNE"
+			(at 246.38 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2734,7 +2736,7 @@
 			)
 		)
 		(property "DIST" "Digikey"
-			(at 233.68 177.8 0)
+			(at 246.38 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2742,8 +2744,8 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "445-9077-1-ND"
-			(at 233.68 177.8 0)
+		(property "DIST P/N" "1276-CL21A226MAYNNNECT-ND"
+			(at 246.38 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2752,25 +2754,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "cbbbadf9-c673-438a-af1a-328cdaefcb9c")
+			(uuid "4bf6c281-51c3-4e6f-86b0-95e139b33c2b")
 		)
 		(pin "2"
-			(uuid "8a93957e-18d4-4b90-bfd3-27a633ac7078")
+			(uuid "e53bb7eb-3d12-4dcf-b497-55478a2aac1d")
 		)
 		(instances
-			(project "IMU-2X"
-				(path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6"
-					(reference "C?")
-					(unit 1)
-				)
-				(path "/3a012c22-a9cb-4cb7-8e69-db8529c53ea6/dfddfc9c-e803-47e7-ad6c-6304a5151d35"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-			(project "IMU-2X"
+			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/b82ca404-386f-4bdf-8b2c-60800790d9b9"
-					(reference "C12")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -2844,33 +2836,33 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 195.58 73.66 0)
+		(at 208.28 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d10946f3-62a6-4d6f-bdc2-426b4f41a87d")
-		(property "Reference" "C24"
-			(at 194.31 71.12 0)
+		(uuid "d403d7ab-3a95-44c7-a270-7d52a08f3d2d")
+		(property "Reference" "C10"
+			(at 209.55 70.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "0.1uF-10%-50V-0603"
-			(at 193.04 73.66 0)
+		(property "Value" "0.22uF-10%-50V-0805"
+			(at 211.836 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 196.5452 77.47 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 209.2452 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2879,7 +2871,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 195.58 73.66 0)
+			(at 208.28 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2888,7 +2880,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 195.58 73.66 0)
+			(at 208.28 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2896,8 +2888,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Samsung Electro-Mechanics"
-			(at 195.58 73.66 0)
+		(property "MFG" "KEMET"
+			(at 208.28 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2905,8 +2897,26 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "CL10B104KB8NNNC"
-			(at 195.58 73.66 0)
+		(property "MFG P/N" "C0805C224K5RAC7800"
+			(at 208.28 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" "Digikey"
+			(at 208.28 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST P/N" "399-C0805C224K5RACTUCT-ND"
+			(at 208.28 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2915,19 +2925,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "f8d2b36b-2f3f-46e0-9d25-99583499adad")
+			(uuid "f68fadf6-dc9c-4c1e-bb0f-7bafa1365c74")
 		)
 		(pin "2"
-			(uuid "7af38c69-b359-4b52-bee6-1bc8ea7a8635")
+			(uuid "ad80d1b9-d3e5-435a-baff-6b956922bbdf")
 		)
 		(instances
-			(project "PI-Power-Board"
-				(path "/2707d6e5-f0fd-4132-ae41-e0b291f42ef6/feeb2d6c-4828-41f4-95de-5c15de403137"
-					(reference "C24")
-					(unit 1)
-				)
-			)
-			(project "PI-Power-Board"
+			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/b82ca404-386f-4bdf-8b2c-60800790d9b9"
 					(reference "C10")
 					(unit 1)
