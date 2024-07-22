@@ -1,41 +1,37 @@
-### Footprint positions - created on 2024-07-14T15:19:58-0700 ###
-### Printed by KiCad version 8.0.3-8.0.3-0~ubuntu22.04.1
+### Footprint positions - created on 2024-07-21T15:42:01-0700 ###
+### Printed by KiCad version 8.0.4-8.0.4-0~ubuntu22.04.1
 ## Unit = inches, Angle = deg.
 ## Side : top
-# Ref     Val                  Package                                        PosX       PosY       Rot  Side
-C1        0.1uF-10%-50V-0603   C_0603_1608Metric                            4.2750    -4.0060  -90.0000  top
-C2        0.1uF-10%-50V-0603   C_0603_1608Metric                            5.1750    -4.0060  -90.0000  top
-C3        0.1uF-10%-50V-0603   C_0603_1608Metric                            4.5300    -4.2750  -90.0000  top
-C4        0.1uF-10%-50V-0603   C_0603_1608Metric                            5.4300    -4.2750  -90.0000  top
-D1        PESD1CAN             SOT-23                                       4.6890    -4.3070  -90.0000  top
-D2        PESD1CAN             SOT-23                                       5.5890    -4.3070  -90.0000  top
-D3        PC_LED               LED_1206_3216Metric                          3.0370    -4.3230   90.0000  top
-D4        ETH                  LED_1206_3216Metric                          3.3470    -4.3230   90.0000  top
-D5        CAN0                 LED_1206_3216Metric                          3.6570    -4.3230   90.0000  top
-D6        USR1                 LED_1206_3216Metric                          3.0370    -4.5620   90.0000  top
-D7        HD                   LED_1206_3216Metric                          3.3470    -4.5620   90.0000  top
-D8        CAN1                 LED_1206_3216Metric                          3.6570    -4.5620   90.0000  top
-D9        USR2                 LED_1206_3216Metric                          3.0370    -4.8000   90.0000  top
-D10       CPU                  LED_1206_3216Metric                          3.3470    -4.8000   90.0000  top
-D11       CAN2                 LED_1206_3216Metric                          3.6570    -4.8000   90.0000  top
-J1        NX_Expansion         M20-782045                                   6.2205    -4.0996   90.0000  top
-J2        CAN1                 70555-0001                                   4.2900    -4.4450  -90.0000  top
-J3        CAN1                 70555-0001                                   4.6900    -4.4450  -90.0000  top
-J4        CAN2                 70555-0001                                   5.1900    -4.4450  -90.0000  top
-J5        CAN2                 70555-0001                                   5.5890    -4.4450  -90.0000  top
-LP1       Lumex-3x-Light-Pipe  LUMEX-LPF-C013301S                           3.0369    -4.5880   90.0000  top
-LP2       Lumex-3x-Light-Pipe  LUMEX-LPF-C013301S                           3.3469    -4.5880   90.0000  top
-LP3       Lumex-3x-Light-Pipe  LUMEX-LPF-C013301S                           3.6569    -4.5880   90.0000  top
-R1        499R-1%-0603         R_0603_1608Metric                            3.1070    -4.0360   90.0000  top
-R2        499R-1%-0603         R_0603_1608Metric                            3.1670    -4.0360   90.0000  top
-R3        499R-1%-0603         R_0603_1608Metric                            3.2270    -4.0360   90.0000  top
-R4        499R-1%-0603         R_0603_1608Metric                            3.2870    -4.0360   90.0000  top
-R5        499R-1%-0603         R_0603_1608Metric                            3.3470    -4.0360   90.0000  top
-U1        74LVC245ABQ          SO-20_12.8x7.5mm_P1.27mm                     3.6560    -3.8700  180.0000  top
-U2        MCP2518FD-xQBB       DFN-14-1EP_3x4.5mm_P0.65mm_EP1.65x4.25mm     4.4050    -4.0570   90.0000  top
-U3        MCP2518FD-xQBB       DFN-14-1EP_3x4.5mm_P0.65mm_EP1.65x4.25mm     5.3050    -4.0570   90.0000  top
-U4        40MHz                ECS-5032MV                                   4.4000    -4.2550    0.0000  top
-U5        40MHz                ECS-5032MV                                   5.3000    -4.2550    0.0000  top
-U6        MCP2558FD            DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm         4.1730    -4.3000  -90.0000  top
-U7        MCP2558FD            DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm         5.0730    -4.3000  -90.0000  top
+# Ref     Val                  Package                        PosX       PosY       Rot  Side
+C1        0.1uF-10%-50V-0805   C_0805_2012Metric            4.8800    -4.1480   90.0000  top
+C2        0.1uF-10%-50V-0805   C_0805_2012Metric            5.7970    -4.1480   90.0000  top
+D1        PC_LED               LED_1206_3216Metric          3.0370    -4.3230   90.0000  top
+D2        ETH                  LED_1206_3216Metric          3.3470    -4.3230   90.0000  top
+D3        CAN0                 LED_1206_3216Metric          3.6570    -4.3230   90.0000  top
+D4        USR1                 LED_1206_3216Metric          3.0370    -4.5620   90.0000  top
+D5        HD                   LED_1206_3216Metric          3.3470    -4.5620   90.0000  top
+D6        CAN1                 LED_1206_3216Metric          3.6570    -4.5620   90.0000  top
+D7        USR2                 LED_1206_3216Metric          3.0370    -4.8000   90.0000  top
+D8        CPU                  LED_1206_3216Metric          3.3470    -4.8000   90.0000  top
+D9        CAN2                 LED_1206_3216Metric          3.6570    -4.8000   90.0000  top
+J1        NX_Expansion         M20-782045                   6.2205    -4.0996   90.0000  top
+J2        CAN1                 70555-0001                   4.2900    -4.4450  -90.0000  top
+J3        CAN1                 70555-0001                   4.6900    -4.4450  -90.0000  top
+J4        CAN2                 70555-0001                   5.1900    -4.4450  -90.0000  top
+J5        CAN2                 70555-0001                   5.5890    -4.4450  -90.0000  top
+LP1       Lumex-3x-Light-Pipe  LUMEX-LPF-C013301S           3.0369    -4.5880   90.0000  top
+LP2       Lumex-3x-Light-Pipe  LUMEX-LPF-C013301S           3.3469    -4.5880   90.0000  top
+LP3       Lumex-3x-Light-Pipe  LUMEX-LPF-C013301S           3.6569    -4.5880   90.0000  top
+R1        499R-1%-0805         R_0805_2012Metric            3.0260    -4.0960   90.0000  top
+R2        499R-1%-0805         R_0805_2012Metric            3.1060    -4.0960   90.0000  top
+R3        499R-1%-0805         R_0805_2012Metric            3.1860    -4.0960   90.0000  top
+R4        499R-1%-0805         R_0805_2012Metric            3.2660    -4.0960   90.0000  top
+R5        499R-1%-0805         R_0805_2012Metric            3.3460    -4.0960   90.0000  top
+U1        74LVC245ABQ          SO-20_12.8x7.5mm_P1.27mm     3.6560    -3.8700  180.0000  top
+U2        MCP2558FD            SO-8_3.9x4.9mm_P1.27mm       4.1190    -4.1120  -90.0000  top
+U3        MCP2518FDT-H/SL      SO-14_3.9x8.65mm_P1.27mm     4.4481    -4.1100   90.0000  top
+U4        40MHz                ECS-5032MV                   4.7380    -4.1100  180.0000  top
+U5        MCP2558FD            SO-8_3.9x4.9mm_P1.27mm       5.0360    -4.1110  -90.0000  top
+U6        MCP2518FDT-H/SL      SO-14_3.9x8.65mm_P1.27mm     5.3650    -4.1100   90.0000  top
+U7        40MHz                ECS-5032MV                   5.6550    -4.1100  180.0000  top
 ## End

@@ -1,15 +1,15 @@
-Item,QUANTITY,Reference,Value,MFG,MFG P/N,DIST,DIST P/N
-1,9,C1-C9,0.1uF-10%-50V-0603,Samsung Electro-Mechanics,CL10B104KB8NNNC,Digikey,1276-1000-1-ND
-2,2,"D1,D2",PESD1CAN,Nexperia,"PESD1CAN,215",Digikey,1727-3817-1-ND
-3,9,D3-D11,-- mixed values --,Everlight Electronics,QTLP650D4TR,Digikey,1080-1419-1-ND
-4,1,J1,NX Expansion,Harwin,M20-7812045,Digikey,952-3218-ND
-5,1,J6,PC LED,Molex,705430036,Digikey,WM4824-ND
-6,2,"J2,J4",-- mixed values --,Molex,70555-0036,Digikey,WM4175-ND
-7,2,"J3,J5",-- mixed values --,Molex,705550036,Digikey,WM4175-ND
-8,3,LP1-LP3,Lumex-3x-Light-Pipe,Lumex,LPF-C013301S,Digikey,67-1851-ND
-9,1,P1,Samtec 40 pin Elevated Socket,Samtec,ESQ-120-34-G-D,Digikey,SAM9319-ND
-10,8,R1-R8,499R-1%-0603,YAGEO,RC0603FR-07499RL,Digikey,311-499HRCT-ND
-11,1,U1,74LVC245ABQ,Nexperia,"74LVC245ABQ,115",Digikey,1727-3495-1-ND
-12,2,"U2,U3",MCP2518FD-xQBB,Microchip,MCP2518FDT-E/QBB,Digikey,MCP2518FDT-E/QBBCT-ND
-13,2,"U4,U5",40MHz,ECS Inc,ECS-5032MV-400-CN-TR,Digikey,XC3112CT-ND
-14,2,"U6,U7",MCP2558FD,Microchip,MCP2558FDT-H/MF,Digikey,MCP2558FDT-H/MFCT-ND
+"Item","QUANTITY","Reference","Value","MFG","MFG P/N","DIST","DIST P/N"
+"1","9","C1-C9","0.1uF-10%-50V-0805","YAGEO","CC0805KRX7R9BB104","Digikey","311-1140-1-ND"
+"2","9","D1-D9","-- mixed values --","Everlight Electronics","QTLP650D4TR","Digikey","1080-1419-1-ND"
+"3","2","D10,D11","PESD1CAN","Nexperia","PESD1CAN,215","Digikey","1727-3817-1-ND"
+"4","1","J1","NX Expansion","Harwin","M20-7812045","Digikey","952-3218-ND"
+"5","1","J6","PC LED","Molex","0705430036","Digikey","WM4824-ND"
+"6","2","J2,J4","-- mixed values --","Molex","70555-0036","Digikey","WM4175-ND"
+"7","2","J3,J5","-- mixed values --","Molex","0705550036","Digikey","WM4175-ND"
+"8","3","LP1-LP3","Lumex-3x-Light-Pipe","Lumex","LPF-C013301S","Digikey","67-1851-ND"
+"9","1","P1","Samtec 40 pin Elevated Socket","Samtec","ESQ-120-34-G-D","Digikey","SAM9319-ND"
+"10","8","R1-R8","499R-1%-0805","YAGEO","RC0805FR-07499RL","Digikey","311-499CRCT-ND"
+"11","1","U1","74LVC245ABQ","Nexperia","74LVC245ABQ,115","Digikey","1727-3495-1-ND"
+"12","2","U2,U5","MCP2558FD","Microchip","MCP2558FD-H/SN","Digikey","MCP2558FD-H/SN-ND"
+"13","2","U3,U6","MCP2518FDT-H/SL","Microchip","MCP2518FDT-H/SL","Digikey","MCP2518FDT-H/SLCT-ND"
+"14","2","U4,U7","40MHz","ECS Inc","ECS-5032MV-400-CN-TR","Digikey","XC3112CT-ND"

@@ -71,14 +71,14 @@ kicad-cli pcb export drill --output ${GERBER_DIR}/ ${pcb}
 #kicad-cli pcb export drill --output ${TEMP_DIR}/ --generate-map --map-format svg ${pcb}
 
 #generate PCB Fab Drawing
-kicad-cli pcb export pdf --output ${GERBER_DIR}/${fname}-fab-${timestamp}.pdf --layers ${pcb_fab_layers} --include-border-title --black-and-white ${pcb} 
+kicad-cli pcb export pdf --drill-shape-opt 0 --output ${GERBER_DIR}/${fname}-fab-${timestamp}.pdf --layers ${pcb_fab_layers} --include-border-title --black-and-white ${pcb} 
 
 #generate BOM from schematic
 kicad-cli sch export bom --sort-field "Reference" --sort-asc --group-by "MFG P/N" --fields "\${Item},\${QUANTITY},Reference,Value,MFG,MFG P/N,DIST,DIST P/N" --ref-range-delimiter "-" --exclude-dnp --output ${FAB_DIR}/${fname}-bom.csv $fname.kicad_sch 
 update_bom_item_number ${FAB_DIR}/${fname}-bom.csv
 
 #generate Assembly Drawing
-kicad-cli pcb export pdf --output ${FAB_DIR}/${fname}-assy-${timestamp}.pdf --layers ${pcb_assembly_layers} --include-border-title --black-and-white ${pcb} 
+kicad-cli pcb export pdf --drill-shape-opt 0 --output ${FAB_DIR}/${fname}-assy-${timestamp}.pdf --layers ${pcb_assembly_layers} --include-border-title --black-and-white ${pcb} 
 
 #generate Interactive BOM
 

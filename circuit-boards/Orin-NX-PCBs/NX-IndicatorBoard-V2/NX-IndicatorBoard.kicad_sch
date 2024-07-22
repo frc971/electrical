@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "NX Indicator Board V2")
-		(date "2024-07-14")
+		(date "2024-07-21")
 		(rev "2")
 		(company "971 Spartan Robotics")
 	)
@@ -4616,12 +4616,11 @@
 		(dnp no)
 		(uuid "9ff6d1c0-567e-418b-9c84-21974b4ac311")
 		(property "Reference" "P1"
-			(at 237.49 199.644 0)
+			(at 235.966 200.406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "Samtec 40 pin Elevated Socket"
