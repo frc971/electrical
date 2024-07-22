@@ -2802,7 +2802,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00cee764-60c4-4d3d-a9b5-f10ecceebc61")
-		(property "Reference" "H4"
+		(property "Reference" "H2"
 			(at 156.21 252.73 0)
 			(effects
 				(font
@@ -2850,7 +2850,7 @@
 		(instances
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658"
-					(reference "H4")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -3005,7 +3005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Components/YageoPYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 165.1 71.12 0)
 			(effects
 				(font
@@ -3023,7 +3023,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" ""
+		(property "MFG" "Yageo"
 			(at 165.1 71.12 0)
 			(effects
 				(font
@@ -3032,7 +3032,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" ""
+		(property "MFG P/N" "RC0805FR-07499RL"
 			(at 165.1 71.12 0)
 			(effects
 				(font
@@ -3041,7 +3041,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" ""
+		(property "DIST" "Digikey"
 			(at 165.1 71.12 0)
 			(effects
 				(font
@@ -3050,7 +3050,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" ""
+		(property "DIST P/N" "311-499CRCT-ND"
 			(at 165.1 71.12 0)
 			(effects
 				(font
@@ -3262,7 +3262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f0a1149-77d3-424b-ab00-6277dadf496c")
-		(property "Reference" "J3"
+		(property "Reference" "J11"
 			(at 188.595 201.93 0)
 			(effects
 				(font
@@ -3287,7 +3287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "Components/Molex-70543-0001.pdf"
+		(property "Datasheet" "Components/Molex-705430001_sd.pdf"
 			(at 187.96 212.09 0)
 			(effects
 				(font
@@ -3362,7 +3362,7 @@
 		(instances
 			(project ""
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658"
-					(reference "J3")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -3977,7 +3977,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b8b95e4-84c6-471b-b1ed-79d25027f7a0")
-		(property "Reference" "H3"
+		(property "Reference" "H4"
 			(at 156.21 246.38 0)
 			(effects
 				(font
@@ -4025,7 +4025,7 @@
 		(instances
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658"
-					(reference "H3")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -4041,7 +4041,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93298611-e377-46e4-991c-5dffde0e5b18")
-		(property "Reference" "H2"
+		(property "Reference" "H3"
 			(at 137.16 252.73 0)
 			(effects
 				(font
@@ -4089,7 +4089,7 @@
 		(instances
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658"
-					(reference "H2")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -4276,7 +4276,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a502e7da-7e9a-47ca-981d-0d4877286c5c")
-		(property "Reference" "J6"
+		(property "Reference" "J8"
 			(at 292.1 156.21 0)
 			(effects
 				(font
@@ -4366,7 +4366,7 @@
 		(instances
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658"
-					(reference "J6")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -4383,7 +4383,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6c5638d-9f01-41b7-bec8-723b62f15b1f")
-		(property "Reference" "J12"
+		(property "Reference" "J9"
 			(at 231.14 208.2799 0)
 			(effects
 				(font
@@ -4410,7 +4410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "Components/Molex-70543-0001.pdf"
+		(property "Datasheet" "Components/Molex-70555-0001.pdf"
 			(at 229.87 209.55 0)
 			(effects
 				(font
@@ -4476,7 +4476,7 @@
 		(instances
 			(project ""
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658"
-					(reference "J12")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -4622,7 +4622,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e774c0cc-2bea-4ddb-9dda-bc02f2617b8c")
-		(property "Reference" "J1"
+		(property "Reference" "J6"
 			(at 146.685 53.34 0)
 			(effects
 				(font
@@ -4710,7 +4710,7 @@
 		(instances
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658"
-					(reference "J1")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -4725,7 +4725,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e9a5cb78-867e-4b1d-bc39-3c6859c47024")
-		(property "Reference" "J5"
+		(property "Reference" "J4"
 			(at 267.335 53.34 0)
 			(effects
 				(font
@@ -4813,7 +4813,7 @@
 		(instances
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -4855,7 +4855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://files.seeedstudio.com/wiki/J401/reComputer_J401_SCH_V1.0.pdf"
+		(property "Datasheet" "Components/SeeedStudio-reComputer_J401_SCH_V1.0.pdf"
 			(at 288.29 93.98 0)
 			(effects
 				(font
@@ -4891,7 +4891,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f925905c-f86b-495e-92c0-b7b1ee82ae3b")
-		(property "Reference" "J2"
+		(property "Reference" "J10"
 			(at 158.75 156.2099 0)
 			(effects
 				(font
@@ -4987,7 +4987,7 @@
 		(instances
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658"
-					(reference "J2")
+					(reference "J10")
 					(unit 1)
 				)
 			)
