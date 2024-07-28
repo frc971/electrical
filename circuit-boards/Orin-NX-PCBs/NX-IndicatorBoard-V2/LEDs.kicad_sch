@@ -983,7 +983,7 @@
 				)
 			)
 		)
-		(symbol "NX-IndicatorBoard:Lumex-3x-Light-Pipe"
+		(symbol "NX-IndicatorBoard:Lumex-2x-Light-Pipe"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0) hide)
@@ -998,7 +998,7 @@
 					)
 				)
 			)
-			(property "Value" "Lumex-3x-Light-Pipe"
+			(property "Value" "Lumex-2x-Light-Pipe"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1015,7 +1015,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "Components/Lumex-3x-LightPipe-LPF-C013301S.pdf"
+			(property "Datasheet" "Components/Lumex-2x-LightPipe-LPF-C012303S.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1024,7 +1024,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Light Pipe 3 High Clear Rigid Board Mount, Press Fit, Right Angle"
+			(property "Description" "Light Pipe 2 High Clear Rigid Board Mount, Press Fit, Right Angle"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1042,7 +1042,7 @@
 					(hide yes)
 				)
 			)
-			(property "MFG P/N" "LPF-C013301S"
+			(property "MFG P/N" "LPF-C012303S"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1060,7 +1060,7 @@
 					(hide yes)
 				)
 			)
-			(property "DIST P/N" "67-1851-ND"
+			(property "DIST P/N" "67-1850-ND"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1069,7 +1069,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Lumex-3x-Light-Pipe_0_1"
+			(symbol "Lumex-2x-Light-Pipe_0_1"
 				(arc
 					(start 2.54 0)
 					(mid 1.7961 1.7961)
@@ -1086,18 +1086,6 @@
 					(start 3.8168 0.0068)
 					(mid 2.6989 2.6989)
 					(end 0.0068 3.8168)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 5.0981 0.0181)
-					(mid 3.6049 3.6049)
-					(end 0.0181 5.0981)
 					(stroke
 						(width 0)
 						(type default)
@@ -1331,15 +1319,17 @@
 		(color 0 0 0 0)
 		(uuid "198eee29-562f-43a8-b01d-055b23956d4d")
 	)
-	(wire
-		(pts
-			(xy 207.01 151.13) (xy 207.01 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07de3adf-44c4-472f-b485-5da7b7615c49")
+	(no_connect
+		(at 196.85 128.27)
+		(uuid "333eaca4-17dc-4efc-8b99-79a18914cde3")
+	)
+	(no_connect
+		(at 196.85 138.43)
+		(uuid "530f18a3-c636-4c61-8e21-40c22da90d68")
+	)
+	(no_connect
+		(at 196.85 135.89)
+		(uuid "8ac3333c-9393-4b0d-a95f-db725e21e5f6")
 	)
 	(wire
 		(pts
@@ -1403,16 +1393,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 151.13) (xy 218.44 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "261b4569-c483-4c8e-a153-c123b82567b0")
-	)
-	(wire
-		(pts
 			(xy 229.87 133.35) (xy 196.85 133.35)
 		)
 		(stroke
@@ -1443,16 +1423,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 128.27) (xy 251.46 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5215bf4c-7cc9-4e85-b7d1-28575fa39748")
-	)
-	(wire
-		(pts
 			(xy 196.85 120.65) (xy 285.75 120.65)
 		)
 		(stroke
@@ -1470,16 +1440,6 @@
 			(type default)
 		)
 		(uuid "54630ce2-933e-4ed5-a494-9020c8f4bbc9")
-	)
-	(wire
-		(pts
-			(xy 207.01 138.43) (xy 196.85 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e0ecb90-764d-4323-ac74-d22447912483")
 	)
 	(wire
 		(pts
@@ -1540,16 +1500,6 @@
 			(type default)
 		)
 		(uuid "9a1beb8a-4b71-49e4-852f-83c0666116f5")
-	)
-	(wire
-		(pts
-			(xy 218.44 135.89) (xy 196.85 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3685992-7d25-4dfc-8455-f4f4ef202eb5")
 	)
 	(wire
 		(pts
@@ -1623,16 +1573,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 128.27) (xy 251.46 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9b43053-2880-4834-9cb8-ee36775180ff")
-	)
-	(wire
-		(pts
 			(xy 274.32 123.19) (xy 274.32 151.13)
 		)
 		(stroke
@@ -1641,7 +1581,7 @@
 		)
 		(uuid "f432af61-eb66-45e7-958c-1111ee4c1d16")
 	)
-	(text "CAN0\nCAN1\nCAN2"
+	(text "CPU\nCAN2"
 		(exclude_from_sim no)
 		(at 196.85 218.44 0)
 		(effects
@@ -1652,7 +1592,7 @@
 		)
 		(uuid "0bb89a0e-8cea-4cd4-a067-a5308c6baa40")
 	)
-	(text "PC\nUSR1\nUSR2"
+	(text "PC\nCAN0"
 		(exclude_from_sim no)
 		(at 195.58 191.77 0)
 		(effects
@@ -1663,7 +1603,7 @@
 		)
 		(uuid "13e552a2-a693-463d-b268-87588d80cb81")
 	)
-	(text "ETH\nHD\nCPU"
+	(text "HD\nCAN1"
 		(exclude_from_sim no)
 		(at 195.326 204.978 0)
 		(effects
@@ -1809,112 +1749,6 @@
 		(uuid "fb8ef465-21e9-4c69-bbb8-9fb4fb685ffc")
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 218.44 154.94 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "02163fe1-fed9-4d46-97c4-cd82e8ea65ed")
-		(property "Reference" "R1"
-			(at 220.98 156.845 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "499R-1%-0805"
-			(at 215.9 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 219.456 154.686 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "Components/YAGEO-PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 218.44 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 218.44 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" "Digikey"
-			(at 218.44 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST P/N" "311-499CRCT-ND"
-			(at 218.44 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "YAGEO"
-			(at 218.44 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG P/N" "RC0805FR-07499RL"
-			(at 218.44 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4c25f5ea-1faf-4017-bbd8-27463cf82574")
-		)
-		(pin "2"
-			(uuid "849d9201-b3e8-4c73-8b14-8cdfe3dc2af8")
-		)
-		(instances
-			(project "NX-IndicatorBoard"
-				(path "/b2b9b2ba-ad3f-4e65-98f2-b291a62e1006/64dd458f-3f8e-470e-9441-6a9cd5c8d120"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 262.89 166.37 0)
 		(unit 1)
@@ -2039,112 +1873,6 @@
 			(project "NX-IndicatorBoard"
 				(path "/b2b9b2ba-ad3f-4e65-98f2-b291a62e1006/64dd458f-3f8e-470e-9441-6a9cd5c8d120"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 207.01 162.56 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b70bff9-337e-4ec5-8302-04c0d253da8b")
-		(property "Reference" "D7"
-			(at 210.82 162.8774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "USR2"
-			(at 210.82 165.4174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
-			(at 207.01 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "Components/Evewrlight-QTLP650(C,D)-2,3,4,7,B.pdf"
-			(at 207.01 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 207.01 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" "Digikey"
-			(at 207.01 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST P/N" "1080-1419-1-ND"
-			(at 207.01 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "Everlight Electronics"
-			(at 207.01 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG P/N" "QTLP650D4TR"
-			(at 207.01 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c9b7e248-3900-4e6e-8fab-2b0680bb0f41")
-		)
-		(pin "2"
-			(uuid "9384ddd5-30fa-4cba-9850-09fddfe0f0b2")
-		)
-		(instances
-			(project "NX-IndicatorBoard"
-				(path "/b2b9b2ba-ad3f-4e65-98f2-b291a62e1006/64dd458f-3f8e-470e-9441-6a9cd5c8d120"
-					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -2417,6 +2145,206 @@
 		)
 	)
 	(symbol
+		(lib_id "NX-IndicatorBoard:Lumex-2x-Light-Pipe")
+		(at 198.12 215.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d3fe51f-688e-46af-8b33-4a695fd55198")
+		(property "Reference" "LP3"
+			(at 203.2 212.7215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Lumex-2x-Light-Pipe"
+			(at 203.2 215.2615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "NX-IndicatorBoard:Lumex-LPF-C012303S"
+			(at 198.12 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "Components/Lumex-2x-LightPipe-LPF-C012303S.pdf"
+			(at 198.12 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light Pipe 2 High Clear Rigid Board Mount, Press Fit, Right Angle"
+			(at 198.12 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Lumex"
+			(at 198.12 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "LPF-C012303S"
+			(at 198.12 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" "Digikey"
+			(at 198.12 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST P/N" "67-1850-ND"
+			(at 198.12 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "NX-IndicatorBoard"
+				(path "/b2b9b2ba-ad3f-4e65-98f2-b291a62e1006/64dd458f-3f8e-470e-9441-6a9cd5c8d120"
+					(reference "LP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NX-IndicatorBoard:Lumex-2x-Light-Pipe")
+		(at 198.12 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d6315af-be8a-4646-b010-471e2280b4b1")
+		(property "Reference" "LP2"
+			(at 203.2 200.0215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Lumex-2x-Light-Pipe"
+			(at 203.2 202.5615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "NX-IndicatorBoard:Lumex-LPF-C012303S"
+			(at 198.12 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "Components/Lumex-2x-LightPipe-LPF-C012303S.pdf"
+			(at 198.12 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light Pipe 2 High Clear Rigid Board Mount, Press Fit, Right Angle"
+			(at 198.12 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Lumex"
+			(at 198.12 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "LPF-C012303S"
+			(at 198.12 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" "Digikey"
+			(at 198.12 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST P/N" "67-1850-ND"
+			(at 198.12 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "NX-IndicatorBoard"
+				(path "/b2b9b2ba-ad3f-4e65-98f2-b291a62e1006/64dd458f-3f8e-470e-9441-6a9cd5c8d120"
+					(reference "LP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 168.91 151.13 0)
 		(unit 1)
@@ -2582,112 +2510,6 @@
 			(project "NX-IndicatorBoard"
 				(path "/b2b9b2ba-ad3f-4e65-98f2-b291a62e1006/64dd458f-3f8e-470e-9441-6a9cd5c8d120"
 					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 251.46 162.56 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46fbbc61-c0cc-4b8d-a276-a7d6f6bce6b2")
-		(property "Reference" "D2"
-			(at 255.27 162.8774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "ETH"
-			(at 255.27 165.4174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
-			(at 251.46 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "Components/Evewrlight-QTLP650(C,D)-2,3,4,7,B.pdf"
-			(at 251.46 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 251.46 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" "Digikey"
-			(at 251.46 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST P/N" "1080-1419-1-ND"
-			(at 251.46 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "Everlight Electronics"
-			(at 251.46 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG P/N" "QTLP650D4TR"
-			(at 251.46 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "36e1cce1-6043-4af9-ac41-ae8bbfa7ff09")
-		)
-		(pin "2"
-			(uuid "c59016c1-6730-42ec-b001-23c27cdd7478")
-		)
-		(instances
-			(project "NX-IndicatorBoard"
-				(path "/b2b9b2ba-ad3f-4e65-98f2-b291a62e1006/64dd458f-3f8e-470e-9441-6a9cd5c8d120"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -2971,71 +2793,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 251.46 166.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "61624427-500d-477f-991e-8b0611226e9c")
-		(property "Reference" "#PWR017"
-			(at 251.46 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 251.46 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 251.46 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 251.46 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "70c4abd6-6a81-4240-b170-d9cd157d7724")
-		)
-		(instances
-			(project "NX-IndicatorBoard"
-				(path "/b2b9b2ba-ad3f-4e65-98f2-b291a62e1006/64dd458f-3f8e-470e-9441-6a9cd5c8d120"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 285.75 154.94 0)
 		(mirror x)
@@ -3313,17 +3070,17 @@
 		)
 	)
 	(symbol
-		(lib_id "NX-IndicatorBoard:Lumex-3x-Light-Pipe")
-		(at 196.85 205.74 0)
+		(lib_id "NX-IndicatorBoard:Lumex-2x-Light-Pipe")
+		(at 198.12 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7cda583b-5d5b-43e6-9924-21a00212cb82")
-		(property "Reference" "LP3"
-			(at 203.2 201.9209 0)
+		(uuid "89997793-e165-4f27-81cb-60a7b1a42011")
+		(property "Reference" "LP1"
+			(at 203.2 186.0515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3331,8 +3088,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Lumex-3x-Light-Pipe"
-			(at 203.2 204.4609 0)
+		(property "Value" "Lumex-2x-Light-Pipe"
+			(at 203.2 188.5915 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3340,8 +3097,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "NX-IndicatorBoard:LUMEX-LPF-C013301S"
-			(at 196.85 205.74 0)
+		(property "Footprint" "NX-IndicatorBoard:Lumex-LPF-C012303S"
+			(at 198.12 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3349,8 +3106,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "Components/Lumex-3x-LightPipe-LPF-C013301S.pdf"
-			(at 196.85 205.74 0)
+		(property "Datasheet" "Components/Lumex-2x-LightPipe-LPF-C012303S.pdf"
+			(at 198.12 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3358,8 +3115,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 196.85 205.74 0)
+		(property "Description" "Light Pipe 2 High Clear Rigid Board Mount, Press Fit, Right Angle"
+			(at 198.12 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3368,7 +3125,7 @@
 			)
 		)
 		(property "MFG" "Lumex"
-			(at 196.85 205.74 0)
+			(at 198.12 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3376,108 +3133,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "LPF-C013301S"
-			(at 196.85 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" "Digikey"
-			(at 196.85 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST P/N" "67-1851-ND"
-			(at 196.85 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "NX-IndicatorBoard"
-				(path "/b2b9b2ba-ad3f-4e65-98f2-b291a62e1006/64dd458f-3f8e-470e-9441-6a9cd5c8d120"
-					(reference "LP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NX-IndicatorBoard:Lumex-3x-Light-Pipe")
-		(at 198.12 218.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "88d1a3ed-1c0f-441b-8c78-f7beaba453ee")
-		(property "Reference" "LP2"
-			(at 204.47 214.6209 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Lumex-3x-Light-Pipe"
-			(at 204.47 217.1609 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "NX-IndicatorBoard:LUMEX-LPF-C013301S"
-			(at 198.12 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "Components/Lumex-3x-LightPipe-LPF-C013301S.pdf"
-			(at 198.12 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 198.12 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "Lumex"
-			(at 198.12 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG P/N" "LPF-C013301S"
-			(at 198.12 218.44 0)
+		(property "MFG P/N" "LPF-C012303S"
+			(at 198.12 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3486,7 +3143,7 @@
 			)
 		)
 		(property "DIST" "Digikey"
-			(at 198.12 218.44 0)
+			(at 198.12 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3494,8 +3151,8 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "67-1851-ND"
-			(at 198.12 218.44 0)
+		(property "DIST P/N" "67-1850-ND"
+			(at 198.12 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3504,9 +3161,9 @@
 			)
 		)
 		(instances
-			(project "NX-IndicatorBoard"
+			(project ""
 				(path "/b2b9b2ba-ad3f-4e65-98f2-b291a62e1006/64dd458f-3f8e-470e-9441-6a9cd5c8d120"
-					(reference "LP2")
+					(reference "LP1")
 					(unit 1)
 				)
 			)
@@ -3613,171 +3270,6 @@
 			(project "NX-IndicatorBoard"
 				(path "/b2b9b2ba-ad3f-4e65-98f2-b291a62e1006/64dd458f-3f8e-470e-9441-6a9cd5c8d120"
 					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NX-IndicatorBoard:Lumex-3x-Light-Pipe")
-		(at 196.85 193.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a280447b-4222-46ef-af56-61fa8ef93b29")
-		(property "Reference" "LP1"
-			(at 203.2 189.2209 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Lumex-3x-Light-Pipe"
-			(at 203.2 191.7609 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "NX-IndicatorBoard:LUMEX-LPF-C013301S"
-			(at 196.85 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "Components/Lumex-3x-LightPipe-LPF-C013301S.pdf"
-			(at 196.85 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 196.85 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "Lumex"
-			(at 196.85 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG P/N" "LPF-C013301S"
-			(at 196.85 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" "Digikey"
-			(at 196.85 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST P/N" "67-1851-ND"
-			(at 196.85 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "NX-IndicatorBoard"
-				(path "/b2b9b2ba-ad3f-4e65-98f2-b291a62e1006/64dd458f-3f8e-470e-9441-6a9cd5c8d120"
-					(reference "LP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 218.44 166.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a88c4165-9652-4b4c-b1ca-8393d361b204")
-		(property "Reference" "#PWR016"
-			(at 218.44 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 218.44 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 218.44 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 218.44 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "51decb0d-91b6-4f27-a939-5dce38323106")
-		)
-		(instances
-			(project "NX-IndicatorBoard"
-				(path "/b2b9b2ba-ad3f-4e65-98f2-b291a62e1006/64dd458f-3f8e-470e-9441-6a9cd5c8d120"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -4166,324 +3658,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 207.01 154.94 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c58c3575-52b6-4a60-90b1-a496feef6c26")
-		(property "Reference" "R2"
-			(at 209.55 156.845 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "499R-1%-0805"
-			(at 204.47 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 208.026 154.686 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "Components/YAGEO-PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 207.01 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 207.01 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" "Digikey"
-			(at 207.01 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST P/N" "311-499CRCT-ND"
-			(at 207.01 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "YAGEO"
-			(at 207.01 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG P/N" "RC0805FR-07499RL"
-			(at 207.01 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4970ad2f-ccb3-482c-b63d-9bf169a8c136")
-		)
-		(pin "2"
-			(uuid "535e94c9-1591-4033-89f9-3c0ce0f86e67")
-		)
-		(instances
-			(project "NX-IndicatorBoard"
-				(path "/b2b9b2ba-ad3f-4e65-98f2-b291a62e1006/64dd458f-3f8e-470e-9441-6a9cd5c8d120"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 251.46 154.94 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c8fef9b1-80fa-47c5-ae83-831907a2bc52")
-		(property "Reference" "R5"
-			(at 254 156.845 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "499R-1%-0805"
-			(at 248.92 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 252.476 154.686 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "Components/YAGEO-PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 251.46 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 251.46 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" "Digikey"
-			(at 251.46 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST P/N" "311-499CRCT-ND"
-			(at 251.46 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "YAGEO"
-			(at 251.46 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG P/N" "RC0805FR-07499RL"
-			(at 251.46 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2f252373-0425-47e5-80df-c24a6f702a41")
-		)
-		(pin "2"
-			(uuid "24415157-f48d-436c-929f-d5240e05753b")
-		)
-		(instances
-			(project "NX-IndicatorBoard"
-				(path "/b2b9b2ba-ad3f-4e65-98f2-b291a62e1006/64dd458f-3f8e-470e-9441-6a9cd5c8d120"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 218.44 162.56 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d341f6f0-dd90-44d1-9a83-4388fa0001a8")
-		(property "Reference" "D4"
-			(at 222.25 162.8774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "USR1"
-			(at 222.25 165.4174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
-			(at 218.44 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "Components/Evewrlight-QTLP650(C,D)-2,3,4,7,B.pdf"
-			(at 218.44 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 218.44 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" "Digikey"
-			(at 218.44 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST P/N" "1080-1419-1-ND"
-			(at 218.44 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "Everlight Electronics"
-			(at 218.44 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG P/N" "QTLP650D4TR"
-			(at 218.44 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "81eb3ef1-6c0f-466b-8a0f-ef8aa169de96")
-		)
-		(pin "2"
-			(uuid "a715451d-cb11-4ad0-8e57-aec983875103")
-		)
-		(instances
-			(project "NX-IndicatorBoard"
-				(path "/b2b9b2ba-ad3f-4e65-98f2-b291a62e1006/64dd458f-3f8e-470e-9441-6a9cd5c8d120"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 229.87 166.37 0)
 		(unit 1)
@@ -4844,71 +4018,6 @@
 			(project "NX-IndicatorBoard"
 				(path "/b2b9b2ba-ad3f-4e65-98f2-b291a62e1006/64dd458f-3f8e-470e-9441-6a9cd5c8d120"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 207.01 166.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fb477c99-a1c6-4ec3-b549-31d4e8848762")
-		(property "Reference" "#PWR07"
-			(at 207.01 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 207.01 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.01 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 207.01 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "58c1422b-3bc4-4b45-83ae-8cf78ee7f4a3")
-		)
-		(instances
-			(project "NX-IndicatorBoard"
-				(path "/b2b9b2ba-ad3f-4e65-98f2-b291a62e1006/64dd458f-3f8e-470e-9441-6a9cd5c8d120"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)
