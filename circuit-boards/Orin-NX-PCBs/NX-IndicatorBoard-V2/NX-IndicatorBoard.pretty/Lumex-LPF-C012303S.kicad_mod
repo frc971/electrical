@@ -1,0 +1,211 @@
+(footprint "Lumex-LPF-C012303S"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.05 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1aca72a6-89c4-4ffc-95fe-2c20f594c022")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Lumex-LPF-C012303S"
+		(at 0.05 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5c59c3f1-7bb6-4924-b7dd-f66a9ca7ee1d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -2.25 -7.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d6017e45-fa6d-4f2b-9d13-11d19f8ac404")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -2.25 -7.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c765264-96bc-4d71-b050-1d16cb141660")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -2.25 -7.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "91dfd562-258f-449f-9aa5-bc6869cc8b87")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3 -8.65)
+		(end -3 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "1efced32-148e-4548-852d-92d7443ad7a4")
+	)
+	(fp_line
+		(start -1.55 0)
+		(end -3 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "6f01e141-bd21-4cf5-a2c7-1c41e1e2ff4f")
+	)
+	(fp_line
+		(start -1.55 6.1)
+		(end -1.55 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "219c1a8a-4126-482f-8e79-ca2e8089cf9e")
+	)
+	(fp_line
+		(start -1.5 -11.46)
+		(end 1.5 -11.46)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a27c166a-9994-4146-b2b5-202f4d680400")
+	)
+	(fp_line
+		(start -1.5 -8.65)
+		(end -3 -8.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "6e583978-7f51-46fd-bfc3-f55434df03ac")
+	)
+	(fp_line
+		(start -1.5 -8.65)
+		(end -1.5 -11.46)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "3fc99ac0-f759-4682-8405-0212b3b32910")
+	)
+	(fp_line
+		(start 1.45 6.1)
+		(end -1.55 6.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "0675455c-9b33-45b8-82f7-cbbc26b9f552")
+	)
+	(fp_line
+		(start 1.5 -11.46)
+		(end 1.45 6.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f5224a6e-53da-4eff-865b-50daff2df64e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.05 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6a8297f3-e80c-4880-b08b-6e2ea6a09358")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -2.25 -7.9)
+		(size 1.5 1.5)
+		(drill 1.5)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "ce3ccc5a-dcc2-4869-87c4-6dbd72ed410c")
+	)
+	(pad "" np_thru_hole circle
+		(at -2.25 -5.36)
+		(size 1.5 1.5)
+		(drill 1.5)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "1341dd4c-824c-4536-a5d1-ef66948a1c70")
+	)
+	(pad "" smd rect
+		(at -1.415 -10.45 90)
+		(size 1.6 1.45)
+		(layers "Dwgs.User")
+		(uuid "b01930f6-6f30-40c9-ae2c-d978c6732564")
+	)
+	(pad "" smd rect
+		(at -1.415 -2.83 90)
+		(size 1.6 1.45)
+		(layers "Dwgs.User")
+		(uuid "4e306ebf-8f33-4a29-8752-cb2182780c07")
+	)
+	(pad "" smd rect
+		(at 1.525 -10.45 90)
+		(size 1.6 1.45)
+		(layers "Dwgs.User")
+		(uuid "9e2e48e9-d13e-413e-8cd9-db26b28adb3c")
+	)
+	(pad "" smd rect
+		(at 1.525 -2.83 90)
+		(size 1.6 1.45)
+		(layers "Dwgs.User")
+		(uuid "1e5865c1-2e28-46c1-9030-f957a19cade4")
+	)
+	(model "${KIPRJMOD}/3dModels/Lumex-LPF-C012303S.stp"
+		(offset
+			(xyz 2.25 3.55 1.65)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -180 -90)
+		)
+	)
+)
