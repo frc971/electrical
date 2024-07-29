@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "NX Indicator Board V2")
-		(date "2024-07-21")
+		(date "2024-07-28")
 		(rev "2")
 		(company "971 Spartan Robotics")
 	)
@@ -2147,7 +2147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03f85344-e4f9-4d58-811c-b579fa5ff24c")
-		(property "Reference" "D10"
+		(property "Reference" "D1"
 			(at 262.89 124.4599 90)
 			(effects
 				(font
@@ -2240,11 +2240,11 @@
 		(instances
 			(project "NX-IndicatorBoard"
 				(path "/b2b9b2ba-ad3f-4e65-98f2-b291a62e1006/aabb8c17-0b3a-4fc6-ab19-23fda34518d0"
-					(reference "D10")
+					(reference "D1")
 					(unit 1)
 				)
 				(path "/b2b9b2ba-ad3f-4e65-98f2-b291a62e1006/d7bf2cad-628f-4840-beb5-4ea56fd6a130"
-					(reference "D11")
+					(reference "D2")
 					(unit 1)
 				)
 			)

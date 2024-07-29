@@ -53,10 +53,9 @@ plugin_path="/usr/share/kicad/plugins/"
 mkdir -p ${SCH_DIR}
 mkdir -p ${FAB_DIR}
 mkdir -p ${GERBER_DIR}
-#mkdir -p ${TEMP_DIR}
 
 #generate schematic pdf
-kicad-cli sch export pdf --output "${SCH_DIR}/${fname}-sch-$timestamp.pdf" ${sch}
+kicad-cli sch export pdf --output "${SCH_DIR}/${fname}-sch.pdf" ${sch}
 
 generate PCB gerbers
 for layer in ${gerber_layers//,/ }
@@ -64,21 +63,21 @@ do
     export_gerber ${layer}
 done
 
+#check DRC
+kicad-cli pcb drc --output ${ZIP_DIR}/${fname}-drc.txt --schematic-parity --units mils --severity-all ${pcb}
+
 #generate PCB NC drill file
 kicad-cli pcb export drill --output ${GERBER_DIR}/ ${pcb}
 
-#generate PCB drill map
-#kicad-cli pcb export drill --output ${TEMP_DIR}/ --generate-map --map-format svg ${pcb}
-
 #generate PCB Fab Drawing
-kicad-cli pcb export pdf --drill-shape-opt 0 --output ${GERBER_DIR}/${fname}-fab-${timestamp}.pdf --layers ${pcb_fab_layers} --include-border-title --black-and-white ${pcb} 
+kicad-cli pcb export pdf --drill-shape-opt 0 --output ${GERBER_DIR}/${fname}-fab.pdf --layers ${pcb_fab_layers} --include-border-title --black-and-white ${pcb} 
 
 #generate BOM from schematic
 kicad-cli sch export bom --sort-field "Reference" --sort-asc --group-by "MFG P/N" --fields "\${Item},\${QUANTITY},Reference,Value,MFG,MFG P/N,DIST,DIST P/N" --ref-range-delimiter "-" --exclude-dnp --output ${FAB_DIR}/${fname}-bom.csv $fname.kicad_sch 
 update_bom_item_number ${FAB_DIR}/${fname}-bom.csv
 
 #generate Assembly Drawing
-kicad-cli pcb export pdf --drill-shape-opt 0 --output ${FAB_DIR}/${fname}-assy-${timestamp}.pdf --layers ${pcb_assembly_layers} --include-border-title --black-and-white ${pcb} 
+kicad-cli pcb export pdf --drill-shape-opt 0 --output ${FAB_DIR}/${fname}-assy.pdf --layers ${pcb_assembly_layers} --include-border-title --black-and-white ${pcb} 
 
 #generate Interactive BOM
 
@@ -88,19 +87,19 @@ python3 $kicad_local_plugins/$ibom_exe --show-dialog $pcb
 kicad-cli pcb export pos --output ${FAB_DIR}/${fname}-top-pos.txt --side front ${pcb} 
 kicad-cli pcb export pos --output ${FAB_DIR}/${fname}-bot-pos.txt --side back ${pcb} 
 
-#create zip file
-#zip -r ${SCH_DIR}/${fname}-src-${timestamp}.zip ${src_files//,/ } 
-
 #generate step file
 kicad-cli pcb export step --output ${SCH_DIR}/${fname}.step --subst-models ${pcb}
 pushd ${SCH_DIR}
-zip ${fname}-step-${timestamp}.zip ${fname}.step
+zip ${fname}-step.zip ${fname}.step
 rm ${fname}.step
 popd
 
 
 #create zip packages
 pushd ${ZIP_DIR}
-zip -r ${fname}-gerbers-$timestamp.zip $(basename ${GERBER_DIR})
-zip -r ${fname}-fab-$timestamp.zip $(basename ${FAB_DIR})
+zip -r ${fname}-gerbers.zip $(basename ${GERBER_DIR})
+zip -r ${fname}-fab.zip $(basename ${FAB_DIR})
 popd
+
+#print drc file
+cat ${ZIP_DIR}/${fname}-drc.txt
