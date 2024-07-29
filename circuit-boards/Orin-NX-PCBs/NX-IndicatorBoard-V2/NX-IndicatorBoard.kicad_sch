@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "NX Indicator Board V2")
-		(date "2024-07-21")
+		(date "2024-07-28")
 		(rev "2")
 		(company "971 Spartan Robotics")
 	)
@@ -2089,16 +2089,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 168.91) (xy 151.13 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e7b9302-5539-4d52-bdaa-694edfad78ef")
-	)
-	(wire
-		(pts
 			(xy 261.62 86.36) (xy 279.4 86.36)
 		)
 		(stroke
@@ -2366,16 +2356,6 @@
 			(type default)
 		)
 		(uuid "4a8d6cbd-5b37-44ef-95a7-a8a63fb68101")
-	)
-	(wire
-		(pts
-			(xy 142.24 158.75) (xy 151.13 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b9266dd-7269-4bf9-93aa-ca274c316cb3")
 	)
 	(wire
 		(pts
@@ -2769,16 +2749,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 166.37) (xy 151.13 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e68597f1-42c7-4158-bd9c-aa1c74bb5d26")
-	)
-	(wire
-		(pts
 			(xy 104.14 40.64) (xy 151.13 40.64)
 		)
 		(stroke
@@ -2926,27 +2896,6 @@
 			(type default)
 		)
 		(uuid "ff890639-252a-4406-bc5d-c3abce8128d4")
-	)
-	(text_box "NX-Indicator to NX-Interface Cable\n\nDESCRIPTON  NX-Interface (J15)    NX-Indicator (J3)\n---------------------------------------------------\nNX_PC_LED-           1                  1\nUART2_RXD            3                  2\nUART1_TXD            4                  3\nSYS_RST_RCV_RTN      7                  4\nSYS_RESETn           8                  5\nFORCE_RECOVERY_RTN   9                  6\nFORCE_RECOVERYn      10                 7\n"
-		(exclude_from_sim no)
-		(at 317.5 105.41 0)
-		(size 91.44 41.91)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "FreeMono")
-				(size 2 2)
-				(bold yes)
-			)
-			(justify left top)
-		)
-		(uuid "c11f9cc0-91ec-4c5b-a610-cfb38d03c506")
 	)
 	(label "I2C1_SCL"
 		(at 64.77 170.18 180)
@@ -3113,6 +3062,17 @@
 		)
 		(uuid "504f8837-43ca-40a0-bc1c-5eb815b99a8e")
 	)
+	(label "UART1_RTS"
+		(at 142.24 163.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5b94a683-7e89-4cdd-847e-d0f2a569fb28")
+	)
 	(label "SPI1_CS0"
 		(at 104.14 86.36 180)
 		(fields_autoplaced yes)
@@ -3256,17 +3216,6 @@
 		)
 		(uuid "8bded3b1-1f9d-4c98-b12c-98951aa3edb0")
 	)
-	(label "I2S0_FS"
-		(at 142.24 168.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9b8fc8d0-41cc-4739-9c48-f9de83d0e586")
-	)
 	(label "SPI1_CS1"
 		(at 85.09 182.88 0)
 		(fields_autoplaced yes)
@@ -3321,17 +3270,6 @@
 			(justify left bottom)
 		)
 		(uuid "a34202bf-696e-403c-919c-738d07a7e494")
-	)
-	(label "I2S0_DIN"
-		(at 142.24 163.83 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "aec98e7f-0e3e-4c67-867c-f6a8c132151f")
 	)
 	(label "CAN2_L"
 		(at 278.13 83.82 180)
@@ -3431,17 +3369,6 @@
 			(justify left bottom)
 		)
 		(uuid "c3790713-1cbb-4f05-b1a0-9d13a5422077")
-	)
-	(label "I2S0_DOUT"
-		(at 142.24 166.37 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c96bca4f-d593-48a9-af57-64130f59ab69")
 	)
 	(label "NX_PC_LED-"
 		(at 142.24 175.26 180)
@@ -3585,17 +3512,6 @@
 			(justify right bottom)
 		)
 		(uuid "fa0c4b3c-cd57-46fe-b343-7601bbd55f30")
-	)
-	(label "UART1_RTS"
-		(at 142.24 158.75 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fa6ce1ca-4c53-462a-9ece-ac6b79fd7c98")
 	)
 	(label "NX_PC_LED+"
 		(at 104.14 130.81 0)
@@ -4650,7 +4566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a45ac43d-a184-42af-b0d0-af1ad2cf6105")
-		(property "Reference" "H5"
+		(property "Reference" "H3"
 			(at 151.13 212.09 0)
 			(effects
 				(font
@@ -4698,7 +4614,7 @@
 		(instances
 			(project "NX-IndicatorBoard"
 				(path "/b2b9b2ba-ad3f-4e65-98f2-b291a62e1006"
-					(reference "H5")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -5066,7 +4982,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e14f4866-fbc3-4a01-917c-4f6a77409ddf")
-		(property "Reference" "H2"
+		(property "Reference" "H1"
 			(at 151.13 218.44 0)
 			(effects
 				(font
@@ -5114,7 +5030,7 @@
 		(instances
 			(project "NX-IndicatorBoard"
 				(path "/b2b9b2ba-ad3f-4e65-98f2-b291a62e1006"
-					(reference "H2")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -5130,7 +5046,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e49178d1-f7ea-480d-a603-f8b685e36841")
-		(property "Reference" "H3"
+		(property "Reference" "H2"
 			(at 151.13 205.74 0)
 			(effects
 				(font
@@ -5178,7 +5094,7 @@
 		(instances
 			(project "NX-IndicatorBoard"
 				(path "/b2b9b2ba-ad3f-4e65-98f2-b291a62e1006"
-					(reference "H3")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -5233,16 +5149,6 @@
 			)
 			(uuid "fc274ace-154d-4716-8289-ca9c96d2955e")
 		)
-		(pin "ETH" input
-			(at 151.13 158.75 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "4a65705d-dd07-4f61-90fb-63b3c3f9f28b")
-		)
 		(pin "CPU" input
 			(at 151.13 161.29 180)
 			(effects
@@ -5292,26 +5198,6 @@
 				(justify left)
 			)
 			(uuid "1ef8d690-6dac-4a77-bf55-03af89aa44be")
-		)
-		(pin "USR1" input
-			(at 151.13 166.37 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "baf8dc3a-daac-4f46-b783-582035d8d853")
-		)
-		(pin "USR2" input
-			(at 151.13 168.91 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "56d523ec-a245-4710-ba90-a5b80db61e85")
 		)
 		(pin "PC_LED+" input
 			(at 151.13 177.8 180)

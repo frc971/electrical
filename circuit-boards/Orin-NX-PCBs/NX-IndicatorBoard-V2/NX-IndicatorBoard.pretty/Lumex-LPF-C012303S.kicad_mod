@@ -74,7 +74,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(layer "F.CrtYd")
+		(layer "Dwgs.User")
 		(uuid "1efced32-148e-4548-852d-92d7443ad7a4")
 	)
 	(fp_line
@@ -84,7 +84,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(layer "F.CrtYd")
+		(layer "Dwgs.User")
 		(uuid "6f01e141-bd21-4cf5-a2c7-1c41e1e2ff4f")
 	)
 	(fp_line
@@ -94,7 +94,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(layer "F.CrtYd")
+		(layer "Dwgs.User")
 		(uuid "219c1a8a-4126-482f-8e79-ca2e8089cf9e")
 	)
 	(fp_line
@@ -104,7 +104,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(layer "F.CrtYd")
+		(layer "Dwgs.User")
 		(uuid "a27c166a-9994-4146-b2b5-202f4d680400")
 	)
 	(fp_line
@@ -114,7 +114,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(layer "F.CrtYd")
+		(layer "Dwgs.User")
 		(uuid "6e583978-7f51-46fd-bfc3-f55434df03ac")
 	)
 	(fp_line
@@ -124,7 +124,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(layer "F.CrtYd")
+		(layer "Dwgs.User")
 		(uuid "3fc99ac0-f759-4682-8405-0212b3b32910")
 	)
 	(fp_line
@@ -134,7 +134,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(layer "F.CrtYd")
+		(layer "Dwgs.User")
 		(uuid "0675455c-9b33-45b8-82f7-cbbc26b9f552")
 	)
 	(fp_line
@@ -144,7 +144,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(layer "F.CrtYd")
+		(layer "Dwgs.User")
 		(uuid "f5224a6e-53da-4eff-865b-50daff2df64e")
 	)
 	(fp_text user "${REFERENCE}"
@@ -199,7 +199,7 @@
 	)
 	(model "${KIPRJMOD}/3dModels/Lumex-LPF-C012303S.stp"
 		(offset
-			(xyz 2.25 3.55 1.65)
+			(xyz 0 11.43 1.650000002)
 		)
 		(scale
 			(xyz 1 1 1)

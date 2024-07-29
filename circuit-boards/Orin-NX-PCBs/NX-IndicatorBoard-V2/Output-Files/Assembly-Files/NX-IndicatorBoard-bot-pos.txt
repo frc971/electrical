@@ -1,19 +1,25 @@
-### Footprint positions - created on 2024-07-21T15:42:02-0700 ###
+### Footprint positions - created on 2024-07-28T18:22:08-0700 ###
 ### Printed by KiCad version 8.0.4-8.0.4-0~ubuntu22.04.1
 ## Unit = inches, Angle = deg.
 ## Side : bottom
-# Ref     Val                 Package                 PosX       PosY       Rot  Side
-C3        0.1uF-10%-50V-0805  C_0805_2012Metric     5.0360    -4.0710    0.0000  bottom
-C4        0.1uF-10%-50V-0805  C_0805_2012Metric     4.1190    -4.0710    0.0000  bottom
-C5        0.1uF-10%-50V-0805  C_0805_2012Metric     3.5000    -4.0960   90.0000  bottom
-C6        0.1uF-10%-50V-0805  C_0805_2012Metric     5.2750    -4.1100    0.0000  bottom
-C7        0.1uF-10%-50V-0805  C_0805_2012Metric     4.3580    -4.1100    0.0000  bottom
-C8        0.1uF-10%-50V-0805  C_0805_2012Metric     5.0360    -4.1510    0.0000  bottom
-C9        0.1uF-10%-50V-0805  C_0805_2012Metric     4.1190    -4.1510    0.0000  bottom
-D10       PESD1CAN            SOT-23                5.6056    -4.2920   90.0000  bottom
-D11       PESD1CAN            SOT-23                4.6866    -4.2920   90.0000  bottom
-J6        PC_LED              70543-0001            2.3353    -4.7160   90.0000  bottom
-R6        499R-1%-0805        R_0805_2012Metric     3.7400    -4.0960   90.0000  bottom
-R7        499R-1%-0805        R_0805_2012Metric     3.6600    -4.0960   90.0000  bottom
-R8        499R-1%-0805        R_0805_2012Metric     3.5800    -4.0960   90.0000  bottom
+# Ref     Val                  Package                   PosX       PosY       Rot  Side
+C3        0.1uF-10%-50V-0805   C_0805_2012Metric       5.0360    -4.0710    0.0000  bottom
+C4        0.1uF-10%-50V-0805   C_0805_2012Metric       4.1190    -4.0710    0.0000  bottom
+C5        0.1uF-10%-50V-0805   C_0805_2012Metric       3.5000    -4.0960   90.0000  bottom
+C6        0.1uF-10%-50V-0805   C_0805_2012Metric       5.2750    -4.1100    0.0000  bottom
+C7        0.1uF-10%-50V-0805   C_0805_2012Metric       4.3580    -4.1100    0.0000  bottom
+C8        0.1uF-10%-50V-0805   C_0805_2012Metric       5.0360    -4.1510    0.0000  bottom
+C9        0.1uF-10%-50V-0805   C_0805_2012Metric       4.1190    -4.1510    0.0000  bottom
+D1        PESD1CAN             SOT-23                  5.6056    -4.2920   90.0000  bottom
+D2        PESD1CAN             SOT-23                  4.6866    -4.2920   90.0000  bottom
+D3        CPU                  LED_1206_3216Metric     3.5717    -4.5496    0.0000  bottom
+D4        HD                   LED_1206_3216Metric     3.3355    -4.5496    0.0000  bottom
+D5        PC_LED               LED_1206_3216Metric     3.0993    -4.5496    0.0000  bottom
+D6        CAN2                 LED_1206_3216Metric     3.5717    -4.8496    0.0000  bottom
+D7        CAN1                 LED_1206_3216Metric     3.3355    -4.8496    0.0000  bottom
+D8        CAN0                 LED_1206_3216Metric     3.0993    -4.8496    0.0000  bottom
+J6        PC_LED               70543-0001              2.3353    -4.7160   90.0000  bottom
+LP1       Lumex-2x-Light-Pipe  Lumex-LPF-C012303S      3.5746    -4.9606  180.0000  bottom
+LP2       Lumex-2x-Light-Pipe  Lumex-LPF-C012303S      3.3384    -4.9606  180.0000  bottom
+LP3       Lumex-2x-Light-Pipe  Lumex-LPF-C012303S      3.1022    -4.9606  180.0000  bottom
 ## End
