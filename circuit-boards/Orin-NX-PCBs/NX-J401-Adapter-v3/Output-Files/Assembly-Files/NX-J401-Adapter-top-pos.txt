@@ -1,4 +1,4 @@
-### Footprint positions - created on 2024-07-21T20:21:14-0700 ###
+### Footprint positions - created on 2024-07-28T20:09:39-0700 ###
 ### Printed by KiCad version 8.0.4-8.0.4-0~ubuntu22.04.1
 ## Unit = inches, Angle = deg.
 ## Side : top
@@ -30,8 +30,8 @@ J6        Power                Wurth-691406510002B            10.5410    -5.8412
 J7        CAN-NX               70555-0001                     11.1290    -5.8000  -90.0000  top
 J8        CAN-NX               70555-0001                     11.5280    -5.7990  -90.0000  top
 J9        CONSOLE              70555-0002                     11.9750    -5.8000  -90.0000  top
-J10       CAN-NX               70543-0003                     12.8860    -4.6660  -90.0000  top
-J11       NX-BUTTON            70543-0005                     12.8860    -5.4660  -90.0000  top
+J10       CAN-NX               70543-0003                     12.8860    -4.4660  -90.0000  top
+J11       NX-BUTTON            70543-0005                     12.8860    -5.2660  -90.0000  top
 L1        2.2uH-20%-46mR       L_Vishay_IHLP-1212             11.6170    -5.3010  -90.0000  top
 L2        6.8_uH-12m-20%       INDUCTOR_IHLE-5050FH-Vishay    11.9352    -3.5100   90.0000  top
 Q1        CSD16322Q5           TI-SON5x6                      11.4726    -3.7800  180.0000  top
