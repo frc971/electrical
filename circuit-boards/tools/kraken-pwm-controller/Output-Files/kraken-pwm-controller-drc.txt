@@ -1,0 +1,67 @@
+** Drc report for kraken-pwm-controller.kicad_pcb **
+** Created on 2024-07-29T20:28:29-0700 **
+
+** Found 19 DRC violations **
+[lib_footprint_issues]: The current configuration does not include the library 'Henry!'.
+    Local override; warning
+    @(5816.61 mils, 4160.47 mils): Footprint RV1
+[lib_footprint_issues]: The current configuration does not include the library 'Henry!'.
+    Local override; warning
+    @(5358.02 mils, 2890.00 mils): Footprint J2
+[lib_footprint_issues]: The current configuration does not include the library 'Henry!'.
+    Local override; warning
+    @(4463.28 mils, 2890.00 mils): Footprint J4
+[lib_footprint_issues]: The current configuration does not include the library 'Henry!'.
+    Local override; warning
+    @(6100.00 mils, 3426.18 mils): Footprint J5
+[lib_footprint_issues]: The current configuration does not include the library 'Henry!'.
+    Local override; warning
+    @(4528.43 mils, 4160.47 mils): Footprint RV3
+[lib_footprint_issues]: The current configuration does not include the library 'Henry!'.
+    Local override; warning
+    @(5800.00 mils, 2890.00 mils): Footprint J1
+[lib_footprint_issues]: The current configuration does not include the library 'Henry!'.
+    Local override; warning
+    @(4910.65 mils, 2890.00 mils): Footprint J3
+[lib_footprint_issues]: The current configuration does not include the library 'Henry!'.
+    Local override; warning
+    @(4520.00 mils, 3120.00 mils): Footprint U4
+[lib_footprint_issues]: The current configuration does not include the library 'Henry!'.
+    Local override; warning
+    @(5000.00 mils, 3520.00 mils): Footprint C3
+[lib_footprint_issues]: The current configuration does not include the library 'Henry!'.
+    Local override; warning
+    @(3728.50 mils, 3430.00 mils): Footprint U2
+[lib_footprint_issues]: The current configuration does not include the library 'Henry!'.
+    Local override; warning
+    @(5060.00 mils, 3730.00 mils): Footprint C1
+[lib_footprint_issues]: The current configuration does not include the library 'Henry!'.
+    Local override; warning
+    @(5172.52 mils, 4160.47 mils): Footprint RV2
+[padstack_invalid]: Padstack is not valid (Pad has no layer)
+    Local override; error
+    @(5508.02 mils, 2550.00 mils): NPTH pad of J2
+[padstack_invalid]: Padstack is not valid (Pad has no layer)
+    Local override; error
+    @(5308.02 mils, 2550.00 mils): NPTH pad of J2
+[padstack_invalid]: Padstack is not valid (Pad has no layer)
+    Local override; error
+    @(4613.28 mils, 2550.00 mils): NPTH pad of J4
+[padstack_invalid]: Padstack is not valid (Pad has no layer)
+    Local override; error
+    @(5950.00 mils, 2550.00 mils): NPTH pad of J1
+[padstack_invalid]: Padstack is not valid (Pad has no layer)
+    Local override; error
+    @(5750.00 mils, 2550.00 mils): NPTH pad of J1
+[padstack_invalid]: Padstack is not valid (Pad has no layer)
+    Local override; error
+    @(5060.65 mils, 2550.00 mils): NPTH pad of J3
+[padstack_invalid]: Padstack is not valid (Pad has no layer)
+    Local override; error
+    @(4860.65 mils, 2550.00 mils): NPTH pad of J3
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

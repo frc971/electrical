@@ -1,0 +1,19 @@
+### Footprint positions - created on 2024-07-29T20:28:33-0700 ###
+### Printed by KiCad version 8.0.4-8.0.4-0~ubuntu22.04.1
+## Unit = inches, Angle = deg.
+## Side : top
+# Ref     Val                       Package                          PosX       PosY       Rot  Side
+C1        CAP_R82D-7P4X3P6-5P0_KEM  CAP_R82D-7P4X3P6-5P0_KEM       5.0600    -3.7300    0.0000  top
+C3        CAP_R82D-7P4X3P6-5P0_KEM  CAP_R82D-7P4X3P6-5P0_KEM       5.0000    -3.5200   90.0000  top
+J1        MOTOR_1                   2_PIN_RIGHT_ANGLE_MOLEX_SL     5.8000    -2.8900  180.0000  top
+J2        MOTOR_2                   2_PIN_RIGHT_ANGLE_MOLEX_SL     5.3580    -2.8900  180.0000  top
+J3        MOTOR_3                   2_PIN_RIGHT_ANGLE_MOLEX_SL     4.9107    -2.8900  180.0000  top
+J4        MOTOR_4                   2_PIN_RIGHT_ANGLE_MOLEX_SL     4.4633    -2.8900  180.0000  top
+J5        POWER_IN                  BARREL_JACK_CONNECTOR          6.1000    -3.4262    0.0000  top
+RV1       R_Potentiometer_US        PTV09A4020FB103                5.8166    -4.1605  180.0000  top
+RV2       R_Potentiometer_US        PTV09A4020FB103                5.1725    -4.1605  180.0000  top
+RV3       R_Potentiometer_US        PTV09A4020FB103                4.5284    -4.1605  180.0000  top
+U1        LM7805_TO220              TO-220-3_Vertical              5.3300    -3.5200   90.0000  top
+U2        SC0915-PI-Pico            PICO                           3.7285    -3.4300    0.0000  top
+U4        74HCT08                   N14                            4.5200    -3.1200  180.0000  top
+## End
