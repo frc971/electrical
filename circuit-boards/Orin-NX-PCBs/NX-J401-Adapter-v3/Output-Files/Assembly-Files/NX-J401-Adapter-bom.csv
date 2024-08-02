@@ -20,7 +20,7 @@
 "19","2","J3,J5","HDMI","Switchcraft","RAVHD19ETR","Digikey","137-RAVHD19ECT-ND"
 "20","2","J7,J8","CAN-NX","Molex","0705550036","Digikey","WM4175-ND"
 "21","1","L1","2.2uH-20%-46mR","Vishay","IHLP1212BZER2R2M11","Digikey","541-1322-1-ND"
-"22","1","L2","6.8 uH-12m-20%","Vishay Dale","IHLE5050FHER6R8M5A","Digikey","541-IHLE5050FHER6R8M5ACT-ND"
+"22","1","L2","4.7 uH-8m-20%","Vishay Dale","IHLE5050FHER4R7M5A ","Mouser","70-IHLE5050FHR4R7M5A "
 "23","1","Q1","CSD16322Q5","Texas Instruments","CSD16322Q5","Digikey","296-25112-1-ND"
 "24","1","Q2","SI4483ADY-T1-GE3","Vishay","SI4483ADY-T1-GE3","Digikey","SI4483ADY-T1-GE3CT-ND"
 "25","1","R1","4.99k-1%-0805","Yageo","RC0805FR-07499RL","Digikey","311-499CRCT-ND"
