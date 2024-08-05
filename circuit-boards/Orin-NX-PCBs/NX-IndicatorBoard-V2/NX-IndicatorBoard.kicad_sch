@@ -3589,7 +3589,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "70555-0036"
+		(property "MFG P/N" "0705550036"
 			(at 284.48 91.44 0)
 			(effects
 				(font
@@ -3930,7 +3930,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "70555-0036"
+		(property "MFG P/N" "0705550036"
 			(at 284.48 53.34 0)
 			(effects
 				(font

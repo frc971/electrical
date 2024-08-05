@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,8.0.4-8.0.4-0~ubuntu22.04.1*%
-%TF.CreationDate,2024-08-05T11:13:36-07:00*%
+%TF.CreationDate,2024-08-05T11:30:54-07:00*%
 %TF.ProjectId,NX-IndicatorBoard,4e582d49-6e64-4696-9361-746f72426f61,2*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Legend,Top*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 8.0.4-8.0.4-0~ubuntu22.04.1) date 2024-08-05 11:13:36*
+G04 Created by KiCad (PCBNEW 8.0.4-8.0.4-0~ubuntu22.04.1) date 2024-08-05 11:30:54*
 %MOMM*%
 %LPD*%
 G01*
@@ -10669,7 +10669,7 @@ D16*
 X107182600Y-105207062D02*
 G75*
 G02*
-X107162600Y-103682800I1J762262D01*
+X107162600Y-103682800I2J762262D01*
 G01*
 D15*
 X107670600Y-102158800D02*

@@ -3501,7 +3501,7 @@
 				)
 			)
 		)
-		(property "MFG P/N" "70555-0036"
+		(property "MFG P/N" "0705550036"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7510,7 +7510,7 @@
 		)
 		(fp_arc
 			(start 0.762262 -2.56)
-			(mid 0.010001 -1.797804)
+			(mid 0.010001 -1.797805)
 			(end -0.762 -2.54)
 			(stroke
 				(width 0.127)
@@ -8807,7 +8807,7 @@
 				)
 			)
 		)
-		(property "MFG P/N" "70555-0036"
+		(property "MFG P/N" "0705550036"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
