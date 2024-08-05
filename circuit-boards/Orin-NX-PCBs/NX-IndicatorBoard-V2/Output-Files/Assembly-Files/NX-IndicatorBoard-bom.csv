@@ -9,7 +9,7 @@
 "8","3","LP1-LP3","Lumex-2x-Light-Pipe","Lumex","LPF-C012303S","Digikey","67-1850-ND"
 "9","1","P1","Samtec 40 pin Elevated Socket","Samtec","ESQ-120-34-G-D","Digikey","SAM9319-ND"
 "10","5","R1-R5","499R-1%-0805","YAGEO","RC0805FR-07499RL","Digikey","311-499CRCT-ND"
-"11","1","U1","74LVC245ABQ","Nexperia","74LVC245ABQ,115","Digikey","1727-3495-1-ND"
+"11","1","U1","74LVC245AD","Nexperia","74LVC245AD,118","Digikey","1727-3104-1-ND"
 "12","2","U2,U5","MCP2558FD","Microchip","MCP2558FD-H/SN","Digikey","MCP2558FD-H/SN-ND"
 "13","2","U3,U6","MCP2518FDT-H/SL","Microchip","MCP2518FDT-H/SL","Digikey","MCP2518FDT-H/SLCT-ND"
 "14","2","U4,U7","40MHz","ECS Inc","ECS-5032MV-400-CN-TR","Digikey","XC3112CT-ND"

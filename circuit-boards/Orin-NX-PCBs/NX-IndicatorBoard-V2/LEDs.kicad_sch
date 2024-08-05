@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "NX Indicator Board V2")
-		(date "2024-07-28")
+		(date "2024-08-05")
 		(rev "2")
 		(company "971 Spartan Robotics")
 	)
@@ -1909,7 +1909,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LVC245ABQ"
+		(property "Value" "74LVC245AD"
 			(at 186.3441 115.57 0)
 			(effects
 				(font
@@ -1954,7 +1954,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "74LVC245ABQ,115"
+		(property "MFG P/N" "74LVC245AD,118"
 			(at 184.15 133.35 0)
 			(effects
 				(font
@@ -1972,7 +1972,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "1727-3495-1-ND"
+		(property "DIST P/N" "1727-3104-1-ND"
 			(at 184.15 133.35 0)
 			(effects
 				(font
