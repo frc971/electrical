@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "NX J401 Adapter")
-		(date "2023-06-04")
-		(rev "1")
+		(date "2024-08-05")
+		(rev "3")
 		(company "971 Spartan Robotics")
 	)
 	(lib_symbols
@@ -2041,7 +2041,7 @@
 		)
 	)
 	(junction
-		(at 207.01 217.17)
+		(at 187.96 201.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "10b92b7f-860c-4a39-a829-05217881c501")
@@ -2065,13 +2065,13 @@
 		(uuid "779acc5c-270d-4e15-b29c-5eeb469967d2")
 	)
 	(junction
-		(at 227.33 237.49)
+		(at 234.95 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c280fae3-3316-419c-9dae-afd07b348c4e")
 	)
 	(junction
-		(at 207.01 207.01)
+		(at 187.96 191.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc58597b-3292-4e48-84fa-57a73d880613")
@@ -2100,7 +2100,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 234.95) (xy 227.33 237.49)
+			(xy 234.95 219.71) (xy 234.95 222.25)
 		)
 		(stroke
 			(width 0)
@@ -2110,7 +2110,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 219.71) (xy 227.33 224.79)
+			(xy 234.95 204.47) (xy 234.95 209.55)
 		)
 		(stroke
 			(width 0)
@@ -2140,7 +2140,17 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 158.75) (xy 285.75 158.75)
+			(xy 165.1 147.32) (xy 165.1 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19432bc6-5875-4b88-807f-7dbba9678c5b")
+	)
+	(wire
+		(pts
+			(xy 276.86 158.75) (xy 295.91 158.75)
 		)
 		(stroke
 			(width 0)
@@ -2150,7 +2160,27 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 237.49) (xy 227.33 237.49)
+			(xy 165.1 158.75) (xy 187.96 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a7cdf78-db6b-4eec-b352-30e6e6dd1bfb")
+	)
+	(wire
+		(pts
+			(xy 165.1 161.29) (xy 187.96 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b348ee3-27de-42b3-b2a2-e48010bfeb88")
+	)
+	(wire
+		(pts
+			(xy 187.96 222.25) (xy 234.95 222.25)
 		)
 		(stroke
 			(width 0)
@@ -2170,16 +2200,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 156.21) (xy 187.96 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30d61918-8eed-4de6-8459-d26996583f54")
-	)
-	(wire
-		(pts
 			(xy 165.1 77.47) (xy 162.56 77.47)
 		)
 		(stroke
@@ -2190,17 +2210,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 153.67) (xy 187.96 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35de36af-085b-427a-94e7-f06b109f227d")
-	)
-	(wire
-		(pts
-			(xy 193.04 212.09) (xy 224.79 212.09)
+			(xy 173.99 196.85) (xy 232.41 196.85)
 		)
 		(stroke
 			(width 0)
@@ -2220,7 +2230,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 214.63) (xy 245.11 224.79)
+			(xy 252.73 199.39) (xy 252.73 209.55)
 		)
 		(stroke
 			(width 0)
@@ -2230,7 +2240,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 207.01) (xy 207.01 217.17)
+			(xy 187.96 191.77) (xy 187.96 201.93)
 		)
 		(stroke
 			(width 0)
@@ -2240,23 +2250,23 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 209.55) (xy 224.79 209.55)
+			(xy 165.1 147.32) (xy 168.91 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41641470-eb5a-4028-84b8-5c39f5170c26")
+	)
+	(wire
+		(pts
+			(xy 173.99 194.31) (xy 232.41 194.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "46bdb15c-3e44-4948-ad56-1581a0cfb962")
-	)
-	(wire
-		(pts
-			(xy 165.1 161.29) (xy 187.96 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "504ab0d6-ed4f-4591-a2ff-7d64a52db224")
 	)
 	(wire
 		(pts
@@ -2300,7 +2310,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 156.21) (xy 285.75 156.21)
+			(xy 279.4 156.21) (xy 295.91 156.21)
 		)
 		(stroke
 			(width 0)
@@ -2310,7 +2320,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 237.49) (xy 245.11 237.49)
+			(xy 234.95 222.25) (xy 252.73 222.25)
 		)
 		(stroke
 			(width 0)
@@ -2340,7 +2350,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 234.95) (xy 245.11 237.49)
+			(xy 252.73 219.71) (xy 252.73 222.25)
 		)
 		(stroke
 			(width 0)
@@ -2360,16 +2370,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 158.75) (xy 167.64 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8eae15e1-cb82-408f-b179-99ed83b339d0")
-	)
-	(wire
-		(pts
 			(xy 276.86 166.37) (xy 276.86 158.75)
 		)
 		(stroke
@@ -2380,6 +2380,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 156.21) (xy 187.96 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3285969-c484-47c2-9559-804667f8ef35")
+	)
+	(wire
+		(pts
 			(xy 167.64 90.17) (xy 165.1 90.17)
 		)
 		(stroke
@@ -2387,16 +2397,6 @@
 			(type default)
 		)
 		(uuid "a3c7974e-1ad6-4c45-9c5b-5fad0fab621d")
-	)
-	(wire
-		(pts
-			(xy 167.64 158.75) (xy 167.64 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9b9a6d6-727e-480b-970b-a89f540499ba")
 	)
 	(wire
 		(pts
@@ -2430,7 +2430,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 163.83) (xy 279.4 163.83)
+			(xy 295.91 163.83) (xy 279.4 163.83)
 		)
 		(stroke
 			(width 0)
@@ -2440,7 +2440,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 217.17) (xy 207.01 217.17)
+			(xy 173.99 201.93) (xy 187.96 201.93)
 		)
 		(stroke
 			(width 0)
@@ -2460,7 +2460,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 166.37) (xy 276.86 166.37)
+			(xy 295.91 166.37) (xy 276.86 166.37)
 		)
 		(stroke
 			(width 0)
@@ -2470,7 +2470,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 207.01) (xy 224.79 207.01)
+			(xy 187.96 191.77) (xy 232.41 191.77)
 		)
 		(stroke
 			(width 0)
@@ -2480,7 +2480,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 214.63) (xy 245.11 214.63)
+			(xy 173.99 199.39) (xy 252.73 199.39)
 		)
 		(stroke
 			(width 0)
@@ -2490,7 +2490,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 217.17) (xy 207.01 237.49)
+			(xy 187.96 201.93) (xy 187.96 222.25)
 		)
 		(stroke
 			(width 0)
@@ -2510,7 +2510,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 207.01) (xy 207.01 207.01)
+			(xy 173.99 191.77) (xy 187.96 191.77)
 		)
 		(stroke
 			(width 0)
@@ -2520,7 +2520,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 219.71) (xy 227.33 219.71)
+			(xy 173.99 204.47) (xy 234.95 204.47)
 		)
 		(stroke
 			(width 0)
@@ -2537,6 +2537,16 @@
 			(type default)
 		)
 		(uuid "f865dd8f-f0e8-4e97-a982-8cf7be7e8f03")
+	)
+	(wire
+		(pts
+			(xy 168.91 147.32) (xy 168.91 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8ff18f0-210a-45d1-a10f-e746d2e66a12")
 	)
 	(wire
 		(pts
@@ -2585,7 +2595,7 @@
 	)
 	(text "UART2_RXD"
 		(exclude_from_sim no)
-		(at 186.944 209.296 0)
+		(at 167.894 194.056 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2596,7 +2606,7 @@
 	)
 	(text "~{FORCE_RECOVERY}"
 		(exclude_from_sim no)
-		(at 186.69 219.71 0)
+		(at 167.64 204.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2618,7 +2628,7 @@
 	)
 	(text "SYS_RESET_RTN"
 		(exclude_from_sim no)
-		(at 186.944 216.916 0)
+		(at 167.894 201.676 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2640,7 +2650,7 @@
 	)
 	(text "UART2_TXD"
 		(exclude_from_sim no)
-		(at 186.944 211.836 0)
+		(at 167.894 196.596 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2651,7 +2661,7 @@
 	)
 	(text "~{SYS_RESET}"
 		(exclude_from_sim no)
-		(at 186.69 214.63 0)
+		(at 167.64 199.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2673,7 +2683,7 @@
 	)
 	(text "SYS_RESET_RTN"
 		(exclude_from_sim no)
-		(at 186.944 207.264 0)
+		(at 167.894 192.024 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2683,7 +2693,7 @@
 		(uuid "ff919678-98c0-43b1-99ff-9d1a66602f93")
 	)
 	(label "RTN"
-		(at 224.79 207.01 180)
+		(at 232.41 191.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2694,7 +2704,7 @@
 		(uuid "0f05cfea-17ca-4c15-a3ac-32abe9250ab5")
 	)
 	(label "UART2_TXD"
-		(at 193.04 212.09 0)
+		(at 173.99 196.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2705,7 +2715,7 @@
 		(uuid "0f80fa67-302c-4615-a4a5-21e10250eaad")
 	)
 	(label "UART2_TXD"
-		(at 224.79 212.09 180)
+		(at 232.41 196.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2715,8 +2725,19 @@
 		)
 		(uuid "3cd41e22-f6b8-4731-aab9-50c9bf821d2e")
 	)
+	(label "CAN_RX"
+		(at 166.37 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "46af2875-fb4f-4799-9fd1-3533806b5d46")
+	)
 	(label "~{SYS_RESET}"
-		(at 193.04 214.63 0)
+		(at 173.99 199.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2726,8 +2747,19 @@
 		)
 		(uuid "4945e00c-1de1-482e-a3e9-33f14b8ab862")
 	)
+	(label "CAN_H"
+		(at 294.64 156.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "59faa6da-051d-47df-b19c-e12ad965fc5a")
+	)
 	(label "RTN"
-		(at 226.06 237.49 180)
+		(at 233.68 222.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2738,7 +2770,7 @@
 		(uuid "6cdd6f6c-ca10-4650-8a6d-9065fc2d6883")
 	)
 	(label "UART2_RXD"
-		(at 224.79 209.55 180)
+		(at 232.41 194.31 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2749,7 +2781,7 @@
 		(uuid "70020f3b-0529-4c22-a57e-683209937d11")
 	)
 	(label "RTN"
-		(at 193.04 217.17 0)
+		(at 173.99 201.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2759,8 +2791,30 @@
 		)
 		(uuid "897abe3f-7910-4951-8bcb-b12b65e38d0e")
 	)
+	(label "V_BAT"
+		(at 152.4 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8be70ad1-8698-4523-b5d3-27a2c53da9da")
+	)
+	(label "+18V_OUT"
+		(at 259.08 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b2915c33-f041-4be2-a963-687c479fbe85")
+	)
 	(label "RTN"
-		(at 193.04 207.01 0)
+		(at 173.99 191.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2770,8 +2824,41 @@
 		)
 		(uuid "b94596c2-08d0-43ea-8a5c-085c6e0870ed")
 	)
+	(label "3V3_CAN"
+		(at 166.37 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c99cf42b-80f4-4f61-b438-e4a59ebe330e")
+	)
+	(label "CAN_L"
+		(at 294.64 166.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ce4a3903-596e-4858-add9-9f3386a3f318")
+	)
+	(label "CAN_TX"
+		(at 166.37 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d76529a2-7b7e-4ce2-bc53-812f417d3285")
+	)
 	(label "~{REC}"
-		(at 193.04 219.71 0)
+		(at 173.99 204.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2782,7 +2869,7 @@
 		(uuid "e082bdaa-f747-4ada-8a94-40b0384fe573")
 	)
 	(label "UART2_RXD"
-		(at 193.04 209.55 0)
+		(at 173.99 194.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2791,6 +2878,28 @@
 			(justify left bottom)
 		)
 		(uuid "e15322c8-e6ac-4f45-984e-4b56330b4977")
+	)
+	(label "CAN_L"
+		(at 294.64 158.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f90988df-285c-48c9-baf7-b1523b73752c")
+	)
+	(label "CAN_H"
+		(at 294.64 163.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ff52656f-812a-446e-8d01-f5de370ccca8")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -3082,7 +3191,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 167.64 165.1 0)
+		(at 168.91 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3091,7 +3200,7 @@
 		(fields_autoplaced yes)
 		(uuid "13f2a249-8f82-4146-b9b1-5597df779805")
 		(property "Reference" "#PWR03"
-			(at 167.64 171.45 0)
+			(at 168.91 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3100,7 +3209,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 167.64 168.91 0)
+			(at 168.91 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3108,7 +3217,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 165.1 0)
+			(at 168.91 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3117,7 +3226,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 165.1 0)
+			(at 168.91 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3126,7 +3235,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 165.1 0)
+			(at 168.91 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3148,7 +3257,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 227.33 229.87 270)
+		(at 234.95 214.63 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3157,7 +3266,7 @@
 		(fields_autoplaced yes)
 		(uuid "25c38950-100a-4ad0-80b0-577b869b4ec6")
 		(property "Reference" "SW2"
-			(at 231.14 228.6 90)
+			(at 238.76 213.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3166,7 +3275,7 @@
 			)
 		)
 		(property "Value" "RECOVERY"
-			(at 231.14 231.14 90)
+			(at 238.76 215.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3175,7 +3284,7 @@
 			)
 		)
 		(property "Footprint" "NX-J401-Adapter:SW_TL1105VF100Q_EWI"
-			(at 232.41 229.87 0)
+			(at 240.03 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3184,7 +3293,7 @@
 			)
 		)
 		(property "Datasheet" "Components/E-SWITCH-tl1105vf100q-drawing.pdf"
-			(at 232.41 229.87 0)
+			(at 240.03 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3193,7 +3302,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.33 229.87 0)
+			(at 234.95 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3202,7 +3311,7 @@
 			)
 		)
 		(property "DIST" "Digikey"
-			(at 227.33 229.87 0)
+			(at 234.95 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3211,7 +3320,7 @@
 			)
 		)
 		(property "DIST P/N" "EG2507-ND"
-			(at 227.33 229.87 0)
+			(at 234.95 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3220,7 +3329,7 @@
 			)
 		)
 		(property "MFG" "E-Switch"
-			(at 227.33 229.87 0)
+			(at 234.95 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3229,7 +3338,7 @@
 			)
 		)
 		(property "MFG P/N" "TL1105VF100Q"
-			(at 227.33 229.87 0)
+			(at 234.95 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3254,7 +3363,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x06_Pin")
-		(at 187.96 212.09 0)
+		(at 168.91 196.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3263,7 +3372,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f0a1149-77d3-424b-ab00-6277dadf496c")
 		(property "Reference" "J11"
-			(at 188.595 201.93 0)
+			(at 169.545 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3271,7 +3380,7 @@
 			)
 		)
 		(property "Value" "NX-BUTTON"
-			(at 188.595 204.47 0)
+			(at 169.545 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3279,7 +3388,7 @@
 			)
 		)
 		(property "Footprint" "NX-J401-Adapter:70543-0005"
-			(at 187.96 212.09 0)
+			(at 168.91 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3288,7 +3397,7 @@
 			)
 		)
 		(property "Datasheet" "Components/Molex-705430001_sd.pdf"
-			(at 187.96 212.09 0)
+			(at 168.91 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3297,7 +3406,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 187.96 212.09 0)
+			(at 168.91 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3306,7 +3415,7 @@
 			)
 		)
 		(property "MFG" "Molex"
-			(at 187.96 212.09 0)
+			(at 168.91 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3315,7 +3424,7 @@
 			)
 		)
 		(property "MFG P/N" "0705430040"
-			(at 187.96 212.09 0)
+			(at 168.91 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3324,7 +3433,7 @@
 			)
 		)
 		(property "DIST" "Digikey"
-			(at 187.96 212.09 0)
+			(at 168.91 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3333,7 +3442,7 @@
 			)
 		)
 		(property "DIST P/N" "WM4828-ND"
-			(at 187.96 212.09 0)
+			(at 168.91 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3864,7 +3973,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 290.83 166.37 180)
+		(at 300.99 166.37 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3872,7 +3981,7 @@
 		(dnp no)
 		(uuid "89561f12-3be6-412a-b41f-7ae4d058f777")
 		(property "Reference" "J7"
-			(at 292.1 163.83 0)
+			(at 302.26 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3881,7 +3990,7 @@
 			)
 		)
 		(property "Value" "CAN-NX"
-			(at 292.1 166.37 0)
+			(at 302.26 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3890,7 +3999,7 @@
 			)
 		)
 		(property "Footprint" "NX-J401-Adapter:70555-0001"
-			(at 290.83 166.37 0)
+			(at 300.99 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3899,7 +4008,7 @@
 			)
 		)
 		(property "Datasheet" "Components/Molex-70555-0001.pdf"
-			(at 290.83 166.37 0)
+			(at 300.99 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3908,7 +4017,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 290.83 166.37 0)
+			(at 300.99 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3917,7 +4026,7 @@
 			)
 		)
 		(property "MFG" "Molex"
-			(at 290.83 166.37 0)
+			(at 300.99 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3926,7 +4035,7 @@
 			)
 		)
 		(property "MFG P/N" "0705550036"
-			(at 290.83 166.37 0)
+			(at 300.99 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3935,7 +4044,7 @@
 			)
 		)
 		(property "DIST" "Digikey"
-			(at 290.83 166.37 0)
+			(at 300.99 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3944,7 +4053,7 @@
 			)
 		)
 		(property "DIST P/N" "WM4175-ND"
-			(at 290.83 166.37 0)
+			(at 300.99 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4097,7 +4206,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 245.11 229.87 270)
+		(at 252.73 214.63 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4106,7 +4215,7 @@
 		(fields_autoplaced yes)
 		(uuid "99e4c4e8-be25-408a-ad81-236da6ecafaf")
 		(property "Reference" "SW1"
-			(at 248.92 228.6 90)
+			(at 256.54 213.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4115,7 +4224,7 @@
 			)
 		)
 		(property "Value" "RESET"
-			(at 248.92 231.14 90)
+			(at 256.54 215.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4124,7 +4233,7 @@
 			)
 		)
 		(property "Footprint" "NX-J401-Adapter:SW_TL1105VF100Q_EWI"
-			(at 250.19 229.87 0)
+			(at 257.81 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4133,7 +4242,7 @@
 			)
 		)
 		(property "Datasheet" "Components/E-SWITCH-tl1105vf100q-drawing.pdf"
-			(at 250.19 229.87 0)
+			(at 257.81 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4142,7 +4251,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 245.11 229.87 0)
+			(at 252.73 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4151,7 +4260,7 @@
 			)
 		)
 		(property "DIST" "Digikey"
-			(at 245.11 229.87 0)
+			(at 252.73 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4160,7 +4269,7 @@
 			)
 		)
 		(property "DIST P/N" "EG2507-ND"
-			(at 245.11 229.87 0)
+			(at 252.73 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4169,7 +4278,7 @@
 			)
 		)
 		(property "MFG" "E-Switch"
-			(at 245.11 229.87 0)
+			(at 252.73 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4178,7 +4287,7 @@
 			)
 		)
 		(property "MFG P/N" "TL1105VF100Q"
-			(at 245.11 229.87 0)
+			(at 252.73 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4269,7 +4378,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 290.83 158.75 180)
+		(at 300.99 158.75 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4277,7 +4386,7 @@
 		(dnp no)
 		(uuid "a502e7da-7e9a-47ca-981d-0d4877286c5c")
 		(property "Reference" "J8"
-			(at 292.1 156.21 0)
+			(at 302.26 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4286,7 +4395,7 @@
 			)
 		)
 		(property "Value" "CAN-NX"
-			(at 292.1 158.75 0)
+			(at 302.26 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4295,7 +4404,7 @@
 			)
 		)
 		(property "Footprint" "NX-J401-Adapter:70555-0001"
-			(at 290.83 158.75 0)
+			(at 300.99 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4304,7 +4413,7 @@
 			)
 		)
 		(property "Datasheet" "Components/Molex-70555-0001.pdf"
-			(at 290.83 158.75 0)
+			(at 300.99 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4313,7 +4422,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 290.83 158.75 0)
+			(at 300.99 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4322,7 +4431,7 @@
 			)
 		)
 		(property "MFG" "Molex"
-			(at 290.83 158.75 0)
+			(at 300.99 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4331,7 +4440,7 @@
 			)
 		)
 		(property "MFG P/N" "0705550036"
-			(at 290.83 158.75 0)
+			(at 300.99 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4340,7 +4449,7 @@
 			)
 		)
 		(property "DIST" "Digikey"
-			(at 290.83 158.75 0)
+			(at 300.99 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4349,7 +4458,7 @@
 			)
 		)
 		(property "DIST P/N" "WM4175-ND"
-			(at 290.83 158.75 0)
+			(at 300.99 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4374,7 +4483,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 229.87 209.55 0)
+		(at 237.49 194.31 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4384,7 +4493,7 @@
 		(fields_autoplaced yes)
 		(uuid "b6c5638d-9f01-41b7-bec8-723b62f15b1f")
 		(property "Reference" "J9"
-			(at 231.14 208.2799 0)
+			(at 238.76 193.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4393,7 +4502,7 @@
 			)
 		)
 		(property "Value" "CONSOLE"
-			(at 231.14 210.8199 0)
+			(at 238.76 195.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4402,7 +4511,7 @@
 			)
 		)
 		(property "Footprint" "NX-J401-Adapter:70555-0002"
-			(at 229.87 209.55 0)
+			(at 237.49 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4411,7 +4520,7 @@
 			)
 		)
 		(property "Datasheet" "Components/Molex-70555-0001.pdf"
-			(at 229.87 209.55 0)
+			(at 237.49 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4420,7 +4529,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 229.87 209.55 0)
+			(at 237.49 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4429,7 +4538,7 @@
 			)
 		)
 		(property "MFG" "Molex"
-			(at 229.87 209.55 0)
+			(at 237.49 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4438,7 +4547,7 @@
 			)
 		)
 		(property "MFG P/N" "0705550037"
-			(at 229.87 209.55 0)
+			(at 237.49 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4447,7 +4556,7 @@
 			)
 		)
 		(property "DIST" "Digikey"
-			(at 229.87 209.55 0)
+			(at 237.49 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4456,7 +4565,7 @@
 			)
 		)
 		(property "DIST P/N" "WM4176-ND"
-			(at 229.87 209.55 0)
+			(at 237.49 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5112,7 +5221,7 @@
 			)
 		)
 		(pin "3V3" passive
-			(at 187.96 161.29 180)
+			(at 187.96 156.21 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5122,7 +5231,7 @@
 			(uuid "b3582611-4185-4d59-a645-a1e1b65023c9")
 		)
 		(pin "CAN_RX" output
-			(at 187.96 156.21 180)
+			(at 187.96 161.29 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5132,7 +5241,7 @@
 			(uuid "3d2ae494-c730-46b9-855e-aeeace74303b")
 		)
 		(pin "CAN_TX" input
-			(at 187.96 153.67 180)
+			(at 187.96 158.75 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5181,7 +5290,7 @@
 		)
 		(uuid "d1baeb55-0358-48eb-b719-8b69397a20ee")
 		(property "Sheetname" "MIPI-HDMI-2"
-			(at 209.55 114.3 0)
+			(at 209.55 115.57 0)
 			(effects
 				(font
 					(face "KiCad Font")
@@ -5229,7 +5338,7 @@
 		)
 		(uuid "ef5bdea0-feaa-4250-9b61-8c5edbd568c2")
 		(property "Sheetname" "MIPI-HDMI-1"
-			(at 209.55 97.79 0)
+			(at 209.55 99.06 0)
 			(effects
 				(font
 					(face "KiCad Font")

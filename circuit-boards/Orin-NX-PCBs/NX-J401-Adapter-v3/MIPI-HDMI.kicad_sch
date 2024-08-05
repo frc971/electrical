@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "NX J401 Adapter")
-		(date "2023-06-04")
-		(rev "1")
+		(date "2024-08-05")
+		(rev "3")
 		(company "971 Spartan Robotics")
 	)
 	(lib_symbols
@@ -1564,7 +1564,7 @@
 		(at 204.47 81.28 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2 2)
 				(bold yes)
 			)
 			(justify left bottom)
