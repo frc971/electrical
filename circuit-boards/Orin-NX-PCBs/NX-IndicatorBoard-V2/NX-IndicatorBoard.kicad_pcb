@@ -787,7 +787,7 @@
 				)
 			)
 		)
-		(property "Value" "74LVC245ABQ"
+		(property "Value" "74LVC245AD"
 			(at 0 7.99 180)
 			(layer "F.Fab")
 			(uuid "b33acc9e-98a5-4a14-aacc-dc1d3c5f1f1a")
@@ -850,7 +850,7 @@
 				)
 			)
 		)
-		(property "MFG P/N" "74LVC245ABQ,115"
+		(property "MFG P/N" "74LVC245AD,118"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -876,7 +876,7 @@
 				)
 			)
 		)
-		(property "DIST P/N" "1727-3495-1-ND"
+		(property "DIST P/N" "1727-3104-1-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7510,7 +7510,7 @@
 		)
 		(fp_arc
 			(start 0.762262 -2.56)
-			(mid 0.010001 -1.797803)
+			(mid 0.010001 -1.797804)
 			(end -0.762 -2.54)
 			(stroke
 				(width 0.127)
@@ -94026,7 +94026,7 @@
 		)
 		(height 14.673321)
 		(orientation 0)
-		(gr_text "4253.9 mils"
+		(gr_text "108.0 mm"
 			(at 223.8836 167.6838 0)
 			(layer "User.1")
 			(uuid "0dac1cfb-e4e4-4f1d-bdb7-e1284169d2bb")
@@ -94060,7 +94060,7 @@
 		)
 		(height -15.0042)
 		(orientation 1)
-		(gr_text "2953.1 mils"
+		(gr_text "75.0 mm"
 			(at 156.3046 119.2551 90)
 			(layer "User.1")
 			(uuid "4fcb0a20-917d-4fcb-8a40-05f6fbf665b7")
@@ -94094,7 +94094,7 @@
 		)
 		(height 9.999721)
 		(orientation 0)
-		(gr_text "3874.6 mils"
+		(gr_text "98.4 mm"
 			(at 219.0814 163.0016 0)
 			(layer "User.1")
 			(uuid "523dedd1-d409-4141-8738-c3ea61a4fc90")
@@ -94128,7 +94128,7 @@
 		)
 		(height -4.6918)
 		(orientation 1)
-		(gr_text "669.3 mils"
+		(gr_text "17.0 mm"
 			(at 166.617 148.2594 90)
 			(layer "User.1")
 			(uuid "85174a9c-14d6-4526-9b3c-38727237faaf")
@@ -94162,7 +94162,7 @@
 		)
 		(height 12.311121)
 		(orientation 0)
-		(gr_text "4055.1 mils"
+		(gr_text "103.0 mm"
 			(at 221.3588 165.3216 0)
 			(layer "User.1")
 			(uuid "a5fd8bf2-6521-4020-a3e4-2e868e4fa7c3")
@@ -94196,7 +94196,7 @@
 		)
 		(height 8.221721)
 		(orientation 0)
-		(gr_text "825.6 mils"
+		(gr_text "21.0 mm"
 			(at 180.34415 161.2322 0)
 			(layer "User.1")
 			(uuid "aa2c4dd3-0287-4faa-9a71-964f04da7e51")
@@ -94230,7 +94230,7 @@
 		)
 		(height -7.9938)
 		(orientation 1)
-		(gr_text "944.6 mils"
+		(gr_text "24.0 mm"
 			(at 163.315 144.7626 90)
 			(layer "User.1")
 			(uuid "d722ab08-ea50-4593-a442-d3265ae46809")
@@ -94264,7 +94264,7 @@
 		)
 		(height 5.554721)
 		(orientation 0)
-		(gr_text "433.1 mils"
+		(gr_text "11.0 mm"
 			(at 175.3588 158.5652 0)
 			(layer "User.1")
 			(uuid "ddac96f6-9e08-41ac-828b-7e220eb9e85f")
@@ -94298,7 +94298,7 @@
 		)
 		(height -18.8904)
 		(orientation 1)
-		(gr_text "3109.9 mils"
+		(gr_text "79.0 mm"
 			(at 152.4184 117.2636 90)
 			(layer "User.1")
 			(uuid "ed58cda4-f1c5-4912-aecb-8052d337ccca")
@@ -94332,7 +94332,7 @@
 		)
 		(height -11.3466)
 		(orientation 1)
-		(gr_text "1394.9 mils"
+		(gr_text "35.4 mm"
 			(at 159.9622 139.0444 90)
 			(layer "User.1")
 			(uuid "f020b339-2b7b-445e-8d8c-212b45dc43fd")

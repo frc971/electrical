@@ -1,5 +1,5 @@
 ** Drc report for NX-IndicatorBoard.kicad_pcb **
-** Created on 2024-07-28T18:22:02-0700 **
+** Created on 2024-08-05T11:13:37-0700 **
 
 ** Found 0 DRC violations **
 
