@@ -1,69 +1,270 @@
-(footprint "LED-Dialight-5913001858F" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
-  (tags "LED")
-  (attr smd)
-  (fp_text reference "REF**" (at 0 0) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 6c647290-4805-4165-8a99-d3e469d05921)
-  )
-  (fp_text value "LED-Dialight-5913001858F" (at 0 1.82) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 5c401b89-4e81-476e-96aa-54b73ca914a8)
-  )
-  (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
-      (effects (font (size 0.8 0.8) (thickness 0.12)))
-    (tstamp dc8ad26a-090d-4ce0-a893-2e41d6533f9f)
-  )
-  (fp_line (start -3.05 -2.16) (end 3.05 -2.16)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp d28229dc-8dde-4d7f-ade6-cefd27f3e671))
-  (fp_line (start -3.05 -1.42) (end -3.325 -1.42)
-    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp c6b57936-b321-47c1-bf3a-ef02d44e3db9))
-  (fp_line (start -3.05 1.42) (end -3.35 1.42)
-    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 957c8850-2557-4424-a6a7-6a4ca62bc330))
-  (fp_line (start -3.05 2.16) (end -3.05 -2.16)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 2b2f995c-ff7b-447b-b98b-f2371a6fc563))
-  (fp_line (start -3.05 2.16) (end 3.05 2.16)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 15e07f2e-50e9-4868-808a-794fd6e3fa6c))
-  (fp_line (start -0.3 -1.081) (end -0.3 -0.319)
-    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp c1e97edb-e7a7-4d5f-8e54-2a37db7501ad))
-  (fp_line (start 0.25 1.131) (end 0.25 0.369)
-    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 8eef22c9-1dab-4f5f-ab1d-084b639f105a))
-  (fp_line (start 3.05 2.16) (end 3.05 -2.16)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 6a2b9d80-8f53-4277-a15a-b79df610a64f))
-  (fp_poly
-    (pts
-      (xy -0.258 0.369)
-      (xy 0.25 0.75)
-      (xy -0.258 1.131)
-    )
-
-    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.SilkS") (tstamp a542ea58-31c2-4aa2-892a-ff4b250160e5))
-  (fp_poly
-    (pts
-      (xy 0.208 -0.319)
-      (xy -0.3 -0.7)
-      (xy 0.208 -1.081)
-    )
-
-    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.SilkS") (tstamp bc449407-7f28-4266-adf7-88c24c38a9de))
-  (fp_rect (start -3.05 -2.15) (end 3.05 2.15)
-    (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp ec905db2-ae90-47b1-8b63-b26339c5e259))
-  (fp_line (start -4.369331 -1.425003) (end -3.055371 -1.425816)
-    (stroke (width 0.1) (type default)) (layer "F.Fab") (tstamp 78add10e-67ac-4ab4-af67-a24cb302919e))
-  (fp_line (start -4.319331 1.375888) (end -3.055371 1.373292)
-    (stroke (width 0.1) (type default)) (layer "F.Fab") (tstamp 07a08642-3b56-425d-b475-b93f940ad496))
-  (fp_rect (start -3.05 -2.15) (end 3.05 2.15)
-    (stroke (width 0.1) (type default)) (fill none) (layer "F.Fab") (tstamp f78c6207-4e92-4bf3-9976-a0fcea605d01))
-  (fp_arc (start -4.319331 1.375888) (mid -5.72 0) (end -4.369331 -1.425003)
-    (stroke (width 0.1) (type default)) (layer "F.Fab") (tstamp b9b24d18-c0ba-4bb1-b440-dfef18781720))
-  (pad "1" smd rect (at 1.5 0.75) (size 1.5 1.09) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c76c1ddb-173e-4288-84f2-cc99fbff308e))
-  (pad "2" smd rect (at -1.5 0.75) (size 1.5 1.09) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp fdcbf91f-6dbf-4b1d-b9de-95fc7b2f97b7))
-  (pad "3" smd rect (at 1.5 -0.75) (size 1.5 1.09) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 56d1c6a2-bdc7-4da5-82c6-650a4bcb00f3))
-  (pad "4" smd rect (at -1.5 -0.75) (size 1.5 1.09) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp dfe21322-8107-4de7-961f-9e5a9cd1bfda))
-  (model "${KIPRJMOD}/3dModels/SunLED-XZxxxx55W-8.step"
-    (offset (xyz 0 0 0.1))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
-  )
+(footprint "LED-Dialight-5913001858F"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
+	(tags "LED")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "6c647290-4805-4165-8a99-d3e469d05921")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED-Dialight-5913001858F"
+		(at 0 1.82 0)
+		(layer "F.Fab")
+		(uuid "5c401b89-4e81-476e-96aa-54b73ca914a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f968d89-50e4-45d2-b113-ea3bed426a62")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b94d7731-7e7a-4aa7-93b0-2cb4dffbd736")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "07610a46-0272-4316-ac6b-950c0f4bd051")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.05 -2.16)
+		(end 3.05 -2.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d28229dc-8dde-4d7f-ade6-cefd27f3e671")
+	)
+	(fp_line
+		(start -3.05 -1.42)
+		(end -3.325 -1.42)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c6b57936-b321-47c1-bf3a-ef02d44e3db9")
+	)
+	(fp_line
+		(start -3.05 1.42)
+		(end -3.35 1.42)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "957c8850-2557-4424-a6a7-6a4ca62bc330")
+	)
+	(fp_line
+		(start -3.05 2.16)
+		(end -3.05 -2.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2b2f995c-ff7b-447b-b98b-f2371a6fc563")
+	)
+	(fp_line
+		(start -3.05 2.16)
+		(end 3.05 2.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "15e07f2e-50e9-4868-808a-794fd6e3fa6c")
+	)
+	(fp_line
+		(start -0.3 -1.081)
+		(end -0.3 -0.319)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c1e97edb-e7a7-4d5f-8e54-2a37db7501ad")
+	)
+	(fp_line
+		(start 0.25 1.131)
+		(end 0.25 0.369)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8eef22c9-1dab-4f5f-ab1d-084b639f105a")
+	)
+	(fp_line
+		(start 3.05 2.16)
+		(end 3.05 -2.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6a2b9d80-8f53-4277-a15a-b79df610a64f")
+	)
+	(fp_poly
+		(pts
+			(xy -0.258 0.369) (xy 0.25 0.75) (xy -0.258 1.131)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "a542ea58-31c2-4aa2-892a-ff4b250160e5")
+	)
+	(fp_poly
+		(pts
+			(xy 0.208 -0.319) (xy -0.3 -0.7) (xy 0.208 -1.081)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "bc449407-7f28-4266-adf7-88c24c38a9de")
+	)
+	(fp_rect
+		(start -3.05 -2.15)
+		(end 3.05 2.15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "ec905db2-ae90-47b1-8b63-b26339c5e259")
+	)
+	(fp_line
+		(start -4.369331 -1.425003)
+		(end -3.055371 -1.425816)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "78add10e-67ac-4ab4-af67-a24cb302919e")
+	)
+	(fp_line
+		(start -4.319331 1.375888)
+		(end -3.055371 1.373292)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "07a08642-3b56-425d-b475-b93f940ad496")
+	)
+	(fp_rect
+		(start -3.05 -2.15)
+		(end 3.05 2.15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "f78c6207-4e92-4bf3-9976-a0fcea605d01")
+	)
+	(fp_arc
+		(start -4.319331 1.375888)
+		(mid -5.72 0)
+		(end -4.369331 -1.425003)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "b9b24d18-c0ba-4bb1-b440-dfef18781720")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "dc8ad26a-090d-4ce0-a893-2e41d6533f9f")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.5 0.75)
+		(size 1.5 1.09)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c76c1ddb-173e-4288-84f2-cc99fbff308e")
+	)
+	(pad "2" smd rect
+		(at -1.5 0.75)
+		(size 1.5 1.09)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fdcbf91f-6dbf-4b1d-b9de-95fc7b2f97b7")
+	)
+	(pad "3" smd rect
+		(at 1.5 -0.75)
+		(size 1.5 1.09)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "56d1c6a2-bdc7-4da5-82c6-650a4bcb00f3")
+	)
+	(pad "4" smd rect
+		(at -1.5 -0.75)
+		(size 1.5 1.09)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "dfe21322-8107-4de7-961f-9e5a9cd1bfda")
+	)
+	(model "${KIPRJMOD}/3dModels/Dialight.step"
+		(offset
+			(xyz 5.08 -10.6426 2.3368)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
 )

@@ -6,7 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "NX J401 Adapter")
-		(rev "1")
+		(date "2024-08-05")
+		(rev "3")
 		(company "971 Spartan Robotics")
 	)
 	(lib_symbols
@@ -2477,7 +2478,7 @@
 	)
 	(symbol
 		(lib_id "Graphic:SYM_Arrow_Normal")
-		(at 182.88 147.32 0)
+		(at 173.99 204.47 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -2485,7 +2486,7 @@
 		(dnp no)
 		(uuid "8eb7c741-0a19-4f92-8c4b-0cbb9c79bbd8")
 		(property "Reference" "#SYM5"
-			(at 182.88 145.796 0)
+			(at 173.99 202.946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2494,7 +2495,7 @@
 			)
 		)
 		(property "Value" "Boost Regulator Design Notes"
-			(at 186.69 147.32 0)
+			(at 177.8 204.47 0)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -2502,10 +2503,11 @@
 					(color 194 0 0 1)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 147.32 0)
+			(at 173.99 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2513,17 +2515,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "Components/WBDesign78-TPS613222-3Vin-5Vout-0.25A.pdf"
-			(at 182.88 147.32 0)
+		(property "Datasheet" "Analysis/WBDesign78-TPS613222-3Vin-5Vout-0.25A.pdf"
+			(at 177.165 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(property "Description" ""
-			(at 182.88 147.32 0)
+			(at 173.99 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
