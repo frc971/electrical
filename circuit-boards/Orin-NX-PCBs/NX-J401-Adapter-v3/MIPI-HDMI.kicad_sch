@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "NX J401 Adapter")
-		(date "2024-08-05")
+		(date "2024-08-10")
 		(rev "3")
 		(company "971 Spartan Robotics")
 	)
@@ -1879,7 +1879,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67b57aa1-6ac3-487e-9578-a6d0e5fd1797")
-		(property "Reference" "J1"
+		(property "Reference" "J2"
 			(at 157.48 96.52 0)
 			(effects
 				(font
@@ -2006,11 +2006,11 @@
 		(instances
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/d1baeb55-0358-48eb-b719-8b69397a20ee"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/ef5bdea0-feaa-4250-9b61-8c5edbd568c2"
-					(reference "J2")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -2026,7 +2026,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80269b6e-3c9e-44ad-a3ce-8db17246dab1")
-		(property "Reference" "J5"
+		(property "Reference" "J11"
 			(at 289.56 119.38 0)
 			(effects
 				(font
@@ -2170,11 +2170,11 @@
 		(instances
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/d1baeb55-0358-48eb-b719-8b69397a20ee"
-					(reference "J5")
+					(reference "J11")
 					(unit 1)
 				)
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/ef5bdea0-feaa-4250-9b61-8c5edbd568c2"
-					(reference "J3")
+					(reference "J10")
 					(unit 1)
 				)
 			)

@@ -477,7 +477,7 @@
         "clearance": 0.254,
         "diff_pair_gap": 0.254,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.248666,
+        "diff_pair_width": 0.259588,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
