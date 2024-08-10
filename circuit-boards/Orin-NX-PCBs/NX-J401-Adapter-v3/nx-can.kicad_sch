@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "NX J401 Adapter")
-		(date "2024-08-05")
+		(date "2024-08-10")
 		(rev "3")
 		(company "971 Spartan Robotics")
 	)
@@ -2001,7 +2001,7 @@
 			)
 			(project "IMU-2X"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/b82ca404-386f-4bdf-8b2c-60800790d9b9"
-					(reference "L1")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -2182,7 +2182,7 @@
 			)
 			(project "PI-Power-Board"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/b82ca404-386f-4bdf-8b2c-60800790d9b9"
-					(reference "D2")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -2197,7 +2197,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "332dc8fc-adf7-4785-a7b4-8d090b1d37d4")
-		(property "Reference" "C10"
+		(property "Reference" "C11"
 			(at 232.41 175.26 0)
 			(effects
 				(font
@@ -2286,7 +2286,7 @@
 		(instances
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/b82ca404-386f-4bdf-8b2c-60800790d9b9"
-					(reference "C10")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -2470,7 +2470,7 @@
 			)
 			(project "IMU-2X"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/b82ca404-386f-4bdf-8b2c-60800790d9b9"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -2558,7 +2558,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ff1d3e7-6f44-409b-a369-530db1af6556")
-		(property "Reference" "C4"
+		(property "Reference" "C13"
 			(at 194.31 70.866 0)
 			(effects
 				(font
@@ -2648,7 +2648,7 @@
 		(instances
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/b82ca404-386f-4bdf-8b2c-60800790d9b9"
-					(reference "C4")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -2729,7 +2729,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b90f3a0c-512f-47ff-aec1-67f113e5a53e")
-		(property "Reference" "C9"
+		(property "Reference" "C12"
 			(at 245.11 175.26 0)
 			(effects
 				(font
@@ -2818,7 +2818,7 @@
 		(instances
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/b82ca404-386f-4bdf-8b2c-60800790d9b9"
-					(reference "C9")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -2899,7 +2899,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d403d7ab-3a95-44c7-a270-7d52a08f3d2d")
-		(property "Reference" "C3"
+		(property "Reference" "C10"
 			(at 209.55 70.866 0)
 			(effects
 				(font
@@ -2989,7 +2989,7 @@
 		(instances
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/b82ca404-386f-4bdf-8b2c-60800790d9b9"
-					(reference "C3")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -3099,7 +3099,7 @@
 			)
 			(project "IMU-2X"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/b82ca404-386f-4bdf-8b2c-60800790d9b9"
-					(reference "C8")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -3180,7 +3180,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e9e59dbb-dd19-4425-92d3-6159276c4d3b")
-		(property "Reference" "U1"
+		(property "Reference" "U3"
 			(at 209.55 83.82 0)
 			(effects
 				(font
@@ -3289,7 +3289,7 @@
 		(instances
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/b82ca404-386f-4bdf-8b2c-60800790d9b9"
-					(reference "U1")
+					(reference "U3")
 					(unit 1)
 				)
 			)
