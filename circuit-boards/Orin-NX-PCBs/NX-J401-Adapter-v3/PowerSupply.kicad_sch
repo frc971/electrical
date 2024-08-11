@@ -2381,6 +2381,12 @@
 		(uuid "079ae5e2-ec15-49fd-ac29-ce72b027a773")
 	)
 	(junction
+		(at 148.59 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e819a52-e3e8-466f-9ef4-f5cf910c7078")
+	)
+	(junction
 		(at 99.06 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2409,12 +2415,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d67ac79-e6f6-4a91-961c-20835ee1fb50")
-	)
-	(junction
-		(at 189.23 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "25a600bc-71d4-4f22-8ee3-631201f79987")
 	)
 	(junction
 		(at 189.23 130.81)
@@ -2525,12 +2525,6 @@
 		(uuid "9543bf8f-2fcd-45f1-b5a7-321ca4f6349e")
 	)
 	(junction
-		(at 213.36 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "95aae7d2-7032-4c27-ae7a-6bf717233bdf")
-	)
-	(junction
 		(at 100.33 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2573,6 +2567,12 @@
 		(uuid "bd83de9a-19de-49cd-b94b-115d011dd50f")
 	)
 	(junction
+		(at 148.59 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2cc45ca-0166-4352-9859-7386017d6aea")
+	)
+	(junction
 		(at 160.02 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2601,12 +2601,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e09fc76a-8e43-4b38-816c-f1a1d9fe3c41")
-	)
-	(junction
-		(at 148.59 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e24321a0-33c5-4c46-8c7b-3d41e6bbb094")
 	)
 	(junction
 		(at 250.19 130.81)
@@ -2732,16 +2726,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 100.33) (xy 213.36 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1685b696-6c41-4504-aac8-199f66ccc1ea")
-	)
-	(wire
-		(pts
 			(xy 252.73 95.25) (xy 250.19 95.25)
 		)
 		(stroke
@@ -2772,23 +2756,13 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 71.12) (xy 142.24 71.12)
+			(xy 142.24 71.12) (xy 148.59 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2299816c-7788-45bb-a5fc-6f288212a01a")
-	)
-	(wire
-		(pts
-			(xy 148.59 96.52) (xy 148.59 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22b162af-fb8b-42ee-a6a2-0930f1007981")
 	)
 	(wire
 		(pts
@@ -2859,16 +2833,6 @@
 			(type default)
 		)
 		(uuid "363a70a2-b3b5-444a-bf4b-52af288fee75")
-	)
-	(wire
-		(pts
-			(xy 189.23 71.12) (xy 189.23 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "367773af-8c14-4318-806d-93c0f497bfd7")
 	)
 	(wire
 		(pts
@@ -3002,16 +2966,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 130.81) (xy 213.36 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5197a723-45d0-4c9d-bb5c-ca28d9789b7c")
-	)
-	(wire
-		(pts
 			(xy 255.27 90.17) (xy 255.27 95.25)
 		)
 		(stroke
@@ -3019,6 +2973,16 @@
 			(type default)
 		)
 		(uuid "51fc0076-dd6d-4d64-876d-0809f11b4fe0")
+	)
+	(wire
+		(pts
+			(xy 213.36 100.33) (xy 213.36 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52e98b88-8c3d-45d9-b3e2-1caea310624f")
 	)
 	(wire
 		(pts
@@ -3042,7 +3006,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 130.81) (xy 227.33 130.81)
+			(xy 208.28 130.81) (xy 227.33 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3079,16 +3043,6 @@
 			(type default)
 		)
 		(uuid "63506f07-a502-4d47-8769-ea7e0bea7318")
-	)
-	(wire
-		(pts
-			(xy 189.23 71.12) (xy 220.98 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63c68455-aa81-4061-ad01-51484809bb36")
 	)
 	(wire
 		(pts
@@ -3442,6 +3396,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 85.09) (xy 198.12 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baf4627d-9023-449b-954d-47f20fe0b3c3")
+	)
+	(wire
+		(pts
 			(xy 148.59 130.81) (xy 127 130.81)
 		)
 		(stroke
@@ -3479,6 +3443,16 @@
 			(type default)
 		)
 		(uuid "c0466dc7-7218-448d-930c-b57636a32862")
+	)
+	(wire
+		(pts
+			(xy 148.59 71.12) (xy 220.98 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1541412-35f2-4f35-979d-392a9e50f766")
 	)
 	(wire
 		(pts
@@ -3542,13 +3516,23 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 71.12) (xy 189.23 71.12)
+			(xy 213.36 127) (xy 246.38 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d1cecbeb-8133-4c22-8508-81fec6fb5fc1")
+		(uuid "d13afc86-d75d-4100-89c5-db9e7233dde5")
+	)
+	(wire
+		(pts
+			(xy 250.19 130.81) (xy 246.38 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d17f0bae-40d4-41fc-bda4-3d97c0440772")
 	)
 	(wire
 		(pts
@@ -3569,16 +3553,6 @@
 			(type default)
 		)
 		(uuid "d641daae-3353-463f-a7b8-c2f230f643da")
-	)
-	(wire
-		(pts
-			(xy 189.23 85.09) (xy 198.12 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d80dd81d-ab37-45d0-ae86-28197e74aa33")
 	)
 	(wire
 		(pts
@@ -3639,6 +3613,26 @@
 			(type default)
 		)
 		(uuid "e9973117-1571-41a6-87f2-9e52033f9c29")
+	)
+	(wire
+		(pts
+			(xy 148.59 85.09) (xy 148.59 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec0a22ae-6091-4182-97fd-421135e75015")
+	)
+	(wire
+		(pts
+			(xy 148.59 85.09) (xy 148.59 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed3b5315-397e-46db-b570-838c339ded35")
 	)
 	(wire
 		(pts
@@ -4236,7 +4230,7 @@
 			)
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/584f7d71-5922-4ce5-8f88-d664ca9e2a8c"
-					(reference "C3")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -4636,7 +4630,7 @@
 			)
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/584f7d71-5922-4ce5-8f88-d664ca9e2a8c"
-					(reference "R5")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -4962,7 +4956,7 @@
 			)
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/584f7d71-5922-4ce5-8f88-d664ca9e2a8c"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -5105,7 +5099,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4b726b4a-4fdb-4e2e-ac04-28c2e477582c")
-		(property "Reference" "C4"
+		(property "Reference" "C3"
 			(at 149.86 97.79 0)
 			(effects
 				(font
@@ -5194,7 +5188,7 @@
 		(instances
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/584f7d71-5922-4ce5-8f88-d664ca9e2a8c"
-					(reference "C4")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -5497,7 +5491,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "75e442e0-9520-4ad6-bca4-2e31bfddbdde")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 284.48 116.84 0)
 			(effects
 				(font
@@ -5586,7 +5580,7 @@
 		(instances
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/584f7d71-5922-4ce5-8f88-d664ca9e2a8c"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -5697,7 +5691,7 @@
 			)
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658/584f7d71-5922-4ce5-8f88-d664ca9e2a8c"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)

@@ -3980,7 +3980,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "89561f12-3be6-412a-b41f-7ae4d058f777")
-		(property "Reference" "J6"
+		(property "Reference" "J7"
 			(at 302.26 163.83 0)
 			(effects
 				(font
@@ -4070,7 +4070,7 @@
 		(instances
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658"
-					(reference "J6")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -4385,7 +4385,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a502e7da-7e9a-47ca-981d-0d4877286c5c")
-		(property "Reference" "J7"
+		(property "Reference" "J6"
 			(at 302.26 156.21 0)
 			(effects
 				(font
@@ -4475,7 +4475,7 @@
 		(instances
 			(project "NX-J401-Adapter"
 				(path "/cc31ce4b-09ab-4aea-a1d3-ed84696ba658"
-					(reference "J7")
+					(reference "J6")
 					(unit 1)
 				)
 			)
