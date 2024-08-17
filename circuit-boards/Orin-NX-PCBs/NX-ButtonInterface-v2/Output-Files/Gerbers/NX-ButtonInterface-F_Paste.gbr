@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,8.0.4-8.0.4-0~ubuntu22.04.1*%
-%TF.CreationDate,2024-08-11T09:24:58-07:00*%
-%TF.ProjectId,NX-ButtonInterface,4e582d42-7574-4746-9f6e-496e74657266,rev?*%
+%TF.CreationDate,2024-08-16T20:42:52-07:00*%
+%TF.ProjectId,NX-ButtonInterface,4e582d42-7574-4746-9f6e-496e74657266,1*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Paste,Top*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 8.0.4-8.0.4-0~ubuntu22.04.1) date 2024-08-11 09:24:58*
+G04 Created by KiCad (PCBNEW 8.0.4-8.0.4-0~ubuntu22.04.1) date 2024-08-16 20:42:52*
 %MOMM*%
 %LPD*%
 G01*
@@ -33,9 +33,9 @@ G04 Aperture macros list end*
 G04 APERTURE END LIST*
 D10*
 %TO.C,J2*%
-X91211400Y-107988100D03*
-X91211400Y-104813100D03*
-X91211400Y-101638100D03*
-X91211400Y-98463100D03*
+X125463300Y-107988100D03*
+X125463300Y-104813100D03*
+X125463300Y-101638100D03*
+X125463300Y-98463100D03*
 %TD*%
 M02*

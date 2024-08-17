@@ -5,9 +5,10 @@
 	(uuid "a7eb5823-c87f-41de-b6ed-af0ad18b6b3c")
 	(paper "A")
 	(title_block
-		(title "Button Interface")
-		(date "2024-01-05")
+		(title "NX Button Interface V2")
+		(date "2024-08-16")
 		(rev "1")
+		(company "971 SPARTAN ROBOTICS")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
@@ -1882,8 +1883,8 @@
 		)
 		(uuid "f5ab2109-a759-430b-9674-acb70a4edaf3")
 	)
-	(label "~{REC}"
-		(at 166.37 99.06 180)
+	(label "NX_PC_LED-"
+		(at 166.37 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1891,10 +1892,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "0dfac584-cf9a-41d4-ab6f-7980896467e8")
+		(uuid "1675164f-9fe4-4897-b5a9-3d5cc259d71b")
 	)
-	(label "CAN_TX"
-		(at 166.37 78.74 180)
+	(label "UART2_TXD"
+		(at 166.37 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1902,7 +1903,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "16d51863-294c-4cc6-861b-a6519c18c5f0")
+		(uuid "1eec8eec-8e7e-471a-9c15-36957856d6f2")
 	)
 	(label "~{SYS_RESET}"
 		(at 95.25 105.41 0)
@@ -1926,17 +1927,6 @@
 		)
 		(uuid "236e5039-f576-47b4-9274-aa16503aa194")
 	)
-	(label "UART2_RXD"
-		(at 166.37 88.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2a92943f-b88f-4d05-8d76-cdc1bcad98b6")
-	)
 	(label "GND"
 		(at 95.25 77.47 0)
 		(fields_autoplaced yes)
@@ -1948,7 +1938,7 @@
 		)
 		(uuid "36459c7e-8521-4907-97b7-e3403d8f3f80")
 	)
-	(label "UART2_TXD"
+	(label "3V3"
 		(at 166.37 91.44 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1957,7 +1947,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "483f146d-c1d4-4655-87a5-ed281c0a8044")
+		(uuid "487e062e-2e51-45a9-9508-095eb730a990")
 	)
 	(label "~{REC}"
 		(at 95.25 110.49 0)
@@ -1970,8 +1960,8 @@
 		)
 		(uuid "51a32058-ccfd-4d63-a44d-16bbf2871972")
 	)
-	(label "3V3"
-		(at 166.37 86.36 180)
+	(label "UART2_RXD"
+		(at 166.37 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1979,7 +1969,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "5867126c-72e2-422c-9494-4431a23d935b")
+		(uuid "5b9d12e4-556c-4877-85ea-b3eefddeffb7")
 	)
 	(label "NX_PC_LED+"
 		(at 95.25 90.17 0)
@@ -1992,8 +1982,8 @@
 		)
 		(uuid "5bcc0f4e-0f4c-45df-aa3b-16d3aa64a70d")
 	)
-	(label "GND"
-		(at 166.37 83.82 180)
+	(label "SYS_RST_RCV_RTN"
+		(at 166.37 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2001,7 +1991,18 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "679ecf8c-87a3-4e02-bf39-a3ff35eccadb")
+		(uuid "6ef023f5-67ef-446f-b373-47e06116f74a")
+	)
+	(label "CAN_TX"
+		(at 166.37 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6efb8cef-ca22-4f43-a88e-46cb3c6685b7")
 	)
 	(label "CAN_RX"
 		(at 95.25 74.93 0)
@@ -2014,8 +2015,8 @@
 		)
 		(uuid "70a98343-f5c0-448d-bc6e-85107ccc1787")
 	)
-	(label "NX_PC_LED-"
-		(at 166.37 66.04 180)
+	(label "CAN_RX"
+		(at 166.37 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2023,7 +2024,18 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "78870599-781b-4e83-bce0-e02620f12373")
+		(uuid "78790250-9e79-4143-ae75-aef470fe6100")
+	)
+	(label "~{SYS_RESET}"
+		(at 166.37 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7b2f80f0-7a45-4762-b041-5fd0abb79aab")
 	)
 	(label "3V3"
 		(at 95.25 80.01 0)
@@ -2036,8 +2048,8 @@
 		)
 		(uuid "82cd3786-c296-4969-be6f-a31157310a92")
 	)
-	(label "SYS_RST_RCV_RTN"
-		(at 166.37 96.52 180)
+	(label "GND"
+		(at 166.37 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2045,21 +2057,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "86165870-8664-403b-9f3b-2ebe58adc87e")
-	)
-	(label "CAN_RX"
-		(at 166.37 81.28 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "90297d1c-eab2-4384-8930-08d517095dfd")
+		(uuid "9bca27d6-8bca-4d3a-a110-1a91f78f17de")
 	)
 	(label "NX_PC_LED+"
-		(at 166.37 68.58 180)
+		(at 166.37 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2067,7 +2068,18 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "a0ab8e72-f3f1-4c69-923e-7a8382f45832")
+		(uuid "a0d4abad-d91c-49c0-975a-07e06017b850")
+	)
+	(label "~{REC}"
+		(at 166.37 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bc0215a3-546f-405d-8920-3a4360fea30b")
 	)
 	(label "SYS_RST_RCV_RTN"
 		(at 95.25 107.95 0)
@@ -2123,17 +2135,6 @@
 			(justify left bottom)
 		)
 		(uuid "fb2fe81a-8982-42ab-9e7c-64c5f0dcb18b")
-	)
-	(label "~{SYS_RESET}"
-		(at 166.37 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fdaf5f23-e6ec-44e4-b2b0-c9603b4a8c33")
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x18_Socket")
