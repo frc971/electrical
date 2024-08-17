@@ -1,8 +1,8 @@
-### Footprint positions - created on 2024-08-11T09:25:05-0700 ###
+### Footprint positions - created on 2024-08-16T20:42:58-0700 ###
 ### Printed by KiCad version 8.0.4-8.0.4-0~ubuntu22.04.1
 ## Unit = inches, Angle = deg.
 ## Side : bottom
 # Ref     Val        Package                 PosX       PosY       Rot  Side
-J2        NX-BUTTON  9-pin-solder-pads     3.5910    -4.3140    0.0000  bottom
-J4        POWER_LED  2-pin-solder-pads     4.9395    -4.1285  180.0000  bottom
+J2        NX-BUTTON  9-pin-solder-pads     4.9395    -4.3140    0.0000  bottom
+J4        POWER_LED  2-pin-solder-pads     3.5910    -4.1285  180.0000  bottom
 ## End
