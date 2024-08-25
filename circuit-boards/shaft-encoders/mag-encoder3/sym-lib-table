@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "mag-encoder")(type "KiCad")(uri "${KIPRJMOD}/mag-encoder.kicad_sym")(options "")(descr ""))
-)
