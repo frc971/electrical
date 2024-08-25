@@ -1,0 +1,17 @@
+### Footprint positions - created on 2024-08-24T22:10:38-0700 ###
+### Printed by KiCad version 8.0.4-8.0.4-0~ubuntu22.04.1
+## Unit = inches, Angle = deg.
+## Side : bottom
+# Ref     Val               Package                                   PosX       PosY       Rot  Side
+C1        1uF-10%-25V-0603  C_0603_1608Metric                       8.9000    -4.3550  -90.0000  bottom
+C2        1uF-10%-25V-0603  C_0603_1608Metric                       8.8400    -4.3550  -90.0000  bottom
+C3        1uF-10%-25V-0603  C_0603_1608Metric                       9.2120    -4.8650   90.0000  bottom
+R1        1.00k-1%-0603     R_0603_1608Metric                       9.4370    -4.8650  -90.0000  bottom
+R2        100R-1%-0603      R_0603_1608Metric                       9.3320    -4.8650  -90.0000  bottom
+R3        100R-1%-0603      R_0603_1608Metric                       9.2720    -4.8650  -90.0000  bottom
+R4        100R-1%-0603      R_0603_1608Metric                       8.9120    -4.8750  180.0000  bottom
+R5        1.00k-1%-0603     R_0603_1608Metric                       9.2120    -5.1050  -90.0000  bottom
+R6        1.00k-1%-0603     R_0603_1608Metric                       9.1520    -5.1050  -90.0000  bottom
+R7        1.00k-1%-0603     R_0603_1608Metric                       9.3350    -5.3200  180.0000  bottom
+U3        MA732GQ           QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm     9.0770    -4.8650    0.0000  bottom
+## End
