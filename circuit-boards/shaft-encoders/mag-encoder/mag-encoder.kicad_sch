@@ -6,291 +6,11 @@
 	(paper "B")
 	(title_block
 		(title "Mag Encoder")
-		(date "2024-08-18")
-		(rev "0")
+		(date "2024-08-25")
+		(rev "1")
 		(company "971 SPARTAN ROBOTICS")
 	)
 	(lib_symbols
-		(symbol "74xGxx:74AUP1G02"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U3"
-				(at 12.7 6.3186 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SN74LVC1G02DRLR"
-				(at 12.7 3.7786 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "Components/TI-sn74lvc1g02.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single NOR Gate, Low-Voltage CMOS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MFG" "Texas Instruments"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MFG P/N" "SN74LVC1G02DRLR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "DIST" "Digikey"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "DIST P/N" "296-18318-1-ND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Single Gate NOR LVC CMOS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23* Texas?R-PDSO-G5?DCK* Texas?R-PDSO-N5?DRL* Texas?X2SON*0.8x0.8mm*P0.48mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "74AUP1G02_0_1"
-				(arc
-					(start -7.62 -5.08)
-					(mid -5.838 0)
-					(end -7.62 5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -5.08)
-					(mid 3.1986 -3.2054)
-					(end 5.08 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -2.54) (xy -6.35 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 2.54) (xy -6.35 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.08) (xy -7.62 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 5.08) (xy -7.62 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start 5.08 0)
-					(mid 3.2238 3.2304)
-					(end 0 5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "74AUP1G02_1_1"
-				(pin input line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:Conn_01x05_Pin"
 			(pin_names
 				(offset 1.016) hide)
@@ -1971,6 +1691,328 @@
 				)
 			)
 		)
+		(symbol "Simulation_SPICE:PMOS"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q1"
+				(at 6.35 -1.2701 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "NTA4151PT1G"
+				(at 6.35 1.2699 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "mag-encoder:onsemi-SC75-3-1.60x0.80x0.80, 1.00P"
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "Components/onsemi-NTA4151P-D.PDF"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "P-Channel 20 V 760mA (Tj) 301mW (Tj) Surface Mount SC-75, SOT-416"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFG" "onsemi"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFG P/N" "NTA4151PT1G"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DIST" "Digikey"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DIST P/N" "NTA4151PT1GOSCT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET simulation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PMOS_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "PMOS_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "mag-encoder:AP2120N-3.3TRG1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2867,16 +2909,16 @@
 		)
 	)
 	(junction
+		(at 204.47 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35016cc1-5234-462a-8e28-60eddefd55aa")
+	)
+	(junction
 		(at 200.66 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66bd6cd7-e7ed-4411-8f1a-fefadeb5183b")
-	)
-	(junction
-		(at 198.12 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "89b54251-3e9d-4f1e-8948-cb5e473d5efc")
 	)
 	(junction
 		(at 85.09 48.26)
@@ -2946,7 +2988,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 152.4) (xy 252.73 152.4)
+			(xy 238.76 157.48) (xy 252.73 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2983,16 +3025,6 @@
 			(type default)
 		)
 		(uuid "1f930b06-c743-4337-afcd-ffafcbe92f93")
-	)
-	(wire
-		(pts
-			(xy 198.12 154.94) (xy 198.12 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23f68500-b19f-4f07-92cf-47c3bbc87087")
 	)
 	(wire
 		(pts
@@ -3036,6 +3068,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 177.8) (xy 200.66 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32a99b3d-c21a-4487-aaf8-85941d94a667")
+	)
+	(wire
+		(pts
 			(xy 265.43 148.59) (xy 265.43 163.83)
 		)
 		(stroke
@@ -3053,6 +3095,16 @@
 			(type default)
 		)
 		(uuid "36ae0c46-4128-4b1c-a166-4a1d5a01af96")
+	)
+	(wire
+		(pts
+			(xy 213.36 147.32) (xy 204.47 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3780e4e0-1bb5-43c3-8325-fc3ace2b70fb")
 	)
 	(wire
 		(pts
@@ -3076,16 +3128,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 152.4) (xy 231.14 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3dd39e3a-551a-42cf-ae5d-a618990961dc")
-	)
-	(wire
-		(pts
 			(xy 365.76 118.11) (xy 367.03 118.11)
 		)
 		(stroke
@@ -3093,6 +3135,16 @@
 			(type default)
 		)
 		(uuid "43c1edd2-6238-4eaa-b9f4-46d55d8c800d")
+	)
+	(wire
+		(pts
+			(xy 204.47 147.32) (xy 204.47 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "476b089e-daf6-4c40-b638-8d7de8e2deee")
 	)
 	(wire
 		(pts
@@ -3206,6 +3258,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 157.48) (xy 220.98 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61048764-a9aa-456e-9f7f-ae55fcbbfbcc")
+	)
+	(wire
+		(pts
 			(xy 71.12 48.26) (xy 85.09 48.26)
 		)
 		(stroke
@@ -3226,13 +3288,13 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 133.35) (xy 265.43 133.35)
+			(xy 204.47 133.35) (xy 265.43 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "69f7f3a7-6168-4947-add9-200c3d82d047")
+		(uuid "67b3d43f-18de-4822-83a5-26570e31e5a9")
 	)
 	(wire
 		(pts
@@ -3336,6 +3398,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 157.48) (xy 231.14 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fd590c3-e164-44a1-ad04-e21f344dc96d")
+	)
+	(wire
+		(pts
 			(xy 185.42 130.81) (xy 200.66 130.81)
 		)
 		(stroke
@@ -3376,7 +3448,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 149.86) (xy 200.66 130.81)
+			(xy 200.66 130.81) (xy 200.66 177.8)
 		)
 		(stroke
 			(width 0)
@@ -3396,7 +3468,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 133.35) (xy 198.12 133.35)
+			(xy 185.42 133.35) (xy 204.47 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3476,26 +3548,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 149.86) (xy 200.66 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d46b2792-d83f-49eb-a90b-b973822a5273")
-	)
-	(wire
-		(pts
-			(xy 204.47 154.94) (xy 198.12 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd88c73f-af77-42b3-bc00-ddecb1428691")
-	)
-	(wire
-		(pts
 			(xy 185.42 120.65) (xy 256.54 120.65)
 		)
 		(stroke
@@ -3516,7 +3568,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 172.72) (xy 252.73 171.45)
+			(xy 252.73 177.8) (xy 252.73 171.45)
 		)
 		(stroke
 			(width 0)
@@ -3546,7 +3598,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 152.4) (xy 252.73 163.83)
+			(xy 252.73 157.48) (xy 252.73 163.83)
 		)
 		(stroke
 			(width 0)
@@ -3603,17 +3655,6 @@
 			(type default)
 		)
 		(uuid "ffef5964-7113-4d7e-8327-50516993fc5d")
-	)
-	(text "Place LEDs connector side in incrementing order:  LOW, OK, HIGH"
-		(exclude_from_sim no)
-		(at 246.888 181.864 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7cf72235-d270-4eab-a2e5-1717deb979ee")
 	)
 	(label "PWM"
 		(at 365.76 123.19 180)
@@ -3845,7 +3886,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05d374c8-03e1-4337-a14c-f391818073aa")
-		(property "Reference" "D3"
+		(property "Reference" "D4"
 			(at 269.24 167.9574 90)
 			(effects
 				(font
@@ -3935,7 +3976,7 @@
 		(instances
 			(project "mag-encoder"
 				(path "/4a754c16-950b-45c6-87d0-55e009d45712"
-					(reference "D3")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -3950,7 +3991,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a5ad231-8f45-4dc5-8e0a-ed3b75569186")
-		(property "Reference" "R6"
+		(property "Reference" "R5"
 			(at 280.67 143.5099 0)
 			(effects
 				(font
@@ -4040,7 +4081,7 @@
 		(instances
 			(project "mag-encoder"
 				(path "/4a754c16-950b-45c6-87d0-55e009d45712"
-					(reference "R6")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -4057,7 +4098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b2ec27b-3734-4e69-9593-a1693c76d5f9")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 281.94 167.9574 90)
 			(effects
 				(font
@@ -4147,7 +4188,7 @@
 		(instances
 			(project "mag-encoder"
 				(path "/4a754c16-950b-45c6-87d0-55e009d45712"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -4220,15 +4261,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 234.95 152.4 90)
+		(at 234.95 157.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "1f5edf85-609c-4440-9490-a2fdc6cf4938")
-		(property "Reference" "R1"
-			(at 234.95 149.86 90)
+		(property "Reference" "R6"
+			(at 234.95 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4236,7 +4277,7 @@
 			)
 		)
 		(property "Value" "1.00k-1%-0603"
-			(at 234.95 154.686 90)
+			(at 234.95 159.766 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4244,7 +4285,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 235.204 151.384 90)
+			(at 235.204 156.464 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4253,7 +4294,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 234.95 152.4 0)
+			(at 234.95 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4262,7 +4303,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 234.95 152.4 0)
+			(at 234.95 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4271,7 +4312,7 @@
 			)
 		)
 		(property "DIST" "Digikey"
-			(at 234.95 152.4 0)
+			(at 234.95 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4280,7 +4321,7 @@
 			)
 		)
 		(property "DIST P/N" "311-1.00KHRCT-ND"
-			(at 234.95 152.4 0)
+			(at 234.95 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4289,7 +4330,7 @@
 			)
 		)
 		(property "MFG" "YAGEO"
-			(at 234.95 152.4 0)
+			(at 234.95 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4298,7 +4339,7 @@
 			)
 		)
 		(property "MFG P/N" "RC0603FR-071KL"
-			(at 234.95 152.4 0)
+			(at 234.95 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4315,7 +4356,7 @@
 		(instances
 			(project "mag-encoder"
 				(path "/4a754c16-950b-45c6-87d0-55e009d45712"
-					(reference "R1")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -4331,7 +4372,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "226c3726-4cd4-41ad-b2d9-d80495601a3e")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 281.686 78.74 90)
 			(effects
 				(font
@@ -4419,7 +4460,7 @@
 		(instances
 			(project "mag-encoder"
 				(path "/4a754c16-950b-45c6-87d0-55e009d45712"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -4485,71 +4526,6 @@
 			(project "mag-encoder"
 				(path "/4a754c16-950b-45c6-87d0-55e009d45712"
 					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 214.63 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3bd0e616-6b7d-4bee-be31-6d84ce5b7a47")
-		(property "Reference" "#PWR04"
-			(at 214.63 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 214.63 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 214.63 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 214.63 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 214.63 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "232c85e8-481b-479c-8dfb-e70883151095")
-		)
-		(instances
-			(project "mag-encoder"
-				(path "/4a754c16-950b-45c6-87d0-55e009d45712"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -4745,118 +4721,6 @@
 			(project "mag-encoder"
 				(path "/4a754c16-950b-45c6-87d0-55e009d45712"
 					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xGxx:74AUP1G02")
-		(at 214.63 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5be114fe-a7f4-4de8-9dc2-f22f341468d3")
-		(property "Reference" "U1"
-			(at 224.79 143.002 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SN74LVC1G02DBVR"
-			(at 224.79 145.542 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 214.63 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "Components/TI-sn74lvc1g02.pdf"
-			(at 214.63 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single NOR Gate, Low-Voltage CMOS"
-			(at 214.63 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "Texas Instruments"
-			(at 214.63 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG P/N" "SN74LVC1G02DBVR"
-			(at 214.63 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" "Digikey"
-			(at 214.63 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST P/N" "296-11597-1-ND"
-			(at 214.63 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b4dfe134-a3b6-4425-9f44-377aef952bcb")
-		)
-		(pin "3"
-			(uuid "ed852517-0fd4-4bf4-9fd5-e3163c685e9d")
-		)
-		(pin "4"
-			(uuid "fbdca01d-631b-49b0-9280-46118a5a461b")
-		)
-		(pin "5"
-			(uuid "8eabe4e0-26f6-4ed5-aa6d-39e3602bb516")
-		)
-		(pin "1"
-			(uuid "551d9ddb-7a29-4afb-991d-6e1271d42adc")
-		)
-		(instances
-			(project ""
-				(path "/4a754c16-950b-45c6-87d0-55e009d45712"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -5098,71 +4962,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 214.63 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "73841ca4-0ae1-4db2-ad9b-64117c204066")
-		(property "Reference" "#PWR05"
-			(at 214.63 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 214.63 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 214.63 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 214.63 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 214.63 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fba2786c-b6b2-48e0-a983-9640d5899ea9")
-		)
-		(instances
-			(project "mag-encoder"
-				(path "/4a754c16-950b-45c6-87d0-55e009d45712"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 85.09 48.26 0)
 		(unit 1)
@@ -5375,71 +5174,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 252.73 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "82ca37b2-0a88-4c9d-940f-0c4d4021c715")
-		(property "Reference" "#PWR06"
-			(at 252.73 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 252.73 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 252.73 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e2ed37f6-84ad-4250-9ccc-ba08a478b18a")
-		)
-		(instances
-			(project "mag-encoder"
-				(path "/4a754c16-950b-45c6-87d0-55e009d45712"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 281.94 66.04 90)
 		(mirror x)
@@ -5449,7 +5183,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8b84a17f-434e-4b0f-8422-645662a220d4")
-		(property "Reference" "R4"
+		(property "Reference" "R3"
 			(at 281.686 68.58 90)
 			(effects
 				(font
@@ -5537,7 +5271,7 @@
 		(instances
 			(project "mag-encoder"
 				(path "/4a754c16-950b-45c6-87d0-55e009d45712"
-					(reference "R4")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -5735,6 +5469,71 @@
 			(project ""
 				(path "/4a754c16-950b-45c6-87d0-55e009d45712"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 220.98 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0387f40-c854-402c-bb36-df97262b2077")
+		(property "Reference" "#PWR04"
+			(at 220.98 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 220.98 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 220.98 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c52913b-e577-4bfc-932a-a5423b6ede97")
+		)
+		(instances
+			(project "mag-encoder"
+				(path "/4a754c16-950b-45c6-87d0-55e009d45712"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -5946,7 +5745,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc81364f-6cae-44e0-a8a3-feacd45b7172")
-		(property "Reference" "R5"
+		(property "Reference" "R4"
 			(at 262.89 143.5099 0)
 			(effects
 				(font
@@ -6036,7 +5835,7 @@
 		(instances
 			(project "mag-encoder"
 				(path "/4a754c16-950b-45c6-87d0-55e009d45712"
-					(reference "R5")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -6214,6 +6013,116 @@
 		)
 	)
 	(symbol
+		(lib_id "Simulation_SPICE:PMOS")
+		(at 218.44 147.32 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1f0a107-e71f-410a-b04b-7b6d7385c3e6")
+		(property "Reference" "Q1"
+			(at 224.79 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS84"
+			(at 224.79 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 223.52 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "Components/onsemi-BSS84-D.PDF"
+			(at 218.44 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET P-CH 50V 130MA SOT23-3"
+			(at 218.44 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "onsemi"
+			(at 218.44 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "BSS84"
+			(at 218.44 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" "Digikey"
+			(at 218.44 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST P/N" "BSS84CT-ND"
+			(at 218.44 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "663f27c5-c02a-4930-89a8-c2a797f95b53")
+		)
+		(pin "3"
+			(uuid "00bf68cc-9d2a-42c0-891a-86e54c2421fb")
+		)
+		(pin "1"
+			(uuid "49615879-3f7b-49a7-8bd1-50df6405e7bc")
+		)
+		(instances
+			(project ""
+				(path "/4a754c16-950b-45c6-87d0-55e009d45712"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "mag-encoder:AP2120N-3.3TRG1")
 		(at 118.11 45.72 0)
 		(unit 1)
@@ -6223,7 +6132,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2c51116-dbe1-4ed9-919d-66ff28a7954c")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 118.11 45.72 0)
 			(effects
 				(font
@@ -6316,7 +6225,7 @@
 		(instances
 			(project ""
 				(path "/4a754c16-950b-45c6-87d0-55e009d45712"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -6791,7 +6700,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e30eeecd-d0dd-4f49-b15f-135d79ef98d0")
-		(property "Reference" "D4"
+		(property "Reference" "D2"
 			(at 256.54 167.9574 90)
 			(effects
 				(font
@@ -6881,7 +6790,7 @@
 		(instances
 			(project ""
 				(path "/4a754c16-950b-45c6-87d0-55e009d45712"
-					(reference "D4")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -6896,7 +6805,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e5d6e4f8-2c7f-4a53-9b12-6c5a433ee8de")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 176.022 106.426 0)
 			(effects
 				(font
@@ -7031,7 +6940,7 @@
 		(instances
 			(project ""
 				(path "/4a754c16-950b-45c6-87d0-55e009d45712"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -7453,7 +7362,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f90427c8-0e82-4d84-ab2f-b6de4e34acc7")
-		(property "Reference" "R3"
+		(property "Reference" "R2"
 			(at 281.686 88.9 90)
 			(effects
 				(font
@@ -7541,7 +7450,7 @@
 		(instances
 			(project "mag-encoder"
 				(path "/4a754c16-950b-45c6-87d0-55e009d45712"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
