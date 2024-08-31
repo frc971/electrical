@@ -1,5 +1,5 @@
 ** Drc report for mag-encoder.kicad_pcb **
-** Created on 2024-08-30T21:18:57-0700 **
+** Created on 2024-08-31T09:44:12-0700 **
 
 ** Found 8 DRC violations **
 [silk_overlap]: Silkscreen overlap
