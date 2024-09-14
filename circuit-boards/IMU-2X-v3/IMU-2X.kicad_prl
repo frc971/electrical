@@ -67,8 +67,14 @@
       39,
       40
     ],
-    "visible_layers": "0001030_fffffff9",
+    "visible_layers": "0001010_fffffff9",
     "zone_display_mode": 0
+  },
+  "git": {
+    "repo_password": "",
+    "repo_type": "",
+    "repo_username": "",
+    "ssh_key": ""
   },
   "meta": {
     "filename": "IMU-2X.kicad_prl",

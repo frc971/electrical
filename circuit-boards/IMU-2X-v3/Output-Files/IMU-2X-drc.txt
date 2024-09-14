@@ -1,0 +1,71 @@
+** Drc report for IMU-2X.kicad_pcb **
+** Created on 2024-09-14T12:24:54-0700 **
+
+** Found 2 DRC violations **
+[lib_footprint_issues]: The current configuration does not include the library 'NX-J401-Adapter'.
+    Local override; warning
+    @(7330.00 mils, 3333.00 mils): Footprint G***
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(7286.00 mils, 4286.00 mils): Footprint TP10
+    @(7324.00 mils, 4217.00 mils): Footprint TP8
+
+** Found 0 unconnected pads **
+
+** Found 18 Footprint errors **
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ.
+    Local override; warning
+    @(6679.00 mils, 3588.00 mils): Footprint TP1
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ.
+    Local override; warning
+    @(6447.00 mils, 3720.00 mils): Footprint TP2
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ.
+    Local override; warning
+    @(7294.00 mils, 3724.00 mils): Footprint TP3
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ.
+    Local override; warning
+    @(6493.00 mils, 3814.00 mils): Footprint TP4
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ.
+    Local override; warning
+    @(6643.00 mils, 3848.00 mils): Footprint TP5
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ.
+    Local override; warning
+    @(7318.00 mils, 4058.00 mils): Footprint TP6
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ.
+    Local override; warning
+    @(7295.00 mils, 4137.00 mils): Footprint TP7
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ.
+    Local override; warning
+    @(7324.00 mils, 4217.00 mils): Footprint TP8
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ.
+    Local override; warning
+    @(6615.00 mils, 4230.00 mils): Footprint TP9
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ.
+    Local override; warning
+    @(7286.00 mils, 4286.00 mils): Footprint TP10
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ.
+    Local override; warning
+    @(6633.00 mils, 4312.00 mils): Footprint TP11
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ.
+    Local override; warning
+    @(7262.00 mils, 4378.00 mils): Footprint TP12
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ.
+    Local override; warning
+    @(6994.00 mils, 4393.00 mils): Footprint TP13
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ.
+    Local override; warning
+    @(6505.00 mils, 4396.00 mils): Footprint TP14
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ.
+    Local override; warning
+    @(7070.00 mils, 4625.00 mils): Footprint TP15
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ.
+    Local override; warning
+    @(6478.00 mils, 4919.00 mils): Footprint TP16
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ.
+    Local override; warning
+    @(6559.00 mils, 4920.00 mils): Footprint TP17
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ.
+    Local override; warning
+    @(6510.00 mils, 4520.00 mils): Footprint TP18
+
+** End of Report **
