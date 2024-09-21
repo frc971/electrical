@@ -1,0 +1,23 @@
+### Footprint positions - created on Sun 21 Jan 2024 09:44:28 AM PST ###
+### Printed by KiCad version 7.0.10-7.0.10~ubuntu22.04.1
+## Unit = inches, Angle = deg.
+## Side : top
+# Ref     Val                 Package                                             PosX       PosY       Rot  Side
+D1        QTLP651C4TR         LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder     7.9992    -3.0823  180.0000  top
+D2        QTLP651C4TR         LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder     7.9992    -3.4760  180.0000  top
+D3        QTLP651C4TR         LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder     8.0008    -3.8697  180.0000  top
+D4        QTLP651C4TR         LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder     8.0008    -4.2634  180.0000  top
+D5        QTLP651C4TR         LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder     8.0016    -4.6571  180.0000  top
+F1        PolyFuse            FUSE_3568                                         6.7114    -4.7546  180.0000  top
+F2        PolyFuse            FUSE_3568                                         6.7110    -4.3624  180.0000  top
+F3        PolyFuse            FUSE_3568                                         6.7082    -3.9664  180.0000  top
+F4        PolyFuse            FUSE_3568                                         6.7110    -3.5731  180.0000  top
+F5        PolyFuse            FUSE_3568                                         6.7094    -3.1805  180.0000  top
+J1        2606-1102           2606-1102&slash_000-005                           5.9226    -3.5377    0.0000  top
+J2        CONN_2604-1110_WAG  2604-1110                                         7.1712    -4.7546   90.0000  top
+R1        1k                  LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder     8.0008    -2.8854  180.0000  top
+R2        1k                  LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder     8.0008    -3.2791  180.0000  top
+R3        1k                  LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder     8.0008    -3.6728  180.0000  top
+R4        1k                  LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder     8.0017    -4.0665  180.0000  top
+R5        1k                  LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder     8.0017    -4.4602  180.0000  top
+## End
