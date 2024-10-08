@@ -537,7 +537,7 @@
 			)
 		)
 		(instances
-			(project "Sl-Can"
+			(project "TEE-CAN"
 				(path "/550ab8e1-338b-4617-8ac4-8a8001411a88"
 					(reference "H2")
 					(unit 1)
@@ -563,7 +563,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "0705410036"
 			(at 113.792 73.914 0)
 			(effects
 				(font
@@ -581,7 +581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Components/PS-70400.pdf"
 			(at 113.03 76.2 0)
 			(effects
 				(font
@@ -599,6 +599,42 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" "DIGIKEY"
+			(at 113.03 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST P/N" "WM14049-ND"
+			(at 113.03 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "MOLEX"
+			(at 113.03 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "0705410036"
+			(at 113.03 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d23609e8-6896-4356-a7ba-95e211b47ba6")
 		)
@@ -606,7 +642,7 @@
 			(uuid "cf68cd95-2268-4c85-a470-460d13bb8765")
 		)
 		(instances
-			(project "Sl-Can"
+			(project "TEE-CAN"
 				(path "/550ab8e1-338b-4617-8ac4-8a8001411a88"
 					(reference "J4")
 					(unit 1)
@@ -632,7 +668,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "0705410036"
 			(at 84.328 63.5 0)
 			(effects
 				(font
@@ -649,7 +685,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Components/PS-70400.pdf"
 			(at 92.71 66.04 0)
 			(effects
 				(font
@@ -667,6 +703,42 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" "DIGIKEY"
+			(at 92.71 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST P/N" "WM14049-ND"
+			(at 92.71 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "MOLEX"
+			(at 92.71 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "0705410036"
+			(at 92.71 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d23609e8-6896-4356-a7ba-95e211b47ba7")
 		)
@@ -674,7 +746,7 @@
 			(uuid "cf68cd95-2268-4c85-a470-460d13bb8766")
 		)
 		(instances
-			(project "Sl-Can"
+			(project "TEE-CAN"
 				(path "/550ab8e1-338b-4617-8ac4-8a8001411a88"
 					(reference "J2")
 					(unit 1)
@@ -700,7 +772,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "0705410036"
 			(at 84.328 75.946 0)
 			(effects
 				(font
@@ -717,7 +789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Components/PS-70400.pdf"
 			(at 92.71 78.74 0)
 			(effects
 				(font
@@ -726,7 +798,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "2 Pin"
+			(at 92.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "MOLEX"
+			(at 92.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "0705410036"
+			(at 92.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" "DIGIKEY"
+			(at 92.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST P/N" "WM14049-ND"
 			(at 92.71 78.74 0)
 			(effects
 				(font
@@ -742,7 +850,7 @@
 			(uuid "cf68cd95-2268-4c85-a470-460d13bb8767")
 		)
 		(instances
-			(project "Sl-Can"
+			(project "TEE-CAN"
 				(path "/550ab8e1-338b-4617-8ac4-8a8001411a88"
 					(reference "J3")
 					(unit 1)
@@ -806,7 +914,7 @@
 			)
 		)
 		(instances
-			(project "Sl-Can"
+			(project "TEE-CAN"
 				(path "/550ab8e1-338b-4617-8ac4-8a8001411a88"
 					(reference "H1")
 					(unit 1)
@@ -832,7 +940,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "0705410036"
 			(at 114.046 60.96 0)
 			(effects
 				(font
@@ -850,7 +958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "Components/PS-70400.pdf"
 			(at 113.03 63.5 0)
 			(effects
 				(font
@@ -868,6 +976,42 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" "DIGIKEY"
+			(at 113.03 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST P/N" "WM14049-ND"
+			(at 113.03 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "MOLEX"
+			(at 113.03 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG P/N" "0705410036"
+			(at 113.03 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d23609e8-6896-4356-a7ba-95e211b47ba9")
 		)
@@ -875,7 +1019,7 @@
 			(uuid "cf68cd95-2268-4c85-a470-460d13bb8768")
 		)
 		(instances
-			(project "Sl-Can"
+			(project "TEE-CAN"
 				(path "/550ab8e1-338b-4617-8ac4-8a8001411a88"
 					(reference "J1")
 					(unit 1)
