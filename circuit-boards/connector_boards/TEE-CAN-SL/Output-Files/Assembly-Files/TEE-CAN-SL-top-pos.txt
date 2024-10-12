@@ -1,0 +1,10 @@
+### Footprint positions - created on 2024-10-12T13:21:59-0700 ###
+### Printed by KiCad version 8.0.2-1
+## Unit = inches, Angle = deg.
+## Side : top
+# Ref     Val             Package                PosX       PosY       Rot  Side
+J1        Conn_01x02_Pin  70541-0036           8.1875    -4.6608  -90.0000  top
+J2        Conn_01x02_Pin  70541-0036           8.4875    -4.7608   90.0000  top
+J3        Conn_01x02_Pin  70541-0036           8.1875    -5.2608  -90.0000  top
+J4        Conn_01x02_Pin  70541-0036           8.4875    -5.3608   90.0000  top
+## End

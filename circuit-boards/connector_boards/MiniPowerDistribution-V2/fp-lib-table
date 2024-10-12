@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "3568")(type "KiCad")(uri "${KIPRJMOD}/Library/3568")(options "")(descr ""))
+  (lib (name "WAGO10PIN")(type "KiCad")(uri "${KIPRJMOD}/Library/WAGO10PIN")(options "")(descr ""))
+  (lib (name "WAGO2PIN")(type "KiCad")(uri "${KIPRJMOD}/Library/WAGO2PIN")(options "")(descr ""))
+  (lib (name "FRC971")(type "KiCad")(uri "/Users/alex/Documents/FRC971")(options "")(descr ""))
+)

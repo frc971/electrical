@@ -1,0 +1,24 @@
+### Footprint positions - created on 2024-10-12T14:19:14-0700 ###
+### Printed by KiCad version 8.0.2-1
+## Unit = inches, Angle = deg.
+## Side : top
+# Ref     Val          Package                                             PosX       PosY       Rot  Side
+D1        QTLP651C4TR  LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder     9.2175    -2.3074  180.0000  top
+D2        QTLP651C4TR  LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder     9.2175    -2.7011  180.0000  top
+D3        QTLP651C4TR  LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder     9.2191    -3.0948  180.0000  top
+D4        QTLP651C4TR  LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder     9.2191    -3.4885  180.0000  top
+D5        QTLP651C4TR  LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder     9.2199    -3.8822  180.0000  top
+F1        PolyFuse     FUSE_3568                                         7.9297    -3.9797  180.0000  top
+F2        PolyFuse     FUSE_3568                                         7.9293    -3.5875  180.0000  top
+F3        PolyFuse     FUSE_3568                                         7.9265    -3.1915  180.0000  top
+F4        PolyFuse     FUSE_3568                                         7.9293    -2.7982  180.0000  top
+F5        PolyFuse     FUSE_3568                                         7.9277    -2.4056  180.0000  top
+J1        2606-1102    2606-1102&slash_000-005                           7.2183    -3.6251    0.0000  top
+J2        2604-1110    2604-1110                                         8.3895    -3.9797   90.0000  top
+J3        2606-1102    2606-1102&slash_000-005                           7.2183    -2.6251  180.0000  top
+R1        1k           R_1206_3216Metric_Pad1.30x1.75mm_HandSolder       9.2191    -2.1105  180.0000  top
+R2        1k           R_1206_3216Metric_Pad1.30x1.75mm_HandSolder       9.2191    -2.5042  180.0000  top
+R3        1k           R_1206_3216Metric_Pad1.30x1.75mm_HandSolder       9.2191    -2.8979  180.0000  top
+R4        1k           R_1206_3216Metric_Pad1.30x1.75mm_HandSolder       9.2200    -3.2916  180.0000  top
+R5        1k           R_1206_3216Metric_Pad1.30x1.75mm_HandSolder       9.2200    -3.6853  180.0000  top
+## End
