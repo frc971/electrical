@@ -178,6 +178,7 @@
       ],
       "track_widths": [
         0.0,
+        0.508,
         0.635
       ],
       "tuning_pattern_settings": {
@@ -444,7 +445,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "TEE-CAN.kicad_pro",
+    "filename": "TEE-CAN-SL.kicad_pro",
     "version": 1
   },
   "net_settings": {

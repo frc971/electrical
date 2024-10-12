@@ -6,9 +6,9 @@
 	(paper "A")
 	(title_block
 		(title "Hall Switch")
-		(date "2024-08-30")
+		(date "2024-10-12")
 		(rev "R2")
-		(company "Spartan Robotics")
+		(company "971 SPARTAN ROBOTICS")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x03_Pin"

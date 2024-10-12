@@ -6,8 +6,8 @@
 	(paper "A")
 	(title_block
 		(title "Power Distribution ")
-		(date "2023-10-29")
-		(rev "R1")
+		(date "2024-10-12")
+		(rev "R2")
 		(company "Spartan Robotics FRC971")
 	)
 	(lib_symbols
