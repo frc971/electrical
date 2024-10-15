@@ -1,0 +1,61 @@
+** Drc report for PowerDistribution.kicad_pcb **
+** Created on 2024-10-14T22:41:25-0700 **
+
+** Found 17 DRC violations **
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(7614.70 mils, 3847.18 mils): Segment on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8244.62 mils, 4112.14 mils): Segment on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(7614.31 mils, 3455.06 mils): Segment on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8244.23 mils, 3720.02 mils): Segment on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(7612.73 mils, 2273.17 mils): Segment on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8242.65 mils, 2538.13 mils): Segment on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(7611.55 mils, 3058.99 mils): Segment on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8241.47 mils, 3323.96 mils): Segment on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(7614.31 mils, 2665.69 mils): Segment on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(8244.23 mils, 2930.65 mils): Segment on F.Silkscreen
+[lib_footprint_mismatch]: Footprint 'MountingHole_2.2mm_M2_DIN965_Pad' does not match copy in library 'MountingHole'.
+    Local override; warning
+    @(9318.30 mils, 1850.10 mils): Footprint H5
+[lib_footprint_mismatch]: Footprint 'MountingHole_2.2mm_M2_DIN965_Pad' does not match copy in library 'MountingHole'.
+    Local override; warning
+    @(7043.28 mils, 1850.10 mils): Footprint H1
+[lib_footprint_mismatch]: Footprint '2606-1102&slash_000-005' does not match copy in library 'WAGO2PIN'.
+    Local override; warning
+    @(7218.28 mils, 2625.10 mils): Footprint J3
+[lib_footprint_mismatch]: Footprint '2604-1110' does not match copy in library 'WAGO10PIN'.
+    Local override; warning
+    @(8389.50 mils, 3979.66 mils): Footprint J2
+[lib_footprint_mismatch]: Footprint 'MountingHole_2.2mm_M2_DIN965_Pad' does not match copy in library 'MountingHole'.
+    Local override; warning
+    @(7043.28 mils, 4350.11 mils): Footprint H6
+[lib_footprint_mismatch]: Footprint 'MountingHole_2.2mm_M2_DIN965_Pad' does not match copy in library 'MountingHole'.
+    Local override; warning
+    @(9318.30 mils, 4350.11 mils): Footprint H2
+[lib_footprint_mismatch]: Footprint '2606-1102&slash_000-005' does not match copy in library 'WAGO2PIN'.
+    Local override; warning
+    @(7218.28 mils, 3625.10 mils): Footprint J1
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
