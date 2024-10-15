@@ -1,0 +1,43 @@
+** Drc report for TEE-CAN-SL.kicad_pcb **
+** Created on 2024-10-14T22:47:52-0700 **
+
+** Found 7 DRC violations **
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(8057.50 mils, 5485.78 mils): Reference 'J3'
+[lib_footprint_issues]: The current configuration does not include the library 'Sl-Can'.
+    Local override; warning
+    @(8487.50 mils, 5360.78 mils): Footprint J4
+[lib_footprint_mismatch]: Footprint 'MountingHole_2.1mm' does not match copy in library 'MountingHole'.
+    Local override; warning
+    @(8337.50 mils, 5760.78 mils): Footprint H1
+[lib_footprint_issues]: The current configuration does not include the library 'Sl-Can'.
+    Local override; warning
+    @(8487.50 mils, 4760.78 mils): Footprint J2
+[lib_footprint_mismatch]: Footprint 'MountingHole_2.1mm' does not match copy in library 'MountingHole'.
+    Local override; warning
+    @(8337.50 mils, 4260.78 mils): Footprint H2
+[lib_footprint_issues]: The current configuration does not include the library 'Sl-Can'.
+    Local override; warning
+    @(8187.50 mils, 5260.78 mils): Footprint J3
+[lib_footprint_issues]: The current configuration does not include the library 'Sl-Can'.
+    Local override; warning
+    @(8187.50 mils, 4660.78 mils): Footprint J1
+
+** Found 0 unconnected pads **
+
+** Found 4 Footprint errors **
+[footprint_symbol_mismatch]: Footprint J1 value (Conn_01x02_Pin) doesn't match symbol value (0705410036).
+    Local override; warning
+    @(8187.50 mils, 4660.78 mils): Footprint J1
+[footprint_symbol_mismatch]: Footprint J2 value (Conn_01x02_Pin) doesn't match symbol value (0705410036).
+    Local override; warning
+    @(8487.50 mils, 4760.78 mils): Footprint J2
+[footprint_symbol_mismatch]: Footprint J3 value (Conn_01x02_Pin) doesn't match symbol value (0705410036).
+    Local override; warning
+    @(8187.50 mils, 5260.78 mils): Footprint J3
+[footprint_symbol_mismatch]: Footprint J4 value (Conn_01x02_Pin) doesn't match symbol value (0705410036).
+    Local override; warning
+    @(8487.50 mils, 5360.78 mils): Footprint J4
+
+** End of Report **

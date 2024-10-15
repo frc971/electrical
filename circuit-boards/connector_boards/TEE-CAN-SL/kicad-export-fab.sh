@@ -1,0 +1,1 @@
+../../scripts/kicad-export-fab.sh
