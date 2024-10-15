@@ -1,0 +1,1 @@
+../scripts/view-output.sh

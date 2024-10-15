@@ -7,7 +7,6 @@ generate_ipc2581=1
 
 source ./kicad-fab.cfg
 
-#fname=NX-J401-Adapter
 if [ -z "$1" ]; then
     fnames=$(ls *.kicad_pro)
     fname_cnt=$(wc -w <<< "$fnames")
@@ -21,7 +20,9 @@ if [ -z "$1" ]; then
 else
     fname=$1
 fi
-kicad_local_plugins="$HOME/.local/share/kicad/8.0/3rdparty/plugins/"
+if [[ -z $kicad_local_plugins ]]; then
+    kicad_local_plugins="$HOME/.local/share/kicad/8.0/3rdparty/plugins/"
+fi
 ibom_exe="org_openscopeproject_InteractiveHtmlBom/generate_interactive_bom.py"
 sch=${fname}.kicad_sch
 pcb=${fname}.kicad_pcb
@@ -41,25 +42,12 @@ case $num_layers in
         ;;
 esac
 
-case $component_layer in
-    FRONTandBACK)
-        gerber_layers=${gerber_layers},F.Silkscreen,B.Silkscreen
-        ;;
-    FRONT)
-        gerber_layers=${gerber_layers},F.Silkscreen
-        ;;
-    BACK)
-        gerber_layers=${gerber_layers},B.Silkscreen
-        ;;
-    *)
-        ;;
-esac
-
 pcb_assembly_layers=User.2
 src_files="./Analysis/*","./Components/*","*.kicad_sch","*.kicad_dru","*.kicad_pcb","*.kicad_prl","*.kicad_pro","fp-info-cache","fp_lib-table","3dModels/*","*.pretty"
 
 function export_gerber () {
     layer=$1
+    overlay_layer=$2
     layer_fname=$(echo $layer| tr "." _ )
     kicad-cli pcb export gerber --output "${GERBER_DIR}/${fname}-${layer_fname}.gbr" --layers ${layer} ${pcb}
 }
@@ -87,9 +75,8 @@ SCH_DIR="./Output-Files/Design-Files/"
 FAB_DIR="./Output-Files/Assembly-Files/"
 GERBER_DIR="./Output-Files/Gerbers/"
 ZIP_DIR="./Output-Files/"
-plugin_path="/usr/share/kicad/plugins/"
 
-
+rm -r ${ZIP_DIR}
 mkdir -p ${SCH_DIR}
 mkdir -p ${FAB_DIR}
 mkdir -p ${GERBER_DIR}
@@ -109,6 +96,21 @@ for layer in ${gerber_layers//,/ }
 do
     export_gerber ${layer}
 done
+
+case $component_layer in
+    FRONTandBACK)
+        export_gerber F.Silkscreen 
+        export_gerber B.Silkscreen 
+        ;;
+    FRONT)
+        export_gerber F.Silkscreen 
+        ;;
+    BACK)
+        export_gerber B.Silkscreen 
+        ;;
+    *)
+        ;;
+esac
 
 #generate PCB NC drill file
 kicad-cli pcb export drill --output ${GERBER_DIR}/ ${pcb}
