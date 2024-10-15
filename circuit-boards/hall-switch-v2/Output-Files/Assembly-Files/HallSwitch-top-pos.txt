@@ -1,5 +1,5 @@
-### Footprint positions - created on 2024-10-12T14:18:23-0700 ###
-### Printed by KiCad version 8.0.2-1
+### Footprint positions - created on 2024-10-14T22:25:47-0700 ###
+### Printed by KiCad version 8.0.5-8.0.5-0~ubuntu22.04.1
 ## Unit = inches, Angle = deg.
 ## Side : top
 # Ref     Val                 Package                   PosX       PosY       Rot  Side
@@ -8,7 +8,7 @@ C2        .1uf-10%-25V-0603   C_0603_1608Metric       5.3846    -4.3594  180.000
 D1        SIG                 LED_1206_3216Metric     5.6405    -4.0164  180.0000  top
 D2        PWR                 LED_1206_3216Metric     5.4027    -4.0144    0.0000  top
 D3        PMEG3020EP,115      D_SOD-128               5.4296    -4.2544    0.0000  top
-R1        3k-1%-0603          R_0603_1608Metric       5.2696    -4.1264  -90.0000  top
+R1        3k-1%-0603          R_0603_1608Metric       5.3346    -4.1344  -90.0000  top
 R2        3k-1%-0603          R_0603_1608Metric       5.7046    -4.1344  -90.0000  top
 R3        10k-1%-0603         R_0603_1608Metric       5.5896    -4.2544   90.0000  top
 U1        US5881ESE           SOT-23-3                5.5196    -4.4144   90.0000  top

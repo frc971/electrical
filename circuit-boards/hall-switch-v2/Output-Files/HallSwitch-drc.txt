@@ -1,0 +1,67 @@
+** Drc report for HallSwitch.kicad_pcb **
+** Created on 2024-10-14T22:25:41-0700 **
+
+** Found 16 DRC violations **
+[lib_footprint_mismatch]: Footprint 'SOT-23-3' does not match copy in library 'Package_TO_SOT_SMD'.
+    Local override; warning
+    @(5519.63 mils, 4414.37 mils): Footprint U1
+[lib_footprint_mismatch]: Footprint 'MountingHole_2.1mm' does not match copy in library 'MountingHole'.
+    Local override; warning
+    @(5819.63 mils, 4414.37 mils): Footprint H2
+[lib_footprint_mismatch]: Footprint 'MountingHole_2.1mm' does not match copy in library 'MountingHole'.
+    Local override; warning
+    @(5219.63 mils, 4414.37 mils): Footprint H1
+[lib_footprint_mismatch]: Footprint 'LED_1206_3216Metric' does not match copy in library 'LED_SMD'.
+    Local override; warning
+    @(5640.49 mils, 4016.37 mils): Footprint D1
+[lib_footprint_mismatch]: Footprint 'LED_1206_3216Metric' does not match copy in library 'LED_SMD'.
+    Local override; warning
+    @(5402.70 mils, 4014.37 mils): Footprint D2
+[lib_footprint_mismatch]: Footprint 'D_SOD-128' does not match copy in library 'Diode_SMD'.
+    Local override; warning
+    @(5429.63 mils, 4254.37 mils): Footprint D3
+[lib_footprint_issues]: Footprint '70555-0037' not found in library 'HallEffect'.
+    Local override; warning
+    @(5519.63 mils, 4309.37 mils): Footprint J1
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 19.69 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; error
+    @(5640.49 mils, 4014.37 mils): NPTH pad of D1
+    @(5707.42 mils, 4014.37 mils): Pad 1 [Net-(D1-K)] of D1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 19.69 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; error
+    @(5640.49 mils, 4014.37 mils): NPTH pad of D1
+    @(5573.56 mils, 4014.37 mils): Pad 2 [VDD] of D1 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 19.69 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; error
+    @(5398.76 mils, 4014.37 mils): NPTH pad of D2
+    @(5331.83 mils, 4014.37 mils): Pad 1 [Net-(D2-K)] of D2 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 19.69 mils; actual 0.00 mils)
+    Rule: board setup constraints edge; error
+    @(5398.76 mils, 4014.37 mils): NPTH pad of D2
+    @(5465.69 mils, 4014.37 mils): Pad 2 [VDD] of D2 on F.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 19.69 mils; actual 17.72 mils)
+    Rule: board setup constraints edge; error
+    @(5398.76 mils, 4014.37 mils): NPTH pad of D2
+    @(5419.63 mils, 4139.37 mils): PTH pad 1 [GND] of J1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 9.84 mils; actual 0.00 mils)
+    Rule: board setup constraints hole; error
+    @(5640.49 mils, 4014.37 mils): NPTH pad of D1
+    @(5707.42 mils, 4014.37 mils): Pad 1 [Net-(D1-K)] of D1 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 9.84 mils; actual 0.00 mils)
+    Rule: board setup constraints hole; error
+    @(5640.49 mils, 4014.37 mils): NPTH pad of D1
+    @(5573.56 mils, 4014.37 mils): Pad 2 [VDD] of D1 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 9.84 mils; actual 0.00 mils)
+    Rule: board setup constraints hole; error
+    @(5398.76 mils, 4014.37 mils): NPTH pad of D2
+    @(5331.83 mils, 4014.37 mils): Pad 1 [Net-(D2-K)] of D2 on F.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 9.84 mils; actual 0.00 mils)
+    Rule: board setup constraints hole; error
+    @(5398.76 mils, 4014.37 mils): NPTH pad of D2
+    @(5465.69 mils, 4014.37 mils): Pad 2 [VDD] of D2 on F.Cu
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
