@@ -79,6 +79,7 @@
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -183,6 +184,7 @@
         0.508,
         1.0,
         3.0,
+        3.429,
         5.0,
         5.5,
         8.0
