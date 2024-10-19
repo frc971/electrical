@@ -1,5 +1,5 @@
 ** Drc report for PowerDistribution.kicad_pcb **
-** Created on 2024-10-14T22:41:25-0700 **
+** Created on 2024-10-19T09:27:12-0700 **
 
 ** Found 17 DRC violations **
 [silk_over_copper]: Silkscreen clipped by solder mask
