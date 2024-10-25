@@ -1,0 +1,42 @@
+** Drc report for mag-encoder.kicad_pcb **
+** Created on 2024-10-24T19:59:26-0700 **
+
+** Found 8 DRC violations **
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(8986.06 mils, 5323.46 mils): Segment on F.Silkscreen
+    @(9046.06 mils, 5233.50 mils): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(8986.06 mils, 5323.46 mils): Segment on F.Silkscreen
+    @(9046.06 mils, 5323.46 mils): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(9043.94 mils, 5323.46 mils): Segment on F.Silkscreen
+    @(9046.06 mils, 5233.50 mils): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(9043.94 mils, 5323.46 mils): Segment on F.Silkscreen
+    @(9046.06 mils, 5323.46 mils): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(9103.94 mils, 5323.46 mils): Segment on F.Silkscreen
+    @(9106.06 mils, 5233.50 mils): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(9103.94 mils, 5323.46 mils): Segment on F.Silkscreen
+    @(9106.06 mils, 5323.46 mils): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(9106.06 mils, 5233.50 mils): Segment on F.Silkscreen
+    @(9046.06 mils, 5323.46 mils): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(9046.06 mils, 5323.46 mils): Segment on F.Silkscreen
+    @(9106.06 mils, 5323.46 mils): Segment on F.Silkscreen
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
