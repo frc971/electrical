@@ -1,0 +1,17 @@
+### Footprint positions - created on 2024-10-24T19:59:47-0700 ###
+### Printed by KiCad version 8.0.6-8.0.6-0~ubuntu24.04.1
+## Unit = inches, Angle = deg.
+## Side : top
+# Ref     Val              Package                               PosX       PosY       Rot  Side
+D1        ON               LED_0603_1608Metric                 9.0150    -4.4500  -90.0000  top
+D2        MMSD4148T1G      D_SOD-123                           9.2850    -4.4800    0.0000  top
+D3        LO               LED_0603_1608Metric                 9.0150    -5.2650   90.0000  top
+D4        OK               LED_0603_1608Metric                 9.0750    -5.2650   90.0000  top
+D5        HI               LED_0603_1608Metric                 9.1350    -5.2650   90.0000  top
+H1        MountingHole     pin-0.100                           8.8520    -4.4900  180.0000  top
+H2        MountingHole     pin-0.100                           8.8520    -5.2400  180.0000  top
+J1        CONFIG           PinHeader_1x06_P2.54mm_Vertical     8.7170    -4.6150    0.0000  top
+J2        0015912055       Molex-70634-0039                    9.5070    -4.8650   90.0000  top
+Q1        BSS84            SOT-23                              9.2400    -5.2800  -90.0000  top
+U1        AP2120N-3.3TRG1  SOT-23                              9.1180    -4.4500   90.0000  top
+## End
