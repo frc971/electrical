@@ -1,0 +1,21 @@
+### Footprint positions - created on 2024-11-25T11:24:25-0800 ###
+### Printed by KiCad version 8.0.6-8.0.6-0~ubuntu24.04.1
+## Unit = inches, Angle = deg.
+## Side : bottom
+# Ref     Val               Package                                   PosX       PosY       Rot  Side
+C1        1uF-10%-25V-0603  C_0603_1608Metric                       9.3400    -4.9850    0.0000  bottom
+C2        1uF-10%-25V-0603  C_0603_1608Metric                       9.2120    -4.8650   90.0000  bottom
+C3        1uF-10%-25V-0603  C_0603_1608Metric                       9.1350    -4.4500  -90.0000  bottom
+C4        1uF-10%-25V-0603  C_0603_1608Metric                       9.0750    -4.4500  -90.0000  bottom
+C5        1uF-10%-25V-0603  C_0603_1608Metric                       8.9820    -4.6480  180.0000  bottom
+R1        100R-1%-0603      R_0603_1608Metric                       9.3320    -4.7300    0.0000  bottom
+R2        100R-1%-0603      R_0603_1608Metric                       9.3320    -4.8650  -90.0000  bottom
+R3        100R-1%-0603      R_0603_1608Metric                       9.2720    -4.8650  -90.0000  bottom
+R4        1.00k-1%-0603     R_0603_1608Metric                       9.2200    -4.9850    0.0000  bottom
+R5        1.00k-1%-0603     R_0603_1608Metric                       9.2400    -5.2800   90.0000  bottom
+R6        1.00k-1%-0603     R_0603_1608Metric                       9.2120    -5.1050  -90.0000  bottom
+R7        1.00k-1%-0603     R_0603_1608Metric                       9.1520    -5.1050  -90.0000  bottom
+R8        1.00k-1%-0603     R_0603_1608Metric                       9.0150    -4.4500  -90.0000  bottom
+U2        SN74LVC7032ABQAR  TI-WQFN-14-1EP_2.5x3mm_EP_1x1.5mm       9.1420    -4.6480  -90.0000  bottom
+U3        MA732GQ           QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm     9.0770    -4.8650    0.0000  bottom
+## End
