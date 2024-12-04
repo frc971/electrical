@@ -1,4 +1,4 @@
-### Footprint positions - created on 2024-11-25T19:02:04-0800 ###
+### Footprint positions - created on 2024-12-03T19:51:50-0800 ###
 ### Printed by KiCad version 8.0.6-8.0.6-0~ubuntu24.04.1
 ## Unit = inches, Angle = deg.
 ## Side : bottom
@@ -12,7 +12,7 @@ R1        100R-1%-0603      R_0603_1608Metric                       9.3320    -4
 R2        100R-1%-0603      R_0603_1608Metric                       9.3320    -4.8650  -90.0000  bottom
 R3        100R-1%-0603      R_0603_1608Metric                       9.2720    -4.8650  -90.0000  bottom
 R4        1.00k-1%-0603     R_0603_1608Metric                       9.2200    -4.9850    0.0000  bottom
-R5        1.00k-1%-0603     R_0603_1608Metric                       9.2400    -5.2800   90.0000  bottom
+R5        249R-1%-0603      R_0603_1608Metric                       9.2400    -5.2800   90.0000  bottom
 R6        1.00k-1%-0603     R_0603_1608Metric                       9.2120    -5.1050  -90.0000  bottom
 R7        1.00k-1%-0603     R_0603_1608Metric                       9.1520    -5.1050  -90.0000  bottom
 R8        1.00k-1%-0603     R_0603_1608Metric                       9.0150    -4.4500  -90.0000  bottom

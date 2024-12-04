@@ -2069,7 +2069,7 @@
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D5"
-			(at 0 -1.5748 360)
+			(at 0 -1.5748 0)
 			(layer "F.SilkS")
 			(uuid "20cbb2b6-0a77-42ba-977b-66bd3413d6bc")
 			(effects
@@ -2081,7 +2081,7 @@
 			)
 		)
 		(property "Value" "MMSD4148T1G"
-			(at 0 2.1 360)
+			(at 0 2.1 0)
 			(layer "F.Fab")
 			(uuid "83d9eb32-fc64-480d-bf56-8fb47775a746")
 			(effects
@@ -2368,7 +2368,7 @@
 			(uuid "f3d205e8-458c-4daf-8130-b5ef1a7e7061")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2 360)
+			(at 0 -2 0)
 			(layer "F.Fab")
 			(uuid "3d1ea1df-7f4a-4895-93fd-24b97a702097")
 			(effects
@@ -4630,7 +4630,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "1.00k-1%-0603"
+		(property "Value" "249R-1%-0603"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(uuid "627bdb66-11c3-47c3-aaa2-0d3e9b0e193e")
@@ -4698,7 +4698,7 @@
 				(justify mirror)
 			)
 		)
-		(property "DIST P/N" "311-1.00KHRCT-ND"
+		(property "DIST P/N" "311-249HRCT-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -4726,7 +4726,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MFG P/N" "RC0603FR-071KL"
+		(property "MFG P/N" "RC0603FR-07249RL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
