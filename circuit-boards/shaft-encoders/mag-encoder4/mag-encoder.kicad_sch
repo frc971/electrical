@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "Mag Encoder")
-		(date "2024-11-25")
+		(date "2024-12-03")
 		(rev "4")
 		(company "971 SPARTAN ROBOTICS")
 	)
@@ -8864,7 +8864,7 @@
 		)
 		(uuid "ffef5964-7113-4d7e-8327-50516993fc5d")
 	)
-	(text_box "REVISION NOTES\n=======================\nRev 1: Initial Design\nRev 2: PCB rounded to fit inside bearing\nRev 3: Locating pins changed to 3mm.\n       Board cut under SL connector.\nRev 4: Add OR gate to disable outputs\n       when mag field is weak."
+	(text_box "REVISION NOTES\n=======================\nRev 1: Initial Design\nRev 2: PCB rounded to fit inside bearing\nRev 3: Locating pins changed to 3mm.\n       Board cut under SL connector.\nRev 4: Add OR gate to disable outputs\n       when mag field is weak.\n       Increase green led brightness."
 		(exclude_from_sim no)
 		(at 350.52 17.78 0)
 		(size 63.5 73.66)
@@ -9572,7 +9572,7 @@
 				)
 			)
 		)
-		(property "Value" "1.00k-1%-0603"
+		(property "Value" "249R-1%-0603"
 			(at 332.74 147.066 90)
 			(effects
 				(font
@@ -9616,7 +9616,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST P/N" "311-1.00KHRCT-ND"
+		(property "DIST P/N" "311-249HRCT-ND"
 			(at 332.74 144.78 0)
 			(effects
 				(font
@@ -9634,7 +9634,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG P/N" "RC0603FR-071KL"
+		(property "MFG P/N" "RC0603FR-07249RL"
 			(at 332.74 144.78 0)
 			(effects
 				(font
