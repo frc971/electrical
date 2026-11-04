@@ -660,6 +660,42 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PURCHASE-URL",
+          "name": "PURCHASE-URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PRICE",
+          "name": "PRICE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PACKAGE",
+          "name": "PACKAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "AVAILABILITY",
+          "name": "AVAILABILITY",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -710,7 +746,7 @@
         "uuid": "06d78261-7108-49de-8422-b160dff4afa7"
       }
     ],
-    "used_designators": "#PWR1,D1,H1-4,J1-6,R1-2,SW1-2,TP1-2,TP_G1,TP_Green1,TP_HIGH1,TP_LOW1,TP_Y1,TP_Yellow1",
+    "used_designators": "#PWR1,D1,H1-4,J1-6,R1-2,S1,SW1-2,TP1-2,TP_G1,TP_Green1,TP_HIGH1,TP_LOW1,TP_Y1,TP_Yellow1",
     "variants": []
   },
   "sheets": [

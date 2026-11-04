@@ -597,49 +597,39 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Nidec_CAS-120A1"
+		(symbol "Terminator_Switch:EG1218"
 			(pin_names
-				(offset 1)
-				(hide yes)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 0 4.318 0)
+			(property "Reference" "S"
+				(at -5.08 5.842 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "SW_Nidec_CAS-120A1"
-				(at 0 -5.08 0)
+			(property "Value" "EG1218"
+				(at -5.08 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
-				(at 0 -7.62 0)
+			(property "Footprint" "EG1218:SW_EG1218"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -647,9 +637,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(property "Description" "Switch, single pole double throw"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -660,7 +651,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+			(property "Description" "Slide Switch SPDT Through Hole"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -669,9 +660,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(property "ki_fp_filters" "*Nidec?Copal?CAS?120A*"
+			(property "MF" "E-Switch"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -680,14 +672,76 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(symbol "SW_Nidec_CAS-120A1_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.4572)
+			(property "PACKAGE" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PRICE" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "EG1218"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "AVAILABILITY" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/EG1218/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "EG1218_0_0"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -1.27 2.54)
+					)
 					(stroke
-						(width 0)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -696,65 +750,102 @@
 				)
 				(polyline
 					(pts
-						(xy -1.651 0.254) (xy 1.651 2.286)
+						(xy -2.54 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.4572)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -1.27 -2.54)
+					)
 					(stroke
-						(width 0)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_Nidec_CAS-120A1_1_1"
 				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
+					(start -2.54 -5.08)
+					(end 2.54 5.08)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type background)
 					)
 				)
+				(polyline
+					(pts
+						(xy -1.27 3.175) (xy -1.27 1.905) (xy 0 2.54) (xy -1.27 3.175)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0.635) (xy -1.27 -0.635) (xy 0 0) (xy -1.27 0.635)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.905) (xy -1.27 -3.175) (xy 0 -2.54) (xy -1.27 -1.905)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.905) (xy 0 3.175) (xy 1.27 3.175) (xy 1.27 -0.635) (xy 0 -0.635) (xy 0 0.635) (xy 0.635 0.635)
+						(xy 0.635 1.905) (xy 0 1.905)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at -5.08 2.54 0)
 					(length 2.54)
-					(name "C"
+					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -762,35 +853,35 @@
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
-					(name "B"
+					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at -5.08 -2.54 0)
 					(length 2.54)
-					(name "A"
+					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -799,9 +890,79 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Reasearch M2 insert into plastic"
+		(exclude_from_sim no)
+		(at 118.618 21.082 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "08ea08c0-0aa7-4193-9a34-9005cf63797c")
+	)
+	(text "DO m2 bolts make board more compact top left, bottom right"
+		(exclude_from_sim no)
+		(at 59.944 21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2181bae3-e4ab-4d57-a821-af88169b8029")
+	)
+	(text "Make more compact"
+		(exclude_from_sim no)
+		(at 106.68 27.432 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5370f73d-5e52-4db0-821c-39a2ccd05b8a")
+	)
+	(text "Put switch bottom, resistor"
+		(exclude_from_sim no)
+		(at 153.67 56.642 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9decf27a-e9c9-4388-a504-8447b2a67ed8")
+	)
+	(text "In silscreen should say which way is termination on/off"
+		(exclude_from_sim no)
+		(at 130.302 37.846 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a913a275-4f80-4e8e-8415-90c6fc0b06f9")
+	)
+	(text "Put test points top"
+		(exclude_from_sim no)
+		(at 152.908 50.546 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bc8f837d-e1a9-4110-a0ec-fa47dd5576ce")
+	)
+	(text "Switch through hole switch, through hole resistors, and switch not to easy, so not accidientrly switch."
+		(exclude_from_sim no)
+		(at 222.25 23.622 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c0e2e453-5b2d-441e-b5b7-114d8f9d4dfa")
+	)
 	(no_connect
-		(at 116.84 48.26)
-		(uuid "51892191-6210-4489-8b21-15ed01b2725c")
+		(at 106.68 53.34)
+		(uuid "b9673226-7880-4ca3-a23c-ad3311ca0695")
 	)
 	(wire
 		(pts
@@ -822,6 +983,16 @@
 			(type default)
 		)
 		(uuid "054d0ca9-d37a-4efb-8bf0-438183dd486c")
+	)
+	(wire
+		(pts
+			(xy 116.84 44.45) (xy 116.84 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15f4f87e-3cd9-4f3c-9576-e7d7e9e10321")
 	)
 	(wire
 		(pts
@@ -852,6 +1023,16 @@
 			(type default)
 		)
 		(uuid "1d6b39a3-70b6-47de-b436-ba030e16eec5")
+	)
+	(wire
+		(pts
+			(xy 106.68 44.45) (xy 116.84 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21765451-893e-4893-9632-a4756c168a04")
 	)
 	(wire
 		(pts
@@ -962,6 +1143,16 @@
 			(type default)
 		)
 		(uuid "cd3d5efe-ac94-4b9c-ae60-aa1216bbd86a")
+	)
+	(wire
+		(pts
+			(xy 106.68 48.26) (xy 106.68 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3e6ba71-00fa-4629-b4f7-0fd1f289b4ee")
 	)
 	(wire
 		(pts
@@ -1413,7 +1604,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 134.874 52.324 90)
 			(hide yes)
 			(show_name no)
@@ -1494,7 +1685,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 102.87 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -1809,7 +2000,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 110.49 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -1855,7 +2046,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Nidec_CAS-120A1")
+		(lib_id "Terminator_Switch:EG1218")
 		(at 111.76 50.8 0)
 		(unit 1)
 		(body_style 1)
@@ -1865,29 +2056,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "687b3ac4-5f87-4c6a-af77-93b96909968d")
-		(property "Reference" "SW1"
-			(at 111.76 41.91 0)
+		(uuid "91b0839a-13f5-4c88-8f2f-fe503f42e221")
+		(property "Reference" "S1"
+			(at 115.57 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Termination_1"
-			(at 111.76 44.45 0)
+		(property "Value" "EG1218"
+			(at 115.57 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
-			(at 111.76 60.96 0)
+		(property "Footprint" "Switch_Terminator:SW_EG1218"
+			(at 111.76 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1895,20 +2088,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
-			(at 111.76 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
+		(property "Datasheet" ""
 			(at 111.76 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -1919,19 +2102,103 @@
 				)
 			)
 		)
-		(pin "3"
-			(uuid "1b8e2eb4-9087-4f10-9637-da1bd3cb6062")
+		(property "Description" "Slide Switch SPDT Through Hole"
+			(at 111.76 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 111.76 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PACKAGE" "None"
+			(at 111.76 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PRICE" "None"
+			(at 111.76 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "EG1218"
+			(at 111.76 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "AVAILABILITY" "In Stock"
+			(at 111.76 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/EG1218/?ref=eda"
+			(at 111.76 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
 		)
 		(pin "2"
-			(uuid "6775f5c4-50ff-4d3c-9969-f6708918e601")
+			(uuid "9e872c82-1d8a-4d2b-8dd8-683b78d8055b")
+		)
+		(pin "3"
+			(uuid "1716ec80-5752-4f04-8a76-baa4487899d5")
 		)
 		(pin "1"
-			(uuid "b6c0ec2e-50bd-4969-b87e-c5d8f2b34479")
+			(uuid "1d17bb77-a2e0-4f33-ae30-12ee1252448b")
 		)
 		(instances
 			(project "CAN Hub Real"
 				(path "/06d78261-7108-49de-8422-b160dff4afa7"
-					(reference "SW1")
+					(reference "S1")
 					(unit 1)
 				)
 			)
