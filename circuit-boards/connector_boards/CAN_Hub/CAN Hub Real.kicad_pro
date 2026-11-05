@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 2.0,
-          "width": 2.0
+          "height": 1.5,
+          "width": 1.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -169,7 +169,7 @@
         {
           "td_onpthpad": true,
           "td_onroundshapesonly": false,
-          "td_onsmdpad": false,
+          "td_onsmdpad": true,
           "td_ontrackend": false,
           "td_onvia": false
         }
@@ -178,7 +178,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -190,7 +189,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -202,7 +200,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -543,7 +540,7 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {},
+    "net_colors": null,
     "netclass_assignments": {
       "/CAN_H": [
         "CAN_Bus"
@@ -746,7 +743,7 @@
         "uuid": "06d78261-7108-49de-8422-b160dff4afa7"
       }
     ],
-    "used_designators": "#PWR1,D1,H1-4,J1-6,R1-2,S1,SW1-2,TP1-2,TP_G1,TP_Green1,TP_HIGH1,TP_LOW1,TP_Y1,TP_Yellow1",
+    "used_designators": "J1-6,TP_Y1,D1,#PWR1,H1-4,R1-2,TP_LOW1,S1,TP_Green1,TP_HIGH1,SW1-2,TP_G1,TP1-2,TP_Yellow1",
     "variants": []
   },
   "sheets": [

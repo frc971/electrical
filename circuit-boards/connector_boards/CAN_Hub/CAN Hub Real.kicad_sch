@@ -1685,7 +1685,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 102.87 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -2000,7 +2000,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 110.49 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -2079,7 +2079,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Switch_Terminator:SW_EG1218"
+		(property "Footprint" "Switch Library:JS102011CQN"
 			(at 111.76 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -2205,82 +2205,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 73.66 78.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9702e5d6-53a2-4acc-b78c-f46467f82062")
-		(property "Reference" "H4"
-			(at 76.2 77.4699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 76.2 80.0099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.175"
-			(at 73.66 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 73.66 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "CAN Hub Real"
-				(path "/06d78261-7108-49de-8422-b160dff4afa7"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 41.91 55.88 0)
 		(unit 1)
@@ -2361,7 +2285,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 31.75 78.74 0)
+		(at 35.56 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2372,7 +2296,7 @@
 		(fields_autoplaced yes)
 		(uuid "d55c4cf6-5753-4583-a2de-52d90c60f7af")
 		(property "Reference" "H2"
-			(at 34.29 77.4699 0)
+			(at 38.1 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2383,7 +2307,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 34.29 80.0099 0)
+			(at 38.1 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2393,8 +2317,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.175"
-			(at 31.75 78.74 0)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 35.56 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2405,7 +2329,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 78.74 0)
+			(at 35.56 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2416,7 +2340,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 31.75 78.74 0)
+			(at 35.56 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2469,7 +2393,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.175"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
 			(at 31.75 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -2506,82 +2430,6 @@
 			(project "CAN Hub Real"
 				(path "/06d78261-7108-49de-8422-b160dff4afa7"
 					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 73.66 35.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f9bf5de1-d2de-41a6-a502-3cfb3cab4410")
-		(property "Reference" "H3"
-			(at 76.2 34.2899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 76.2 36.8299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.175"
-			(at 73.66 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 73.66 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "CAN Hub Real"
-				(path "/06d78261-7108-49de-8422-b160dff4afa7"
-					(reference "H3")
 					(unit 1)
 				)
 			)
