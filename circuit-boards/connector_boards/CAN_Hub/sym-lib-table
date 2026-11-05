@@ -1,4 +1,4 @@
 (sym_lib_table
 	(version 7)
-	(lib (name "Terminator_Switch") (type "KiCad") (uri "/Users/sebastian/Downloads/EG1218/EG1218.kicad_sym") (options "") (descr ""))
+	(lib (name "Terminator_Switch") (type "KiCad") (uri "${KIPRJMOD}/CANHub.pretty/2026-11-05_07-20-22.kicad_sym") (options "") (descr ""))
 )

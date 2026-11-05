@@ -599,36 +599,58 @@
 		)
 		(symbol "Terminator_Switch:EG1218"
 			(pin_names
-				(offset 1.016)
+				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "S"
-				(at -5.08 5.842 0)
+			(property "Reference" "SW"
+				(at 7.62 15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Value" "EG1218"
-				(at -5.08 -7.62 0)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" "EG1218:SW_EG1218"
+			(property "Footprint" "SW_1218_EWI"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "EG1218"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -637,10 +659,19 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 				)
 			)
-			(property "Datasheet" ""
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "EG1218"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -651,7 +682,7 @@
 					)
 				)
 			)
-			(property "Description" "Slide Switch SPDT Through Hole"
+			(property "ki_fp_filters" "SW_1218_EWI"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -660,88 +691,15 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 				)
 			)
-			(property "MF" "E-Switch"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "PACKAGE" "None"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "PRICE" "None"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MP" "EG1218"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "AVAILABILITY" "In Stock"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/EG1218/?ref=eda"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(symbol "EG1218_0_0"
+			(symbol "EG1218_0_1"
 				(polyline
 					(pts
-						(xy -2.54 2.54) (xy -1.27 2.54)
+						(xy 2.54 0) (xy 3.81 0)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -750,138 +708,100 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 0) (xy -1.27 0)
+						(xy 7.3251 7.3251) (xy 3.81 0)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy -1.27 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -2.54 -5.08)
-					(end 2.54 5.08)
+				(circle
+					(center 7.3251 7.3251)
+					(radius 0.635)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(circle
+					(center 8.255 0)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(polyline
 					(pts
-						(xy -1.27 3.175) (xy -1.27 1.905) (xy 0 2.54) (xy -1.27 3.175)
+						(xy 10.16 0) (xy 8.89 0)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -1.27 0.635) (xy -1.27 -0.635) (xy 0 0) (xy -1.27 0.635)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.905) (xy -1.27 -3.175) (xy 0 -2.54) (xy -1.27 -1.905)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.905) (xy 0 3.175) (xy 1.27 3.175) (xy 1.27 -0.635) (xy 0 -0.635) (xy 0 0.635) (xy 0.635 0.635)
-						(xy 0.635 1.905) (xy 0 1.905)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
+				(pin unspecified line
+					(at 0 0 0)
 					(length 2.54)
-					(name ""
+					(name "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at -5.08 0 0)
+				(pin unspecified line
+					(at 10.16 7.62 180)
 					(length 2.54)
-					(name ""
+					(name "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at -5.08 -2.54 0)
+				(pin unspecified line
+					(at 12.7 0 180)
 					(length 2.54)
-					(name ""
+					(name "3"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -890,79 +810,59 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Reasearch M2 insert into plastic"
+	(text "1/2 what is rn"
 		(exclude_from_sim no)
-		(at 118.618 21.082 0)
+		(at 110.998 33.274 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "08ea08c0-0aa7-4193-9a34-9005cf63797c")
+		(uuid "2c700731-d71b-433e-b470-f4773f9fdb0c")
 	)
-	(text "DO m2 bolts make board more compact top left, bottom right"
+	(text "compress side courtyard"
 		(exclude_from_sim no)
-		(at 59.944 21.59 0)
+		(at 108.204 30.988 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "2181bae3-e4ab-4d57-a821-af88169b8029")
+		(uuid "5a27e453-f31a-45b4-b57c-60db4565145a")
 	)
-	(text "Make more compact"
+	(text "need center switch"
 		(exclude_from_sim no)
-		(at 106.68 27.432 0)
+		(at 134.62 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "5370f73d-5e52-4db0-821c-39a2ccd05b8a")
+		(uuid "6cc3f490-c2ae-453b-8530-dda146090b8f")
 	)
-	(text "Put switch bottom, resistor"
+	(text "more compressed vertically\n"
 		(exclude_from_sim no)
-		(at 153.67 56.642 0)
+		(at 151.384 36.576 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "9decf27a-e9c9-4388-a504-8447b2a67ed8")
+		(uuid "a0265d85-6df6-4fbb-bccd-af34c6b6fecb")
 	)
-	(text "In silscreen should say which way is termination on/off"
+	(text "Use 1206 or not"
 		(exclude_from_sim no)
-		(at 130.302 37.846 0)
+		(at 156.718 29.718 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "a913a275-4f80-4e8e-8415-90c6fc0b06f9")
-	)
-	(text "Put test points top"
-		(exclude_from_sim no)
-		(at 152.908 50.546 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "bc8f837d-e1a9-4110-a0ec-fa47dd5576ce")
-	)
-	(text "Switch through hole switch, through hole resistors, and switch not to easy, so not accidientrly switch."
-		(exclude_from_sim no)
-		(at 222.25 23.622 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c0e2e453-5b2d-441e-b5b7-114d8f9d4dfa")
+		(uuid "afefd286-7c4d-475f-949f-d75622f7ee3b")
 	)
 	(no_connect
-		(at 106.68 53.34)
-		(uuid "b9673226-7880-4ca3-a23c-ad3311ca0695")
+		(at 132.08 52.07)
+		(uuid "8e2e54ba-da68-4f2c-97be-7bbd7d739625")
 	)
 	(wire
 		(pts
@@ -983,16 +883,6 @@
 			(type default)
 		)
 		(uuid "054d0ca9-d37a-4efb-8bf0-438183dd486c")
-	)
-	(wire
-		(pts
-			(xy 116.84 44.45) (xy 116.84 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15f4f87e-3cd9-4f3c-9576-e7d7e9e10321")
 	)
 	(wire
 		(pts
@@ -1026,16 +916,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 44.45) (xy 116.84 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21765451-893e-4893-9632-a4756c168a04")
-	)
-	(wire
-		(pts
 			(xy 58.42 59.69) (xy 63.5 59.69)
 		)
 		(stroke
@@ -1043,26 +923,6 @@
 			(type default)
 		)
 		(uuid "4f9b70c0-fcad-40c1-93e2-cd12b636b93a")
-	)
-	(wire
-		(pts
-			(xy 91.44 50.8) (xy 106.68 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61522046-c2ef-487e-bb9e-9df2f2569f17")
-	)
-	(wire
-		(pts
-			(xy 138.43 53.34) (xy 138.43 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "703bb71e-db5a-4f4c-a294-940e605c0d0e")
 	)
 	(wire
 		(pts
@@ -1106,16 +966,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 57.15) (xy 138.43 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "946dbe9a-36a6-4d6d-8a65-36ae1c2a0321")
-	)
-	(wire
-		(pts
 			(xy 58.42 67.31) (xy 63.5 67.31)
 		)
 		(stroke
@@ -1136,23 +986,33 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 53.34) (xy 116.84 53.34)
+			(xy 153.67 59.69) (xy 162.56 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cd3d5efe-ac94-4b9c-ae60-aa1216bbd86a")
+		(uuid "a7896e4e-fc9b-4ff7-a57d-909a9658cf65")
 	)
 	(wire
 		(pts
-			(xy 106.68 48.26) (xy 106.68 44.45)
+			(xy 105.41 59.69) (xy 121.92 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d3e6ba71-00fa-4629-b4f7-0fd1f289b4ee")
+		(uuid "bd121360-9401-4d3a-bdfb-9e51c0379883")
+	)
+	(wire
+		(pts
+			(xy 134.62 59.69) (xy 146.05 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c933db72-701f-402e-b969-8de51a498ad5")
 	)
 	(wire
 		(pts
@@ -1184,13 +1044,23 @@
 		)
 		(uuid "0053d392-0760-4721-9a37-66128d631e44")
 	)
-	(label "CAN_H"
-		(at 91.44 57.15 180)
+	(label "CAN_L"
+		(at 138.43 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
+		)
+		(uuid "047aec43-96de-483d-ac1a-8c0c64c3e9ca")
+	)
+	(label "CAN_H"
+		(at 162.56 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
 		)
 		(uuid "090deeeb-eb97-48fa-9dd2-792bb8555bdc")
 	)
@@ -1203,16 +1073,6 @@
 			(justify left bottom)
 		)
 		(uuid "13de156f-b8b6-4f14-8bc4-3adeddd83d61")
-	)
-	(label "CAN_L"
-		(at 127 53.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1d46a6a8-37b9-49c1-907b-03174b438fed")
 	)
 	(label "CAN_L"
 		(at 52.07 55.88 0)
@@ -1295,12 +1155,12 @@
 		(uuid "85bf7f23-3ff2-40ae-b178-e4443d33e0dc")
 	)
 	(label "CAN_L"
-		(at 91.44 50.8 180)
+		(at 105.41 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "baf0cc75-1717-426a-847b-94c5e2588265")
 	)
@@ -1347,8 +1207,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 96.52 50.8 0)
-		(fields_autoplaced yes)
+		(at 113.03 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1357,7 +1216,7 @@
 		)
 		(uuid "47985923-6515-4c3a-80e8-a0e5f8f99a5b")
 		(property "Netclass" "CAN_Bus"
-			(at 97.2185 48.26 0)
+			(at 113.03 55.372 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1368,7 +1227,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -49.53 -24.13 0)
+			(at 38.1 205.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1382,8 +1241,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 96.52 57.15 0)
-		(fields_autoplaced yes)
+		(at 158.75 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1392,7 +1250,7 @@
 		)
 		(uuid "51c249eb-be24-4004-a78f-1bbd6dc34857")
 		(property "Netclass" "CAN_Bus"
-			(at 97.2185 54.61 0)
+			(at 158.75 55.372 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1403,7 +1261,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -49.53 -17.78 0)
+			(at 83.82 205.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1574,7 +1432,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 134.62 53.34 90)
+		(at 149.86 59.69 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1585,7 +1443,7 @@
 		(fields_autoplaced yes)
 		(uuid "22789270-741c-4f92-9a90-df8025f6112a")
 		(property "Reference" "R1"
-			(at 134.62 46.99 90)
+			(at 149.86 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1595,7 +1453,7 @@
 			)
 		)
 		(property "Value" "120R"
-			(at 134.62 49.53 90)
+			(at 149.86 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1605,7 +1463,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 134.874 52.324 90)
+			(at 149.606 60.706 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1616,7 +1474,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 53.34 0)
+			(at 149.86 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1627,7 +1485,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 134.62 53.34 0)
+			(at 149.86 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2046,165 +1904,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Terminator_Switch:EG1218")
-		(at 111.76 50.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "91b0839a-13f5-4c88-8f2f-fe503f42e221")
-		(property "Reference" "S1"
-			(at 115.57 49.5299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "EG1218"
-			(at 115.57 52.0699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Switch Library:JS102011CQN"
-			(at 111.76 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Slide Switch SPDT Through Hole"
-			(at 111.76 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "E-Switch"
-			(at 111.76 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PACKAGE" "None"
-			(at 111.76 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PRICE" "None"
-			(at 111.76 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "EG1218"
-			(at 111.76 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "AVAILABILITY" "In Stock"
-			(at 111.76 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/EG1218/?ref=eda"
-			(at 111.76 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "2"
-			(uuid "9e872c82-1d8a-4d2b-8dd8-683b78d8055b")
-		)
-		(pin "3"
-			(uuid "1716ec80-5752-4f04-8a76-baa4487899d5")
-		)
-		(pin "1"
-			(uuid "1d17bb77-a2e0-4f33-ae30-12ee1252448b")
-		)
-		(instances
-			(project "CAN Hub Real"
-				(path "/06d78261-7108-49de-8422-b160dff4afa7"
-					(reference "S1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 41.91 55.88 0)
 		(unit 1)
@@ -2278,6 +1977,91 @@
 			(project "CAN Hub Real"
 				(path "/06d78261-7108-49de-8422-b160dff4afa7"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Terminator_Switch:EG1218")
+		(at 121.92 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbd1f3fb-b320-4a39-a00c-a1c7deaae85a")
+		(property "Reference" "SW1"
+			(at 128.27 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "EG1218"
+			(at 128.27 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "SW_1218_EWI"
+			(at 121.92 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "EG1218"
+			(at 121.92 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "70fbbb4b-7a7f-493c-9c58-f1aba7bb51ca")
+		)
+		(pin "2"
+			(uuid "be5e4521-8193-406f-84ee-66327600545e")
+		)
+		(pin "3"
+			(uuid "f5209a0f-75e5-4f3c-bf8f-8b70d7e3a793")
+		)
+		(instances
+			(project "CAN Hub Real"
+				(path "/06d78261-7108-49de-8422-b160dff4afa7"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
