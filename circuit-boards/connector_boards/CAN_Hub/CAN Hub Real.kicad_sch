@@ -597,61 +597,36 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Terminator_Switch:EG1218"
-			(pin_names
-				(offset 0.254)
-			)
+		(symbol "Terminator_Switch:JS102011CQN"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 7.62 15.24 0)
+			(property "Reference" "S"
+				(at 21.59 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "EG1218"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "SW_1218_EWI"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
+					(justify left top)
 				)
 			)
-			(property "Datasheet" "EG1218"
-				(at 0 0 0)
+			(property "Value" "JS102011CQN"
+				(at 21.59 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
+					(justify left top)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Footprint" "JS102011CQN"
+				(at 21.59 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -659,19 +634,22 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://www.ckswitches.com/media/1422/js.pdf"
+				(at 21.59 -194.92 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "ki_keywords" "EG1218"
+			(property "Description" "Slide Switches Sub-Miniature Slide Switch 0.3A@6VDC or 0.1A@30VDC"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -682,8 +660,8 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "SW_1218_EWI"
-				(at 0 0 0)
+			(property "Height" "5.5"
+				(at 21.59 -394.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -691,71 +669,97 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(symbol "EG1218_0_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 3.81 0)
+			(property "Manufacturer_Name" "LITTELFUSE"
+				(at 21.59 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(justify left top)
 				)
-				(polyline
-					(pts
-						(xy 7.3251 7.3251) (xy 3.81 0)
+			)
+			(property "Manufacturer_Part_Number" "JS102011CQN"
+				(at 21.59 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(justify left top)
 				)
-				(circle
-					(center 7.3251 7.3251)
-					(radius 0.635)
+			)
+			(property "Mouser Part Number" "611-JS102011CQN"
+				(at 21.59 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CK/js102011cqn?qs=j%252B1pi9TdxUaTejr8RwGFYA%3D%3D"
+				(at 21.59 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" "JS102011CQN"
+				(at 21.59 -894.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/js102011cqn/littelfuse.html?utm_currency=USD&region=nac"
+				(at 21.59 -994.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "JS102011CQN_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 20.32 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-				(circle
-					(center 8.255 0)
-					(radius 0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 8.89 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
+				(pin no_connect line
 					(at 0 0 0)
-					(length 2.54)
-					(name "1"
+					(length 5.08)
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -770,10 +774,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 10.16 7.62 180)
-					(length 2.54)
-					(name "2"
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "COM"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -788,10 +792,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 12.7 0 180)
-					(length 2.54)
-					(name "3"
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "NO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -809,60 +813,6 @@
 			)
 			(embedded_fonts no)
 		)
-	)
-	(text "1/2 what is rn"
-		(exclude_from_sim no)
-		(at 110.998 33.274 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2c700731-d71b-433e-b470-f4773f9fdb0c")
-	)
-	(text "compress side courtyard"
-		(exclude_from_sim no)
-		(at 108.204 30.988 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5a27e453-f31a-45b4-b57c-60db4565145a")
-	)
-	(text "need center switch"
-		(exclude_from_sim no)
-		(at 134.62 34.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6cc3f490-c2ae-453b-8530-dda146090b8f")
-	)
-	(text "more compressed vertically\n"
-		(exclude_from_sim no)
-		(at 151.384 36.576 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a0265d85-6df6-4fbb-bccd-af34c6b6fecb")
-	)
-	(text "Use 1206 or not"
-		(exclude_from_sim no)
-		(at 156.718 29.718 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "afefd286-7c4d-475f-949f-d75622f7ee3b")
-	)
-	(no_connect
-		(at 132.08 52.07)
-		(uuid "8e2e54ba-da68-4f2c-97be-7bbd7d739625")
 	)
 	(wire
 		(pts
@@ -986,7 +936,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 59.69) (xy 162.56 59.69)
+			(xy 184.15 39.37) (xy 193.04 39.37)
 		)
 		(stroke
 			(width 0)
@@ -996,7 +946,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 59.69) (xy 121.92 59.69)
+			(xy 123.19 41.91) (xy 139.7 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1006,7 +956,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 59.69) (xy 146.05 59.69)
+			(xy 165.1 39.37) (xy 176.53 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1044,18 +994,8 @@
 		)
 		(uuid "0053d392-0760-4721-9a37-66128d631e44")
 	)
-	(label "CAN_L"
-		(at 138.43 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "047aec43-96de-483d-ac1a-8c0c64c3e9ca")
-	)
 	(label "CAN_H"
-		(at 162.56 59.69 0)
+		(at 193.04 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1155,7 +1095,7 @@
 		(uuid "85bf7f23-3ff2-40ae-b178-e4443d33e0dc")
 	)
 	(label "CAN_L"
-		(at 105.41 59.69 0)
+		(at 123.19 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1207,7 +1147,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 113.03 59.69 0)
+		(at 130.81 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1216,7 +1156,7 @@
 		)
 		(uuid "47985923-6515-4c3a-80e8-a0e5f8f99a5b")
 		(property "Netclass" "CAN_Bus"
-			(at 113.03 55.372 90)
+			(at 130.81 37.592 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1227,7 +1167,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 38.1 205.74 90)
+			(at 55.88 187.96 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1241,7 +1181,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 158.75 59.69 0)
+		(at 189.23 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1250,7 +1190,7 @@
 		)
 		(uuid "51c249eb-be24-4004-a78f-1bbd6dc34857")
 		(property "Netclass" "CAN_Bus"
-			(at 158.75 55.372 90)
+			(at 189.23 35.052 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1261,7 +1201,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 83.82 205.74 90)
+			(at 114.3 185.42 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1432,7 +1372,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 149.86 59.69 270)
+		(at 180.34 39.37 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1443,7 +1383,7 @@
 		(fields_autoplaced yes)
 		(uuid "22789270-741c-4f92-9a90-df8025f6112a")
 		(property "Reference" "R1"
-			(at 149.86 53.34 90)
+			(at 180.34 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1453,7 +1393,7 @@
 			)
 		)
 		(property "Value" "120R"
-			(at 149.86 55.88 90)
+			(at 180.34 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1463,7 +1403,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 149.606 60.706 90)
+			(at 180.086 40.386 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1474,7 +1414,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 59.69 0)
+			(at 180.34 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1485,7 +1425,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 149.86 59.69 0)
+			(at 180.34 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1904,6 +1844,175 @@
 		)
 	)
 	(symbol
+		(lib_id "Terminator_Switch:JS102011CQN")
+		(at 139.7 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "774dcfa5-2c28-4f4b-812a-918dad32c5c2")
+		(property "Reference" "S1"
+			(at 152.4 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "JS102011CQN"
+			(at 152.4 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JS102011CQN"
+			(at 161.29 134.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/1422/js.pdf"
+			(at 161.29 234.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Slide Switches Sub-Miniature Slide Switch 0.3A@6VDC or 0.1A@30VDC"
+			(at 139.7 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "5.5"
+			(at 161.29 434.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 161.29 534.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "JS102011CQN"
+			(at 161.29 634.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "611-JS102011CQN"
+			(at 161.29 734.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CK/js102011cqn?qs=j%252B1pi9TdxUaTejr8RwGFYA%3D%3D"
+			(at 161.29 834.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "JS102011CQN"
+			(at 161.29 934.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/js102011cqn/littelfuse.html?utm_currency=USD&region=nac"
+			(at 161.29 1034.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3"
+			(uuid "76730674-35ba-4bbe-a276-41e08880acf7")
+		)
+		(pin "2"
+			(uuid "3aadeee0-7e97-42ad-b712-27032b6e19b7")
+		)
+		(pin "1"
+			(uuid "eedca434-d233-4546-8b1e-4d1bcc7b9f07")
+		)
+		(instances
+			(project "CAN Hub Real"
+				(path "/06d78261-7108-49de-8422-b160dff4afa7"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 41.91 55.88 0)
 		(unit 1)
@@ -1977,91 +2086,6 @@
 			(project "CAN Hub Real"
 				(path "/06d78261-7108-49de-8422-b160dff4afa7"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Terminator_Switch:EG1218")
-		(at 121.92 59.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cbd1f3fb-b320-4a39-a00c-a1c7deaae85a")
-		(property "Reference" "SW1"
-			(at 128.27 46.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "EG1218"
-			(at 128.27 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "SW_1218_EWI"
-			(at 121.92 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "EG1218"
-			(at 121.92 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 121.92 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "70fbbb4b-7a7f-493c-9c58-f1aba7bb51ca")
-		)
-		(pin "2"
-			(uuid "be5e4521-8193-406f-84ee-66327600545e")
-		)
-		(pin "3"
-			(uuid "f5209a0f-75e5-4f3c-bf8f-8b70d7e3a793")
-		)
-		(instances
-			(project "CAN Hub Real"
-				(path "/06d78261-7108-49de-8422-b160dff4afa7"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
